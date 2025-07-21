@@ -1,0 +1,103 @@
+version: '3.8'
+
+services:
+  # Development service
+  neurovis3d-dev:
+    build:
+      context: .
+      target: builder
+    container_name: neurovis3d-dev
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - NG_CLI_ANALYTICS=false
+    command: npm start
+    networks:
+      - neurovis3d-network
+    profiles:
+      - dev
+
+  # Production service
+  neurovis3d-prod:
+    build:
+      context: .
+      target: production
+    container_name: neurovis3d-prod
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - neurovis3d-network
+    profiles:
+      - prod
+
+  # Optional: Database service for storing user sessions and annotations
+  postgres:
+    image: postgres:15-alpine
+    container_name: neurovis3d-db
+    environment:
+      POSTGRES_DB: neurovis3d
+      POSTGRES_USER: neurovis3d_user
+      POSTGRES_PASSWORD: neurovis3d_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - neurovis3d-network
+    profiles:
+      - prod
+      - dev-with-db
+
+  # Optional: Redis service for caching FlyWire data
+  redis:
+    image: redis:7-alpine
+    container_name: neurovis3d-cache
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - neurovis3d-network
+    profiles:
+      - prod
+      - dev-with-cache
+
+  # Optional: API service for backend processing
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: neurovis3d-api
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=postgresql://neurovis3d_user:neurovis3d_password@postgres:5432/neurovis3d
+      - REDIS_URL=redis://redis:6379
+      - FLYWIRE_API_URL=https://codex.flywire.ai/api/v1
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - neurovis3d-network
+    profiles:
+      - prod
+      - dev-with-api
+
+networks:
+  neurovis3d-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local 
