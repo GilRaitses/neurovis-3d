@@ -1,0 +1,270 @@
+/* Global styles for NeuroVis3D */
+
+/* Reset and base styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+/* Links */
+a {
+  color: #64b5f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: #90caf9;
+    text-decoration: underline;
+  }
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+  }
+  
+  &.btn-primary {
+    background: #1976d2;
+    border-color: #1976d2;
+    
+    &:hover:not(:disabled) {
+      background: #1565c0;
+      border-color: #1565c0;
+    }
+  }
+  
+  &.btn-success {
+    background: #388e3c;
+    border-color: #388e3c;
+    
+    &:hover:not(:disabled) {
+      background: #2e7d32;
+      border-color: #2e7d32;
+    }
+  }
+  
+  &.btn-warning {
+    background: #f57c00;
+    border-color: #f57c00;
+    
+    &:hover:not(:disabled) {
+      background: #ef6c00;
+      border-color: #ef6c00;
+    }
+  }
+  
+  &.btn-danger {
+    background: #d32f2f;
+    border-color: #d32f2f;
+    
+    &:hover:not(:disabled) {
+      background: #c62828;
+      border-color: #c62828;
+    }
+  }
+}
+
+/* Card components */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  backdrop-filter: blur(10px);
+  
+  .card-header {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    h3 {
+      margin: 0;
+    }
+  }
+  
+  .card-body {
+    margin: 1rem 0;
+  }
+  
+  .card-footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Status indicators */
+.status {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  
+  &.success {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+  
+  &.error {
+    background: rgba(244, 67, 54, 0.2);
+    color: #f44336;
+    border: 1px solid rgba(244, 67, 54, 0.3);
+  }
+  
+  &.warning {
+    background: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+    border: 1px solid rgba(255, 193, 7, 0.3);
+  }
+  
+  &.info {
+    background: rgba(33, 150, 243, 0.2);
+    color: #2196f3;
+    border: 1px solid rgba(33, 150, 243, 0.3);
+  }
+}
+
+/* Utility classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+.p-3 { padding: 1.5rem; }
+.p-4 { padding: 2rem; }
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* 3D Canvas container */
+.canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Loading spinner */
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card {
+    margin: 0.5rem 0;
+    padding: 1rem;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+} 
