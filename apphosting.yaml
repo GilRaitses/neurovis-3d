@@ -19,6 +19,10 @@ env:
   - variable: GCP_REGION
     value: us-central1
   
+  # Google Cloud Project
+  - variable: GCP_PROJECT_ID
+    value: neurovis-3d
+  
   # FlyWire API Configuration
   - variable: FLYWIRE_API_BASE_URL
     value: https://codex.flywire.ai/api/v1
