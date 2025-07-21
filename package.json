@@ -12,124 +12,42 @@
     "drosophila",
     "flywire"
   ],
-  "author": "Your Research Team <team@institution.edu>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/your-org/neurovis3d.git"
-  },
-  "bugs": {
-    "url": "https://github.com/your-org/neurovis3d/issues"
-  },
-  "homepage": "https://neurovis3d.org",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --port 4200",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:watch": "ng test --watch",
-    "test:coverage": "ng test --code-coverage",
     "e2e": "ng e2e",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "lint": "ng lint",
-    "format": "prettier --write \"src/**/*.{ts,html,scss}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,html,scss}\"",
-    "analyze": "ng build --stats-json && npx webpack-bundle-analyzer dist/neurovis3d/stats.json",
-    "audit:performance": "lighthouse http://localhost:4200 --output html --output-path ./reports/lighthouse.html",
-    "profile:memory": "ng build --source-map && node --inspect node_modules/@angular/cli/bin/ng serve",
     "docker:build": "docker build -t neurovis3d .",
-    "docker:run": "docker run -p 3000:80 neurovis3d",
-    "serve:prod": "ng build --configuration production && npx http-server dist/neurovis3d -p 8080",
-    "precommit": "npm run lint && npm run test && npm run format:check"
+    "docker:run": "docker run -p 3000:80 neurovis3d"
   },
-  "private": false,
   "dependencies": {
-    "@angular/animations": "^17.0.0",
-    "@angular/common": "^17.0.0",
-    "@angular/compiler": "^17.0.0",
-    "@angular/core": "^17.0.0",
-    "@angular/forms": "^17.0.0",
-    "@angular/platform-browser": "^17.0.0",
-    "@angular/platform-browser-dynamic": "^17.0.0",
-    "@angular/router": "^17.0.0",
-    "@angular/service-worker": "^17.0.0",
-    "@angular/material": "^17.0.0",
-    "@angular/cdk": "^17.0.0",
-    "three": "^0.158.0",
-    "@types/three": "^0.158.0",
+    "@angular/animations": "^17.3.0",
+    "@angular/cdk": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/material": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
     "rxjs": "^7.8.0",
-    "zone.js": "^0.14.0",
-    "d3": "^7.8.5",
-    "@types/d3": "^7.4.3",
-    "lodash": "^4.17.21",
-    "@types/lodash": "^4.14.202",
-    "axios": "^1.6.0",
-    "dat.gui": "^0.7.9",
-    "@types/dat.gui": "^0.7.13",
-    "stats.js": "^0.17.0",
-    "@types/stats.js": "^0.17.3",
-    "cannon-es": "^0.20.0",
-    "tween.js": "^20.0.3",
-    "@tweenjs/tween.js": "^21.0.0",
-    "uuid": "^9.0.1",
-    "@types/uuid": "^9.0.7",
-    "mathjs": "^12.0.0",
-    "ml-matrix": "^6.10.4",
-    "plotly.js": "^2.27.0",
-    "ngx-material-file-input": "^3.0.0",
-    "file-saver": "^2.0.5",
-    "@types/file-saver": "^2.0.7"
+    "three": "^0.158.0",
+    "tslib": "^2.6.0",
+    "zone.js": "^0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.0",
-    "@angular/cli": "^17.0.0",
-    "@angular/compiler-cli": "^17.0.0",
-    "@types/jasmine": "^5.1.0",
-    "@types/node": "^20.8.0",
-    "jasmine-core": "^5.1.0",
-    "karma": "^6.4.0",
-    "karma-chrome-headless": "^4.0.0",
-    "karma-coverage": "^2.2.0",
-    "karma-jasmine": "^5.1.0",
-    "karma-jasmine-html-reporter": "^2.1.0",
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/three": "^0.158.0",
     "cypress": "^13.6.0",
-    "typescript": "^5.2.0",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "eslint": "^8.52.0",
-    "eslint-plugin-@angular-eslint/eslint-plugin": "^17.0.0",
-    "prettier": "^3.0.0",
-    "prettier-eslint": "^16.1.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.0.0",
-    "webpack-bundle-analyzer": "^4.9.0",
-    "lighthouse": "^11.2.0",
-    "http-server": "^14.1.1",
-    "@compodoc/compodoc": "^1.1.22",
-    "source-map-explorer": "^2.5.3"
+    "typescript": "^5.2.0"
   },
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
-  },
-  "browserslist": [
-    "last 2 Chrome versions",
-    "last 2 Firefox versions",
-    "last 2 Safari versions",
-    "last 2 Edge versions"
-  ],
-  "lint-staged": {
-    "src/**/*.{ts,html,scss}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 } 
