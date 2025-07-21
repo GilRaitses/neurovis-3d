@@ -1,0 +1,13 @@
+{
+  "analysis_complete": false,
+  "error": "No Cypress screenshots found",
+  "action_needed": "Run Cypress tests first: npx cypress run",
+  "priority_fixes": [
+    {
+      "feature": "cypress_tests",
+      "priority": "CRITICAL",
+      "status": "NOT_RUN",
+      "action_needed": "Execute Cypress test suite to generate validation screenshots"
+    }
+  ]
+}

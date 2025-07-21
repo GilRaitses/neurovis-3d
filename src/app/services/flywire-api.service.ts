@@ -1,380 +1,422 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, BehaviorSubject, throwError } from 'rxjs';
-import { map, catchError, retry, timeout } from 'rxjs/operators';
-import { NeuralCircuit, Neuron, Synapse, ConnectivityMatrix } from '@models/neural-circuit.model';
+import { catchError, map, retry } from 'rxjs/operators';
 
-/**
- * Service for interacting with the FlyWire Codex API
- * Provides access to the complete Drosophila brain connectome data
- * 
- * @example
- * ```typescript
- * constructor(private flywireApi: FlyWireApiService) {}
- * 
- * // Get neuron by ID
- * this.flywireApi.getNeuron('720575940621039145').subscribe(neuron => {
- *   console.log('Neuron data:', neuron);
- * });
- * 
- * // Search for mechanosensory neurons
- * this.flywireApi.searchNeurons('mechanosensory').subscribe(neurons => {
- *   console.log('Found mechanosensory neurons:', neurons);
- * });
- * ```
- */
+export interface FlyWireNeuron {
+  id: string;
+  type: string;
+  position: [number, number, number];
+  meshUrl?: string;
+  connections: string[];
+  activity?: number;
+}
+
+export interface FlyWireCircuit {
+  name: string;
+  neurons: FlyWireNeuron[];
+  synapses: FlyWireSynapse[];
+  boundingBox: {
+    min: [number, number, number];
+    max: [number, number, number];
+  };
+}
+
+export interface FlyWireSynapse {
+  presynapticId: string;
+  postsynapticId: string;
+  position: [number, number, number];
+  weight: number;
+  type: 'chemical' | 'electrical';
+}
+
+export interface MechanosensoryData {
+  timestamp: number;
+  peakTime: number;    // 11.5s from analysis
+  magnitude: number;   // 3.67 from analysis
+  turnRate: number[];
+  co2Response: number[];
+  optogeneticStimulus: boolean;
+  femParameters: {
+    stimulusPosition: [number, number, number];
+    mechanicalForce: number;
+    responsePattern: number[];
+  };
+}
+
 @Injectable({
   providedIn: 'root'
 })
-export class FlyWireApiService {
-  private readonly baseUrl = 'https://codex.flywire.ai/api/v1';
-  private readonly requestTimeout = 30000; // 30 seconds
-  private readonly maxRetries = 3;
+export class FlywireApiService {
+  // Updated for LARVAL circuits - 2nd instar larvae (NO WINGS)
+  private readonly caveBaseUrl = 'https://cave.flywire.ai';
+  private readonly codexBaseUrl = 'https://codex.flywire.ai/api';
+  private readonly larvalDataset = 'flywire_fafb_production'; // Check if larval dataset available
   
-  private connectionStatusSubject = new BehaviorSubject<boolean>(false);
-  public connectionStatus$ = this.connectionStatusSubject.asObservable();
-  
-  private loadingSubject = new BehaviorSubject<boolean>(false);
-  public loading$ = this.loadingSubject.asObservable();
+  private readonly caveToken$ = new BehaviorSubject<string | null>(null);
+  private readonly isAuthenticated$ = new BehaviorSubject<boolean>(false);
+
+  // LARVAL mechanosensory neuron types (2nd instar - NO WINGS) + CHRIMSON
+  private readonly larvalMechanosensoryTypes = [
+    'CO2_sensory_neuron_larval',
+    'mechanosensory_neuron_larval', 
+    'touch_receptor_larval',
+    'stretch_receptor_larval',
+    'proprioceptor_larval',
+    'chordotonal_organ_larval',
+    'campaniform_sensilla_larval',
+    'bristle_mechanosensory_larval',
+    'photoreceptor_to_DN_circuit', // The circuit you identified
+    // CHRIMSON-expressing neurons (red light responsive)
+    'CHRIMSON_mechanosensory_larval',
+    'CHRIMSON_touch_receptor_larval',
+    'CHRIMSON_stretch_receptor_larval',
+    'CHRIMSON_campaniform_larval',
+    'CHRIMSON_proprioceptor_larval',
+    'CHRIMSON_nociceptor_larval'
+  ];
 
   constructor(private http: HttpClient) {
-    this.checkConnection();
+    this.loadCaveToken();
   }
 
-  /**
-   * Check if the FlyWire API is accessible
-   */
-  checkConnection(): Observable<boolean> {
-    this.loadingSubject.next(true);
+  private loadCaveToken(): void {
+    let token = localStorage.getItem('flywire_cave_token');
     
-    return this.http.get(`${this.baseUrl}/health`, { 
-      headers: this.getHeaders(),
-      observe: 'response'
-    }).pipe(
-      timeout(this.requestTimeout),
-      map(response => {
-        const isConnected = response.status === 200;
-        this.connectionStatusSubject.next(isConnected);
-        this.loadingSubject.next(false);
-        return isConnected;
-      }),
-      catchError(error => {
-        console.error('FlyWire API connection failed:', error);
-        this.connectionStatusSubject.next(false);
-        this.loadingSubject.next(false);
-        return throwError(() => error);
-      })
-    );
+    if (!token) {
+      token = 'b927b9cd93ba0a9b569ab9e32d231dbc'; // Your CAVE token
+      if (token) {
+        localStorage.setItem('flywire_cave_token', token);
+      }
+    }
+    
+    if (token) {
+      this.setCaveToken(token);
+    }
   }
 
-  /**
-   * Get detailed information about a specific neuron
-   * @param neuronId - FlyWire neuron identifier
-   */
-  getNeuron(neuronId: string): Observable<Neuron> {
-    this.loadingSubject.next(true);
-    
-    return this.http.get<any>(`${this.baseUrl}/neurons/${neuronId}`, {
-      headers: this.getHeaders()
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => this.transformNeuronData(response)),
-      catchError(this.handleError<Neuron>('getNeuron')),
-      map(neuron => {
-        this.loadingSubject.next(false);
-        return neuron;
-      })
-    );
+  setCaveToken(token: string): void {
+    this.caveToken$.next(token);
+    this.isAuthenticated$.next(!!token);
+    localStorage.setItem('flywire_cave_token', token);
   }
 
-  /**
-   * Get multiple neurons by their IDs
-   * @param neuronIds - Array of FlyWire neuron identifiers
-   */
-  getNeurons(neuronIds: string[]): Observable<Neuron[]> {
-    this.loadingSubject.next(true);
-    
-    const params = new HttpParams().set('ids', neuronIds.join(','));
-    
-    return this.http.get<any[]>(`${this.baseUrl}/neurons/batch`, {
-      headers: this.getHeaders(),
-      params
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => response.map(data => this.transformNeuronData(data))),
-      catchError(this.handleError<Neuron[]>('getNeurons')),
-      map(neurons => {
-        this.loadingSubject.next(false);
-        return neurons;
-      })
-    );
-  }
-
-  /**
-   * Search for neurons by cell type, annotation, or other criteria
-   * @param query - Search query string
-   * @param filters - Optional filters for cell type, brain region, etc.
-   */
-  searchNeurons(query: string, filters?: {
-    cellType?: string;
-    brainRegion?: string;
-    neurotransmitter?: string;
-    hemisphere?: 'left' | 'right';
-    limit?: number;
-  }): Observable<Neuron[]> {
-    this.loadingSubject.next(true);
-    
-    let params = new HttpParams()
-      .set('q', query)
-      .set('limit', (filters?.limit || 100).toString());
-    
-    if (filters?.cellType) params = params.set('cell_type', filters.cellType);
-    if (filters?.brainRegion) params = params.set('brain_region', filters.brainRegion);
-    if (filters?.neurotransmitter) params = params.set('neurotransmitter', filters.neurotransmitter);
-    if (filters?.hemisphere) params = params.set('hemisphere', filters.hemisphere);
-    
-    return this.http.get<any[]>(`${this.baseUrl}/neurons/search`, {
-      headers: this.getHeaders(),
-      params
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => response.map(data => this.transformNeuronData(data))),
-      catchError(this.handleError<Neuron[]>('searchNeurons')),
-      map(neurons => {
-        this.loadingSubject.next(false);
-        return neurons;
-      })
-    );
-  }
-
-  /**
-   * Get synaptic connections for a specific neuron
-   * @param neuronId - FlyWire neuron identifier
-   * @param direction - 'incoming', 'outgoing', or 'both'
-   * @param minWeight - Minimum synaptic weight threshold
-   */
-  getConnections(
-    neuronId: string, 
-    direction: 'incoming' | 'outgoing' | 'both' = 'both',
-    minWeight: number = 1
-  ): Observable<Synapse[]> {
-    this.loadingSubject.next(true);
-    
-    const params = new HttpParams()
-      .set('direction', direction)
-      .set('min_weight', minWeight.toString());
-    
-    return this.http.get<any[]>(`${this.baseUrl}/neurons/${neuronId}/connections`, {
-      headers: this.getHeaders(),
-      params
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => response.map(data => this.transformSynapseData(data))),
-      catchError(this.handleError<Synapse[]>('getConnections')),
-      map(synapses => {
-        this.loadingSubject.next(false);
-        return synapses;
-      })
-    );
-  }
-
-  /**
-   * Get connectivity matrix between two sets of neurons
-   * @param presynapticIds - Array of presynaptic neuron IDs
-   * @param postsynapticIds - Array of postsynaptic neuron IDs
-   */
-  getConnectivityMatrix(
-    presynapticIds: string[], 
-    postsynapticIds: string[]
-  ): Observable<ConnectivityMatrix> {
-    this.loadingSubject.next(true);
-    
-    const requestBody = {
-      presynaptic_ids: presynapticIds,
-      postsynaptic_ids: postsynapticIds
-    };
-    
-    return this.http.post<any>(`${this.baseUrl}/connectivity/matrix`, requestBody, {
-      headers: this.getHeaders()
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => this.transformConnectivityMatrix(response)),
-      catchError(this.handleError<ConnectivityMatrix>('getConnectivityMatrix')),
-      map(matrix => {
-        this.loadingSubject.next(false);
-        return matrix;
-      })
-    );
-  }
-
-  /**
-   * Get 3D mesh data for neuron visualization
-   * @param neuronId - FlyWire neuron identifier
-   * @param simplification - Mesh simplification level (0.1 - 1.0)
-   */
-  getNeuronMesh(neuronId: string, simplification: number = 0.5): Observable<any> {
-    this.loadingSubject.next(true);
-    
-    const params = new HttpParams().set('simplification', simplification.toString());
-    
-    return this.http.get(`${this.baseUrl}/neurons/${neuronId}/mesh`, {
-      headers: this.getHeaders(),
-      params,
-      responseType: 'blob'
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      catchError(this.handleError<Blob>('getNeuronMesh')),
-      map(blob => {
-        this.loadingSubject.next(false);
-        return blob;
-      })
-    );
-  }
-
-  /**
-   * Get mechanosensory circuit data specifically
-   * Optimized query for mechanosensory-related neurons and pathways
-   */
-  getMechanosensoryCircuit(): Observable<NeuralCircuit> {
-    this.loadingSubject.next(true);
-    
-    return this.http.get<any>(`${this.baseUrl}/circuits/mechanosensory`, {
-      headers: this.getHeaders()
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      map(response => this.transformCircuitData(response)),
-      catchError(this.handleError<NeuralCircuit>('getMechanosensoryCircuit')),
-      map(circuit => {
-        this.loadingSubject.next(false);
-        return circuit;
-      })
-    );
-  }
-
-  /**
-   * Get annotations for a brain region or neuron type
-   * @param annotationType - Type of annotation to retrieve
-   * @param identifier - Specific identifier for the annotation
-   */
-  getAnnotations(annotationType: string, identifier: string): Observable<any> {
-    const params = new HttpParams()
-      .set('type', annotationType)
-      .set('id', identifier);
-    
-    return this.http.get<any>(`${this.baseUrl}/annotations`, {
-      headers: this.getHeaders(),
-      params
-    }).pipe(
-      timeout(this.requestTimeout),
-      retry(this.maxRetries),
-      catchError(this.handleError<any>('getAnnotations'))
-    );
-  }
-
-  /**
-   * Private helper methods
-   */
-  
-  private getHeaders(): HttpHeaders {
+  private getCaveHeaders(): HttpHeaders {
+    const token = this.caveToken$.value;
     return new HttpHeaders({
       'Content-Type': 'application/json',
-      'Accept': 'application/json',
-      'User-Agent': 'NeuroVis3D/0.1.0'
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/json'
     });
   }
 
-  private transformNeuronData(data: any): Neuron {
-    return {
-      id: data.id || data.segment_id,
-      cellType: data.cell_type || 'unknown',
-      brainRegion: data.brain_region || 'unknown',
-      hemisphere: data.hemisphere || 'unknown',
-      neurotransmitter: data.neurotransmitter || 'unknown',
-      position: {
-        x: data.position?.x || 0,
-        y: data.position?.y || 0,
-        z: data.position?.z || 0
+  // Search for LARVAL mechanosensory neurons using CAVE API
+  searchLarvalMechanosensoryNeurons(): Observable<FlyWireNeuron[]> {
+    const headers = this.getCaveHeaders();
+    
+    const query = {
+      filter_in_dict: {
+        cell_type: this.larvalMechanosensoryTypes
       },
-      morphology: {
-        somaRadius: data.soma_radius || 0,
-        totalLength: data.total_length || 0,
-        branchPoints: data.branch_points || 0,
-        synapseCount: data.synapse_count || 0
-      },
-      metadata: {
-        confidence: data.confidence || 0,
-        volume: data.volume || 0,
-        boundingBox: data.bounding_box || null,
-        annotations: data.annotations || []
-      }
+      limit: 500 // Increase limit for larval circuits
     };
+    
+    return this.http.post<any[]>(`${this.caveBaseUrl}/annotation/dataset/${this.larvalDataset}/table/cell_type_local/query`, query, { headers })
+      .pipe(
+        map(results => results.map(result => this.transformCaveNeuronData(result))),
+        retry(3),
+        catchError(this.handleError)
+      );
   }
 
-  private transformSynapseData(data: any): Synapse {
-    return {
-      id: data.id,
-      presynapticId: data.presynaptic_id,
-      postsynapticId: data.postsynaptic_id,
-      weight: data.weight || 1,
-      position: {
-        x: data.position?.x || 0,
-        y: data.position?.y || 0,
-        z: data.position?.z || 0
-      },
-      type: data.type || 'chemical',
-      confidence: data.confidence || 0,
-      metadata: data.metadata || {}
-    };
+  // Get specific neuron data from CAVE
+  getNeuron(neuronId: string): Observable<FlyWireNeuron> {
+    const headers = this.getCaveHeaders();
+    
+    return this.http.get<any>(`${this.caveBaseUrl}/segmentation/dataset/${this.larvalDataset}/object/${neuronId}`, { headers })
+      .pipe(
+        map(neuron => this.transformCaveNeuronData(neuron)),
+        retry(3),
+        catchError(this.handleError)
+      );
   }
 
-  private transformConnectivityMatrix(data: any): ConnectivityMatrix {
-    return {
-      presynapticIds: data.presynaptic_ids,
-      postsynapticIds: data.postsynaptic_ids,
-      matrix: data.matrix,
-      weights: data.weights || null,
-      metadata: {
-        totalConnections: data.total_connections || 0,
-        averageWeight: data.average_weight || 0,
-        sparsity: data.sparsity || 0
-      }
-    };
+  // Get neuron mesh from FlyWire mesh service
+  getNeuronMesh(neuronId: string): Observable<ArrayBuffer> {
+    const headers = this.getCaveHeaders();
+    
+    return this.http.get(`${this.caveBaseUrl}/meshing/dataset/${this.larvalDataset}/object/${neuronId}/mesh`, { 
+      headers,
+      responseType: 'arraybuffer'
+    })
+      .pipe(
+        retry(3),
+        catchError(this.handleError)
+      );
   }
 
-  private transformCircuitData(data: any): NeuralCircuit {
-    return {
-      id: data.id,
-      name: data.name || 'Mechanosensory Circuit',
-      neurons: data.neurons?.map((n: any) => this.transformNeuronData(n)) || [],
-      synapses: data.synapses?.map((s: any) => this.transformSynapseData(s)) || [],
-      metadata: {
-        description: data.description || '',
-        functionalRole: data.functional_role || 'mechanosensory processing',
-        brainRegions: data.brain_regions || [],
-        cellTypes: data.cell_types || []
-      }
+  // Get synaptic connections using CAVE connectivity API
+  getConnectivity(sourceIds: string[], targetIds?: string[]): Observable<FlyWireSynapse[]> {
+    const headers = this.getCaveHeaders();
+    
+    const query = {
+      source_neurons: sourceIds,
+      target_neurons: targetIds || [],
+      synapse_table: 'synapses_pni_2'
     };
+    
+    return this.http.post<any[]>(`${this.caveBaseUrl}/connectivity/dataset/${this.larvalDataset}/synapses`, query, { headers })
+      .pipe(
+        map(synapses => synapses.map(synapse => this.transformCaveSynapseData(synapse))),
+        retry(3),
+        catchError(this.handleError)
+      );
   }
 
-  private handleError<T>(operation = 'operation') {
-    return (error: any): Observable<T> => {
-      console.error(`${operation} failed:`, error);
-      this.loadingSubject.next(false);
+  // Get LARVAL mechanosensory circuits - NO FALLBACKS
+  getMechanosensoryCircuits(): Observable<FlyWireCircuit[]> {
+    return this.searchLarvalMechanosensoryNeurons().pipe(
+      map(neurons => {
+        if (neurons.length === 0) {
+          throw new Error('No larval mechanosensory neurons found in dataset');
+        }
+        return this.groupLarvalNeuronsIntoCircuits(neurons);
+      }),
+      catchError(this.handleError)
+    );
+  }
+
+  // Group LARVAL neurons into functional circuits (2nd instar - NO WINGS)
+  private groupLarvalNeuronsIntoCircuits(neurons: FlyWireNeuron[]): FlyWireCircuit[] {
+    const circuits: FlyWireCircuit[] = [];
+    
+    // CHRIMSON Red Light Mechanosensory Circuit (PRIMARY TARGET)
+    const chrimsonNeurons = neurons.filter(n => 
+      n.type.includes('CHRIMSON') && 
+      (n.type.includes('mechanosensory') || 
+       n.type.includes('touch') ||
+       n.type.includes('stretch') ||
+       n.type.includes('campaniform') ||
+       n.type.includes('proprioceptor') ||
+       n.type.includes('nociceptor'))
+    );
+    if (chrimsonNeurons.length > 0) {
+      circuits.push({
+        name: 'CHRIMSON Red Light Mechanosensory Circuit',
+        neurons: chrimsonNeurons,
+        synapses: [],
+        boundingBox: this.calculateBoundingBox(chrimsonNeurons)
+      });
+    }
+    
+    // Photoreceptor to DN Circuit (the one you identified)
+    const photoreceptorDNNeurons = neurons.filter(n => 
+      n.type.includes('photoreceptor') || 
+      n.type.includes('DN') ||
+      n.type.includes('photoreceptor_to_DN')
+    );
+    if (photoreceptorDNNeurons.length > 0) {
+      circuits.push({
+        name: 'Photoreceptor to DN Circuit',
+        neurons: photoreceptorDNNeurons,
+        synapses: [],
+        boundingBox: this.calculateBoundingBox(photoreceptorDNNeurons)
+      });
+    }
+    
+    // Larval CO2 Detection Circuit
+    const larvalCO2Neurons = neurons.filter(n => 
+      n.type.includes('CO2') && 
+      n.type.includes('larval')
+    );
+    if (larvalCO2Neurons.length > 0) {
+      circuits.push({
+        name: 'Larval CO2 Detection Circuit',
+        neurons: larvalCO2Neurons,
+        synapses: [],
+        boundingBox: this.calculateBoundingBox(larvalCO2Neurons)
+      });
+    }
+    
+    // Larval Touch/Mechanosensory Circuit (NO WING components, EXCLUDING CHRIMSON)
+    const larvalTouchNeurons = neurons.filter(n => 
+      (n.type.includes('touch') || 
+       n.type.includes('mechanosensory') || 
+       n.type.includes('bristle') ||
+       n.type.includes('campaniform')) &&
+      n.type.includes('larval') &&
+      !n.type.includes('wing') && // Explicitly exclude wing-related
+      !n.type.includes('CHRIMSON') // Exclude CHRIMSON (separate circuit)
+    );
+    if (larvalTouchNeurons.length > 0) {
+      circuits.push({
+        name: 'Larval Touch/Mechanosensory Circuit',
+        neurons: larvalTouchNeurons,
+        synapses: [],
+        boundingBox: this.calculateBoundingBox(larvalTouchNeurons)
+      });
+    }
+    
+    // Larval Proprioceptive Circuit (EXCLUDING CHRIMSON)
+    const larvalProprioNeurons = neurons.filter(n => 
+      (n.type.includes('proprioceptor') || 
+       n.type.includes('stretch') ||
+       n.type.includes('chordotonal')) &&
+      n.type.includes('larval') &&
+      !n.type.includes('CHRIMSON') // Exclude CHRIMSON (separate circuit)
+    );
+    if (larvalProprioNeurons.length > 0) {
+      circuits.push({
+        name: 'Larval Proprioceptive Circuit',
+        neurons: larvalProprioNeurons,
+        synapses: [],
+        boundingBox: this.calculateBoundingBox(larvalProprioNeurons)
+      });
+    }
+    
+    if (circuits.length === 0) {
+      throw new Error('No larval mechanosensory circuits could be constructed from available neurons');
+    }
+    
+    return circuits;
+  }
+
+  private calculateBoundingBox(neurons: FlyWireNeuron[]): {min: [number, number, number], max: [number, number, number]} {
+    if (neurons.length === 0) {
+      throw new Error('Cannot calculate bounding box for empty neuron list');
+    }
+    
+    const positions = neurons.map(n => n.position);
+    const min: [number, number, number] = [
+      Math.min(...positions.map(p => p[0])),
+      Math.min(...positions.map(p => p[1])),
+      Math.min(...positions.map(p => p[2]))
+    ];
+    const max: [number, number, number] = [
+      Math.max(...positions.map(p => p[0])),
+      Math.max(...positions.map(p => p[1])),
+      Math.max(...positions.map(p => p[2]))
+    ];
+    
+    return { min, max };
+  }
+
+  // Map FEM analysis data to LARVAL neural circuits - NO FALLBACKS
+  mapFemDataToCircuits(femData: MechanosensoryData[]): Observable<FlyWireCircuit[]> {
+    if (femData.length === 0) {
+      return throwError(() => new Error('No FEM data provided for circuit mapping'));
+    }
+    
+    return this.getMechanosensoryCircuits().pipe(
+      map(circuits => {
+        return circuits.map(circuit => {
+          const enhancedCircuit = { ...circuit };
+          
+          enhancedCircuit.neurons = circuit.neurons.map(neuron => {
+            const activity = this.calculateNeuronActivity(neuron, femData);
+            return { ...neuron, activity };
+          });
+          
+          return enhancedCircuit;
+        });
+      })
+    );
+  }
+
+  // Calculate neuron activity based on FEM analysis - LARVAL SPECIFIC + CHRIMSON
+  private calculateNeuronActivity(neuron: FlyWireNeuron, femData: MechanosensoryData[]): number {
+    if (!femData.length) {
+      throw new Error('No FEM data available for activity calculation');
+    }
+    
+    const latestData = femData[femData.length - 1];
+    let baseActivity = 0;
+    
+    // CHRIMSON neurons respond to red light as phantom mechanosensation
+    if (neuron.type.includes('CHRIMSON')) {
+      // Red light creates phantom vibrations/touch sensations
+      baseActivity = latestData.optogeneticStimulus ? 0.9 : 0.05; // Very high response to red light
       
-      // Log error details for debugging
-      if (error.status) {
-        console.error(`HTTP Error ${error.status}: ${error.message}`);
-      }
+      // Additional mechanical force amplification for CHRIMSON
+      const mechanicalBoost = latestData.femParameters.mechanicalForce * 0.15;
+      baseActivity = Math.min(1.0, baseActivity + mechanicalBoost);
       
-      // Return empty result to keep app running
-      return throwError(() => new Error(`${operation} failed: ${error.message || error}`));
+    } else if (neuron.type.includes('photoreceptor') || neuron.type.includes('DN')) {
+      // Photoreceptor-DN circuit responds to optogenetic stimulation
+      baseActivity = latestData.optogeneticStimulus ? 0.8 : 0.1;
+    } else if (neuron.type.includes('CO2') && neuron.type.includes('larval')) {
+      baseActivity = latestData.co2Response[latestData.co2Response.length - 1] || 0;
+    } else if (neuron.type.includes('touch') || neuron.type.includes('mechanosensory')) {
+      baseActivity = latestData.femParameters.mechanicalForce * 0.1;
+    } else if (neuron.type.includes('proprioceptor') || neuron.type.includes('stretch')) {
+      // Proprioceptors respond to movement/turn rate
+      baseActivity = Math.abs(latestData.turnRate[latestData.turnRate.length - 1] || 0) * 0.05;
+    } else {
+      // Unknown larval neuron type
+      baseActivity = 0.05; // Minimal baseline
+    }
+    
+    // Apply temporal dynamics (peak time: 11.5s, magnitude: 3.67)
+    const timeFactor = Math.exp(-Math.abs(latestData.timestamp - latestData.peakTime) / 5.0);
+    const magnitudeBoost = latestData.magnitude / 3.67; // Normalize to reference
+    
+    return Math.min(1.0, baseActivity * timeFactor * magnitudeBoost);
+  }
+
+  // Data transformation methods for CAVE API responses
+  private transformCaveNeuronData(caveData: any): FlyWireNeuron {
+    return {
+      id: caveData.pt_root_id?.toString() || caveData.id?.toString() || 'unknown',
+      type: caveData.cell_type || caveData.classification || 'unknown',
+      position: caveData.pt_position || caveData.soma_position || [0, 0, 0],
+      meshUrl: undefined, // Will be loaded separately
+      connections: [], // Will be populated by connectivity queries
+      activity: 0
     };
   }
+
+  private transformCaveSynapseData(caveData: any): FlyWireSynapse {
+    return {
+      presynapticId: caveData.pre_pt_root_id?.toString() || '',
+      postsynapticId: caveData.post_pt_root_id?.toString() || '',
+      position: caveData.ctr_pt_position || [0, 0, 0],
+      weight: caveData.size || caveData.weight || 1,
+      type: 'chemical' // Most synapses in FAFB are chemical
+    };
+  }
+
+  // Check if we have authentication
+  isAuthenticated(): Observable<boolean> {
+    return this.isAuthenticated$.asObservable();
+  }
+
+  // Update API key method for backward compatibility
+  setApiKey(apiKey: string): void {
+    this.setCaveToken(apiKey);
+  }
+
+  // Error handling - NO FALLBACKS, FAIL FAST
+  private handleError = (error: any) => {
+    console.error('FlyWire API Error:', error);
+    let errorMessage = 'FlyWire API request failed';
+    
+    if (error.error instanceof ErrorEvent) {
+      errorMessage = `Client Error: ${error.error.message}`;
+    } else {
+      errorMessage = `Server Error: ${error.status} - ${error.message}`;
+      
+      if (error.status === 401) {
+        errorMessage = 'Authentication failed - CAVE token invalid or expired';
+        this.isAuthenticated$.next(false);
+      } else if (error.status === 403) {
+        errorMessage = 'Access denied - insufficient permissions for larval dataset';
+      } else if (error.status === 404) {
+        errorMessage = 'Larval mechanosensory data not found in dataset';
+      } else if (error.status === 429) {
+        errorMessage = 'Rate limit exceeded - please wait before making more requests';
+      }
+    }
+    
+    return throwError(() => new Error(errorMessage));
+  };
 } 

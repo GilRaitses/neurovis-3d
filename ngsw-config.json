@@ -1,0 +1,67 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.csr.html",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+        ]
+      }
+    },
+    {
+      "name": "neural-models",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "resources": {
+        "files": [
+          "/assets/models/**/*.(obj|ply|stl|glb|gltf)",
+          "/assets/textures/**/*.(jpg|jpeg|png|webp|hdr|exr)",
+          "/assets/shaders/**/*.(vert|frag|glsl)"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "flywire-api",
+      "urls": [
+        "https://codex.flywire.ai/api/**"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "1h"
+      }
+    },
+    {
+      "name": "neural-meshes", 
+      "urls": [
+        "https://storage.googleapis.com/neuroglancer-janelia-flyem-hemibrain/**",
+        "https://storage.googleapis.com/flywire_v141_m783/**"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 50,
+        "maxAge": "7d"
+      }
+    }
+  ]
+}

@@ -1,176 +1,249 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FlyWireApiService } from '../services/flywire-api.service';
+import { FlywireApiService } from '../services/flywire-api.service';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @Component({
-  selector: 'nv3d-health',
+  selector: 'app-health',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatProgressBarModule
+  ],
   template: `
-    <div class="health-container">
-      <h2>System Health Check</h2>
+    <mat-card class="health-card">
+      <mat-card-header>
+        <mat-card-title>System Health Status</mat-card-title>
+        <mat-card-subtitle>FlyWire API and Service Connectivity</mat-card-subtitle>
+      </mat-card-header>
       
-      <div class="health-checks">
-        <div class="health-item">
-          <div class="health-label">Angular Application</div>
-          <div class="health-status success">✅ Running</div>
-        </div>
-        
-        <div class="health-item">
-          <div class="health-label">FlyWire Codex API</div>
-          <div class="health-status" [ngClass]="flyWireStatus">
-            {{ flyWireMessage }}
+      <mat-card-content>
+        <div class="status-grid">
+          <div class="status-item">
+            <mat-icon [color]="flywireStatus.connected ? 'accent' : 'warn'">
+              {{flywireStatus.connected ? 'check_circle' : 'error'}}
+            </mat-icon>
+            <div class="status-details">
+              <span class="status-label">FlyWire API</span>
+              <span class="status-value">{{flywireStatus.message}}</span>
+            </div>
+          </div>
+          
+          <div class="status-item">
+            <mat-icon [color]="authStatus.authenticated ? 'accent' : 'warn'">
+              {{authStatus.authenticated ? 'verified_user' : 'person_off'}}
+            </mat-icon>
+            <div class="status-details">
+              <span class="status-label">Authentication</span>
+              <span class="status-value">{{authStatus.message}}</span>
+            </div>
+          </div>
+          
+          <div class="status-item">
+            <mat-icon [color]="apiStatus.available ? 'accent' : 'warn'">
+              {{apiStatus.available ? 'api' : 'api_off'}}
+            </mat-icon>
+            <div class="status-details">
+              <span class="status-label">API Endpoints</span>
+              <span class="status-value">{{apiStatus.message}}</span>
+            </div>
+          </div>
+          
+          <div class="status-item">
+            <mat-icon [color]="dataStatus.ready ? 'accent' : 'warn'">
+              {{dataStatus.ready ? 'dataset' : 'dataset_off'}}
+            </mat-icon>
+            <div class="status-details">
+              <span class="status-label">Data Access</span>
+              <span class="status-value">{{dataStatus.message}}</span>
+            </div>
           </div>
         </div>
         
-        <div class="health-item">
-          <div class="health-label">Three.js WebGL</div>
-          <div class="health-status" [ngClass]="webglStatus">
-            {{ webglMessage }}
-          </div>
-        </div>
-      </div>
+        <mat-progress-bar 
+          *ngIf="isChecking" 
+          mode="indeterminate"
+          color="accent">
+        </mat-progress-bar>
+      </mat-card-content>
       
-      <div class="actions">
-        <button (click)="checkServices()" [disabled]="checking">
-          {{ checking ? 'Checking...' : 'Refresh Health Check' }}
+      <mat-card-actions>
+        <button mat-raised-button 
+                color="primary" 
+                (click)="checkHealth()" 
+                [disabled]="isChecking">
+          <mat-icon>refresh</mat-icon>
+          Check Health
         </button>
-      </div>
-      
-      <div class="info">
-        <h3>Next Steps</h3>
-        <ul>
-          <li>✅ Basic Angular app is running</li>
-          <li>🔄 Testing FlyWire API connectivity</li>
-          <li>🔄 Verifying WebGL support for 3D rendering</li>
-          <li>⏳ Ready for neural circuit visualization</li>
-        </ul>
-      </div>
-    </div>
+        
+        <button mat-button 
+                (click)="resetConnection()" 
+                [disabled]="isChecking">
+          <mat-icon>restore</mat-icon>
+          Reset Connection
+        </button>
+      </mat-card-actions>
+    </mat-card>
   `,
   styles: [`
-    .health-container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem;
+    .health-card {
+      margin: 20px 0;
+      max-width: 600px;
     }
-    .health-checks {
-      background: rgba(255,255,255,0.1);
-      border-radius: 8px;
-      padding: 1.5rem;
-      margin: 2rem 0;
+    
+    .status-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
     }
-    .health-item {
+    
+    .status-item {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 1rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
+      gap: 12px;
+      padding: 12px;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      background: #fafafa;
     }
-    .health-item:last-child {
-      border-bottom: none;
+    
+    .status-details {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
     }
-    .health-label {
+    
+    .status-label {
       font-weight: 500;
+      font-size: 14px;
     }
-    .health-status {
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      font-weight: bold;
+    
+    .status-value {
+      font-size: 12px;
+      color: #666;
     }
-    .success {
-      background: rgba(76, 175, 80, 0.2);
-      color: #4CAF50;
-    }
-    .error {
-      background: rgba(244, 67, 54, 0.2);
-      color: #f44336;
-    }
-    .checking {
-      background: rgba(255, 193, 7, 0.2);
-      color: #FFC107;
-    }
-    .actions {
-      text-align: center;
-      margin: 2rem 0;
-    }
-    button {
-      background: rgba(255,255,255,0.2);
-      border: 1px solid rgba(255,255,255,0.3);
-      color: white;
-      padding: 1rem 2rem;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    button:hover:not(:disabled) {
-      background: rgba(255,255,255,0.3);
-    }
-    button:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-    }
-    .info {
-      background: rgba(255,255,255,0.05);
-      padding: 1.5rem;
-      border-radius: 8px;
-      margin-top: 2rem;
-    }
-    .info ul {
-      margin: 1rem 0;
-      padding-left: 1.5rem;
-    }
-    .info li {
-      margin: 0.5rem 0;
+    
+    mat-progress-bar {
+      margin-top: 16px;
     }
   `]
 })
 export class HealthComponent implements OnInit {
-  flyWireStatus = 'checking';
-  flyWireMessage = '🔄 Checking...';
-  webglStatus = 'checking';
-  webglMessage = '🔄 Checking...';
-  checking = false;
+  isChecking = false;
+  
+  flywireStatus = {
+    connected: false,
+    message: 'Checking...'
+  };
+  
+  authStatus = {
+    authenticated: false,
+    message: 'Checking...'
+  };
+  
+  apiStatus = {
+    available: false,
+    message: 'Checking...'
+  };
+  
+  dataStatus = {
+    ready: false,
+    message: 'Checking...'
+  };
 
-  constructor(private flyWireApi: FlyWireApiService) {}
+  constructor(private flyWireApi: FlywireApiService) {}
 
   ngOnInit() {
-    this.checkServices();
+    this.checkHealth();
   }
 
-  async checkServices() {
-    this.checking = true;
+  async checkHealth() {
+    this.isChecking = true;
     
-    // Check FlyWire API
     try {
-      await this.flyWireApi.checkConnection().toPromise();
-      this.flyWireStatus = 'success';
-      this.flyWireMessage = '✅ Connected';
-    } catch (error) {
-      this.flyWireStatus = 'error';
-      this.flyWireMessage = '❌ Connection Failed';
-    }
-    
-    // Check WebGL
-    this.checkWebGL();
-    
-    this.checking = false;
-  }
-
-  private checkWebGL() {
-    try {
-      const canvas = document.createElement('canvas');
-      const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-      if (gl) {
-        this.webglStatus = 'success';
-        this.webglMessage = '✅ WebGL Supported';
+      // Check authentication status
+      this.flyWireApi.isAuthenticated().subscribe(isAuth => {
+        this.authStatus.authenticated = isAuth;
+        this.authStatus.message = isAuth ? 'CAVE token active' : 'No CAVE token';
+      });
+      
+      // If authenticated, test API connectivity
+      if (this.authStatus.authenticated) {
+        this.testApiConnectivity();
       } else {
-        this.webglStatus = 'error';
-        this.webglMessage = '❌ WebGL Not Available';
+        this.setDisconnectedStatus();
       }
+      
     } catch (error) {
-      this.webglStatus = 'error';
-      this.webglMessage = '❌ WebGL Check Failed';
+      console.error('Health check failed:', error);
+      this.setErrorStatus();
+    } finally {
+      this.isChecking = false;
     }
+  }
+  
+  private testApiConnectivity() {
+    // Test with a simple neuron search
+    this.flyWireApi.searchLarvalMechanosensoryNeurons().subscribe({
+      next: (neurons) => {
+        this.flywireStatus.connected = true;
+        this.flywireStatus.message = 'Connected to FlyWire CAVE';
+        
+        this.apiStatus.available = true;
+        this.apiStatus.message = 'All endpoints accessible';
+        
+        this.dataStatus.ready = true;
+        this.dataStatus.message = `Found ${neurons.length} larval neurons`;
+      },
+      error: (error) => {
+        this.flywireStatus.connected = false;
+        this.flywireStatus.message = 'Connection failed';
+        
+        this.apiStatus.available = false;
+        this.apiStatus.message = error.message;
+        
+        this.dataStatus.ready = false;
+        this.dataStatus.message = 'Data unavailable';
+      }
+    });
+  }
+  
+  private setDisconnectedStatus() {
+    this.flywireStatus.connected = false;
+    this.flywireStatus.message = 'Authentication required';
+    
+    this.apiStatus.available = false;
+    this.apiStatus.message = 'CAVE token needed';
+    
+    this.dataStatus.ready = false;
+    this.dataStatus.message = 'Cannot access data';
+  }
+  
+  private setErrorStatus() {
+    this.flywireStatus.connected = false;
+    this.flywireStatus.message = 'Health check error';
+    
+    this.apiStatus.available = false;
+    this.apiStatus.message = 'Unknown status';
+    
+    this.dataStatus.ready = false;
+    this.dataStatus.message = 'Unknown status';
+  }
+  
+  resetConnection() {
+    // Clear authentication and reset status
+    localStorage.removeItem('flywire_cave_token');
+    
+    this.authStatus.authenticated = false;
+    this.authStatus.message = 'Token cleared';
+    
+    this.setDisconnectedStatus();
   }
 } 

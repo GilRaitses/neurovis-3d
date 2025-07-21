@@ -79,7 +79,9 @@
                 "maximumWarning": "6kb",
                 "maximumError": "10kb"
               }
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -99,9 +101,7 @@
               "sourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
-              "optimization": true,
-              "serviceWorker": true,
-              "ngswConfigPath": "ngsw-config.json"
+              "optimization": true
             },
             "development": {
               "buildOptimizer": false,
@@ -116,12 +116,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "neurovis3d:build"
+          },
           "configurations": {
             "production": {
-              "browserTarget": "neurovis3d:build:production"
+              "buildTarget": "neurovis3d:build:production"
             },
             "development": {
-              "browserTarget": "neurovis3d:build:development"
+              "buildTarget": "neurovis3d:build:development"
             }
           },
           "defaultConfiguration": "development"

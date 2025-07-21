@@ -18,36 +18,37 @@
     "build": "ng build",
     "build:prod": "ng build --configuration production",
     "test": "ng test",
-    "e2e": "ng e2e",
-    "docker:build": "docker build -t neurovis3d .",
-    "docker:run": "docker run -p 3000:80 neurovis3d"
+    "deploy": "firebase deploy --only hosting"
   },
   "dependencies": {
-    "@angular/animations": "^17.3.0",
-    "@angular/cdk": "^17.3.0",
-    "@angular/common": "^17.3.0",
-    "@angular/compiler": "^17.3.0",
-    "@angular/core": "^17.3.0",
-    "@angular/forms": "^17.3.0",
-    "@angular/material": "^17.3.0",
-    "@angular/platform-browser": "^17.3.0",
-    "@angular/platform-browser-dynamic": "^17.3.0",
-    "@angular/router": "^17.3.0",
+    "@angular/animations": "^20.0.0",
+    "@angular/cdk": "^20.1.2",
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "@angular/material": "^20.1.2",
+    "@angular/platform-browser": "^20.0.0",
+    "@angular/platform-browser-dynamic": "^20.0.0",
+    "@angular/router": "^20.0.0",
+    "@angular/service-worker": "^20.0.0",
+    "neuroglancer": "^2.40.1",
     "rxjs": "^7.8.0",
-    "three": "^0.158.0",
-    "tslib": "^2.6.0",
-    "zone.js": "^0.14.0"
+    "three": "^0.170.0",
+    "tslib": "^2.8.1",
+    "zone.js": "^0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.0",
-    "@angular/cli": "^17.3.0",
-    "@angular/compiler-cli": "^17.3.0",
-    "@types/three": "^0.158.0",
-    "cypress": "^13.6.0",
-    "typescript": "^5.2.0"
+    "@angular-devkit/build-angular": "^20.0.0",
+    "@angular/cli": "^20.0.0",
+    "@angular/compiler-cli": "^20.0.0",
+    "@cypress/schematic": "^3.0.0",
+    "@types/three": "^0.170.0",
+    "cypress": "^14.5.2",
+    "typescript": "~5.8.0"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
   }
-} 
+}
