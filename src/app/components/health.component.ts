@@ -161,7 +161,10 @@ export class HealthComponent implements OnInit {
   constructor(private flyWireApi: FlywireApiService) {}
 
   ngOnInit() {
-    this.checkHealth();
+    // Only auto-check health in browser environment, not during build
+    if (typeof window !== 'undefined' && window.location) {
+      this.checkHealth();
+    }
   }
 
   async checkHealth() {

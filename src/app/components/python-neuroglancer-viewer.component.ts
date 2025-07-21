@@ -263,7 +263,7 @@ export class PythonNeuroglancerViewerComponent implements OnInit, OnDestroy, OnC
 
   private subscribeToServices() {
     // Subscribe to connection status
-    const connectionSub = this.pythonService.isConnected().subscribe(connected => {
+    const connectionSub = this.pythonService.getConnectionStatus().subscribe((connected: boolean) => {
       this.isConnected = connected;
       if (connected) {
         console.log('✅ Python backend connected');
@@ -379,9 +379,10 @@ export class PythonNeuroglancerViewerComponent implements OnInit, OnDestroy, OnC
   }
 
   openInNewTab() {
-    const currentUrl = this.pythonService.getCurrentNeuroglancerUrl();
-    if (currentUrl) {
-      window.open(currentUrl, '_blank');
-    }
+    this.pythonService.getNeuroglancerUrl().subscribe(currentUrl => {
+      if (currentUrl) {
+        window.open(currentUrl, '_blank');
+      }
+    });
   }
 } 
