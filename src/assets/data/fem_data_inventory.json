@@ -1,0 +1,1333 @@
+{
+  "temporal_features": {
+    "file": "temporal_features.csv",
+    "shape": [
+      53,
+      11
+    ],
+    "columns": [
+      "track_key",
+      "trajectory_id",
+      "reorientation_count",
+      "duration",
+      "frequency",
+      "regularity",
+      "burst_index",
+      "mean_angle",
+      "angle_variance",
+      "directional_bias",
+      "angular_momentum"
+    ],
+    "data_types": {
+      "track_key": "object",
+      "trajectory_id": "int64",
+      "reorientation_count": "int64",
+      "duration": "float64",
+      "frequency": "float64",
+      "regularity": "float64",
+      "burst_index": "float64",
+      "mean_angle": "float64",
+      "angle_variance": "float64",
+      "directional_bias": "float64",
+      "angular_momentum": "float64"
+    },
+    "summary_stats": {
+      "trajectory_id": {
+        "count": 53.0,
+        "mean": 27.0,
+        "std": 15.443445211480501,
+        "min": 1.0,
+        "25%": 14.0,
+        "50%": 27.0,
+        "75%": 40.0,
+        "max": 53.0
+      },
+      "reorientation_count": {
+        "count": 53.0,
+        "mean": 29.09433962264151,
+        "std": 20.064572826965247,
+        "min": 2.0,
+        "25%": 9.0,
+        "50%": 28.0,
+        "75%": 45.0,
+        "max": 78.0
+      },
+      "duration": {
+        "count": 53.0,
+        "mean": 670.911887348078,
+        "std": 429.67115889190393,
+        "min": 0.0,
+        "25%": 299.3473044626632,
+        "50%": 714.6435648379564,
+        "75%": 1138.7397640618397,
+        "max": 1181.039365076427
+      },
+      "frequency": {
+        "count": 53.0,
+        "mean": 0.04270902035329898,
+        "std": 0.01840233113340928,
+        "min": 0.0,
+        "25%": 0.0349195631193367,
+        "50%": 0.0408894884292577,
+        "75%": 0.0521976900426186,
+        "max": 0.1091202326081066
+      },
+      "regularity": {
+        "count": 53.0,
+        "mean": 0.13507755226522541,
+        "std": 0.25163548047879647,
+        "min": 0.0232744490652864,
+        "25%": 0.0463560062532093,
+        "50%": 0.0601049888779121,
+        "75%": 0.0825107700351425,
+        "max": 1.0
+      },
+      "burst_index": {
+        "count": 53.0,
+        "mean": 0.2122702387109175,
+        "std": 0.10968872667301799,
+        "min": 0.0,
+        "25%": 0.1666666666666666,
+        "50%": 0.2340425531914893,
+        "75%": 0.2941176470588235,
+        "max": 0.4285714285714285
+      },
+      "mean_angle": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "angle_variance": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "directional_bias": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "angular_momentum": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      }
+    },
+    "missing_values": {
+      "track_key": 0,
+      "trajectory_id": 0,
+      "reorientation_count": 0,
+      "duration": 0,
+      "frequency": 0,
+      "regularity": 0,
+      "burst_index": 0,
+      "mean_angle": 0,
+      "angle_variance": 0,
+      "directional_bias": 0,
+      "angular_momentum": 0
+    }
+  },
+  "envelope_features": {
+    "file": "envelope_features.csv",
+    "shape": [
+      53,
+      7
+    ],
+    "columns": [
+      "track_key",
+      "trajectory_id",
+      "reorientation_count",
+      "envelope_area",
+      "envelope_peak",
+      "envelope_width",
+      "envelope_symmetry"
+    ],
+    "data_types": {
+      "track_key": "object",
+      "trajectory_id": "int64",
+      "reorientation_count": "int64",
+      "envelope_area": "float64",
+      "envelope_peak": "float64",
+      "envelope_width": "float64",
+      "envelope_symmetry": "float64"
+    },
+    "summary_stats": {
+      "trajectory_id": {
+        "count": 53.0,
+        "mean": 27.0,
+        "std": 15.443445211480501,
+        "min": 1.0,
+        "25%": 14.0,
+        "50%": 27.0,
+        "75%": 40.0,
+        "max": 53.0
+      },
+      "reorientation_count": {
+        "count": 53.0,
+        "mean": 29.09433962264151,
+        "std": 20.064572826965247,
+        "min": 2.0,
+        "25%": 9.0,
+        "50%": 28.0,
+        "75%": 45.0,
+        "max": 78.0
+      },
+      "envelope_area": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "envelope_peak": {
+        "count": 53.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "envelope_width": {
+        "count": 53.0,
+        "mean": 670.911887348078,
+        "std": 429.67115889190393,
+        "min": 0.0,
+        "25%": 299.3473044626632,
+        "50%": 714.6435648379564,
+        "75%": 1138.7397640618397,
+        "max": 1181.039365076427
+      },
+      "envelope_symmetry": {
+        "count": 4.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      }
+    },
+    "missing_values": {
+      "track_key": 0,
+      "trajectory_id": 0,
+      "reorientation_count": 0,
+      "envelope_area": 0,
+      "envelope_peak": 0,
+      "envelope_width": 0,
+      "envelope_symmetry": 49
+    }
+  },
+  "population_statistics": {
+    "envelope_statistics": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "frequency_statistics": {
+      "mean": 0.04270902035329903,
+      "std": 0.018227897517665594,
+      "min": 0.0,
+      "max": 0.10912023260810666,
+      "median": 0.04088948842925772
+    },
+    "reorientation_statistics": {
+      "mean": 29.09433962264151,
+      "std": 19.874383010186754,
+      "min": 2,
+      "max": 78,
+      "total": 1542
+    }
+  },
+  "pipeline_summary": {
+    "total_trajectories": 53,
+    "total_reorientations": 1542,
+    "total_cycles": 1990,
+    "total_bins": 2400,
+    "methodology": "Non-overlapping binning (corrected)"
+  },
+  "behavioral_data": {
+    "file": "behavioral_analysis_results_updated.csv",
+    "shape": [
+      515,
+      16
+    ],
+    "columns": [
+      "trial_duration",
+      "start_time",
+      "n_reverse_frames",
+      "reverse_fraction",
+      "n_reverse_bouts",
+      "mean_bout_duration",
+      "total_reverse_duration",
+      "first_bout_latency",
+      "mean_reverse_angle",
+      "mean_reverse_speed",
+      "mean_speed",
+      "mean_angle",
+      "experiment",
+      "track",
+      "pulse",
+      "n_frames"
+    ],
+    "data_types": {
+      "trial_duration": "float64",
+      "start_time": "float64",
+      "n_reverse_frames": "int64",
+      "reverse_fraction": "float64",
+      "n_reverse_bouts": "int64",
+      "mean_bout_duration": "int64",
+      "total_reverse_duration": "int64",
+      "first_bout_latency": "float64",
+      "mean_reverse_angle": "float64",
+      "mean_reverse_speed": "float64",
+      "mean_speed": "float64",
+      "mean_angle": "float64",
+      "experiment": "int64",
+      "track": "int64",
+      "pulse": "int64",
+      "n_frames": "int64"
+    },
+    "unique_experiments": 1,
+    "unique_tracks": 14,
+    "unique_pulses": 43,
+    "trial_duration_range": [
+      0.5,
+      2.950000000000045
+    ],
+    "speed_range": [
+      1.166955094434165e-06,
+      0.0017595084137532
+    ],
+    "angle_range": [
+      1.4646484915433544,
+      76.9843728646123
+    ]
+  },
+  "h5_files": [
+    {
+      "file": "fixed_cycle_mapping_v2_data.h5",
+      "size_mb": 4.059995651245117,
+      "datasets": [
+        {
+          "name": "bins/bin_id",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/bin_number",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/cycle_id",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/cycle_number",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/duration",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/end_time",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/experiment",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/global_track_id",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/is_spike",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/reorientations",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/start_time",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/track_id",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "bins/turn_rate",
+          "shape": [
+            1,
+            39040
+          ],
+          "dtype": "float64",
+          "size": 39040
+        },
+        {
+          "name": "cycles/cycle_id",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/cycle_number",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/duration",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/end_time",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/experiment",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/global_track_id",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/is_spike",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/reorientations",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/start_time",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/track_id",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "cycles/turn_rate",
+          "shape": [
+            1,
+            1952
+          ],
+          "dtype": "float64",
+          "size": 1952
+        },
+        {
+          "name": "metadata/BIN_SIZE",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/CYCLE_DURATION",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/FPS",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/SPIKE_THRESHOLD",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/total_bins",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/total_cycles",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "metadata/total_tracks",
+          "shape": [
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/complete_cycles",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/duration_minutes",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/duration_seconds",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/experiment",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/global_track_id",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/spike_bins",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/total_cycles",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/total_reorientations",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/track_id",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        },
+        {
+          "name": "tracks/turn_rate",
+          "shape": [
+            1,
+            53
+          ],
+          "dtype": "float64",
+          "size": 53
+        }
+      ]
+    },
+    {
+      "file": "test_single_track.h5",
+      "size_mb": 1.2975788116455078,
+      "datasets": [
+        {
+          "name": "tracks/dummy",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/first_track/FrameNumber",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/NumberOfRegionsDiffFromBackground",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/ROIX",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/ROIY",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/bufnum",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/bufnum_time",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/camtime",
+          "shape": [
+            1,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 24000
+        },
+        {
+          "name": "tracks/first_track/dummy",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/first_track/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/dummy",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/locInFile",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/dummy",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/locInFile",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/dummy",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/locInFile",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        }
+      ]
+    },
+    {
+      "file": "track_points_data.h5",
+      "size_mb": 5.509664535522461,
+      "datasets": [
+        {
+          "name": "tracks/track_1/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/head",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_1/imOffset",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_1/loc",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_1/mid",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_1/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_1/tail",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_1/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/head",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_2/imOffset",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_2/loc",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_2/mid",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_2/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_2/tail",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_2/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/endFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/head",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_3/imOffset",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_3/loc",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_3/mid",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_3/npts",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/nt",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/startFrame",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "int32",
+          "size": 1
+        },
+        {
+          "name": "tracks/track_3/tail",
+          "shape": [
+            2,
+            24000
+          ],
+          "dtype": "float64",
+          "size": 48000
+        },
+        {
+          "name": "tracks/track_3/temp",
+          "shape": [
+            1,
+            1
+          ],
+          "dtype": "float64",
+          "size": 1
+        }
+      ]
+    }
+  ],
+  "existing_plots": [
+    "population_summary.png",
+    "trial_example_1.png",
+    "trial_example_2.png",
+    "trial_example_3.png",
+    "trial_example_4.png",
+    "trial_example_5.png"
+  ],
+  "plot_directories": [
+    "advanced_plots",
+    "exact_reference_plots",
+    "exact_reference_plots_matlab",
+    "plots",
+    "plots_updated"
+  ],
+  "visualization_opportunities": [
+    {
+      "type": "time_series",
+      "title": "Individual Trajectory Time Series",
+      "description": "Plot speed, angle, and position over time for individual trajectories",
+      "data_source": "behavioral_data",
+      "potential_insights": "Temporal patterns, event detection, behavioral transitions"
+    },
+    {
+      "type": "spatial",
+      "title": "Spatial Trajectory Analysis",
+      "description": "Plot 2D trajectories with behavioral annotations",
+      "data_source": "h5_files",
+      "potential_insights": "Movement patterns, spatial preferences, turning behavior"
+    },
+    {
+      "type": "comparative",
+      "title": "FEM vs Traditional Metrics Comparison",
+      "description": "Direct comparison of FEM frequency metrics with traditional turn counts",
+      "data_source": "temporal_features + behavioral_data",
+      "potential_insights": "Method validation, sensitivity analysis, correlation analysis"
+    },
+    {
+      "type": "population",
+      "title": "Population Heterogeneity Analysis",
+      "description": "Analyze individual differences and subpopulation structure",
+      "data_source": "temporal_features",
+      "potential_insights": "Behavioral phenotyping, individual variation, clustering"
+    },
+    {
+      "type": "envelope",
+      "title": "Detailed Envelope Analysis",
+      "description": "Implement and visualize actual envelope fitting algorithms",
+      "data_source": "temporal_features",
+      "potential_insights": "Envelope shape parameters, fitting quality, biological interpretation"
+    },
+    {
+      "type": "stimulus_response",
+      "title": "Stimulus-Response Dynamics",
+      "description": "Analyze behavioral responses to different pulse conditions",
+      "data_source": "behavioral_data",
+      "potential_insights": "Stimulus sensitivity, response latency, adaptation"
+    }
+  ]
+}

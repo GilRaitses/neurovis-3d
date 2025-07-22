@@ -8,7 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "!/@(assets)/**",
         "destination": "/index.html"
       }
     ],
@@ -28,6 +28,15 @@
           {
             "key": "Cache-Control", 
             "value": "max-age=31536000"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(json)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
           }
         ]
       }

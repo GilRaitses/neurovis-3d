@@ -1,0 +1,23 @@
+{
+  "envelope_statistics": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "median": 0.0
+  },
+  "frequency_statistics": {
+    "mean": 0.04270902035329903,
+    "std": 0.018227897517665594,
+    "min": 0.0,
+    "max": 0.10912023260810666,
+    "median": 0.04088948842925772
+  },
+  "reorientation_statistics": {
+    "mean": 29.09433962264151,
+    "std": 19.874383010186754,
+    "min": 2,
+    "max": 78,
+    "total": 1542
+  }
+}

@@ -1,0 +1,1675 @@
+{
+  "pipeline_execution": {
+    "timestamp": "2025-07-11_12-08-49",
+    "version": "windows_compatible",
+    "status": "COMPLETE",
+    "validation_available": false
+  },
+  "data_summary": {
+    "total_trajectories": 53,
+    "total_reorientations": 1542,
+    "total_cycles": 1990,
+    "total_bins": 2400,
+    "methodology": "Non-overlapping binning (corrected)",
+    "export_timestamp": "2025-07-11T11:08:27.372991",
+    "pipeline_timestamp": "2025-07-11_12-08-49",
+    "pipeline_version": "windows_compatible"
+  },
+  "analysis_results": {
+    "trajectories_processed": 53,
+    "total_reorientations": 1542,
+    "mean_envelope_area": 0.0,
+    "mean_frequency": 0.04270902035329903,
+    "methodology": "FEM envelope modeling"
+  },
+  "feature_summary": {
+    "envelope": [
+      {
+        "track_key": "track_001",
+        "trajectory_id": 1,
+        "reorientation_count": 47,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1162.189534813787,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_002",
+        "trajectory_id": 2,
+        "reorientation_count": 36,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 978.6911871642174,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_003",
+        "trajectory_id": 3,
+        "reorientation_count": 65,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1176.9894015451966,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_004",
+        "trajectory_id": 4,
+        "reorientation_count": 52,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1148.0396622293654,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_005",
+        "trajectory_id": 5,
+        "reorientation_count": 48,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1181.039365076427,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_006",
+        "trajectory_id": 6,
+        "reorientation_count": 48,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1175.8894114502943,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_007",
+        "trajectory_id": 7,
+        "reorientation_count": 78,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1164.0395181552133,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_008",
+        "trajectory_id": 8,
+        "reorientation_count": 55,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1156.4395865904355,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_009",
+        "trajectory_id": 9,
+        "reorientation_count": 33,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1150.189642869401,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_010",
+        "trajectory_id": 10,
+        "reorientation_count": 45,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1177.039401094965,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_011",
+        "trajectory_id": 11,
+        "reorientation_count": 49,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1129.7898265639449,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_012",
+        "trajectory_id": 12,
+        "reorientation_count": 4,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 72.94934311191341,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_013",
+        "trajectory_id": 13,
+        "reorientation_count": 2,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 0.0,
+        "envelope_symmetry": 1.0
+      },
+      {
+        "track_key": "track_014",
+        "trajectory_id": 14,
+        "reorientation_count": 15,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 299.3473044626632,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_015",
+        "trajectory_id": 15,
+        "reorientation_count": 15,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 306.947236027441,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_016",
+        "trajectory_id": 16,
+        "reorientation_count": 31,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 714.6435648379564,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_017",
+        "trajectory_id": 17,
+        "reorientation_count": 23,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1032.790700013491,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_018",
+        "trajectory_id": 18,
+        "reorientation_count": 35,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 850.4423420085917,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_019",
+        "trajectory_id": 19,
+        "reorientation_count": 7,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 149.39865470760608,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_020",
+        "trajectory_id": 20,
+        "reorientation_count": 45,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 914.9417612096667,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_021",
+        "trajectory_id": 21,
+        "reorientation_count": 27,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 955.9913915694206,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_022",
+        "trajectory_id": 22,
+        "reorientation_count": 29,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 533.6451946768004,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_023",
+        "trajectory_id": 23,
+        "reorientation_count": 5,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 174.14843184290226,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_024",
+        "trajectory_id": 24,
+        "reorientation_count": 26,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 693.4437557362078,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_025",
+        "trajectory_id": 25,
+        "reorientation_count": 43,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 772.3430452705459,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_026",
+        "trajectory_id": 26,
+        "reorientation_count": 2,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 0.0,
+        "envelope_symmetry": 1.0
+      },
+      {
+        "track_key": "track_027",
+        "trajectory_id": 27,
+        "reorientation_count": 43,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 726.9934536307205,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_028",
+        "trajectory_id": 28,
+        "reorientation_count": 8,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 263.49762727880994,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_029",
+        "trajectory_id": 29,
+        "reorientation_count": 14,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 385.2465309645599,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_030",
+        "trajectory_id": 30,
+        "reorientation_count": 7,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 130.19882759658844,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_031",
+        "trajectory_id": 31,
+        "reorientation_count": 46,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1178.039410803996,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_032",
+        "trajectory_id": 32,
+        "reorientation_count": 43,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1146.289696196783,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_033",
+        "trajectory_id": 33,
+        "reorientation_count": 47,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1149.4396678822231,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_034",
+        "trajectory_id": 34,
+        "reorientation_count": 56,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1131.8398260842093,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_035",
+        "trajectory_id": 35,
+        "reorientation_count": 44,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1173.3894526016797,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_036",
+        "trajectory_id": 36,
+        "reorientation_count": 7,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 64.14942337173832,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_037",
+        "trajectory_id": 37,
+        "reorientation_count": 26,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 363.8967289941633,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_038",
+        "trajectory_id": 38,
+        "reorientation_count": 13,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 440.496040455974,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_039",
+        "trajectory_id": 39,
+        "reorientation_count": 20,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 572.7448516938913,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_040",
+        "trajectory_id": 40,
+        "reorientation_count": 21,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 629.5443411329363,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_041",
+        "trajectory_id": 41,
+        "reorientation_count": 34,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 902.8918840583405,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_042",
+        "trajectory_id": 42,
+        "reorientation_count": 9,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 393.54646247774934,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_043",
+        "trajectory_id": 43,
+        "reorientation_count": 73,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1138.7397640618397,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_044",
+        "trajectory_id": 44,
+        "reorientation_count": 45,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 1007.1409469812356,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_045",
+        "trajectory_id": 45,
+        "reorientation_count": 4,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 50.69954427041517,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_046",
+        "trajectory_id": 46,
+        "reorientation_count": 18,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 741.7433325952752,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_047",
+        "trajectory_id": 47,
+        "reorientation_count": 37,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 708.8436283251242,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_048",
+        "trajectory_id": 48,
+        "reorientation_count": 28,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 596.0446422560349,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_049",
+        "trajectory_id": 49,
+        "reorientation_count": 2,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 68.6493829223669,
+        "envelope_symmetry": 1.0
+      },
+      {
+        "track_key": "track_050",
+        "trajectory_id": 50,
+        "reorientation_count": 22,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 352.79682876927956,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_051",
+        "trajectory_id": 51,
+        "reorientation_count": 2,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 0.0,
+        "envelope_symmetry": 1.0
+      },
+      {
+        "track_key": "track_052",
+        "trajectory_id": 52,
+        "reorientation_count": 3,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 78.94929033825005,
+        "envelope_symmetry": NaN
+      },
+      {
+        "track_key": "track_053",
+        "trajectory_id": 53,
+        "reorientation_count": 5,
+        "envelope_area": 0.0,
+        "envelope_peak": 0.0,
+        "envelope_width": 91.14918067550971,
+        "envelope_symmetry": NaN
+      }
+    ],
+    "temporal": [
+      {
+        "track_key": "track_001",
+        "trajectory_id": 1,
+        "reorientation_count": 47,
+        "duration": 1162.189534813787,
+        "frequency": 0.040440907951843345,
+        "regularity": 0.04926877873277605,
+        "burst_index": 0.2391304347826087,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_002",
+        "trajectory_id": 2,
+        "reorientation_count": 36,
+        "duration": 978.6911871642174,
+        "frequency": 0.036783819525657444,
+        "regularity": 0.05483018269343801,
+        "burst_index": 0.2571428571428571,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_003",
+        "trajectory_id": 3,
+        "reorientation_count": 65,
+        "duration": 1176.9894015451966,
+        "frequency": 0.05522564596984945,
+        "regularity": 0.08859865932244912,
+        "burst_index": 0.203125,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_004",
+        "trajectory_id": 4,
+        "reorientation_count": 52,
+        "duration": 1148.0396622293654,
+        "frequency": 0.045294602365062706,
+        "regularity": 0.056565385585349674,
+        "burst_index": 0.3333333333333333,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_005",
+        "trajectory_id": 5,
+        "reorientation_count": 48,
+        "duration": 1181.039365076427,
+        "frequency": 0.04064216775441168,
+        "regularity": 0.060920804668953284,
+        "burst_index": 0.23404255319148937,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_006",
+        "trajectory_id": 6,
+        "reorientation_count": 48,
+        "duration": 1175.8894114502943,
+        "frequency": 0.0408201651725044,
+        "regularity": 0.05455472466466844,
+        "burst_index": 0.19148936170212766,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_007",
+        "trajectory_id": 7,
+        "reorientation_count": 78,
+        "duration": 1164.0395181552133,
+        "frequency": 0.06700803433513626,
+        "regularity": 0.10008910801238363,
+        "burst_index": 0.18181818181818182,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_008",
+        "trajectory_id": 8,
+        "reorientation_count": 55,
+        "duration": 1156.4395865904355,
+        "frequency": 0.047559769345286856,
+        "regularity": 0.04635600625320938,
+        "burst_index": 0.25925925925925924,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_009",
+        "trajectory_id": 9,
+        "reorientation_count": 33,
+        "duration": 1150.189642869401,
+        "frequency": 0.028690920844734995,
+        "regularity": 0.030038521725156267,
+        "burst_index": 0.28125,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_010",
+        "trajectory_id": 10,
+        "reorientation_count": 45,
+        "duration": 1177.039401094965,
+        "frequency": 0.038231515409032045,
+        "regularity": 0.03833202770303712,
+        "burst_index": 0.3181818181818182,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_011",
+        "trajectory_id": 11,
+        "reorientation_count": 49,
+        "duration": 1129.7898265639449,
+        "frequency": 0.04337089859361258,
+        "regularity": 0.0520735066935207,
+        "burst_index": 0.2916666666666667,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_012",
+        "trajectory_id": 12,
+        "reorientation_count": 4,
+        "duration": 72.94934311191341,
+        "frequency": 0.05483257051216349,
+        "regularity": 0.05902287466502837,
+        "burst_index": 0.3333333333333333,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_013",
+        "trajectory_id": 13,
+        "reorientation_count": 2,
+        "duration": 0.0,
+        "frequency": 0.0,
+        "regularity": 1.0,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_014",
+        "trajectory_id": 14,
+        "reorientation_count": 15,
+        "duration": 299.3473044626632,
+        "frequency": 0.05010901977863278,
+        "regularity": 0.062377821908746134,
+        "burst_index": 0.2857142857142857,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_015",
+        "trajectory_id": 15,
+        "reorientation_count": 15,
+        "duration": 306.947236027441,
+        "frequency": 0.04886833383526217,
+        "regularity": 0.0934683963674388,
+        "burst_index": 0.14285714285714285,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_016",
+        "trajectory_id": 16,
+        "reorientation_count": 31,
+        "duration": 714.6435648379564,
+        "frequency": 0.043378267888033346,
+        "regularity": 0.06983624322443556,
+        "burst_index": 0.1,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_017",
+        "trajectory_id": 17,
+        "reorientation_count": 23,
+        "duration": 1032.790700013491,
+        "frequency": 0.022269759012837315,
+        "regularity": 0.023274449065286414,
+        "burst_index": 0.3181818181818182,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_018",
+        "trajectory_id": 18,
+        "reorientation_count": 35,
+        "duration": 850.4423420085917,
+        "frequency": 0.0411550534011939,
+        "regularity": 0.06745934577816425,
+        "burst_index": 0.20588235294117646,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_019",
+        "trajectory_id": 19,
+        "reorientation_count": 7,
+        "duration": 149.39865470760608,
+        "frequency": 0.046854504906352554,
+        "regularity": 0.05942124682506504,
+        "burst_index": 0.16666666666666666,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_020",
+        "trajectory_id": 20,
+        "reorientation_count": 45,
+        "duration": 914.9417612096667,
+        "frequency": 0.04918345834439168,
+        "regularity": 0.04423962571346346,
+        "burst_index": 0.29545454545454547,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_021",
+        "trajectory_id": 21,
+        "reorientation_count": 27,
+        "duration": 955.9913915694206,
+        "frequency": 0.02824293214154885,
+        "regularity": 0.030374287863151554,
+        "burst_index": 0.19230769230769232,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_022",
+        "trajectory_id": 22,
+        "reorientation_count": 29,
+        "duration": 533.6451946768004,
+        "frequency": 0.05434322334255011,
+        "regularity": 0.06311174404281877,
+        "burst_index": 0.2857142857142857,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_023",
+        "trajectory_id": 23,
+        "reorientation_count": 5,
+        "duration": 174.14843184290226,
+        "frequency": 0.028711139957381043,
+        "regularity": 0.04293228621949739,
+        "burst_index": 0.25,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_024",
+        "trajectory_id": 24,
+        "reorientation_count": 26,
+        "duration": 693.4437557362078,
+        "frequency": 0.03749402858548579,
+        "regularity": 0.049143043595619496,
+        "burst_index": 0.24,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_025",
+        "trajectory_id": 25,
+        "reorientation_count": 43,
+        "duration": 772.3430452705459,
+        "frequency": 0.05567474228364085,
+        "regularity": 0.08251077003514258,
+        "burst_index": 0.19047619047619047,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_026",
+        "trajectory_id": 26,
+        "reorientation_count": 2,
+        "duration": 0.0,
+        "frequency": 0.0,
+        "regularity": 1.0,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_027",
+        "trajectory_id": 27,
+        "reorientation_count": 43,
+        "duration": 726.9934536307205,
+        "frequency": 0.05914771279610729,
+        "regularity": 0.0996054193104945,
+        "burst_index": 0.16666666666666666,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_028",
+        "trajectory_id": 28,
+        "reorientation_count": 8,
+        "duration": 263.49762727880994,
+        "frequency": 0.030360804697247258,
+        "regularity": 0.034408781391651204,
+        "burst_index": 0.42857142857142855,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_029",
+        "trajectory_id": 29,
+        "reorientation_count": 14,
+        "duration": 385.2465309645599,
+        "frequency": 0.03634036616747084,
+        "regularity": 0.06538915156795372,
+        "burst_index": 0.23076923076923078,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_030",
+        "trajectory_id": 30,
+        "reorientation_count": 7,
+        "duration": 130.19882759658844,
+        "frequency": 0.05376392498470869,
+        "regularity": 0.06010498887791215,
+        "burst_index": 0.3333333333333333,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_031",
+        "trajectory_id": 31,
+        "reorientation_count": 46,
+        "duration": 1178.039410803996,
+        "frequency": 0.039047929617741416,
+        "regularity": 0.06061174057517099,
+        "burst_index": 0.17777777777777778,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_032",
+        "trajectory_id": 32,
+        "reorientation_count": 43,
+        "duration": 1146.289696196783,
+        "frequency": 0.03751233230366419,
+        "regularity": 0.04390537113511618,
+        "burst_index": 0.30952380952380953,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_033",
+        "trajectory_id": 33,
+        "reorientation_count": 47,
+        "duration": 1149.4396678822231,
+        "frequency": 0.04088948842925772,
+        "regularity": 0.04681998248278641,
+        "burst_index": 0.30434782608695654,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_034",
+        "trajectory_id": 34,
+        "reorientation_count": 56,
+        "duration": 1131.8398260842093,
+        "frequency": 0.049476965476415016,
+        "regularity": 0.0665740246960353,
+        "burst_index": 0.2,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_035",
+        "trajectory_id": 35,
+        "reorientation_count": 44,
+        "duration": 1173.3894526016797,
+        "frequency": 0.037498206501210385,
+        "regularity": 0.04845748972186461,
+        "burst_index": 0.32558139534883723,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_036",
+        "trajectory_id": 36,
+        "reorientation_count": 7,
+        "duration": 64.14942337173832,
+        "frequency": 0.10912023260810666,
+        "regularity": 0.23338111371608494,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_037",
+        "trajectory_id": 37,
+        "reorientation_count": 26,
+        "duration": 363.8967289941633,
+        "frequency": 0.07144884229068468,
+        "regularity": 0.12558848605638429,
+        "burst_index": 0.16,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_038",
+        "trajectory_id": 38,
+        "reorientation_count": 13,
+        "duration": 440.496040455974,
+        "frequency": 0.029512183552304377,
+        "regularity": 0.04317240447205555,
+        "burst_index": 0.3333333333333333,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_039",
+        "trajectory_id": 39,
+        "reorientation_count": 20,
+        "duration": 572.7448516938913,
+        "frequency": 0.03491956311933674,
+        "regularity": 0.03202204872451451,
+        "burst_index": 0.3684210526315789,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_040",
+        "trajectory_id": 40,
+        "reorientation_count": 21,
+        "duration": 629.5443411329363,
+        "frequency": 0.03335745971794159,
+        "regularity": 0.04627082739871048,
+        "burst_index": 0.2,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_041",
+        "trajectory_id": 41,
+        "reorientation_count": 34,
+        "duration": 902.8918840583405,
+        "frequency": 0.03765677884618474,
+        "regularity": 0.05010215072166527,
+        "burst_index": 0.30303030303030304,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_042",
+        "trajectory_id": 42,
+        "reorientation_count": 9,
+        "duration": 393.54646247774934,
+        "frequency": 0.022868964297980063,
+        "regularity": 0.024474111789824077,
+        "burst_index": 0.25,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_043",
+        "trajectory_id": 43,
+        "reorientation_count": 73,
+        "duration": 1138.7397640618397,
+        "frequency": 0.06410595493707175,
+        "regularity": 0.07812633299975015,
+        "burst_index": 0.2222222222222222,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_044",
+        "trajectory_id": 44,
+        "reorientation_count": 45,
+        "duration": 1007.1409469812356,
+        "frequency": 0.04468093580633497,
+        "regularity": 0.06536081416298556,
+        "burst_index": 0.1590909090909091,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_045",
+        "trajectory_id": 45,
+        "reorientation_count": 4,
+        "duration": 50.69954427041517,
+        "frequency": 0.07889617268875787,
+        "regularity": 0.12169825886932004,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_046",
+        "trajectory_id": 46,
+        "reorientation_count": 18,
+        "duration": 741.7433325952752,
+        "frequency": 0.024267154430657377,
+        "regularity": 0.03731395459488828,
+        "burst_index": 0.29411764705882354,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_047",
+        "trajectory_id": 47,
+        "reorientation_count": 37,
+        "duration": 708.8436283251242,
+        "frequency": 0.052197690042618636,
+        "regularity": 0.053299246866916956,
+        "burst_index": 0.2777777777777778,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_048",
+        "trajectory_id": 48,
+        "reorientation_count": 28,
+        "duration": 596.0446422560349,
+        "frequency": 0.046976347097123,
+        "regularity": 0.09497476324225544,
+        "burst_index": 0.1111111111111111,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_049",
+        "trajectory_id": 49,
+        "reorientation_count": 2,
+        "duration": 68.6493829223669,
+        "frequency": 0.029133546652003087,
+        "regularity": 1.0,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_050",
+        "trajectory_id": 50,
+        "reorientation_count": 22,
+        "duration": 352.79682876927956,
+        "frequency": 0.062358837171939144,
+        "regularity": 0.10487257344420262,
+        "burst_index": 0.047619047619047616,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_051",
+        "trajectory_id": 51,
+        "reorientation_count": 2,
+        "duration": 0.0,
+        "frequency": 0.0,
+        "regularity": 1.0,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_052",
+        "trajectory_id": 52,
+        "reorientation_count": 3,
+        "duration": 78.94929033825005,
+        "frequency": 0.03799907493970891,
+        "regularity": 0.06908520675888268,
+        "burst_index": 0.0,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      },
+      {
+        "track_key": "track_053",
+        "trajectory_id": 53,
+        "reorientation_count": 5,
+        "duration": 91.14918067550971,
+        "frequency": 0.05485512829566682,
+        "regularity": 0.07469118512072499,
+        "burst_index": 0.25,
+        "mean_angle": 0.0,
+        "angle_variance": 0.0,
+        "directional_bias": 0.0,
+        "angular_momentum": 0.0
+      }
+    ],
+    "population": {
+      "total_trajectories": 53,
+      "mean_reorientations": 29.09433962264151,
+      "total_reorientations": 1542,
+      "mean_envelope_area": 0.0,
+      "mean_frequency": 0.04270902035329903,
+      "mean_regularity": 0.13507755226522547
+    }
+  },
+  "statistical_summary": {
+    "population": {
+      "envelope_statistics": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "median": 0.0
+      },
+      "frequency_statistics": {
+        "mean": 0.04270902035329903,
+        "std": 0.018227897517665594,
+        "min": 0.0,
+        "max": 0.10912023260810666,
+        "median": 0.04088948842925772
+      },
+      "reorientation_statistics": {
+        "mean": 29.09433962264151,
+        "std": 19.874383010186754,
+        "min": 2,
+        "max": 78,
+        "total": 1542
+      }
+    },
+    "comparison": {
+      "trajectory_1": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.040440907951843345,
+        "std_frequency": 0.0,
+        "total_reorientations": 47
+      },
+      "trajectory_2": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.036783819525657444,
+        "std_frequency": 0.0,
+        "total_reorientations": 36
+      },
+      "trajectory_3": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05522564596984945,
+        "std_frequency": 0.0,
+        "total_reorientations": 65
+      },
+      "trajectory_4": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.045294602365062706,
+        "std_frequency": 0.0,
+        "total_reorientations": 52
+      },
+      "trajectory_5": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04064216775441168,
+        "std_frequency": 0.0,
+        "total_reorientations": 48
+      },
+      "trajectory_6": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.0408201651725044,
+        "std_frequency": 0.0,
+        "total_reorientations": 48
+      },
+      "trajectory_7": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.06700803433513626,
+        "std_frequency": 0.0,
+        "total_reorientations": 78
+      },
+      "trajectory_8": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.047559769345286856,
+        "std_frequency": 0.0,
+        "total_reorientations": 55
+      },
+      "trajectory_9": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.028690920844734995,
+        "std_frequency": 0.0,
+        "total_reorientations": 33
+      },
+      "trajectory_10": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.038231515409032045,
+        "std_frequency": 0.0,
+        "total_reorientations": 45
+      },
+      "trajectory_11": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04337089859361258,
+        "std_frequency": 0.0,
+        "total_reorientations": 49
+      },
+      "trajectory_12": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05483257051216349,
+        "std_frequency": 0.0,
+        "total_reorientations": 4
+      },
+      "trajectory_13": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.0,
+        "std_frequency": 0.0,
+        "total_reorientations": 2
+      },
+      "trajectory_14": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05010901977863278,
+        "std_frequency": 0.0,
+        "total_reorientations": 15
+      },
+      "trajectory_15": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04886833383526217,
+        "std_frequency": 0.0,
+        "total_reorientations": 15
+      },
+      "trajectory_16": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.043378267888033346,
+        "std_frequency": 0.0,
+        "total_reorientations": 31
+      },
+      "trajectory_17": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.022269759012837315,
+        "std_frequency": 0.0,
+        "total_reorientations": 23
+      },
+      "trajectory_18": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.0411550534011939,
+        "std_frequency": 0.0,
+        "total_reorientations": 35
+      },
+      "trajectory_19": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.046854504906352554,
+        "std_frequency": 0.0,
+        "total_reorientations": 7
+      },
+      "trajectory_20": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04918345834439168,
+        "std_frequency": 0.0,
+        "total_reorientations": 45
+      },
+      "trajectory_21": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.02824293214154885,
+        "std_frequency": 0.0,
+        "total_reorientations": 27
+      },
+      "trajectory_22": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05434322334255011,
+        "std_frequency": 0.0,
+        "total_reorientations": 29
+      },
+      "trajectory_23": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.028711139957381043,
+        "std_frequency": 0.0,
+        "total_reorientations": 5
+      },
+      "trajectory_24": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03749402858548579,
+        "std_frequency": 0.0,
+        "total_reorientations": 26
+      },
+      "trajectory_25": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05567474228364085,
+        "std_frequency": 0.0,
+        "total_reorientations": 43
+      },
+      "trajectory_26": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.0,
+        "std_frequency": 0.0,
+        "total_reorientations": 2
+      },
+      "trajectory_27": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05914771279610729,
+        "std_frequency": 0.0,
+        "total_reorientations": 43
+      },
+      "trajectory_28": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.030360804697247258,
+        "std_frequency": 0.0,
+        "total_reorientations": 8
+      },
+      "trajectory_29": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03634036616747084,
+        "std_frequency": 0.0,
+        "total_reorientations": 14
+      },
+      "trajectory_30": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05376392498470869,
+        "std_frequency": 0.0,
+        "total_reorientations": 7
+      },
+      "trajectory_31": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.039047929617741416,
+        "std_frequency": 0.0,
+        "total_reorientations": 46
+      },
+      "trajectory_32": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03751233230366419,
+        "std_frequency": 0.0,
+        "total_reorientations": 43
+      },
+      "trajectory_33": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04088948842925772,
+        "std_frequency": 0.0,
+        "total_reorientations": 47
+      },
+      "trajectory_34": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.049476965476415016,
+        "std_frequency": 0.0,
+        "total_reorientations": 56
+      },
+      "trajectory_35": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.037498206501210385,
+        "std_frequency": 0.0,
+        "total_reorientations": 44
+      },
+      "trajectory_36": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.10912023260810666,
+        "std_frequency": 0.0,
+        "total_reorientations": 7
+      },
+      "trajectory_37": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.07144884229068468,
+        "std_frequency": 0.0,
+        "total_reorientations": 26
+      },
+      "trajectory_38": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.029512183552304377,
+        "std_frequency": 0.0,
+        "total_reorientations": 13
+      },
+      "trajectory_39": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03491956311933674,
+        "std_frequency": 0.0,
+        "total_reorientations": 20
+      },
+      "trajectory_40": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03335745971794159,
+        "std_frequency": 0.0,
+        "total_reorientations": 21
+      },
+      "trajectory_41": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03765677884618474,
+        "std_frequency": 0.0,
+        "total_reorientations": 34
+      },
+      "trajectory_42": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.022868964297980063,
+        "std_frequency": 0.0,
+        "total_reorientations": 9
+      },
+      "trajectory_43": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.06410595493707175,
+        "std_frequency": 0.0,
+        "total_reorientations": 73
+      },
+      "trajectory_44": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.04468093580633497,
+        "std_frequency": 0.0,
+        "total_reorientations": 45
+      },
+      "trajectory_45": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.07889617268875787,
+        "std_frequency": 0.0,
+        "total_reorientations": 4
+      },
+      "trajectory_46": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.024267154430657377,
+        "std_frequency": 0.0,
+        "total_reorientations": 18
+      },
+      "trajectory_47": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.052197690042618636,
+        "std_frequency": 0.0,
+        "total_reorientations": 37
+      },
+      "trajectory_48": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.046976347097123,
+        "std_frequency": 0.0,
+        "total_reorientations": 28
+      },
+      "trajectory_49": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.029133546652003087,
+        "std_frequency": 0.0,
+        "total_reorientations": 2
+      },
+      "trajectory_50": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.062358837171939144,
+        "std_frequency": 0.0,
+        "total_reorientations": 22
+      },
+      "trajectory_51": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.0,
+        "std_frequency": 0.0,
+        "total_reorientations": 2
+      },
+      "trajectory_52": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.03799907493970891,
+        "std_frequency": 0.0,
+        "total_reorientations": 3
+      },
+      "trajectory_53": {
+        "n_tracks": 1,
+        "mean_envelope_area": 0.0,
+        "std_envelope_area": 0.0,
+        "mean_frequency": 0.05485512829566682,
+        "std_frequency": 0.0,
+        "total_reorientations": 5
+      }
+    }
+  },
+  "validation_summary": {
+    "data_integrity": {
+      "total_tracks": 53,
+      "zero_time_tracks": 3,
+      "total_reorientations": 1542,
+      "validation_passed": false
+    }
+  },
+  "files_generated": [
+    "envelope_features.csv/json",
+    "temporal_features.csv/json",
+    "population_features.json",
+    "population_statistics.json",
+    "comparative_analysis.json",
+    "validation_results.json",
+    "analysis_report.md",
+    "methodology_documentation.md",
+    "fem_analysis_plots.png"
+  ]
+}
