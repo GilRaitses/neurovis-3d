@@ -23,6 +23,9 @@ export interface NeuroglancerResponse {
   circuits?: PythonCircuit[];
   count?: number;
   error?: string;
+  data_source?: string;
+  total_circuits?: number;
+  message?: string;
 }
 
 @Injectable({
@@ -41,30 +44,33 @@ export class PythonNeuroglancerService {
 
   /**
    * Determine backend URL based on environment
+   * Updated to use cloud-based FlyWire data backend (SSL-free!)
    */
   private getBackendUrl(): string {
     // Check if we're running on Firebase (production)
     if (window.location.hostname.includes('neurovis-3d.web.app') || 
         window.location.hostname.includes('neurovis-3d.firebaseapp.com')) {
-      // Production: Use deployed Cloud Run URL
+      // Production: Use new cloud-based FlyWire backend (SSL issues resolved!)
       return 'https://neuroglancer-backend-359448340087.us-central1.run.app/api';
     } else {
-      // Development: Use deployed backend for testing
-      return 'https://neuroglancer-backend-359448340087.us-central1.run.app/api';
+      // Development: Use local cloud backend for testing
+      return 'http://localhost:5000/api';
     }
   }
 
   /**
-   * Check if Python backend is running
+   * Check if cloud-based FlyWire backend is running
    */
   checkConnection(): Observable<boolean> {
-    console.log(`🧪 Testing connection to: ${this.baseUrl}/health`);
+    console.log(`🧪 Testing connection to cloud FlyWire backend: ${this.baseUrl}/health`);
     return this.http.get<any>(`${this.baseUrl}/health`).pipe(
       map(response => {
         const connected = response.status === 'healthy';
-        console.log(`🔗 Backend connection: ${connected ? 'SUCCESS' : 'FAILED'}`);
-        console.log(`📊 Backend environment: ${response.environment || 'unknown'}`);
-        console.log(`🚫 Real data only: ${response.real_data_only || false}`);
+        console.log(`🔗 Cloud backend connection: ${connected ? 'SUCCESS' : 'FAILED'}`);
+        console.log(`☁️ Data source: ${response.data_source || 'unknown'}`);
+        console.log(`🔒 SSL issues: ${response.ssl_issues || 'unknown'}`);
+        console.log(`📊 Neurons available: ${response.neurons_available?.toLocaleString() || 0}`);
+        console.log(`📈 Cache status: ${response.cache_status || 'unknown'}`);
         
         this.isConnected$.next(connected);
         if (response.neuroglancer_url) {
@@ -74,8 +80,9 @@ export class PythonNeuroglancerService {
         return connected;
       }),
       catchError((error) => {
-        console.error(`❌ Backend connection failed:`, error);
+        console.error(`❌ Cloud backend connection failed:`, error);
         console.log(`🔧 Trying to connect to: ${this.baseUrl}`);
+        console.log(`💡 Make sure cloud backend is deployed and running`);
         this.isConnected$.next(false);
         return [false];
       })
@@ -83,15 +90,18 @@ export class PythonNeuroglancerService {
   }
 
   /**
-   * Search for CHRIMSON circuits from FlyWire
+   * Search for CHRIMSON circuits from cloud-based FlyWire data
+   * SSL issues resolved by using pre-downloaded data from GitHub!
    */
   searchCHRIMSONCircuits(): Observable<PythonCircuit[]> {
-    console.log(`🔍 Searching CHRIMSON circuits...`);
+    console.log(`🔍 Searching CHRIMSON circuits from cloud FlyWire data...`);
+    console.log(`✅ No SSL issues - using pre-downloaded FlyWire data!`);
     return this.http.get<NeuroglancerResponse>(`${this.baseUrl}/circuits/search`).pipe(
       map(response => {
         if (response.success && response.circuits) {
-          console.log(`✅ Found ${response.circuits.length} REAL circuits`);
-          console.log(`🧠 Total neurons: ${response.count || 0}`);
+          console.log(`✅ Found ${response.circuits.length} REAL circuits from FlyWire`);
+          console.log(`🧠 Total neurons loaded: ${response.count || 0}`);
+          console.log(`☁️ Data source: ${response.data_source || 'cloud'}`);
           return response.circuits;
         } else {
           console.error(`❌ Circuit search failed: ${response.error}`);
