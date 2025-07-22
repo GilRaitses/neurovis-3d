@@ -46,16 +46,26 @@ class FlyWireNeuroglancerService:
         # Get Neuroglancer port from environment
         self.neuroglancer_port = int(os.getenv('NEUROGLANCER_PORT', '9997'))
         
-        # CHRIMSON neuron types from FlyWire annotations
+        # CHRIMSON neuron types from FlyWire annotations (genetically modified for optogenetics)
         self.chrimson_cell_types = [
-            'mechanosensory',
-            'touch_receptor', 
-            'stretch_receptor',
-            'campaniform_sensilla',
-            'proprioceptor',
-            'nociceptor',
-            'chordotonal',
-            'bristle'
+            'CHRIMSON_mechanosensory_larval',
+            'CHRIMSON_touch_receptor_larval', 
+            'CHRIMSON_stretch_receptor_larval',
+            'CHRIMSON_campaniform_larval',
+            'CHRIMSON_proprioceptor_larval',
+            'CHRIMSON_nociceptor_larval'
+        ]
+        
+        # General mechanosensory types (non-CHRIMSON)
+        self.general_mechanosensory_types = [
+            'mechanosensory_neuron_larval',
+            'touch_receptor_larval',
+            'stretch_receptor_larval',
+            'campaniform_sensilla_larval',
+            'proprioceptor_larval',
+            'chordotonal_organ_larval',
+            'bristle_mechanosensory_larval',
+            'photoreceptor_to_DN_circuit'
         ]
         
         # Larval neuron annotation patterns
