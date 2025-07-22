@@ -1,4 +1,2 @@
-neurocircuit.science.	1	IN	A	151.101.1.195
-neurocircuit.science.	1	IN	A	151.101.65.195
-neurocircuit.science.	1	IN	AAAA	2a04:4e42::645
-neurocircuit.science.	1	IN	AAAA	2a04:4e42:600::645 
+neurocircuit.science.	1	IN	A	199.36.158.100
+www.neurocircuit.science.	1	IN	A	199.36.158.100 

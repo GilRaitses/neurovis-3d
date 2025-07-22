@@ -559,11 +559,11 @@ def main():
         print(f"🔧 Action needed: {results.get('action_needed')}")
     
     # Save detailed results
-    with open('chrimson-analysis-results.json', 'w') as f:
+    with open('data/chrimson-analysis-results.json', 'w') as f:
         json.dump(results, f, indent=2)
     
     print()
-    print("💾 Detailed results saved to: chrimson-analysis-results.json")
+    print("💾 Detailed results saved to: data/chrimson-analysis-results.json")
 
 if __name__ == '__main__':
     main() 
