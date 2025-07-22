@@ -2,7 +2,7 @@ import { defineConfig } from 'cypress'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:4200',
+    baseUrl: 'https://neurovis-3d.web.app',
     viewportWidth: 1280,
     viewportHeight: 720,
     video: true,
@@ -15,7 +15,7 @@ export default defineConfig({
       // implement node event listeners here
     },
     env: {
-      backendUrl: 'http://localhost:5000'
+      backendUrl: 'https://neuroglancer-backend-359448340087.us-central1.run.app'
     },
     defaultCommandTimeout: 10000,
     requestTimeout: 10000,
