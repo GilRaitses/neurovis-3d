@@ -46,11 +46,11 @@ export class PythonNeuroglancerService {
     // Check if we're running on Firebase (production)
     if (window.location.hostname.includes('neurovis-3d.web.app') || 
         window.location.hostname.includes('neurovis-3d.firebaseapp.com')) {
-      // Production: Use Cloud Run URL (will be set after deployment)
-      return 'https://chrimson-backend-YOUR_HASH-uc.a.run.app/api';
+      // Production: Use deployed Cloud Run URL
+      return 'https://neuroglancer-backend-359448340087.us-central1.run.app/api';
     } else {
-      // Development: Use localhost
-      return 'http://localhost:5000/api';
+      // Development: Use deployed backend for testing
+      return 'https://neuroglancer-backend-359448340087.us-central1.run.app/api';
     }
   }
 
