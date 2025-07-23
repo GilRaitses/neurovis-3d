@@ -50,10 +50,10 @@ export class PythonNeuroglancerService {
     // Check if we're running on Firebase (production)
     if (window.location.hostname.includes('neurovis-3d.web.app') || 
         window.location.hostname.includes('neurovis-3d.firebaseapp.com')) {
-      // Production: Use new cloud-based FlyWire backend (SSL issues resolved!)
-      return 'https://neuroglancer-backend-359448340087.us-central1.run.app/api';
+      // Production: Use the unified stats service that now includes neuroglancer endpoints
+      return 'https://neurovis-stats-359448340087.us-central1.run.app/api';
     } else {
-      // Development: Use local cloud backend for testing
+      // Development: Use local unified backend
       return 'http://localhost:5000/api';
     }
   }
