@@ -22,199 +22,178 @@ declare var Chart: any;
   template: `
     <!-- Main Content -->
     <div class="mechanosensation-container">
-      <!-- Compact Header -->
+      <!-- Minimal Header -->
       <div class="header">
-        <h1>[DNA] Mechanosensation <span class="dynamics">Dynamics</span></h1>
-        <p>Real-time simulation of Drosophila larval behavioral response profiles</p>
+        <h1>Mechanosensation Dynamics</h1>
       </div>
 
-      <!-- Functional Response Envelope - Primary Focus -->
-      <div class="envelope-container">
-        <div class="envelope-header">
-          <h2>Functional Response Envelope</h2>
-          <p>Dynamic visualization with individual track variability</p>
+      <!-- Chart Display - Compact Size -->
+      <div class="chart-container">
+        <div class="chart-legend">
+          <div class="legend-item led-stimulus">■ LED Stimulus</div>
+          <div class="legend-item upper-envelope">■ Upper Envelope</div>
+          <div class="legend-item mean-response">■ Mean Response</div>
+          <div class="legend-item lower-envelope">■ Lower Envelope</div>
         </div>
+        <canvas #envelopeChart id="envelopeChart"></canvas>
+      </div>
 
-        <!-- Chart Display - Primary Element -->
-        <div class="chart-container">
-          <div class="chart-legend">
-            <div class="legend-item led-stimulus">■ LED Stimulus</div>
-            <div class="legend-item upper-envelope">■ Upper Envelope</div>
-            <div class="legend-item mean-response">■ Mean Response</div>
-            <div class="legend-item lower-envelope">■ Lower Envelope</div>
-          </div>
-          <canvas #envelopeChart id="envelopeChart"></canvas>
+      <!-- Compact Controls -->
+      <div class="controls">
+        <button 
+          class="play-button" 
+          [class.playing]="isPlaying"
+          (click)="togglePlayback()">
+          {{isPlaying ? 'PAUSE' : 'PLAY'}}
+        </button>
+        
+        <div class="control-group">
+          <label>Speed:</label>
+          <select [(ngModel)]="playbackSpeed" (change)="updateSpeed()">
+            <option value="2000">Slow</option>
+            <option value="1000">Normal</option>
+            <option value="500">Fast</option>
+          </select>
         </div>
-
-        <!-- Compact Controls -->
-        <div class="controls">
-          <button 
-            class="play-button" 
-            [class.playing]="isPlaying"
-            (click)="togglePlayback()">
-            {{isPlaying ? '[PAUSE]' : '[PLAY]'}}
-          </button>
-          
-          <div class="control-group">
-            <label>Speed:</label>
-            <select [(ngModel)]="playbackSpeed" (change)="updateSpeed()">
-              <option value="2000">Slow (2s)</option>
-              <option value="1000">Normal (1s)</option>
-              <option value="500">Fast (0.5s)</option>
-              <option value="250">Very Fast (0.25s)</option>
-            </select>
-          </div>
-          
-          <div class="control-group">
-            <label>View:</label>
-            <select [(ngModel)]="viewMode" (change)="updateView()">
-              <option value="envelope">Envelope Only</option>
-              <option value="individual">Individual Tracks</option>
-              <option value="both">Both</option>
-            </select>
-          </div>
-          
-          <div class="control-group">
-            <label>Resolution:</label>
-            <select [(ngModel)]="binResolution" (change)="updateBinResolution()">
-              <option value="20">20 Bins</option>
-              <option value="40">40 Bins</option>
-            </select>
-          </div>
+        
+        <div class="control-group">
+          <label>View:</label>
+          <select [(ngModel)]="viewMode" (change)="updateView()">
+            <option value="envelope">Envelope</option>
+            <option value="individual">Individual</option>
+            <option value="both">Both</option>
+          </select>
         </div>
+        
+        <div class="control-group">
+          <label>Resolution:</label>
+          <select [(ngModel)]="binResolution" (change)="updateBinResolution()">
+            <option value="20">20 Bins</option>
+            <option value="40">40 Bins</option>
+          </select>
+        </div>
+      </div>
 
-        <!-- Compact Statistics -->
-        <div class="stats-grid">
-          <div class="stat-card">
-            <h3>Total Tracks</h3>
-            <div class="value">53</div>
-            <div class="unit">larvae</div>
-          </div>
-          <div class="stat-card">
-            <h3>Cycle Duration</h3>
-            <div class="value">20</div>
-            <div class="unit">seconds</div>
-          </div>
-          <div class="stat-card">
-            <h3>Peak Response</h3>
-            <div class="value">{{peakResponse.toFixed(1)}}</div>
-            <div class="unit">turns/min</div>
-          </div>
-          <div class="stat-card">
-            <h3>Stimulus Efficacy</h3>
-            <div class="value">{{stimulusEfficacy.toFixed(1)}}x</div>
-            <div class="unit">baseline</div>
-          </div>
-          <div class="stat-card">
-            <h3>Response Latency</h3>
-            <div class="value">{{responseLatency.toFixed(1)}}</div>
-            <div class="unit">seconds</div>
-          </div>
-          <div class="stat-card">
-            <h3>Mean Frequency</h3>
-            <div class="value">0.043</div>
-            <div class="unit">Hz</div>
-          </div>
+      <!-- Compact Statistics -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="value">53</div>
+          <div class="unit">tracks</div>
+        </div>
+        <div class="stat-card">
+          <div class="value">{{peakResponse.toFixed(1)}}</div>
+          <div class="unit">peak</div>
+        </div>
+        <div class="stat-card">
+          <div class="value">{{stimulusEfficacy.toFixed(1)}}x</div>
+          <div class="unit">efficacy</div>
+        </div>
+        <div class="stat-card">
+          <div class="value">{{responseLatency.toFixed(1)}}s</div>
+          <div class="unit">latency</div>
+        </div>
+        <div class="stat-card">
+          <div class="value">0.043</div>
+          <div class="unit">freq Hz</div>
+        </div>
+        <div class="stat-card">
+          <div class="value">20s</div>
+          <div class="unit">cycle</div>
         </div>
       </div>
     </div>
   `,
   styles: [`
-    /* Main Container - Optimized for chart display */
+    /* Compact Container */
     .mechanosensation-container {
       background: #000;
       color: #fff;
-      min-height: 100vh;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      position: relative;
-      overflow-x: hidden;
-      padding: 0;
+      padding: 10px;
       margin: 0;
     }
 
-    /* Compact Header */
+    /* Minimal Header */
     .header {
       text-align: center;
-      margin: 10px 0; /* Minimal spacing */
-      padding: 15px; /* Reduced padding */
+      margin: 5px 0;
+      padding: 8px;
       background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(10px);
-      border-radius: 15px; /* Smaller radius */
+      border-radius: 8px;
       border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Smaller shadow */
     }
 
     .header h1 {
-      font-size: 2.5em; /* Smaller title */
+      font-size: 1.5em;
       font-weight: 300;
-      margin-bottom: 5px; /* Minimal spacing */
-      background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+      margin: 0;
+      background: linear-gradient(
+        45deg, 
+        #ff1493 0%, 
+        #32cd32 30%, 
+        #ff1493 60%, 
+        #32cd32 100%
+      );
+      background-size: 200% 100%;
+      animation: subtleGlow 6s ease-in-out infinite;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
 
-    .header h1 .dynamics {
-      color: #4ecdc4;
+    @keyframes subtleGlow {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
     }
 
-    .header p {
-      font-size: 1.1em; /* Smaller subtitle */
-      opacity: 0.9;
-      margin: 0;
-      line-height: 1.4;
-    }
-
-    /* Envelope Container - Focus on chart */
-    .envelope-container {
-      background: rgba(0, 0, 0, 0.8);
-      backdrop-filter: blur(15px);
-      border-radius: 20px;
-      padding: 20px; /* Reduced padding */
-      margin: 10px; /* Minimal margin */
-      border: 2px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-    }
-
-    .envelope-header {
-      text-align: center;
-      margin-bottom: 15px; /* Minimal spacing */
-    }
-
-    .envelope-header h2 {
-      font-size: 2em; /* Smaller section title */
-      margin-bottom: 8px; /* Minimal spacing */
-      color: #4ecdc4;
-    }
-
-    .envelope-header p {
-      font-size: 1em; /* Smaller description */
-      opacity: 0.8;
-      margin: 0;
-    }
-
-    /* Chart Container - Primary Element */
+    /* Compact Chart Container */
     .chart-container {
-      position: relative;
-      height: 500px; /* Larger chart area */
-      margin: 20px 0;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
-      padding: 15px;
+      height: 300px;
+      margin: 10px 0;
+      background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 20, 147, 0.03) 40%,
+        rgba(50, 205, 50, 0.02) 70%,
+        rgba(255, 255, 255, 0.05) 100%
+      );
+      border-radius: 8px;
+      padding: 10px;
       border: 1px solid rgba(255, 255, 255, 0.1);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+
+    .chart-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(
+        circle at 25% 25%,
+        rgba(255, 20, 147, 0.04) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        rgba(50, 205, 50, 0.03) 0%,
+        transparent 50%
+      );
+      border-radius: 8px;
+      pointer-events: none;
     }
 
     .chart-legend {
       display: flex;
       justify-content: center;
-      gap: 20px;
-      margin-bottom: 10px; /* Minimal spacing */
+      gap: 15px;
+      margin-bottom: 8px;
       flex-wrap: wrap;
     }
 
     .legend-item {
-      font-size: 13px; /* Slightly smaller */
+      font-size: 11px;
       color: #fff;
     }
 
@@ -228,143 +207,133 @@ declare var Chart: any;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 15px; /* Reduced gap */
-      margin: 15px 0; /* Minimal margin */
+      gap: 10px;
+      margin: 8px 0;
       flex-wrap: wrap;
     }
 
     .play-button {
-      background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+      background: linear-gradient(
+        45deg, 
+        rgba(255, 20, 147, 0.8) 0%, 
+        rgba(50, 205, 50, 0.6) 100%
+      );
       color: white;
       border: none;
-      padding: 12px 25px; /* Smaller button */
-      border-radius: 20px;
-      font-size: 16px; /* Smaller font */
+      padding: 8px 16px;
+      border-radius: 15px;
+      font-size: 12px;
       font-weight: bold;
       cursor: pointer;
-      box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
       transition: all 0.3s ease;
+      box-shadow: 0 2px 6px rgba(255, 20, 147, 0.3);
     }
 
     .play-button:hover {
       transform: scale(1.05);
-      box-shadow: 0 8px 25px rgba(255, 107, 107, 0.6);
+      box-shadow: 0 3px 10px rgba(255, 20, 147, 0.5);
     }
 
     .play-button.playing {
-      background: linear-gradient(45deg, #4ecdc4, #45b7d1);
-      box-shadow: 0 6px 20px rgba(78, 205, 196, 0.4);
+      background: linear-gradient(
+        45deg, 
+        rgba(50, 205, 50, 0.8) 0%, 
+        rgba(255, 20, 147, 0.6) 100%
+      );
+      box-shadow: 0 2px 6px rgba(50, 205, 50, 0.3);
     }
 
     .control-group {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 5px;
+      gap: 3px;
       background: rgba(255, 255, 255, 0.1);
-      padding: 12px 15px; /* Smaller padding */
-      border-radius: 12px;
+      padding: 8px 12px;
+      border-radius: 8px;
       border: 1px solid rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(10px);
-      min-width: 100px; /* Smaller width */
+      min-width: 80px;
     }
 
     .control-group label {
-      font-weight: 500;
+      font-size: 10px;
       color: #4ecdc4;
-      font-size: 13px; /* Smaller labels */
+      font-weight: 500;
     }
 
     .control-group select {
       background: rgba(0, 0, 0, 0.7);
       color: white;
       border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 6px;
-      padding: 6px 10px; /* Smaller padding */
-      font-size: 12px; /* Smaller font */
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 10px;
     }
 
-    /* Compact Statistics Grid */
+    /* Compact Statistics */
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller cards */
-      gap: 15px; /* Reduced gap */
-      margin-top: 20px; /* Minimal spacing */
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 8px;
+      margin-top: 10px;
     }
 
     .stat-card {
       background: rgba(255, 255, 255, 0.1);
-      border-radius: 12px;
-      padding: 15px; /* Smaller padding */
+      border-radius: 6px;
+      padding: 8px;
       text-align: center;
       border: 1px solid rgba(255, 255, 255, 0.2);
       transition: transform 0.3s ease;
-      backdrop-filter: blur(10px);
     }
 
     .stat-card:hover {
-      transform: translateY(-3px); /* Smaller hover effect */
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    }
-
-    .stat-card h3 {
-      font-size: 1.2em; /* Smaller title */
-      margin-bottom: 8px;
-      color: #45b7d1;
+      transform: translateY(-2px);
     }
 
     .stat-card .value {
-      font-size: 2em; /* Smaller value */
+      font-size: 1.2em;
       font-weight: bold;
       color: #4ecdc4;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
     }
 
     .stat-card .unit {
-      font-size: 0.9em; /* Smaller unit */
+      font-size: 0.7em;
       opacity: 0.8;
       color: #fff;
     }
 
-    /* Responsive Design - Chart Priority */
+    /* Responsive Design */
     @media (max-width: 768px) {
-      .header h1 {
-        font-size: 2em;
+      .mechanosensation-container {
+        padding: 5px;
       }
 
-      .envelope-container {
-        padding: 15px;
-        margin: 5px;
+      .header h1 {
+        font-size: 1.3em;
       }
 
       .chart-container {
-        height: 400px; /* Maintain substantial chart size on mobile */
+        height: 250px;
+        padding: 8px;
       }
 
       .controls {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
       }
 
       .stats-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
       }
     }
 
     @media (max-width: 480px) {
-      .header {
-        padding: 10px;
-        margin: 5px 0;
-      }
-
-      .header h1 {
-        font-size: 1.8em;
-      }
-
       .chart-container {
-        height: 350px; /* Still prioritize chart on small screens */
-        padding: 10px;
+        height: 200px;
+        padding: 6px;
       }
 
       .stats-grid {

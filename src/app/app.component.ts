@@ -223,8 +223,34 @@ import { SlideViewerComponent } from './components/slide-viewer.component';
 
     .navigation-sidenav {
       width: 250px;
-      background: #2c3e50;
+      background: linear-gradient(135deg, 
+        #2c3e50 0%, 
+        rgba(255, 20, 147, 0.15) 25%, 
+        rgba(50, 205, 50, 0.1) 50%, 
+        rgba(255, 20, 147, 0.08) 75%, 
+        #2c3e50 100%);
       border-right: none;
+      position: relative;
+    }
+
+    .navigation-sidenav::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(
+        ellipse at 30% 20%, 
+        rgba(255, 20, 147, 0.1) 0%, 
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse at 70% 80%, 
+        rgba(50, 205, 50, 0.08) 0%, 
+        transparent 50%
+      );
+      pointer-events: none;
     }
 
     .navigation-sidenav .mat-mdc-list-item {
@@ -232,15 +258,29 @@ import { SlideViewerComponent } from './components/slide-viewer.component';
       border-radius: 8px;
       margin: 5px 10px;
       transition: all 0.3s ease;
+      position: relative;
+      z-index: 1;
     }
 
     .navigation-sidenav .mat-mdc-list-item:hover {
-      background: rgba(52, 152, 219, 0.2);
+      background: linear-gradient(
+        45deg, 
+        rgba(255, 20, 147, 0.2) 0%, 
+        rgba(50, 205, 50, 0.15) 100%
+      );
+      transform: translateX(3px);
+      box-shadow: 0 3px 8px rgba(255, 20, 147, 0.3);
     }
 
     .navigation-sidenav .mat-mdc-list-item.active {
-      background: linear-gradient(45deg, #3498db, #2980b9);
+      background: linear-gradient(
+        90deg, 
+        rgba(255, 20, 147, 0.4) 0%, 
+        rgba(50, 205, 50, 0.3) 50%, 
+        rgba(255, 20, 147, 0.4) 100%
+      );
       color: white;
+      box-shadow: 0 4px 12px rgba(255, 20, 147, 0.4);
     }
 
     .main-content {
@@ -261,25 +301,67 @@ import { SlideViewerComponent } from './components/slide-viewer.component';
 
     .panel-header {
       text-align: center;
-      margin-bottom: 20px; /* Reduce wasteful spacing */
-      background: rgba(255, 255, 255, 0.05);
-      padding: 15px; /* Reduce padding */
+      margin-bottom: 20px;
+      background: linear-gradient(
+        45deg, 
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 20, 147, 0.08) 30%,
+        rgba(50, 205, 50, 0.06) 70%,
+        rgba(255, 255, 255, 0.05) 100%
+      );
+      padding: 15px;
       border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.1);
+      position: relative;
+    }
+
+    .panel-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: conic-gradient(
+        from 0deg at 50% 50%,
+        rgba(255, 20, 147, 0.05) 0deg,
+        rgba(50, 205, 50, 0.03) 90deg,
+        rgba(255, 20, 147, 0.05) 180deg,
+        rgba(50, 205, 50, 0.03) 270deg,
+        rgba(255, 20, 147, 0.05) 360deg
+      );
+      border-radius: 10px;
+      pointer-events: none;
     }
 
     .panel-header h1 {
-      font-size: 2em; /* Reduce oversized title */
+      font-size: 2em;
       font-weight: 300;
-      margin-bottom: 8px; /* Reduce spacing */
-      background: linear-gradient(45deg, #3498db, #2980b9);
+      margin-bottom: 8px;
+      background: linear-gradient(
+        135deg, 
+        #ff1493 0%, 
+        #32cd32 25%, 
+        #ff1493 50%, 
+        #32cd32 75%, 
+        #ff1493 100%
+      );
+      background-size: 200% 200%;
+      animation: gradientShift 8s ease-in-out infinite;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px; /* Reduce gap */
+      gap: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
     }
 
     .panel-subtitle {
