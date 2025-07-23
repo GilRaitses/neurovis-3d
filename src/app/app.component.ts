@@ -247,29 +247,31 @@ import { SlideViewerComponent } from './components/slide-viewer.component';
       background: #1a1a1a;
       overflow-y: auto;
       height: 100%;
+      margin-left: 250px; /* Reserve space for sidebar */
+      width: calc(100% - 250px); /* Prevent content bleeding under sidebar */
     }
 
     .content-panel {
       padding: 20px;
-      max-width: 100%;
-      margin: 0 auto;
+      max-width: 1400px; /* Cap content width */
+      margin: 0 auto; /* Center the content */
       height: calc(100vh - 120px);
       overflow-y: auto;
     }
 
     .panel-header {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 20px; /* Reduce wasteful spacing */
       background: rgba(255, 255, 255, 0.05);
-      padding: 20px;
+      padding: 15px; /* Reduce padding */
       border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .panel-header h1 {
-      font-size: 2.5em;
+      font-size: 2em; /* Reduce oversized title */
       font-weight: 300;
-      margin-bottom: 10px;
+      margin-bottom: 8px; /* Reduce spacing */
       background: linear-gradient(45deg, #3498db, #2980b9);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -277,11 +279,11 @@ import { SlideViewerComponent } from './components/slide-viewer.component';
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 15px;
+      gap: 10px; /* Reduce gap */
     }
 
     .panel-subtitle {
-      font-size: 1.2em;
+      font-size: 1em; /* Reduce subtitle size */
       opacity: 0.8;
       margin: 0;
     }
