@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>NeuroVis3D - Neural Circuit Visualization</title>
+  <title>NeuroCircuit.Science</title>
   <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#2c3e50">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <meta name="description" content="3D visualization platform for mapping mechanosensory envelope models to neural circuits using FlyWire connectome data">
   <meta name="keywords" content="neuroscience, connectome, 3d-visualization, angular, threejs, mechanosensory, drosophila, flywire">
@@ -55,12 +59,42 @@
       font-size: 1.2rem;
       opacity: 0.9;
     }
+    
+    /* Prevent zoom on input focus */
+    @media (max-width: 768px) {
+      input, select, textarea {
+        font-size: 16px !important;
+      }
+    }
+    
+    /* Prevent horizontal scrolling */
+    body {
+      overflow-x: hidden;
+    }
+    
+    /* Optimize touch interactions */
+    * {
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Allow text selection for data */
+    .stat-item, .legend-item {
+      -webkit-user-select: text;
+      -moz-user-select: text;
+      -ms-user-select: text;
+      user-select: text;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
-<body>
+<body class="mat-typography">
   <app-root>
     <!-- Loading indicator while Angular starts -->
     <div class="loading-container">

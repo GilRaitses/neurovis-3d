@@ -1,18 +1,18 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
-import { provideRouter } from '@angular/router';
-import { provideServiceWorker } from '@angular/service-worker';
+import { importProvidersFrom } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app/app.component';
-import { routes } from './app/app.routes';
-import { isDevMode } from '@angular/core';
+import { AppRoutingModule } from './app/app-routing.module';
 
 bootstrapApplication(AppComponent, {
   providers: [
-    provideHttpClient(withInterceptorsFromDi()),
-    provideRouter(routes),
-    provideServiceWorker('ngsw-worker.js', {
-      enabled: true,
-      registrationStrategy: 'registerWhenStable:30000'
-    })
+    importProvidersFrom(
+      BrowserAnimationsModule,
+      HttpClientModule,
+      AppRoutingModule,
+      RouterModule
+    )
   ]
 }).catch(err => console.error(err)); 

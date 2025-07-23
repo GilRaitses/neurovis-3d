@@ -18,49 +18,26 @@ import { TrackDataService, TrackDataStructure } from '../services/track-data.ser
 interface TrajectoryMetadata {
   track_key: string;
   trajectory_id: number;
-  experiment_id?: number;
-  track_local_id?: number;
-  pulse_id?: number;
-  
-  // Frame information
+  experiment_id: string;  // Changed from number to string
   start_frame: number;
   end_frame: number;
   total_frames: number;
   frame_rate: number;
-  
-  // Temporal information
   start_time: number;
   end_time: number;
   duration: number;
-  
-  // Behavioral metrics
+  data_quality: 'excellent' | 'good' | 'fair' | 'poor';
+  has_gaps: boolean;
   reorientation_count: number;
   frequency: number;
   regularity: number;
+  completeness: number;
   
-  // Track quality metrics
-  completeness: number; // 0-1, how complete the track is
-  data_quality: 'excellent' | 'good' | 'fair' | 'poor';
-  has_gaps: boolean;
+  // Additional properties needed by the code
+  potential_continuation?: string[];
+  potential_predecessor?: string[];
   gap_count?: number;
-  
-  // Linking potential
-  potential_continuation?: string[]; // track_keys that might continue this track
-  potential_predecessor?: string[]; // track_keys that might precede this track
-  linking_confidence?: number; // 0-1 confidence in linking
-  starts_mid_experiment?: boolean; // Indicates if the track starts mid-experiment
-
-  // Enhanced metadata
-  total_distance?: number;
-  displacement?: number;
-  velocity_stats?: {
-    mean: number;
-    std: number;
-    max: number;
-    percentiles: number[];
-  };
-  detection_confidence?: number;
-  ends_prematurely?: boolean;
+  starts_mid_experiment?: boolean;
 }
 
 interface ExperimentGroup {
@@ -747,7 +724,9 @@ export class TrackIdManagerComponent implements OnInit {
 
   experiments: ExperimentGroup[] = [];
   selectedExperiment?: ExperimentGroup;
-  trajectoryMetadata: Map<string, TrajectoryMetadata> = new Map();
+  trajectoryMetadata = new Map<string, TrajectoryMetadata>();
+  trackMetadata = new Map<number, TrajectoryMetadata>(); // Add this property
+  structuredTrackData: TrackDataStructure | null = null;
   
   playbackState: TrajectoryPlaybackState = {
     isPlaying: false,
@@ -774,7 +753,6 @@ export class TrackIdManagerComponent implements OnInit {
   private animationId?: number;
 
   // Enhanced data management
-  public structuredTrackData: TrackDataStructure | null = null;
   public pendingLinkingChanges: any[] = [];
 
   constructor(
@@ -784,60 +762,60 @@ export class TrackIdManagerComponent implements OnInit {
 
   async ngOnInit() {
     // Initialize with enhanced data loading
-    await this.initializeEnhancedTrajectoryData();
+    await this.loadStructuredTrackData();
     this.initializeThreeJS();
     this.analyzeTrackLinking();
   }
 
-  /**
-   * Enhanced data initialization using TrackDataService
-   */
-  private async initializeEnhancedTrajectoryData() {
+  async loadStructuredTrackData() {
     try {
-      console.log('🔄 Loading MAT files and creating structured data...');
+      console.log('🔬 Loading real structured track data from services');
       
-      // Load and process MAT files through the service
-      this.structuredTrackData = await this.trackDataService.loadMatFiles();
+      // Use the correct method name and handle the real data loading
+      this.structuredTrackData = await this.trackDataService.loadTrackStructure();
       
-      // Convert structured data to component format
-      this.convertStructuredDataToComponentFormat(this.structuredTrackData);
+      if (this.structuredTrackData) {
+        this.processTrackData();
+        
+        // Generate H5 exploration if data is available
+        const explorationHtml = this.trackDataService.generateH5ExplorationHtml(this.structuredTrackData);
+        console.log('📊 H5 Exploration HTML generated');
+        
+        // Subscribe to track data updates
+        this.trackDataService.trackData$.subscribe(data => {
+          if (data) {
+            this.structuredTrackData = data;
+            this.processTrackData();
+          }
+        });
+      }
       
-      // Generate H5 exploration HTML
-      const explorationHtml = this.trackDataService.generateH5ExplorationHtml(this.structuredTrackData);
-      console.log('📊 H5 Exploration HTML generated');
-      
-      // Subscribe to track data updates
-      this.trackDataService.trackData$.subscribe(data => {
-        if (data) {
-          this.structuredTrackData = data;
-          this.convertStructuredDataToComponentFormat(data);
-        }
-      });
-      
-      console.log('✅ Enhanced trajectory data loaded successfully');
+      console.log('✅ Structured track data loaded successfully');
       
     } catch (error) {
-      console.error('❌ Error loading enhanced trajectory data:', error);
-      // Fallback to original data loading method
+      console.error('❌ Error loading structured track data:', error);
+      
+      // Load from existing temporal features as fallback
       await this.initializeTrajectoryData();
     }
   }
 
-  /**
-   * Convert structured data format to component-compatible format
-   */
-  private convertStructuredDataToComponentFormat(data: TrackDataStructure) {
-    // Clear existing data
-    this.trajectoryMetadata.clear();
-    this.experiments = [];
+  // Remove synthetic trajectory generation methods - only use real data
 
-    // Convert tracks to component format
-    Object.entries(data.tracks).forEach(([trackId, trackData]) => {
+  private async processTrackData() {
+    // Only process real track data when available
+    if (!this.structuredTrackData) {
+      throw new Error('Real structured track data required for processing');
+    }
+    
+    console.log('📊 Processing real track data');
+    
+    // Process real track metadata and coordinates
+    Object.entries(this.structuredTrackData!.tracks).forEach(([trackId, trackData]) => {
       const metadata: TrajectoryMetadata = {
-        track_key: trackData.metadata.track_key,
-        trajectory_id: trackData.metadata.trajectory_id,
-        experiment_id: 1, // For now, all in experiment 1
-        
+        track_key: trackId,
+        trajectory_id: parseInt(trackId),
+        experiment_id: this.structuredTrackData!.experiment_id,
         start_frame: trackData.metadata.start_frame,
         end_frame: trackData.metadata.end_frame,
         total_frames: trackData.metadata.total_frames,
@@ -845,41 +823,22 @@ export class TrackIdManagerComponent implements OnInit {
         start_time: trackData.metadata.start_time,
         end_time: trackData.metadata.end_time,
         duration: trackData.metadata.duration,
-        
+        data_quality: trackData.metadata.data_quality,
+        has_gaps: trackData.metadata.has_gaps,
         reorientation_count: trackData.metadata.reorientation_count,
         frequency: trackData.metadata.frequency,
         regularity: trackData.metadata.regularity,
-        
         completeness: trackData.metadata.completeness,
-        data_quality: trackData.metadata.data_quality,
-        has_gaps: trackData.metadata.has_gaps,
-        starts_mid_experiment: trackData.metadata.starts_mid_experiment,
-        
-        // Enhanced metadata
-        total_distance: trackData.metadata.total_distance,
-        displacement: trackData.metadata.displacement,
-        velocity_stats: trackData.metadata.velocity_stats,
-        detection_confidence: trackData.metadata.detection_confidence,
-        ends_prematurely: trackData.metadata.ends_prematurely
+        potential_continuation: [], // Initialize
+        potential_predecessor: [], // Initialize
+        gap_count: 0, // Initialize
+        starts_mid_experiment: false // Initialize
       };
-
+      
       this.trajectoryMetadata.set(trackId, metadata);
     });
-
-    // Create experiment group
-    const experiment: ExperimentGroup = {
-      experiment_id: 1,
-      name: `${data.experiment_id} - Enhanced Data`,
-      tracks: Array.from(this.trajectoryMetadata.values()),
-      total_tracks: this.trajectoryMetadata.size,
-      total_duration: Array.from(this.trajectoryMetadata.values()).reduce((sum, track) => sum + track.duration, 0),
-      date: data.processing_timestamp.split('T')[0],
-      conditions: `${data.experimental_conditions.stimulus_type} - ${data.experimental_conditions.optogenetic_protocol}`,
-      notes: `Processing v${data.data_provenance.processing_pipeline_version} - ${data.data_provenance.quality_metrics.high_quality_tracks} high quality tracks`
-    };
-
-    this.experiments = [experiment];
-    this.calculateFrameRanges();
+    
+    console.log(`✅ Processed ${this.trajectoryMetadata.size} real track metadata entries`);
   }
 
   /**
@@ -1052,7 +1011,7 @@ export class TrackIdManagerComponent implements OnInit {
       const metadata: TrajectoryMetadata = {
         track_key: temporal.track_key,
         trajectory_id: temporal.trajectory_id,
-        experiment_id: 1, // Default experiment (will be enhanced later)
+        experiment_id: '1', // Default experiment (will be enhanced later)
         
         // Frame information (calculated from duration and assumed frame rate)
         start_frame: 0, // Will be calculated

@@ -1,103 +1,67 @@
 version: '3.8'
 
 services:
-  # Development service
-  neurovis3d-dev:
+  # Main FlyWire Backend Service
+  flywire-backend:
     build:
-      context: .
-      target: builder
-    container_name: neurovis3d-dev
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: flywire-backend
     ports:
-      - "4200:4200"
-    volumes:
-      - .:/app
-      - /app/node_modules
+      - "5000:5000"
     environment:
-      - NODE_ENV=development
-      - NG_CLI_ANALYTICS=false
-    command: npm start
+      - NODE_ENV=production
+      - FLYWIRE_CAVE_TOKEN=${FLYWIRE_CAVE_TOKEN}
+      - NEUROGLANCER_PORT=9997
+      - DATASET=flywire_fafb_production
+    restart: unless-stopped
     networks:
-      - neurovis3d-network
-    profiles:
-      - dev
+      - neurovis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
-  # Production service
-  neurovis3d-prod:
+  # Analytics Stats Service
+  stats-service:
     build:
-      context: .
-      target: production
-    container_name: neurovis3d-prod
+      context: ./backend/stats-service
+      dockerfile: Dockerfile
+    container_name: stats-service
     ports:
-      - "3000:80"
+      - "8080:8080"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
     networks:
-      - neurovis3d-network
-    profiles:
-      - prod
+      - neurovis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
-  # Optional: Database service for storing user sessions and annotations
-  postgres:
-    image: postgres:15-alpine
-    container_name: neurovis3d-db
-    environment:
-      POSTGRES_DB: neurovis3d
-      POSTGRES_USER: neurovis3d_user
-      POSTGRES_PASSWORD: neurovis3d_password
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
-    ports:
-      - "5432:5432"
-    networks:
-      - neurovis3d-network
-    profiles:
-      - prod
-      - dev-with-db
-
-  # Optional: Redis service for caching FlyWire data
-  redis:
-    image: redis:7-alpine
-    container_name: neurovis3d-cache
-    command: redis-server --appendonly yes
-    volumes:
-      - redis_data:/data
-    ports:
-      - "6379:6379"
-    networks:
-      - neurovis3d-network
-    profiles:
-      - prod
-      - dev-with-cache
-
-  # Optional: API service for backend processing
-  api:
+  # Frontend (for local full-stack development)
+  frontend:
     build:
-      context: ./api
-      dockerfile: Dockerfile
-    container_name: neurovis3d-api
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: neurovis-frontend
     ports:
-      - "8080:8080"
+      - "4200:4200"
     environment:
-      - DATABASE_URL=postgresql://neurovis3d_user:neurovis3d_password@postgres:5432/neurovis3d
-      - REDIS_URL=redis://redis:6379
-      - FLYWIRE_API_URL=https://codex.flywire.ai/api/v1
+      - NODE_ENV=development
+      - API_BASE_URL=http://flywire-backend:5000
+      - STATS_API_URL=http://stats-service:8080
     depends_on:
-      - postgres
-      - redis
+      - flywire-backend
+      - stats-service
     networks:
-      - neurovis3d-network
+      - neurovis-network
     profiles:
-      - prod
-      - dev-with-api
+      - dev
 
 networks:
-  neurovis3d-network:
-    driver: bridge
-
-volumes:
-  postgres_data:
-    driver: local
-  redis_data:
-    driver: local 
+  neurovis-network:
+    driver: bridge 
