@@ -63,10 +63,30 @@ export class AnalyticsDataService {
     console.log('[AnalyticsDataService] Will attempt to load files:', dataFiles);
     
     return forkJoin({
-      pipelineSummary: this.http.get<any>('assets/data/final_pipeline_summary.json'),
-      populationStats: this.http.get<any>('assets/data/population_statistics.json'),
-      temporalFeatures: this.http.get<any[]>('assets/data/temporal_features.json'),
-      femInventory: this.http.get<any>('assets/data/fem_data_inventory.json')
+      pipelineSummary: this.http.get<any>('assets/data/final_pipeline_summary.json').pipe(
+        catchError(error => {
+          console.error('[AnalyticsDataService] Failed to load pipeline summary:', error);
+          return of(null);
+        })
+      ),
+      populationStats: this.http.get<any>('assets/data/population_statistics.json').pipe(
+        catchError(error => {
+          console.error('[AnalyticsDataService] Failed to load population stats:', error);
+          return of(null);
+        })
+      ),
+      temporalFeatures: this.http.get<any[]>('assets/data/temporal_features.json').pipe(
+        catchError(error => {
+          console.error('[AnalyticsDataService] Failed to load temporal features:', error);
+          return of([]);
+        })
+      ),
+      femInventory: this.http.get<any>('assets/data/fem_data_inventory.json').pipe(
+        catchError(error => {
+          console.error('[AnalyticsDataService] Failed to load FEM inventory:', error);
+          return of(null);
+        })
+      )
     }).pipe(
       map(({ pipelineSummary, populationStats, temporalFeatures, femInventory }) => {
         console.log('[AnalyticsDataService] Processing loaded data');
@@ -83,12 +103,13 @@ export class AnalyticsDataService {
           console.log('[AnalyticsDataService] Population stats keys:', Object.keys(populationStats));
         }
         
+        // Use ONLY real data - no fallbacks for research tool
         const analyticsData: AnalyticsData = {
           experiment: {
-            id: pipelineSummary?.pipeline_execution?.timestamp || '2025-07-11_12-08-49',
-            date: '2025-07-11',
-            pipeline_version: pipelineSummary?.pipeline_execution?.version || 'windows_compatible',
-            status: pipelineSummary?.pipeline_execution?.status || 'COMPLETE'
+            id: pipelineSummary?.pipeline_execution?.timestamp || 'Unknown',
+            date: pipelineSummary?.pipeline_execution?.date || 'Unknown',
+            pipeline_version: pipelineSummary?.pipeline_execution?.version || 'Unknown',
+            status: pipelineSummary?.pipeline_execution?.status || 'Unknown'
           },
           tracks: {
             total: pipelineSummary?.data_summary?.total_trajectories || 0,
@@ -117,6 +138,10 @@ export class AnalyticsDataService {
         console.log('[AnalyticsDataService] Final analytics data:', analyticsData);
         this.analyticsDataSubject.next(analyticsData);
         return analyticsData;
+      }),
+      catchError(error => {
+        console.error('[AnalyticsDataService] Critical error in data processing:', error);
+        throw error; // Throw error for proper debugging - no fallback data in research tool
       })
     );
   }

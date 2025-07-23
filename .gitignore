@@ -232,4 +232,15 @@ performance/
 # Local configuration overrides
 config/local.json
 config/development.local.json
-config/production.local.json 
+config/production.local.json
+
+# Data directory with analysis files, large downloads, and test results
+data/
+*.zip
+*.tar.gz
+*.7z
+
+# Analysis output files
+*analysis-results.json
+*-report.md
+*test-checklist.md 

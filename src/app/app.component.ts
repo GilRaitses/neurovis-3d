@@ -177,15 +177,15 @@ import { AnalyticsDataService, AnalyticsData } from './services/analytics-data.s
                     <h4><mat-icon>tune</mat-icon> Simulation Controls</h4>
                     <div class="slider-control">
                       <label>Larvae Count:</label>
-                      <mat-slider min="50" max="300" step="1" [(value)]="larvaeCount" (input)="updateLarvaeCount($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="50" max="300" step="1">
+                        <input matSliderThumb [(value)]="larvaeCount" (input)="updateLarvaeCount($event)">
                       </mat-slider>
                       <span class="slider-value">{{larvaeCount}}</span>
                     </div>
                     <div class="slider-control">
                       <label>Stimulus Strength:</label>
-                      <mat-slider min="0.1" max="3.0" step="0.1" [(value)]="stimulusStrength" (input)="updateStimulusStrength($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="0.1" max="3.0" step="0.1">
+                        <input matSliderThumb [(value)]="stimulusStrength" (input)="updateStimulusStrength($event)">
                       </mat-slider>
                       <span class="slider-value">{{stimulusStrength}}x</span>
                     </div>
@@ -195,15 +195,15 @@ import { AnalyticsDataService, AnalyticsData } from './services/analytics-data.s
                     <h4><mat-icon>analytics</mat-icon> Analysis Controls</h4>
                     <div class="slider-control">
                       <label>Smoothing Window:</label>
-                      <mat-slider min="1" max="10" step="1" [(value)]="smoothingWindow" (input)="updateSmoothing($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="1" max="10" step="1">
+                        <input matSliderThumb [(value)]="smoothingWindow" (input)="updateSmoothing($event)">
                       </mat-slider>
                       <span class="slider-value">{{smoothingWindow}} bins</span>
                     </div>
                     <div class="slider-control">
                       <label>Response Threshold:</label>
-                      <mat-slider min="0.1" max="2.0" step="0.1" [(value)]="responseThreshold" (input)="updateThreshold($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="0.1" max="2.0" step="0.1">
+                        <input matSliderThumb [(value)]="responseThreshold" (input)="updateThreshold($event)">
                       </mat-slider>
                       <span class="slider-value">{{responseThreshold}}x</span>
                     </div>
@@ -213,15 +213,15 @@ import { AnalyticsDataService, AnalyticsData } from './services/analytics-data.s
                     <h4><mat-icon>palette</mat-icon> Visual Controls</h4>
                     <div class="slider-control">
                       <label>LED Intensity:</label>
-                      <mat-slider min="0.1" max="2.0" step="0.1" [(value)]="ledIntensity" (input)="updateLEDIntensity($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="0.1" max="2.0" step="0.1">
+                        <input matSliderThumb [(value)]="ledIntensity" (input)="updateLEDIntensity($event)">
                       </mat-slider>
                       <span class="slider-value">{{ledIntensity}}x</span>
                     </div>
                     <div class="slider-control">
                       <label>Chart Scale:</label>
-                      <mat-slider min="0.5" max="2.0" step="0.1" [(value)]="chartScale" (input)="updateChartScale($event)">
-                        <input matSliderThumb>
+                      <mat-slider min="0.5" max="2.0" step="0.1">
+                        <input matSliderThumb [(value)]="chartScale" (input)="updateChartScale($event)">
                       </mat-slider>
                       <span class="slider-value">{{chartScale}}x</span>
                     </div>
