@@ -1,0 +1,1308 @@
+TITLE: Organization of the Drosophila larval
+
+ABSTRACT: Visualsystemstransduce,processandtransmitlight-dependentenvironmentalcues.
+
+FULL TEXT:
+
+--- PAGE 1 ---
+RESEARCHARTICLE
+Organization of the Drosophila larval
+visual circuit
+Ivan Larderet1†, Pauline MJ Fritsch1†, Nanae Gendre1, G Larisa Neagu-Maier1,
+Richard D Fetter2, Casey M Schneider-Mizell2, James W Truman2, Marta Zlatic2,
+Albert Cardona2, Simon G Sprecher1*
+1Department of Biology, University of Fribourg, Fribourg, Switzerland; 2Janelia
+Research Campus, Howard Hughes Medical Institute, Ashburn, United States
+Abstract Visualsystemstransduce,processandtransmitlight-dependentenvironmentalcues.
+Computationofvisualfeaturesdependsonphotoreceptorneurontypes(PR)present,organization
+oftheeyeandwiringoftheunderlyingneuralcircuit.Here,wedescribethecircuitarchitectureof
+thevisualsystemofDrosophilalarvaebymappingthesynapticwiringdiagramand
+neurotransmitters.Bycontactingdifferenttargets,thetwolarvalPR-subtypescreatetwo
+convergingpathwayspotentiallyunderlyingthecomputationofambientlightintensityand
+temporallightchangesalreadywithinthisfirstvisualprocessingcenter.Locallyprocessedvisual
+informationthensignalsviadedicatedprojectioninterneuronstohigherbrainareasincludingthe
+lateralhornandmushroombody.Thestratifiedstructureofthelarvalopticneuropil(LON)
+suggestscommonorganizationalprincipleswiththeadultflyandvertebratevisualsystems.The
+completesynapticwiringdiagramoftheLONpavesthewaytounderstandinghowcircuitswith
+reducednumericalcomplexitycontrolwiderangesofbehaviors.
+DOI:https://doi.org/10.7554/eLife.28387.001
+*Forcorrespondence:
+Introduction
+simon.sprecher@gmail.com
+Light-dependent cues from the surrounding world are perceived by specialized photoreceptor neu-
+†Theseauthorscontributed
+rons (PRs) in the eye. Insect compound eyes are elaborate systems capable of mediating flight in a
+equallytothiswork
+rapidly changing 3D environment. In contrast, larval stages present much simpler visual organs,
+Competinginterests:The whichcombinedwiththeirtractability,makethemgreatmodelstolinkneuralcircuitprocessingand
+authorsdeclarethatno
+behavior(Kaneetal.,2013;Randeletal.,2014;2015;Gepneretal.,2015).Larvaeofthefruitfly
+competinginterestsexist.
+Drosophila melanogaster employ theirvisual systemforarange of diversebehaviors includingnavi-
+Funding:Seepage18 gation,entrainmentofcircadianrhythms,formationofassociativememoriesandmayrespondtothe
+presence of other larvae (Kane et al., 2013; Humberg and Sprecher, 2017; Slepian et al., 2015;
+Received:05May2017
+Accepted:07August2017 Justice et al., 2012; Yamanaka et al., 2013; von Essen et al., 2011; Gong, 2009; Mazzoni et al.,
+Published:08August2017 2005; Gerber et al., 2004; Sawin-McCormack et al., 1995). The simple eyes of the larva (also
+termed Bolwig Organ, BO) consist of only about 12 PRs each and yet drive a wide range of behav-
+Reviewingeditor: Mani
+iors, raising questions on the organizational logic of the underlying visual circuit. Spectral sensitivity
+Ramaswami,TrinityCollege
+of PRs is defined by the Rhodopsin gene they express. Larval eyes contain two PR-types, either
+Dublin,Ireland
+expressing the blue-tuned Rhodopsin5 (Rh5) or the green-tuned Rhodopsin6 (Rh6) (Malpel et al.,
+CopyrightLarderetetal.This
+2002;Hassanetal.,2005;RodriguezMoncalvoandCampos,2005;Sprecheretal.,2007).Inter-
+articleisdistributedunderthe
+estingly,forrapidnavigationawayfromlightexposureonlytheRh5-PRsseemessential,whereasto
+termsoftheCreativeCommons
+entrainthemolecularclockeitherPRsubtypesuffices(Keeneetal.,2011).Inthepast,severalneu-
+AttributionLicense,which
+rons of the larval visual neural circuit have been identified but the logic of circuit wiring as well as
+permitsunrestricteduseand
+redistributionprovidedthatthe theprecisenumbersofneuronsinvolvedinitsfirstordervisualprocessingcenterremainunknown.
+originalauthorandsourceare Larval PRs project their axons in a joint nerve (Bolwig nerve) terminating in a small neuropil
+credited. domain termed the larval optic neuropil (LON). Previous studies identified eleven neurons
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 1of23
+--- PAGE 2 ---
+Researcharticle Neuroscience
+innervating the LON in each brain hemisphere. This includes four lateral neurons (LaNs) expressing
+the pigment dispersing factor (Pdf) neuropeptide (Pdf-LaNs) and a fifth non-Pdf-expressing LaN
+(5th-LaN), all being part of the clock circuit (Kaneko et al., 1997), as well as a serotonergic neuron
+and three optic lobe pioneer cells (OLPs) (Helfrich-Fo¨rster, 1997; Rodriguez Moncalvo and Cam-
+pos, 2005; 2009; Tix et al., 1989). Recently, two unpaired median octopaminergic/tyraminergic
+neurons were described to extend neurites into these neuropils (Selcho et al., 2014). It remained
+unknown, however, whether these previously identified neurons constitute the entire neuronal com-
+ponentsoftheLONandhowvisualneuronalcomponentsconnecttoeachothertoformafunctional
+network. In a recent study we started to investigate the anatomy of the LON using serial-section
+transmissionelectronmicroscopy(ssTEM)showingthatPRs’axonsformlargeglobularboutonswith
+polyadicsynapsesandthattheOLPswerepartsoftheirdirecttargets(Sprecheretal.,2011).
+Here, we mapped the synaptic wiring diagram of the LON by reconstructing all its innervating
+neurons from a new ssTEM volume of a whole first instar larval central nervous system
+(Ohyama etal., 2015). We characterized and quantified theconnectivity ofall previously described
+LON-associated neurons and identified new components in this circuit. We found per hemisphere
+eleven second order interneurons, two third-order interneurons and one serotonergic neuron inner-
+vating the LON, plus two unpaired octopaminergic/tyraminergic neurons contacting both hemi-
+spheres. We highlighted the separation of light signal flow at the first synapse level as the two PR
+subtypesconnectontodistinctsubsetsofinterneurons.Networkanalysissuggeststhattheresulting
+circuits may encode both ambient light intensity information and information about the changes of
+lightintensity.Comparisonwiththevisualcircuitoftheadultfruitflyhighlightscommonprinciplesin
+organization of visual information processing, for example the stratification of PRs inputs as well as
+theexistenceofdistinctphotoreceptorpathwaysthatareinvolvedindetectingtemporallight cues.
+Furthermore, the comparison with the olfactory wiring diagram (Berck et al., 2016) highlights com-
+mon strategies for early sensory information processing, relay to higher order areas such as the
+mushroom bodies for associative memory, and control from the central brain. By mapping the con-
+nectivity of visual circuits and analyzing its architecture we have the opportunity to study the circuit
+structure-function relationship and advance our understanding of how neural circuits govern
+behavior.
+Results
+Neurons of the larval visual circuit
+Axonal projections of larval photoreceptor neurons (PRs) enter the brain lobes ventro-laterally via
+the Bolwig nerve and terminate in a small neuropil domain, termed larval optic neuropil (LON;
+Figure 1A,B, Figure 1—video 1). Visual interneurons innervate the LON from the central brain
+through the central optic tract (Sprecher et al., 2011). We reconstructed the axon terminals of all
+PRs and all their synaptic partners, as well as additional LON-innervating neurons that do not form
+synapses with PRs, from a serial-section transmission electron microscopy (ssTEM) volume spanning
+thecompletecentralnervoussystemofaDrosophilafirstinstarlarva(usingtheCollaborativeAnno-
+tationToolkitforMassiveAmountsofImageData(CATMAID),Saalfeldetal.(2009);Ohyamaetal.
+(2015); Schneider-Mizell et al., 2016). In this way, we identified the complete repertoire of LON
+neuronsandmappedthewiringdiagramoftheleftandrightLONs.
+We define five neuron types (Figure 1A,B): first, sensory neurons (photoreceptor neurons) that
+innervate the LON; second, visual local interneurons (VLNs) that do not extend neurites beyondthe
+LON; third, visual projection interneurons (VPNs) that relay signals from the LON to distinct higher
+brain areas; fourth, third-order interneurons in the LON that do not receive direct input from the
+PRs;andfifth,modulatoryaminergicfeedbackneuronsprojectingfromthecentralbrain.
+Twointerneuronsbelongingtothepreviouslydescribedopticlobepioneercells(OLPs,Tixetal.,
+1989) are VLNs, which we therefore named local-OLPs (lOLPs). Their arbors are fully contained
+within the LON and they present a distinct axon and dendrite (Figure 1C,D), comparable to gluta-
+matergicinhibitoryneuronsofthelarvalantennallobe(Bercketal.,2016).WefoundthatonelOLP
+is cholinergic (cha-lOLP) while the other is glutamatergic (glu-lOLP), in agreement with previous
+studies(Figure1—figuresupplement1;Yasuyamaetal.,1995;Danielsetal.,2008).
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 2of23
+--- PAGE 3 ---
+DD
+VV
+LL RR
+pOLP Pdf-LaN VPLN SP2-1
+lOLP
+PVL09 5th/nc-LaN Tiny VLN sVUM2
+enildim
+Researcharticle Neuroscience
+A G
+SLP
+D
+D BRAIN V L R
+V
+A P LON
+Bolwig nerve
+Bolwig
+LON
+organ
+cps neuropil
+Pdf-LaNs
+SEZ
+H
+SLP
+Rh5-PR VPN third order THORAX D LIP
+Rh6-PR VLN aminergic V L R
+B
+LON
+5th-LaN
+I
+LON D LIP
+LON V L R
+LON
+nc-LaN 1
+C D J
+D V L R D V L R D V L R LIP
+LON LON
+LON
+cha-lOLP glu-lOLP nc-LaN 2
+E F K
+SLP
+D D LIP D LIP
+V L R V L R V L R
+VLP VLP
+LON LON LON
+pOLP PVL09 VPLN
+Figure1.Overviewofthelarvalopticneuropil.(A)SchematicofthelarvalvisualsystemwithEM-reconstructed
+skeletonsofalllarvalopticneuropil(LON)neurons.TheRh5-PRs(darkblue)andRh6-PRs(darkgreen)cellbodies
+formtheBolwigorgansittinginthecephalopharyngealskeleton(cps).Theyextendtheiraxonstothebrainviathe
+Bolwignerve.Inthebrain,neuronscellbodiesareintheouterlayer(gray)andprojectneuritsintotheneuropil.
+Figure1continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 3of23
+--- PAGE 4 ---
+Researcharticle Neuroscience
+Figure1continued
+Wecandistinguishfourmainclassesofneurons:visualprojectioninterneurons(VPN,blue),visuallocal
+interneurons(VLN,green),third-orderinterneurons(gray)andaminergicmodulatoryneurons(brown).
+Octopaminergic/tyraminergicmodulatoryneuronscellbodiessitinthesubesophagealzone(SEZ).(B)3D
+reconstructionofallLON-associatedneuronsfromthessTEMdatasetinbothhemispheres(exceptBolwignerves):
+VLNingreen:localopticlobepioneerneurons(lOLPs);VPNinshadesofblue:theprojectionOLP(pOLP),anovel
+neuronwhichislocatedintheposteriorventrallateralcortex(PVL09),thePdf-lateralneurons(Pdf-LaNs),the5th-
+LaNandthenon-clock-LaNs(nc-LaNs);third-orderneurons:VPLNinlightbrownandTinyVLNingray;aminergic
+modulatoryneurons:serotonergicneuron(SP2-1,orange)andSEZ-ventral-unpaired-medial-2octopaminergic/
+tyraminergicneurons(sVUM2,brown).Posteriorview.(C–K)3DreconstructionsfromssTEMdataset,posterior
+view,dendritesinblue,axonsingreen,presynapticsitesinred,postsynapticsitesincyan,otherLONneuronsin
+gray.VLP:ventrallateralprotocerebrum.SLP:superiorlateralprotocerebrum.LIP:lateralinferiorprotocerebrum.
+BothlOLPs(cha-lOLP(C)andglu-lOLP(D))havedensearborizationswithintheLON.(E)ThepOLPcellbodyis
+situatedwiththelOLPandprojectstotheVLP.(F)PVL09cellbodyissituatedpostero-ventro-laterallytotheLON
+andhasanaxonwithacharacteristicloopshape,extendingfirsttowardstheventro-medialprotocerebrum,then
+towardstheLIPbeforecurvingdownbacktotheVLP,whereitformsmostofitssynapticoutput.(G)ThefourPdf-
+LaNsprojecttotheSLP.(H)The5th-LaNprojectsbothtotheSLPandtheLIPregion,whereasnc-LaN1and2(I
+andJ)mainlyprojecttotheLIP.(K)Thethird-orderneuronVPLNcellbodyissituatedanteriorlytotheLONandit
+hasanaxoncomingbackintheLONintopofitsprojectionswithinbothSLPandLIPregions.
+DOI:https://doi.org/10.7554/eLife.28387.002
+Thefollowingvideoandfiguresupplementsareavailableforfigure1:
+Figuresupplement1.NeurotransmitterexpressionintheLON.
+DOI:https://doi.org/10.7554/eLife.28387.003
+Figuresupplement2.Connectionsandanatomyofthesmallthird-orderneuronTinyVLN.
+DOI:https://doi.org/10.7554/eLife.28387.004
+Figuresupplement3.:3DreconstructionsofeachVPNrelativetothelateralhornandtothemushroombody.
+DOI:https://doi.org/10.7554/eLife.28387.005
+Figure1—video1.Animationmovieofthe3Dreconstructionofthelarvalvisualsystemwithall60LON
+neurons.ColorcodeasinFigure1B.
+DOI:https://doi.org/10.7554/eLife.28387.006
+Figure1—video2.3DanimationsoftherotatingbrainwithallinterneuronsoftheLONinthelefthemisphere,
+firsttogetherandthenindividually,relativetothelateralhornshownbydisplayingolfactoryprojectioninterneur-
+onsinredandtothemushroombodyasabluemesh.
+DOI:https://doi.org/10.7554/eLife.28387.007
+VPNsincludethethirdneuronbelongingtotheOLPs(Tixetal.,1989),whichwenamedaccord-
+ingly projection-OLP (pOLP, Figure 1E), the previously identified pigment dispersing factor (Pdf)-
+expressinglateralneurons(Pdf-LaNs,Figure1G)andthePdf-negative5th-LaNofthecircadianclock
+circuit(Figure1H,Kanekoetal.,1997).Inaddition,intheVPNgroupwenewlyidentifiedtwonon-
+clock lateral neurons (nc-LaNs) originating from the same neuroblast lineage as the 5th-LaN
+(Figure1I,J;Figure1—figuresupplement1),andoneneurondefinedbyits‘postero-ventro-lateral’
+cellbodyposition,termedPVL09(Figure1F).AlltheseVPNs,exceptthefourpeptidergicPdf-LaNs,
+arecholinergic(Figure1—figuresupplement1).
+Wealsoidentifiedtwothird-orderinterneuronsthatmakeconnectionswithintheLONbutdonot
+receivedirectinputsfromPRs.Thefirstone,isdefinedbyprominentaxonalprojectionsbeyondthe
+LONandsignificantpre-synapticterminiwithintheLON.Wethereforenamedthisneuronvisualpro-
+jection-local interneuron (VPLN, Figure 1K). We found that the VPLN is glutamatergic (Figure 1—
+figure supplement 1). The second third-order interneuron is a VLN that we named Tiny VLN
+becauseofitssmallsizeinthecurrentdataset(Figure1—figuresupplement2;noadditionalinfor-
+mationcouldbecollectedasnoknownGAL4linelabelsthiscell).
+Finally,LONcircuitsaremodulatedfromthecentralbrainbyabilateralpairofserotonergicneu-
+rons and two ventral-unpaired-medial neurons of the subesophageal zone that are octopaminergic/
+tyraminergic and that project bilaterally to both LONs (see below, Huser et al., 2012;
+RodriguezMoncalvoandCampos,2009;Selchoetal.,2014).Theseneuronsmatchinnumberand
+neuromodulatortypewiththeleft-rightpairofserotonergicneuronsandthetwobilateraloctopami-
+nergic neurons of the larval antennal lobe (Berck et al., 2016), providing support for an ancestral
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 4of23
+--- PAGE 5 ---
+Researcharticle Neuroscience
+common organization of the visual and the olfactory sensory neuropils (Strausfeld, 1989;
+Strausfeldetal.,2007).
+With the exception of the unpaired octopaminergic/tyraminergic neurons, we identified in all
+cases pairs of bilaterally homologous VLNs and VPNs. In addition, in the right brain hemisphere we
+found an additional fourth OLP, which, together with the variable number ofPRs, suggests that the
+circuitarchitecturecanaccommodateavariablenumberofneurons(seebelow).
+The larval optic neuropil is organized in three layers
+Visual circuits in the mammalian retina as well as in the optic ganglia of the adult fruit fly are orga-
+nizedinlayers.Theselayersarecharacterizedbydendriticarborizationsoraxonalterminiofspecific
+neuron types (Sanes and Zipursky, 2010). In Drosophila larvae, the LON can be subdivided into
+threedistinctlayersbasedontheinnervationofthePRsubtypes,whichallowstodistinguishthemin
+thessTEMdataset(Sprecheretal.,2011).Briefly,Rhodopsin6-PRs(Rh6-PRs)terminateinthedistal,
+mostouterlayeroftheLON(LONd),whereasRhodopsin5-PRs(Rh5-PRs)terminateintheintermedi-
+ate LON layer (LONi). The most proximal, inner layer of the LON (LONp) lacks direct PRs input
+(Figure2A–C).
+The layered arrangement of PRs’ axon terminals translates into specific connectivity with LON
+neurons. Most VPNs, whose dendrites do not reach the LONd, receive direct inputs from Rh5-PRs
+only, whereas the dendrites of Pdf-LaNs span both the LONd and LONi, integrating inputs from
+both Rh5- and Rh6-PRs (see below; Figure 1E–K). The absence of PRs’ axon terminals in the LONp
+deprives the third-order interneurons, VPLN and Tiny VLN, whose dendrites are restricted to the
+LONp, from any direct PRs inputs (Figures 1K and 2F). Intriguingly, the Tiny VLN integrates inputs
+withintheLONpandprojectsbacktobothLONiandLONd(Figure1—figuresupplement2).
+Beyond the LON, VPNs’ axons target three distinct protocerebral areas, namely the superior lat-
+eral protocerebrum, the lateral inferior protocerebrum and the ventro lateral protocerebrum
+(Figure 2C,D). Interestingly, these areas overlap in parts with the lateral horn, involved in innate
+behaviors, and the mushroom body calyx, involved in associative memory (see below). Within the
+LON, the dendrites of VPNs are mainly postsynaptic, whereas their axons, upon reaching higher
+brainareas,presentbothpresynapticandpostsynapticsites(Figure1E–K).ThissuggeststhatVPNs
+outputs are modulated by input fromnon-visual neurons, similarly to how olfactory projection inter-
+neurons receive non-olfactory inputs (Berck et al., 2016). In particular pOLP and the VPLN receive
+upto30%oftheirinputsfromnon-LONneurons(Figure2E).
+Two light input pathways: each PR subtype targets distinct VPNs and
+VLNs
+Previous studies suggested that only Rh5-PRs are critical for rapid light avoidance, while Rh6-PRs
+appeared non-essential (Keene et al., 2011; Kane et al., 2013). However, for entrainment of the
+molecular clock either PR-type by itself is sufficient (Keene et al., 2011). These findings lead us to
+speculatethatRh5-PRsandRh6-PRsconnecttodistincttypesofvisualinterneurons.Supportingthis
+notion,wefoundthatRh6-PRssynapseprincipallyontoVLNs(79%)andmuchlessontoVPNs (15%,
+all ontoonesingle VPNtype: thePdf-LaNs; Figure 2E,Figure 2—source data1). Conversely, Rh5-
+PRspreferentiallysynapseontoVPNs(90%)andmuchlessontoVLNs(6%).Anexceptiontothisseg-
+regation of PRs inputs are the Pdf-expressing LaNs of the clock circuits. Indeed, the four Pdf-LaNs
+aretheonlyinterneurons thatreceivedirect inputsfrombothRh6-PRsandRh5-PRs (20%fromRh6-
+PRsand15%fromRh5-PRs,Figures2Eand3B),supportingbehavioralevidencethateitherPR-sub-
+typemayentrainthelarvalclock(Keeneetal.,2011).
+Rh6-PRs target the two main VLNs of the LON: the cha- and glu-lOLPs (Figures 2E,F and
+3A).Furthermore, thelOLPsmaininputscome fromRh6-PRs:upto75%ofcha-OLPinputand58%
+ofglu-lOLPinput.Importantly,thesetwoVLNssynapseontomostVPNsincludingthefourPdf-LaNs
+and the 5th-LaN of the circadian clock, the nc-LaNs, PVL09 and the third-order interneuron VPLN
+(Figure 3C). pOLP is the only VPN that does not receive inputs from its sister cells, the two lOLPs,
+and therefore create a direct output pathway of the Rh5-PRs light dependent information towards
+higherbrainregions(Figure3B,C).pOLPisstronglyinterconnectedthroughaxo-axonicconnections
+with PVL09 suggesting that they may reciprocally cross-modulate their synaptic output (Figures 2E
+and 3C; Figure 2—source data 2). Also, the 5th-LaN and the two nc-LaNs, present different
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 5of23
+--- PAGE 6 ---
+A B E
+LONp LONp
+LONi LONi
+LONd LONd
+Rh5-PR
+Rh6-PR lOLP
+C SLP
+D
+V A
+L R LIP
+B
+F
+VLP
+C Photoreceptor Neurons
+LON
+Rh6 Rh5
+VPN Visual Local
+D Interneurons Visual Projection
+SLP
+Interneurons
+LIP
+LONd LONi
+VPN
+VLP
+Aminergic Third Order
+LONp
+Neurons Interneurons
+Rh6-PR
+LONi
+LONp
+LONd
+central brain
+Rh5-PR
+lOLP
+cholinergic glutamatergic other
+90LVP PLOp
+(cid:393)(cid:381)(cid:400)(cid:410)(cid:400)(cid:455)(cid:374)(cid:258)(cid:393)(cid:415)(cid:272)
+76 57 20
+2 3 25 57 35 16 24 44
+3 4 4 2 1
+1 12 13 4 1
+2 4 18 35 28 24 24 26 18
+2 8 20 22 6 11 15
+9 8 16 2 7
+1 8 2 6 11 8 4
+1 5
+1
+3
+PVL09 22
+pOLP 12
+5 7 100 99 70 89 90 92 90 90 74
+(cid:272)(cid:415)(cid:393)(cid:258)(cid:374)(cid:455)(cid:400)(cid:286)(cid:396)(cid:393)
+NLV
+NPV
+VLN VPN
+NLPV
+Researcharticle Neuroscience
+VPLN
+Figure2.Thestructuralorganizationofthelarvalopticneuropil.(A-D)3DrepresentationsofthepresynapticsitesofLONneuronsintheleftlobe,
+posteriorview.(A)Rh6-PRspresynapticterminals(darkgreen)defineadistalLONlayer(LONd)whileRh5-PRspresynapticconnections(darkblue)
+defineanintermediateLONlayer(LONi).AthirdlayeroftheLON,moreproximal(LONp)isdevoidofPRterminals.OtherLONneuronsingray.(B)All
+LONlayers,includingtheLONp,containpresynapticsitesfromthelOLPs(skeletonsingreen,synapsesinyellow).VPNs,TinyVLNandBolwignervein
+gray.(C)VPNs(blue)makesynapticconnectionsinthreemainregionsoutsidetheLON.VPNsprojectionsdefinethreedomains:dorsaldomain(A,
+violet)definedbyprojectionsinthesuperiorlateralprotocerebrum(SLP),lateraldomain(B,orange)inthelateralinferiorprotocerebrum(LIP),ventral
+domain(C,red)intheventrallateralprotocerebrum(VLP).VLNsandBolwignerveingray.(D)SchematicoftheLONthreelayers:LONdinnervatedby
+Rh6-PRs(darkgreen),LONiinnervatedbyRh5-PRs(darkblue)andLONpinnervatedbylOLPs(green);andofthethreedomainsoutsidetheLONwere
+differentVPNssubtypesprojectto(violet,orangeandredemptycircles).lOLPsalsomakepresynapticconnectionsintheLONdandLONi(thickline).
+(E)ConnectivitytableoftheleftLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfromaneuroninarow.Neuronsofsametype
+aregrouped,inbracketsnumberofneuronsinthegroup.SamecolorsasinFigure1B.Onlyconnectionswithatleasttwosynapsesfoundinboth
+hemisphereswereused.(F)Simplifieddiagramofthelarvalvisualsystem.PRsinputsarecholinergicanddefinetwopathways.Rh5-PRstargetVPNs
+(bluearea,LONi)whileRh6-PRstargetthetwomainlarvalVLNs(greenarea,LONd).BetweenthesetwoVLNs,oneischolinergicwhiletheotheroneis
+glutamatergicandtheybothinputsontoVPNs.TheseVLNsalsointegrateaminergicmodulatoryinputs(brownarea)thatpotentiallybringinformation
+fromthecentralbrain.IntheLONp,thetwothird-orderneuronsreceivefromthelOLPs.Thethird-orderneuronVPLN,whichisglutamatergic,
+additionallyreceivesfromtheserotonergicneuron,connectsontotheVPNsandalsoprojectstowardsthecentralbrain(grayarea)likeotherVPNs.
+Blackarrows:cholinergicconnections.Redarrows:glutamatergicconnections.Brownarrows:connectionswithotherneurotransmitters.
+Figure2continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 6of23
+--- PAGE 7 ---
+Researcharticle Neuroscience
+Figure2continued
+DOI:https://doi.org/10.7554/eLife.28387.008
+Thefollowingsourcedataisavailableforfigure2:
+Sourcedata1.CompletesynapticconnectionmatricesfrombothLONs.
+DOI:https://doi.org/10.7554/eLife.28387.009
+Sourcedata2.MainconnectiontypesforbothLONs.
+DOI:https://doi.org/10.7554/eLife.28387.010
+fractions of inputs from the glu-lOLP, suggesting that they will encounter different levels of
+A B D
+C
+E
+Figure3.Connectivityandcircuitmotifsofthelarvalvisualsystem.Lefthemisphere,hexagonsrepresentgroupofcells,circlesrepresentsinglecell,
+arrowthicknessweightedbythesquarerootofthenumberofsynapses,arrowthicknessscaleshowsminimumandmedian.Blackarrows:cholinergic
+connections.Redarrows:glutamatergicconnections.Brownarrows:connectionswithotherneurotransmitters.VPNsinshadesofblueforRh5-PRs
+targetsplustheVPLNinlightbrown.(A)WiringdiagramofbothlOLPs(lightgreencircles).ThetwolOLPsreceivesfromRh6-PRs(darkgreen)andare
+reciprocallyconnected.Theyalsosharethesametypeoftargets:VPNs(blue)includingPVL09,allLaNsandtheVPLN,thataredirecttargetsofRh5-PRs
+(darkblue)(excepttheVPLN)andareoutputsoftheLONtowardsthecentralbrain.(B)ThefourPdf-LaNsaretheonlyVPNsthatreceivefromboth
+Rh6-PRsandRh5-PRs.TheVPLNisathird-orderneuronthatdoesnotreceiveanyinputsfromPRs.AllotherVPNsreceivevisualinputsuniquelyfrom
+Rh5-PRs.AllinputsfromPRsontoVPNsaresituatedonthetargetdendrites.(C)VPNs,exceptpOLP,aretargetsofthetwolOLPsandthese
+connectionsaresituatedontheVPNsdendrites.Additionally,PVL09receivesinputsfromboththeVPLNandnc-LaNonewhilethePdf-LaNsreceive
+onlyfromthenc-LaN1,andthe5th-LaNreceiveonlyfromtheVPLN.PVL09andpOLParereciprocallyconnectedontheiraxons.AllVPNstransferlight
+informationtoneuronsdeeperinthebrain.TheVPLNandpOLPadditionallyreceiveontheiraxonssomeinputsfromotherneuronalcircuits.(D)Circuit
+motifoftheVPLNreceivingfrombothlOLPs.E:Circuitmotifofthenc-LaNonethatisunderregulationsfromcha-lOLP,glu-lOLPandtheVPLN.
+Moreover,nc-LaNoneconnectsbacktotheVPLN.SimilarmotifscanbedescribedforotherVPNs(Figure3—figuresupplement1).
+DOI:https://doi.org/10.7554/eLife.28387.011
+Thefollowingfiguresupplementsareavailableforfigure3:
+Figuresupplement1.Networkmotifsofthenc-LaN2,the5th-LaN,PVL09andthePdf-LaNs.
+DOI:https://doi.org/10.7554/eLife.28387.012
+Figuresupplement2.Modelofthecompletelarvalvisualneuralnetwork.
+DOI:https://doi.org/10.7554/eLife.28387.013
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 7of23
+--- PAGE 8 ---
+Researcharticle Neuroscience
+modulationfromthiscell(seediscussion,Figures2Eand3C).
+The third-order interneuron VPLN, which does not receive direct inputs from PRs (Figure 3B), is
+downstream of the two lOLPs and is itself connecting onto several VPNs including the 5th-LaN, the
+two nc-LaNs and PVL09 creating another layer of possible computation (see discussion, Figure 3C–
+E).
+Insummary,mostVPNsthatdirectlyintegrateRh5-PRslightdependentinformationmaybemod-
+ulated indirectly by the Rh6-PRs light dependent information via the two VLNs, cha- and glu-lOLPs
+(seediscussion,Figures2Fand3A).
+VPNs target different brain areas
+DistinctareasoftheprotocerebrumareinnervatedbythesixuniqueVPNsofthelarvalvisualcircuit
+(the pOLP, the5th-LaN, the two nc-LaNs, the third-order interneuronVPLN, and PVL09) and by the
+fourPdf-LaNsofthecircadianclock.
+pOLPtargetsthelowerlateralhorn,anareaalsoinnervatedbythemultiglomerularolfactorypro-
+jectioninterneuron(mPN)Seahorse(Bercketal.,2016;Figure1E,Figure1—figuresupplement3)
+withwhomitsharesnumerouspostsynapticpartners(datanotshown).SincemPNSeahorseintegra-
+tes inputs from the aversive OR82a-expressing olfactory receptor neuron (Kreher et al., 2008),
+downstreamneuronsofpOLPandmPNSeahorsearelikelycontributingtoaversivebehavior.
+ThreesisterVPNs (the 5th-LaNand bothnc-LaN 1and 2)present similaraxon trajectories, drop-
+ping synapses in the lateral horn until reaching the accessory calyx of the mushroom body
+(Figure 1H–J, Figure 1—figure supplement 3), where they synapse onto Kenyon cells
+(Eichler et al., 2017). On top of its local connections and potential local function (see discussion),
+theVPLNalsohasprojectionsbeyondtheLONinasimilarpatternasbothnc-LaNs(Figure1K,Fig-
+ure1—figuresupplement3).
+PVL09 is unique among the VPNs in presenting a bifurcated axon with one branch following the
+other VPNs into the lateral horn and the other branch taking a long looping path below the mush-
+room body before coming back to the same region as pOLP (Figure 1F, Figure 1—figure supple-
+ment 3). Like most VPNs, PVL09 is under the control of the two lOLPs and the VPLN, but
+additionally receives inputs from both nc-LaNs on its dendrites and axon (Figure 3—figure supple-
+ment1;Figure2—sourcedata2),suggestingthatitintegratesbroadlyalllightinformation.
+In summary, all six unique VPNs form synapses in the lateral horn, and three of them (the 5th-
+LaN,nc-LaNoneandnc-LaN2)synapseontoboththelateralhornandthemushroombodyKenyon
+cells(Eichleretal.,2017).VPNconnectionsontoKenyoncellsmayunderliethelarvalabilitytoform
+associative memories with light as a conditioned stimulus, whereas light as an unconditioned stimu-
+luscouldbeencodedviatheirconnectionsontothelateralhorn(vonEssenetal.,2011).
+Finally,the Pdf-LaNs, necessaryforcircadian rhythm, project to aregiondorsal andmoremedial
+to the lateral horn, similarly as in adult Drosophila (Yasuyama and Meinertzhagen, 2010), where
+they make few small dyadic synapses from boutons rich in dense-core vesicles (Figure 1G, Fig-
+ure 1—figure supplements 1 and 3). Pdf-LaNs boutons also contain clear vesicles suggesting that
+theymightco-expressaneurotransmitter,whichinadultflieshasbeensuggestedtobeglycine(Fig-
+ure1—figuresupplement1;Frenkeletal.,2017).
+Central brain feedback via octopaminergic/tyraminergic and
+serotonergic neurons
+Similarly to other sensory modalities (Roy et al., 2007; Dacks et al., 2009; Huser et al., 2012;
+Selcho et al., 2014; Majeed et al., 2016; Berck et al., 2016), a set of aminergic neurons provide
+feedbackfromthe centralbrain into theLON, thuscreating anentrypoint to modulate visual infor-
+mation processing. Both types of modulatory neurons have previously been identified in the LON
+(RodriguezMoncalvoandCampos,2005;Huseretal.,2012;Selchoetal.,2014).
+A pair of serotonergic neurons belonging to the SP2 cluster (named SP2-1) connects to the con-
+tralateral LON, while receiving presynaptic input predominantly in the ipsilateral protocerebrum
+(Figure 4A, Figure 4—figure supplement 1). The two other aminergic input neurons are the octo-
+paminergic/tyraminergic subesophageal zone-ventral-unpaired-medial 2 neurons of the maxillary
+and mandibular clusters (sVUM2mx and sVUM2md, Figure 4B,C, Figure 4—figure supplement 1).
+EachsVUM2innervatesbothbrainhemispheresinasymmetricfashion.
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 8of23
+--- PAGE 9 ---
+Researcharticle Neuroscience
+A SLP
+SLP
+LON LON
+D SP2-1 left
+V
+L R
+B C
+LON LON
+LON LON
+D sVUM2md D sVUM2mx
+V V
+L R L R
+D E
+Figure4.Aminergicmodulatoryinputsofthelarvalvisualsystem.(A-C)3DreconstructionsfromssTEMdataset,
+posteriorview,dendritesinblue,axonsingreen,presynapticsitesinred,postsynapticsitesincyan,otherLON
+neuronsingray,dashedlinerepresentbrainmidline.(A)TheSP2-1neuronfromthelefthemisphereinnervatesthe
+ipsilateralSLPandthecontralateralLON.sVUM2md(B)andsVUM2mx(C)neuronsarelocatedalongthemidline
+intheSEZwiththeirneuritsplittingandinnervatingbothhemispheresinasymmetricfashion.Theirbilaterally
+symmetricalbranchesreceivesynapticinputintheSEZandextendtheiraxontowardstheprotocerebrumpriorto
+turninglaterallyandenteringtheLON.BrancheswithintheprotocerebrumandLONcontainpresynapticand
+postsynapticsites.(D)ConnectivitygraphshowingtheSP2-1neuron(orange)oftherighthemisphereconnecting
+withthelOLPs(lightgreen)andtheVPLN(lightbrown)ofthelefthemisphere.ConnectionsbetweenthelOLPs
+andtheVPLNarealsodisplayed,aswellaslOLPsinputsfromRh6-PRs(darkgreen).(E)Connectivitygraphof
+sVUM2mxandsVUM2md(brown)showingthattheironlypartnersarethelOLPs(lightgreen)butinboth
+hemispheres.(D–E)Hexagonsrepresentgroupofcells,circlesrepresentsinglecell,arrowthicknessweightedby
+thesquarerootofthenumberofsynapses,arrowthicknessscalesshowsminimumandmedian.
+DOI:https://doi.org/10.7554/eLife.28387.014
+Thefollowingfiguresupplementisavailableforfigure4:
+Figuresupplement1.ConfocalmicroscopyofthethreeaminergicneuronsoftheLON.
+DOI:https://doi.org/10.7554/eLife.28387.015
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 9of23
+--- PAGE 10 ---
+Researcharticle Neuroscience
+Each SP2-1 neuron connects to the main VLNs (cha- and glu-lOLPs) as well as to the third-order
+interneuron VPLN of the contralateral side (Figure 4D). The octopaminergic/tyraminergic sVUM2
+neurons uniquely synapse onto the two lOLPs but in both hemispheres simultaneously (Figure 4E).
+In contrast to the SP2-1, the lOLPs form feedback synapses onto the axonal termini of both sVUM2
+neurons.Thisfeedbackmotifmayallowlocaltuningoftheoctopaminergic/tyraminergicmodulatory
+input,whereastheserotonergicinputisnotalteredwithintheLON.
+In summary, SP2-1 and sVUM2 mediate feedback from other brain areas to potentially modulate
+the activity of the two lOLPs of the Rh6-PRs-VLNs pathway and, in case of the SP2-1, may further
+affecttheVPLN.Thesepossiblemodulationsarisefrommonosynapticconnectionsbetweentheami-
+nergiccellswiththesethreevisualinterneurons,whileadditionaleffectsmightbeelicitedbyvolume
+release of serotonin and octopamine (Dacks et al., 2009; Linster and Smith, 1997; Selcho et al.,
+2012).Furtherreconstructionisneededtoidentifythepresynapticinputsoftheseaminergicmodu-
+latoryneurons.
+Bilaterally symmetric LON circuits with asymmetric numbers of neurons
+Similarly to the non-stereotypic number of ommatidia in the compound eye of the adult fly
+(Ready et al., 1976), the precise number of PRs in each larval eye also varies (Sprecher et al.,
+2007). In the current specimen, we identified thirteen PRs in the left hemisphere and sixteen in the
+righthemisphere.We found fourRh5-PRs and nineRh6-PRs intheleft hemisphere,and sixRh5-PRs
+and ten Rh6-PRs in the right hemisphere. Despite this difference in PRs number, homologous LON
+interneuronsineachhemispherereceiveasimilarfractionofinputsfromPRs(Figure5—figuresup-
+plement1),similarlytoolfactoryprojectioninterneuronsthatreceiveanequivalentfractionofinputs
+from olfactory receptor neuron despite differences in the numbers of these sensory neurons
+(Tobin et al., 2017). This further supports the idea that projection interneurons may regulate the
+amount of inputs from sensory neurons that they receive relative to the total inputs on their
+dendrites.
+Interestingly, we found a third local-OLP inthe right brain hemisphere. Similarly to a non-stereo-
+typic PRs number, variability in OLPs number has been observed before (Tix et al., 1989). When
+using a GAL4 driver labeling glutamatergic neurons (OK371; Mahr and Aberle, 2005) we found an
+extra-glutamatergic-OLP(Figure 5—figuresupplement 1)atasimilarfrequencyasthepresenceof
+thefourthOLPcellhadbeenreported(inabout5%ofbrains)anddisplayinganasymmetrybetween
+hemispheres. It is unusual to have variability and asymmetries in Drosophila neural circuits
+(Ohyama et al., 2015; Berck et al., 2016; Schlegel et al., 2016; Jovanic et al., 2016; Schneider-
+Mizell et al., 2016) but it has been observed before (Takemura et al., 2015; Tobin et al., 2017;
+Eichleretal.,2017).Thepresenceofanextra-glu-lOLPandvariablenumbersofPRraisestheques-
+tionoftheoverallstereotypyofcircuitarchitecturewhencomparingtheleftandrightLONs.
+We analyzed the structure of the left and right LONs circuits with spectral graph analysis of the
+connectivity matrices by plotting the graph partition metric as a function of the signal flow metric
+(Varshney et al., 2011). Despite the left and right LONs not sharing any interneurons and having a
+different number of PR and lOLP cells, we observed that neurons of the same type cluster closely
+together (Figure 5A), indicating that the circuit structure in which each identified cell is embedded
+isverysimilarinthebothhemispheres.Thepositionoftheextra-lOLPinthisspectralgraphanalysis
+plotanditschoiceofpre-andpostsynapticpartners(Figure5B),inparticularthemanyinputsfrom
+Rh6-PRsandcha-lOLP,suggestthattheextra-lOLPmayactasanextra-glu-lOLP,inagreementwith
+itsinclusionintheOK371-GAL4expressionpattern.ItsreciprocalconnectionswiththeTinyVLNare
+also in favor of this hypothesis (Figure 1—figure supplement 2). Note though that this extra-glu-
+lOLP also receives some inputs from Rh5-PRs and lacks inputs from the serotonergic neuron unlike
+otherlOLPs,whichindicatesthatitmightstillactdifferentlythanaglu-lOLP.Whysomelarvaepres-
+ent this additional cell remains to be determined. Importantly, connections among other LON neu-
+rons do not seem affected by the presence of an extra-glu-lOLP (Figure 5B; Figure 5—figure
+supplement1).Inconclusion,whilethenumberofPRsandVLNscanvaryinthelarvalvisualsystem,
+the overall circuit architecture is maintained, and in particular the output channels (VPNs) are
+identical.
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 10of23
+--- PAGE 11 ---
+1.2
+Rh6-PR (9L+10R)
+1.0
+0.8
+0.6
+0.4
+Rh5-PR (4L+6R)
+0.2 cha-lOLP (L+R)
+0.0
+glu-lOLP (L+R)
+-0.2
+VPLN
+-0.4 extra-glu-lOLP (R) (L+R)
+pOLP L
+-0.6 Tiny VLN nc-LaN 1
+(L+R)
+(L+R)
+nc-LaN 2
+-0.8 5th-LaN (L+R)
+(L+R) pOLP R
+-1.0 Pdf-LaN
+(4L+4R) PVL09 (L+R)
+-1.2
+-0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5
+Graph(cid:3)(cid:393)(cid:258)(cid:396)(cid:415)(cid:415)(cid:381)(cid:374)
+(cid:449)(cid:381)(cid:327)
+langiS
+A
+B
+90LVP PLOp
+(cid:393)(cid:381)(cid:400)(cid:410)(cid:400)(cid:455)(cid:374)(cid:258)(cid:393)(cid:415)(cid:272)
+69 52 42 8
+2 1 13 29 53 46 19 25 57
+3 3 3 1
+2 10 12 4 1 8
+20 17 25 26 17 19 26 14
+1 9 15 29 18 4 4 11 18
+1 3 7 16 4 5 6 4
+4 2 2 4 10 11 2 4
+1 4 3 3 3 14 8
+6 2 5
+1 1
+PVL09 23
+pOLP 4
+1 3 100 99 100 66 96 93 88 87 85 80
+(cid:272)(cid:415)(cid:393)(cid:258)(cid:374)(cid:455)(cid:400)(cid:286)(cid:396)(cid:393)
+NLV
+NPV
+VLN VPN
+NLPV
+Researcharticle Neuroscience
+VPLN
+Figure5.Larvalopticneuropilarchitectureismaintaineddespiteavariablenumberofneurons.Colorcodeasin
+Figure1B.(A)Wecomparedthestructureoftheleft(L)andright(R)LONcircuitswithspectralgraphanalysis.For
+theleftandrightconnectivitymatrices,weplottedthecomponentsofthefirstnonzeroeigenvectorofthegraph
+Laplacianassociatedwitheachneuron(xaxis)asafunctionofthesignalflowmetric(yaxis),measuresthatreflect
+thetopologicalroleofneuronsinthecircuit(Varshneyetal.,2011).Weexcludedtheneuromodulatoryneurons
+SP2-1,whichareweaklyconnected,andthesVUM2mdandsVUM2mx,whichprojectbilaterally.Visualinformation
+flowsfromPRsatthetoptowardsVPNsatthebottom.Inthisrepresentation,bilaterallyhomologousneurons
+shareasimilarpositionrevealingthatbothsideshavesimilarnetworktopology(Schneider-Mizelletal.,2016).
+Notehowtheextra-glu-lOLPoftherighthemisphere(bold)positionedcloselywiththeotherlOLPs.(B)
+Figure5continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 11of23
+--- PAGE 12 ---
+Researcharticle Neuroscience
+Figure5continued
+ConnectivitytableoftherightLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfroma
+neuroninarow.Onlyconnectionswithatleasttwosynapsesfoundinbothhemisphereswereused(exceptforthe
+extra-glu-lOLP).
+DOI:https://doi.org/10.7554/eLife.28387.016
+Thefollowingfiguresupplementisavailableforfigure5:
+Figuresupplement1.StabilityoftheconnectionsofLONneuronsdespitethevariabilityinneuronnumber.
+DOI:https://doi.org/10.7554/eLife.28387.017
+Discussion
+Asharedcharacteristicofmanyvisualsystemsistheretinotopicorganizationallowingvisualprocess-
+inginaspatiallysegregatedfashionbythetransformationofthesurroundingenvironmentintoa2D
+virtual map (for review, Sanes and Zipursky, 2010). Within the compound eye of the adult fruit fly,
+this is achieved by the prominent organization of PRs in ommatidia in the retina that is maintained
+through underlying cartridges in the lamina and columns in the medulla. The Drosophila larval eye
+lacksommatidiaorasimilarspatialorganizationofPRs.Neverthelesslarvaecannavigatedirectional
+light gradients and form light associative memories using their simple eyes (Kane et al., 2013;
+vonEssenetal.,2011;HumbergandSprecher,2017).
+Inthisstudy,wedescribedthesynapse-levelconnectomeofthelarvalfirstvisualcenterbyrecon-
+structingneuronsrecursivelyfromtheopticnervestothird-orderneuronsfollowingallchemicalsyn-
+apsesinananometer-resolutionEMvolumeofthewholecentralnervoussystem.Wefoundthatthe
+twoPRsubtypessynapseontodistincttargetinterneurons,showingaclearseparationofvisualinfor-
+mation flow at the first synapse level. Rh5-PRs predominantly synapse onto VPNs, which transfer
+light information to distinct regions including the lateral horn and the mushroom body calyx,
+whereasRh6-PRsstronglysynapseonto twoVLNs(cha-andglu-lOLPs). Moreover,theflowofinfor-
+mation is convergent as these two main VLNs in turn synapse onto most VPNs. These two main
+VLNs also receive input from both the serotonergic as well as the octopaminergic/tyraminergic sys-
+tems, suggesting that their activity may be modulated by input from central brain circuitry. Thus, a
+key feature of the larval visual circuit is that the Rh6-PRs-pathway feeds into the Rh5-PRs-pathway,
+suggesting a tuning function for Rh6-PRs and the two VLNs that also integrate external modulatory
+inputs(Figure2F;Figure3—figuresupplement2).Thisisnotexcludingthepossibilityofelectrical
+connectionsmediatedbygapjunctionsthatarenotvisibleinthessTEMvolume.
+Hypothesized functional interpretation of circuit architecture
+The Rh5-PRs-VPNs pathway may provide information about the ambient
+light intensity
+LarvalPRs responses to light remain currentlyunknown. Moreover, compared to adult flies PRs, lar-
+valPRslackaclearrhabdomericstructure,donotpresentintracellularpigmentgranulesandtheBol-
+wig organ is not equipped with focusing optics or other accessory cells (Green et al., 1993;
+Sprecher et al., 2007). Nevertheless, larval PRs express the main actors of the phototransduction
+pathway like adult PRs (Rosenbaum et al., 2011; Mishra et al., 2016; Bernardo-Garcia et al.,
+2016). It therefore remains difficult to predict how larval PRs response to light. Larval PRs might
+either adapt and detectthe mean light intensity,like adultPRs (for review Clark and Demb, 2016),
+or might detect the absolute light intensity. In either case, one can propose that larval PRs provide
+informationabouttheambientlightintensityofthelarvalenvironment.
+Inothersensorysystemssuchastheolfactorysystemoftheadult(Rybaketal.,2016)andlarval
+Drosophila (Berck et al., 2016) and in the chordotonal mechanosensory systems of the locust
+(Yuan et al., 2011) and Drosophila larva (Ohyama et al., 2015; Jovanic et al., 2016) axonal termi-
+nals of sensory neurons receive abundant inhibitory inputs from central neurons. Such presynaptic
+inhibition of sensory terminals may be employed to mediate lateral inhibition (Wilson and Laurent,
+2005; Olsen and Wilson, 2008), to implement divisive normalization (Olsen et al., 2010) or to
+encode a predicted future stimulation (Wolf and Burrows, 1995). However, in the larval visual cir-
+cuit, we do not observe significant synaptic connections onto the PRs (Figures 2E and
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 12of23
+--- PAGE 13 ---
+Researcharticle Neuroscience
+5B),suggestingthatthelightinformationencodedbyPRsispassedonwithnoalterationatthelevel
+ofthefirstsynapse.
+WethereforeproposethatlarvalRh5-PRsmayprovideinformationabouttheambientlightinten-
+sitydirectlyontothelarvalvisualsystemoutputneurons,theVPNs.
+The Rh6-PRs-VLNs pathway may compute variations in light intensity
+Compared to Rh5-PRs that directly connect the VPNs, the Rh6-PRs inputs are relayed to the VPNs
+only via the two VLNs, the cha- and glu-lOLPs. In dissociated larval Pdf-LaNs, it was shown that
+applying acetylcholine increased their calcium response whereas applying glutamate reduced their
+calcium response (Wegener et al., 2004; Hamasaka et al., 2007), suggesting that acetylcholine is
+an excitatory neurotransmitter for these cells whereas glutamate would be inhibitory. Acetylcholine
+can act as an inhibitory neurotransmitter through a metabotropic muscarinic receptor
+(Shinomiya etal., 2014;Renetal., 2015),however, itmoreoften actsasanexcitatoryneurotrans-
+mitterinDrosophila(BainesandBate,1998;Burrows,1996).Ifbothchaandglu-lOLPsweretobe
+excitatory, the positive feedback loop between these two cells would likely result in an enhanced
+signal propagation of Rh6-PRs inputs towards VPNs. Such a positive feedforward feature down-
+streamofthetwoPR-subtypescouldmakesenseiftheydetectedqualitativelydistinctvisualfeatures
+such as spectral cues or intensity. If for instance Rh6-PRs responded to a vastly distinct light-spec-
+trumthanRh5-PRsorifRh6-PRswerelow-lightsensitive,thispositivefeedforwardloopcouldresult
+inspectralintegrationoramplificationoflow-lightinput.However,absorptionspectraofbothlarval
+PRs are largely overlapping and there is currently no evidence for distinct detection capacities of
+bothPRs(Salcedoetal.,1999;HumbergandSprecher,2017).Therefore,inourviewamorefavor-
+ablescenarioisthatoutputsfromcha-lOLParelikelyexcitatorywhiletheoutputsfromglu-lOLPare
+likely inhibitory, similarly as glutamate has been found to mediate inhibition in the adult fly lobula
+plate (Mauss et al., 2014) and in the antennal lobe (Liu and Wilson, 2013; Berck et al., 2016).
+Therefore,inFigures2Fand3onecouldinterpretcholinergicarrows(black)asexcitatoryandgluta-
+matergicarrows(red)asinhibitory(alsoseeFigure3—figuresupplement2).
+Ifweconsidercha-lOLPasexcitatoryandglu-lOLPasinhibitory,thenRh6-PRssignalsappearsto
+be positively transferred to VPNs only via the cha-lOLP (Figure 3A). In addition, cha-lOLP then
+receives strong inputs from the inhibitory glu-lOLP (Figures 2E and 3A), which is also almost exclu-
+sivelydrivenbyRh6-PRsinputs.Therefore,thisinhibitionofglu-lOLPontocha-lOLPcouldmediatea
+form of indirect presynaptic inhibition of the Rh6-PRs inputs. This motif made by the cholinergic
+Rh6-PRs driving boththecha-lOLP andtheglu-lOLP, and with theglu-lOLP inhibitingthe cha-lOLP,
+createsthenanincoherentfeedforwardloop(Alon,2007).Thereforethismotifcouldmakethecha-
+lOLP responsive to the derivative of Rh6-PRs activity, that is to the variations in light intensity. As
+cha-lOLP VLN is likely to be a positive relay of Rh6-PRs inputs onto VPNs, VPNs could therefore
+respondtoincrementsinlightintensity(ONresponse).
+Moreover, cha-lOLP inputs onto the glu-lOLP and both cha- and glu-lOLPs further connect onto
+theVPNs.Consideringcha-lOLPasexcitatoryandglu-lOLPasinhibitory,thiscreatesasecondinco-
+herent feedforward motif making VPNs potentially responsive to the derivative of cha-lOLP inputs.
+Ascha-lOLPinputsmayalreadyrepresentthefirstderivativeofRh6-PRsinputs,thissecondincoher-
+ent feedforward motif may therefore make VPNs responsive to the acceleration of light intensity
+raises.
+Insummary,glu-lOLPmayprovidebothpresynapticinhibitionofRh6-PRsinputsbyinhibitingthe
+relay neuron cha-lOLP, and postsynaptic inhibition by directly inhibiting most VPNs. Consequently,
+VPNscouldrespondtotheambientlightintensity(fromRh5-PRs)andtothevariationsoflightinten-
+sity (from the Rh6-PRs-VLNs pathway). Interestingly, olfactory projection interneurons in the adult
+Drosophila also respond to a mixture of odorant concentration and of the acceleration of odorant
+concentration (Kim et al., 2015). Comparable to other sensory system (Klein et al., 2015;
+Schulze et al., 2015), a measure of changes in light intensity over time would enable light gradient
+navigation(Kaneetal.,2013;HumbergandSprecher,2017).
+Phasic inhibition could sharpen ON and OFF responses
+In the wiring diagram, we found a glutamatergic (therefore putatively inhibitory) third-order inter-
+neuron, named VPLN and mainly driven by cha- and glu-OLPs. The timing of cha- and glu-lOLPs
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 13of23
+--- PAGE 14 ---
+Researcharticle Neuroscience
+input may be critical for the VPLN function. If cha-lOLP input precedes glu-lOLP input, the VPLN
+may potentially be activatedonly upon an increaseinlight intensity via Rh6-PRs (Figure 3D). Thisis
+unlike the other glutamatergic interneuron, glu-lOLP, which receives direct inputs from PRs and
+thereforecanbetonicallyactiveinthepresenceoflight.The VPLNspecifically synapsesontomulti-
+pleVPNs(the5th-LaN,thetwonc-LaNsandPVL09)andthereforepotentiallyinhibitsthesecellsthat
+also receive strong inputs from glu-lOLP (Figure 3C,E, Figure 3—figure supplement 1). In conse-
+quence, these VPNs may be subject to tonic inhibition (from glu-lOLP) under constant light condi-
+tionsandtophasicinhibition(fromtheVPLN)uponanincreaseinRh6-PRsdependentlightintensity.
+Therefore, phasic inhibition from the VPLN may potentially refine the temporal resolution of VPNs
+responsestoincrementoflightintensity(ONresponse).
+An interesting aspect resulting from tonic inhibition of VPNs during constant light stimulation is
+whathappenswhenthelightintensitydecreases(OFFresponse).Someneuronssubjecttotonicinhi-
+bition can have a rebound of activity when inhibition is lifted (Marder and Bucher, 2001; Hed-
+wig, 2016). If, via this mechanism, VPNs were to increase their activity upon a decrease in light
+intensity,theywould beencoding anOFFresponse.Potentiallyall VPNsunder tonicinhibition from
+glu-lOLPcouldhavethisreboundofactivityafteralightintensitydecrease.Interestingly,twocholin-
+ergicVPNs(thenc-LaN1and2)synapseontotheVPLNthatcouldthenbecomemorestronglyacti-
+vatedbytheOFFresponse(Figure3D,Figure2—sourcedata1).AstheVPLNisinhibitingseveral
+VPNs(the5th-LaN,thetwonc-LaNsandPVL09),thiscouldthereforecreateasecondperiodofpha-
+sicinhibitionallowingtomaintaintheseVPNsOFFresponsesbrief.
+In conclusion, the connectivity of the third-order glutamatergic VPLN putatively inhibitory sug-
+gests that it may refine the temporal resolution of VPNs ON and OFF responses through phasic
+inhibition.
+The visual circuit supports previous behavioral observations
+Inaddition,thiscompletewiringdiagramofthelarvalvisualsystemcanexplainwhyinpreviousstud-
+ies only Rh5-PRs appeared to be required for light avoidance while Rh6-PRs seemed dispensable in
+most experimental conditions (Keene et al., 2011; Kane et al., 2013; Humberg and Sprecher,
+2017).Moreover,Rh6-PRsmutantlarvaewereshowntoavoidlightwavelengthsfromultra-violetto
+green, supporting the idea that Rh5-PRs respond to a wider range of wavelength of light than only
+‘blue’light(HumbergandSprecher,2017;Salcedoetal.,2009).Takentogether,ourcurrentdata
+and the lack of evidence of color vision capability in larvae, we propose that the two larval PRs are
+ratherspecializedindetectionofambientlightintensityandoftemporalvariationsoflightintensity.
+Based on our connectomic analysis, when Rh6-PRs are mutated or functionally silenced, Rh5-PRs
+may still provide light ambient intensity information, and the cholinergic inputs from nc-LaNs onto
+theglutamatergicVPLNcouldinhibittheVPNs,computingonitsownsomeresponsetochangesin
+light intensity. Blocking the VPLN activity in a Rh6-PRs depletion background would allow to study
+whetherambientlightinformationissufficientforvisualnavigation.Moreover,whenRh5-PRsaredis-
+abled, VPNs do not receive ambient light information while potentially being under tonic inhibition
+from the glu-lOLP, which therefore could shut down their activity. Given that in Rh5-PRs depletion
+background, larval visual responses are highly defective, this further suggests that ON and OFF
+responses alone are not sufficient to allow larval light avoidance. We therefore propose that it may
+needbothabaselineactivityofVPNs,providedbyambientlightintensityinformation,andthemod-
+ulationsofthisbaselineactivityinresponsetolightintensityvariations.
+OnlythePdf-LaNsinvolvedincircadianrhythmreceivedirectinputsfrombothPRssubtypesand
+can therefore still receive ambient light information in either PRs’ depletion condition. This broad
+lightinformationintegrationcapacityisinagreementwithevidencethatbothPRssubtypesaresuffi-
+cient to entrain the larval clock (Keene et al., 2011). While further reconstructions of their postsyn-
+aptic partners are required, the four Pdf-LaNs appear identical in sensory inputs, local connections
+andanatomy,raisingthequestionofwhatsuchredundancywouldallow.
+Comparisons between the larval eye and adult compound eye
+Thebasicorganizationofthevisualsysteminthelarva,theadultsflyaswellaswiththevisualcircuit
+of vertebrates show several similarities and possible shared characteristics (Figure 6). Several possi-
+bleinterpretationsofthephotoreceptortypesaswellascircuitmotifsmaybederived.Onepossible
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 14of23
+--- PAGE 15 ---
+Researcharticle Neuroscience
+A Drosophila larva B Drosophila adult C Vertebrate
+Rh6 Rh5 R1-6 R7-8 Rods Cones
+cha-lOLP glu-lOLP
+ON? OFF? L1 L2
+ON OFF
+Outer
+LONd Lamina Plexiform
+Layer
+VPLN VPN pOLP Mi1/Tm3 Tm1/2 Tm Dm/Mi HC
+ON OFF
+BPC BPC BPC
+AC
+LONi Inner
+Medulla Plexiform
+Layer
+LONp
+RGC RGC
+Figure6.ComparisonofthestructuralorganizationandputativefunctionsoftheDrosophilalarvalvisualcircuitwiththeDrosophilaadultcompound
+eyeandthevertebratevisualcircuit.(A)Larvalvisualcircuitasdescribedinthispaper.TwomaingroupsofVPNsreceiveinputfromRh5-PRs(purple):
+onecorrespondstothepOLPthatonlyreceivesinputsfromRh5-PRs,whereasthesecondgroup(VPN)alsoreceivesinputsfromchaandglu-lOLPs
+(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo
+lOLPsandconnectontotheVPNgroupintopofitsprojectionbeyondtheLON.Weproposethatchaandglu-lOLPscontrollightintensityincrement
+anddecrement(ON/OFF)detectionrespectivelyandtransfertheseinformationtotheVPLNandtheVPNgroup.Moreover,theVPLNmaypotentially
+keeptheON/OFFresponsesbrief.(B)ModelofasingleunitoftheflycompoundeyewhereR1-6PRs(orange)arewellknowntobeinvolvedin
+contrastandmotiondetection,whereasR7-8PRs(purple)areinvolvedincolorsensing(SanesandZipursky,2010;ClarkandDemb,2016,for
+reviews).Inthelamina,R1-6PRsmakeconnectionstotheglutamatergicL1neuroncontrollingtheONpathway(red)andtothecholinergicL2neuron
+controllingtheOFFpathway(blue).Inthedeepermedulla,L1andL2reachtheirtargets(Mi1,Tm1/2),whereasR7-8PRsconnecttomedullarneurons
+(Dm/Mi).(C)Modelofthevertebratevisualcircuit(SanesandZipursky,2010;ClarkandDemb,2016),forreviews).Cones(purple),whicharealsothe
+colorsensorsoftheretina,connecttobipolarretinalcells(BPC)whichconstitutetheONorOFFpathwaysdependingontheglutamatereceptorthey
+express(ONBPCandpathwayinred,OFFBPCandpathwayinblue).Rods(orange)alsoconnecttoBPCandcontrolvisionindimlightconditions.
+LONd,LONiandLONp:distal,intermediateandproximallarvalopticneuropil.Mi:medullaintrinsicneurons;Tm:transmedullaneurons;Dm:dorsal
+medullaneurons.RGC:retinaganglioncells;HC:horizontalcells;AC:amacrinecells.
+DOI:https://doi.org/10.7554/eLife.28387.018
+scenario lies in the comparison between PR types found in the different eye types and their known
+orputativerolesintemporalcodingasdiscussedhere.
+First, these three visual systems have each two main types of photo-sensory neurons: Rh5- and
+Rh6-PRs for the Drosophila larva, inner and outer PRs for adult flies, cones and rods for vertebrates
+(Sprecheretal.,2007;SprecherandDesplan,2008;Friedrich,2008;SanesandZipursky,2010).
+Here we also confirmed that the LON was organized in layers (LONd, LONi, LONp) similarly as the
+adult flies optic lobe (lamina, medulla) and the vertebrate retina (outer and inner plexiform layers)
+(Sanes and Zipursky, 2010, Figure 6). Moreover, the mode of development of Drosophila larval
+and adult eyes reinforces similarities between Rh5-PRs with an inner-PR type and Rh6-PRs with an
+outer-PR type: in the adult, R8-PR precursors are formed first to recruit outer PRs, likewise in the
+larva,Rh5-PRprecursorsdevelopfirstandthenrecruittheRh6-PRs,inbothcasesviatheEGFRpath-
+way(Sprecheretal.,2007).Also,developmentofbothinnerPRsandRh5-PRsdependonthetran-
+scription factors senseless and spalt (Sprecher et al., 2007; Sprecher and Desplan, 2008;
+Mishraetal.,2013).Finally,theinputsfromserotonergicandoctopaminergic/tyraminergicneurons
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 15of23
+--- PAGE 16 ---
+Researcharticle Neuroscience
+ontotheLONarealsoasharedfeaturewiththeadultvisualsystemwhereserotoninhasbeenlinked
+to circadian rhythmicity (Yuan et al., 2005) and where visual cues during flight are modulated by
+octopaminergic inputs (Suver et al., 2012; Wasserman et al., 2015). In the LON, our data suggest
+thattheserotonergicneuronSP2-1andoctopaminergic/tyraminergicneuronssVUMmightmodulate
+the sensitivity to light increment and decrement (ON/OFF) by directly connecting the cha- and glu-
+lOLPsVLNs.TheseONandOFFresponsesmightbefurtheraffectedbyinputsfromSP2-1ontothe
+VPLN.
+A potential functional comparison between the larval and the adult visual system emerge from
+thesimilarneurotransmittersexpressedandthefunctionsproposedforthelarvalVLNscha-andglu-
+lOLPs and the adult glutamatergic L1 and cholinergic L2 interneurons of the lamina (Figure 6A,B;
+Gaoetal.,2008).Intheadultfly,theouterR1-6PRsconnecttoL1andL2interneuronsthatconvey
+distinct responses to light increment (ON) and decrement (OFF) (Joesch et al., 2010; Clark et al.,
+2011;Strotheretal.,2014;Behniaetal.,2014).TheadultPRsarehistaminergicandinducehyper-
+polarization(inhibition) inbothL1andL2uponlightincrement,followed byareboundofactivityof
+thesetwocellsuponlightdecrement(Hardie,1987;Reiffetal.,2010;Clarketal.,2011);reviewed
+in Borst and Helmstaedter, 2015). Therefore upon light increment, PRs inhibit the glutamatergic
+L1, which results in the disinhibition of the downstream targets of L1 (ON response). In turn, upon
+lightdecrementPRsinhibitthecholinergicL2less,whichresultsintheactivationofthedownstream
+targets of L2 (OFF response). However, the larval PRs are cholinergic (Yasuyama et al., 1995;
+Keeneetal.,2011)and,atleastforthePdf-LaNs(Yuanetal.,2011),excitetheirtargetsactivityin
+response of light. Therefore in larvae, an ON response could result from an increase of excitation
+from cha-lOLP onto VPNs when light intensity increases (via the increase of Rh6-PRs inputs) and
+could be kept transient by inhibition from the glu-lOLP (indirect presynaptic inhibition of Rh6-PRs
+inputs)andbyphasicinhibitionfromtheVPLN.Inturn,anOFFresponsecouldresultfromthedisin-
+hibition of VPNs from glu-lOLP inhibition when light intensity decreases and may also be kept tran-
+sient by phasic inhibition from the VPLN. Therefore, whereas the glutamatergic L1 conveys the ON
+response and the cholinergic L2 conveys the OFF response in adult flies, we propose that the glu-
+lOLP could convey the OFF response and the cha-lOLP could convey the ON response in larvae
+(Figure 6A,B). Another similarity between the two lOLPs and the adult L1 and L2 is that each lOLP
+receives an equivalent number of inputs from each Rh6-PRs (about 20 synapses in average, Fig-
+ure 2—source data 1), similarly as adult L1 and L2 receives about 50 inputs from each R1-6 PRs
+(Meinertzhagen, 1989),suggestingthattheinformationtransfercouldhaveasimilarly highfidelity.
+However, while ON/OFF responses in adult flies and vertebrates (Figure 6B,C) are involved in
+motion detection, such ability within one eye is achieved through downstream direction-sensitive
+cellsthatintegrateinformationfromseveralpointsinspace(ClarkandDemb,2016).Aslarvaleyes
+lack ommatidia such capacity seems unlikely, however the ON/OFF detection could already suffice
+for larval visual navigation (Kane et al., 2013; Klein et al., 2015; Schulze et al., 2015;
+HumbergandSprecher,2017).Anotherimportantdifferencebetweenthelarvalandadultsystems
+isthatintheLONthecha-andglu-lOLPsarestronglyinterconnectedandbothinputontothesame
+targets, whereas in the adult fly, the L1 and L2 are not chemically connected (only electrically,
+Joesch et al., 2010) and the ON/OFF pathways are separated for two additional synaptic levels
+before convergingondirection-sensitive cells inthelobula plate (Takemura et al., 2013;Clark and
+Demb, 2016). Consequently, whereas the adult L1 and L2 have similar responses to light
+(Clark et al., 2011; Borst and Helmstaedter, 2015), the reciprocal connections between cha- and
+glu-lOLPsmayuniquelyshapethelightresponseofthesetwocells.
+IftheRh6-PRs-VLNspathwaycontributesindeedtoafunctionrelatedtolightincrementordecre-
+ment remains hypothetical. Moreover, since Rh5-PRs survive metamorphosis giving rise to the adult
+Hofbauer-Buchnereyelet,itispossiblethatthelarvalvisualcircuitmorecloselyresemblestheeyelet
+circuitrythantheoneoftheadultcompoundeye(SprecherandDesplan,2008).
+Comparison between the visual and the olfactory first-order processing
+centers
+The LON neural network presents many similarities with the larval olfactory wiring diagram
+(Bercketal.,2016),favoringapotentialcommonorganizationaloriginofthesesensoryneuropilsas
+suggested before (Strausfeld, 1989; Strausfeld et al., 2007). Odorant cues are perceived by
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 16of23
+--- PAGE 17 ---
+Researcharticle Neuroscience
+olfactoryreceptorneuronsthatprojecttotheantennallobewheretheycontactolfactoryprojection
+interneurons andolfactory localinterneurons.Similarly tovisual circuits,sensoryinputs intheanten-
+nal lobe are segregated in olfactory receptor specific domains termed glomeruli (Fishilevich et al.,
+2005; Masuda-Nakagawa et al., 2009). Most olfactory receptor neurons and olfactory projection
+interneurons are cholinergic like PRs and VPNs (Keene et al., 2011; Yasuyama and Salvaterra,
+1999;PythonandStocker,2002),andwefindglutamatergic,potentiallyinhibitory,localinterneur-
+onsinbothsystems(Bercketal.,2016).Reciprocalsynapsesbetweencha-lOLPandglu-lOLPinthe
+visual circuit may be functionally equivalent to the connections between some olfactory receptor
+neurons and the glutamatergic Picky olfactory local interneuron 0 of the antennal lobe, suggesting
+that this reciprocal motif in the LON could indeed contribute to detecting changes in light intensity
+by computing the first derivative of the stimulus (Berck et al., 2016). Additionally, we can observe
+presynaptic and postsynaptic inhibition in both sensory systems while the strategies of implementa-
+tion are somewhat different. Interestingly, we observed that most projection interneurons of both
+sensory systems may bring a mixture of stimulus intensity and acceleration in stimulus intensity to
+the lateral horn and to the mushroom body calyx (Figure 1—figure supplement 3; Kim et al.,
+2015). Finally, both sensory systems are modulated by aminergic neurons inputs on specifics local
+interneurons. Interestingly, both the lOLPs VLNs and the olfactory Broad local interneurons Trio
+formfeedback synapses onto the axonal termini oftheir respective bilateral octopaminergic/tyrami-
+nerigcneuronswhilethisisnotthecaseforserotonergicneurons(Bercketal.,2016).
+Concluding remarks
+Identification of synaptic connectivity and neurotransmitter identity within the larval visual circuit
+allows us to formulate clear predictions on the response profile and function of individual network
+components. Based on the circuit map we suggest that the Rh6-PRs-VLNs pathway might be
+requiredforthedetectionoflightintensitychanges,whereastheRh5-PRs-VPNspathwaycouldpro-
+videdirectambientlightintensityinformation.Inthefuture,behavioralstudiesorphysiologicalactiv-
+ityrecordingofvisualcircuitneuronswillallowtoaddadditionallayersontothisfunctionalmap.
+Materials and methods
+ssTEM based neuronal reconstruction
+In order to reconstruct the larval visual system, we used the serial-section transmission electron
+microscopy (ssTEM) volume of the entire nervous system of a first instar larva as described in
+Ohyamaetal.(2015).Briefly,a6-h-old[iso]CantonSG1xw1118brainwasseriallysectionedat50
+nmandimagedat4nmperpixelwithanFEISpiritBioTWINTEM(Hillsboro).Afterimagesprocess-
+ing and compression, the whole dataset was stored on servers accessible by the web page CAT-
+MAID (Collaborative annotation Toolkit for Massive Amounts of Image Data, http://openconnecto.
+me/catmaid/, Saalfeld et al., 2009). The reconstruction was performed manually following the
+method used in Ohyama et al. (2015) and described in detail in Schneider-Mizell et al., 2016. All
+photoreceptorneuronsweretracedfromtheBolwignerve’sentranceinthessTEMstackuptotheir
+terminals within the larval optic neuropil. The loss of eight 50 nm serial sections between frames
+1103 and 1112 have made difficult to get all the neurons complete especially in the right hemi-
+sphere. Therefore, attempts to cross the gap for a neuron were validated with its contralateral
+homolog. We found 60 neurons in total, measuring 12.5 millimeters of cable and presenting 2090
+presynapticsitesand4414postsynapticsites.seventinyfragments(thatamountto0.018millimeters
+ofcableand20postsynapticsitesintotal)couldnotbeattachedtofullneuronalarbors.Therecon-
+structionrequired134hrplusanadditional43hrforproofreading.
+Fly strains
+Flieswererearedonstandardcornmealandmolassesfoodina12hr:12hrlight-darkcycleat25˚C.
+We used the following strains for each subset of neurons (number of neurons of interest; neuron’s
+name): from the GMR Rubin GAL4 (R) and JRC split-Gal4 (SS0) collections of the Howard Hughes
+Medical Institute at Janelia Research Campus: SS01740 (1; serotonergic SP2-1 neuron), SS02149 (2;
+octopaminergic/tyraminergic sVUM2 neurons), R72A10-GAL4 (3; OLPs), SS01724 (1; glutamatergic
+lOLP), SS01745 (1; projection OLP), R20C08-GAL4 and SS00671 (1; PVL09), R19C05-GAL4 (3; nc-
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 17of23
+--- PAGE 18 ---
+Researcharticle Neuroscience
+LaNs and 5th-LaN; plus the 4 Pdf-LaNs are weakly expressed) and SS01777 (1; VPLN). From Bloo-
+mington BDSC: OK371-GAL4 (VGluT-Gal4, ]26160), and pJFRC29-10xUAS-IVS-myr::GFP-p10
+(attP40) (referred as UAS-myr::GFP, ]32198). Kind gift from B. Egger: w;; UAS-His2B-mRFP/TM3
+(Mayeretal.,2005).
+Immunohistochemistry
+All confocal stacks are from early third instar larvae. All identification of a neuron neurotransmitter
+expression was performed on first and third instars. Larvae were dissected 4 days after egg laying.
+Brain dissections where performed in cold phosphate-buffered saline (PBS, BioFroxx, ]1346LT050,
+1X in dH2O). Brains were fixed in 3.7% formaldehyde (Sigma-Aldrich, ]252549) in 1X PBS, 5 mM
+MgCl (Merck, ]1.05833.0250), 0.5 mM EGTA (Fluka, ]03777) at room temperature for 25 min,
+2
+exceptwhenusinganti-DVGluT-antibodyforwhichbrainswerefixedusingBouin’ssolutionfor5min
+(picricacid/formaldehyde/glacial aceticacidinproportion15/5/1,Danielsetal.,2008).Brainswere
+stained according to previously described protocols (Sprecher et al., 2011) and mounted in DAPI-
+containing Vectashield (Vector laboratories, ]H-1200). The following primary antibodies were used:
+rabbit anti-GFP (Molecular Probes, ]A6455) and sheep anti-GFP (Serotec, ]4745–1051) (both
+1:1000), mouse anti-ChAT (DHSB, ]4B1, 1:20 for neuropil marker and 1:5 for cell neurotransmitter
+identification), rabbit anti-serotonin (1:1000, Sigma, S5545), rabbit anti-DVGluT (1:5000, kind gift
+from A. DiAntonio [Daniels et al., 2008]) and rabbit anti-PER (1:1000, kind gift from R. Stanewsky
+(Gentileetal.,2013).FordoubleChAT/DVGluTstainingbrainswerefixedfollowingDVGluTproto-
+col and mouse anti-ChAT was used at 1:2. The following secondary antibodies were used: donkey
+anti-sheep IgG Alexa Fluor 488 (]A11015), goat anti-rabbit IgG Alexa 488 (]A11008) and 647
+(]21244), goat anti-mouse IgG Alexa 488 (]A11029), 647 (]A21235) and 568 (]A11031) (all 1:200,
+MolecularProbes).ImageswererecordedusingaLeicaSP5confocalmicroscopewitha63(cid:2)1.4NA
+glycerol immersion objective and LAS software. Z-projections were made in Fiji (Software, NIH) and
+brightnessadjustmentwithAdobePhotoshop.
+Acknowledgements
+We would like to sincerely thank Tim-Henning Humberg and our colleagues of the Sprecher lab,
+Akira Fushiki and Quan Yuan for fruitful discussions throughout the project. We thank the Develop-
+mental Studies Hybridoma Bank (DHSB), the Bloomington Drosophila Stock Center (BDSC), Aaron
+DiAntonio, Ralf Stanewsky and Boris Egger for providing fly lines and antibodies; Gerry Rubin for
+sharing GAL4 lines prior to publication. This work was supported by the Swiss National Science
+Foundation (CRSII3_136307 and 31003A_169993) and the European Research Council (ERC-2012-
+StG309832-PhotoNaviNet)toS.G.S.
+Additional information
+Funding
+Funder Grantreferencenumber Author
+Bundesbeho¨rdenderSchwei- 31003A_169993 SimonGSprecher
+zerischenEidgenossenschaft
+SeventhFrameworkPro- ERC-2012-StG309832- SimonGSprecher
+gramme PhotoNaviNet
+HowardHughesMedicalInsti- JamesWTruman
+tute MartaZlatic
+AlbertCardona
+Thefundershadnoroleinstudydesign,datacollectionandinterpretation,orthe
+decisiontosubmittheworkforpublication.
+Authorcontributions
+Ivan Larderet, Pauline MJ Fritsch, Conceptualization, Data curation, Formal analysis, Investigation,
+Visualization, Methodology, Writing—original draft, Writing—review and editing; Nanae Gendre,
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 18of23
+--- PAGE 19 ---
+Researcharticle Neuroscience
+Data curation, Visualization, Methodology; G Larisa Neagu-Maier, Data curation, Formal analysis,
+Visualization, Methodology, Writing—review and editing; Richard D Fetter, Casey MSchneider-Miz-
+ell,Resources,Datacuration,Methodology;JamesWTruman,Conceptualization,Resources,Formal
+analysis,Investigation,Visualization,Writing—reviewandediting;MartaZlatic,Resources,Datacura-
+tion, Investigation; Albert Cardona, Conceptualization, Resources, Data curation, Software, Investi-
+gation, Visualization, Writing—review and editing; Simon G Sprecher, Conceptualization,
+Supervision, Funding acquisition, Investigation, Visualization, Methodology, Writing—original draft,
+Projectadministration,Writing—reviewandediting
+AuthorORCIDs
+CaseyMSchneider-Mizell http://orcid.org/0000-0001-9477-3853
+AlbertCardona http://orcid.org/0000-0003-4941-6536
+SimonGSprecher http://orcid.org/0000-0001-9060-3750
+DecisionletterandAuthorresponse
+Decisionletterhttps://doi.org/10.7554/eLife.28387.020
+Authorresponsehttps://doi.org/10.7554/eLife.28387.021
+Additional files
+Supplementaryfiles
+.Transparentreportingform
+DOI:https://doi.org/10.7554/eLife.28387.019
+References
+AlonU.2007.Networkmotifs:theoryandexperimentalapproaches.NatureReviewsGenetics8:450–461.
+DOI:https://doi.org/10.1038/nrg2102,PMID:17510665
+BainesRA,BateM.1998.ElectrophysiologicaldevelopmentofcentralneuronsintheDrosophilaembryo.
+JournalofNeuroscience18:4673–4683.PMID:9614242
+BehniaR,ClarkDA,CarterAG,ClandininTR,DesplanC.2014.ProcessingpropertiesofONandOFFpathways
+forDrosophilamotiondetection.Nature512:427–430.DOI:https://doi.org/10.1038/nature13427,
+PMID:25043016
+BerckME,KhandelwalA,ClausL,Hernandez-NunezL,SiG,TaboneCJ,LiF,TrumanJW,FetterRD,LouisM,
+SamuelAD,CardonaA.2016.Thewiringdiagramofaglomerularolfactorysystem.eLife5:e14859.
+DOI:https://doi.org/10.7554/eLife.14859,PMID:27177418
+Bernardo-GarciaFJ,FritschC,SprecherSG.2016.ThetranscriptionfactorGlasslinkseyefieldspecificationwith
+photoreceptordifferentiationinDrosophila.Development143:1413–1423.DOI:https://doi.org/10.1242/dev.
+128801,PMID:26952983
+BorstA,HelmstaedterM.2015.Commoncircuitdesigninflyandmammalianmotionvision.Nature
+Neuroscience18:1067–1076.DOI:https://doi.org/10.1038/nn.4050,PMID:26120965
+BurrowsM.1996.TheNeurobiologyofanInsectBrain.OxfordUniversityPress.
+ClarkDA,BursztynL,HorowitzMA,SchnitzerMJ,ClandininTR.2011.Definingthecomputationalstructureof
+themotiondetectorinDrosophila.Neuron70:1165–1177.DOI:https://doi.org/10.1016/j.neuron.2011.05.023,
+PMID:21689602
+ClarkDA,DembJB.2016.ParallelComputationsinInsectandmammalianvisualmotionprocessing.Current
+Biology26:R1062–R1072.DOI:https://doi.org/10.1016/j.cub.2016.08.003,PMID:27780048
+DacksAM,GreenDS,RootCM,NighornAJ,WangJW.2009.Serotoninmodulatesolfactoryprocessinginthe
+antennallobeofDrosophila.JournalofNeurogenetics23:366–377.DOI:https://doi.org/10.3109/
+01677060903085722,PMID:19863268
+DanielsRW,GelfandMV,CollinsCA,DiAntonioA.2008.Visualizingglutamatergiccellbodiesandsynapsesin
+DrosophilalarvalandadultCNS.TheJournalofComparativeNeurology508:131–152.DOI:https://doi.org/10.
+1002/cne.21670,PMID:18302156
+DelgadoR,BarlaR,LatorreR,LabarcaP.1989.L-glutamateactivatesexcitatoryandinhibitorychannelsin
+Drosophilalarvalmuscle.FEBSLetters243:337–342.DOI:https://doi.org/10.1016/0014-5793(89)80157-7,
+PMID:2465185
+EichlerK,LiF,Litwin-KumarA,ParkY,AndradeI,Schneider-MizellCM,SaumweberT,HuserA,EschbachC,
+GerberB,FetterRD,TrumanJW,PriebeCE,AbbottLF,ThumAS,ZlaticM,CardonaA.2017.Thecomplete
+connectomeofalearningandmemorycentreinaninsectbrain.Nature548:175–182.DOI:https://doi.org/10.
+1038/nature23455,PMID:28796202
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 19of23
+--- PAGE 20 ---
+Researcharticle Neuroscience
+FishilevichE,DomingosAI,AsahinaK,NaefF,VosshallLB,LouisM.2005.Chemotaxisbehaviormediatedby
+singlelarvalolfactoryneuronsinDrosophila.CurrentBiology15:2086–2096.DOI:https://doi.org/10.1016/j.
+cub.2005.11.016,PMID:16332533
+FrenkelL,MuraroNI,Beltra´nGonza´lezAN,MarcoraMS,Bernabo´ G,Hermann-LuiblC,RomeroJI,Helfrich-
+Fo¨rsterC,Castan˜oEM,Marino-BusjleC,CalvoDJ,CerianiMF.2017.OrganizationofCircadianbehaviorrelies
+onglycinergictransmission.Cellreports19:72–85.DOI:https://doi.org/10.1016/j.celrep.2017.03.034,PMID:2
+8380364
+FriedrichM.2008.OpsinsandcellfateintheDrosophilabolwigorgan:trickylessonsinhomologyinference.
+BioEssays30:980–993.DOI:https://doi.org/10.1002/bies.20803,PMID:18800378
+GaoS,TakemuraSY,TingCY,HuangS,LuZ,LuanH,RisterJ,ThumAS,YangM,HongST,WangJW,
+OdenwaldWF,WhiteBH,MeinertzhagenIA,LeeCH.2008.Theneuralsubstrateofspectralpreferencein
+Drosophila.Neuron60:328–342.DOI:https://doi.org/10.1016/j.neuron.2008.08.010,PMID:18957224
+GentileC,SehadovaH,SimoniA,ChenC,StanewskyR.2013.Cryptochromeantagonizessynchronizationof
+Drosophila’scircadianclocktotemperaturecycles.CurrentBiology23:185–195.DOI:https://doi.org/10.1016/j.
+cub.2012.12.023,PMID:23333312
+GepnerR,MihovilovicSkanataM,BernatNM,KaplowM,GershowM.2015. Computationsunderlying
+Drosophilaphoto-taxis,odor-taxis,andmulti-sensoryintegration.eLife4:06229.DOI:https://doi.org/10.7554/
+eLife.06229
+GerberB,SchererS,NeuserK,MichelsB,HendelT,StockerRF,HeisenbergM.2004.Visuallearningin
+individuallyassayedDrosophilalarvae.JournalofExperimentalBiology207:179–188.DOI:https://doi.org/10.
+1242/jeb.00718,PMID:14638844
+GongZ.2009.BehavioraldissectionofDrosophilalarvalphototaxis.BiochemicalandBiophysicalResearch
+Communications382:395–399.DOI:https://doi.org/10.1016/j.bbrc.2009.03.033,PMID:19285485
+GreenP,HartensteinAY,HartensteinV.1993.TheembryonicdevelopmentoftheDrosophilavisualsystem.Cell
+&TissueResearch273:583–598.DOI:https://doi.org/10.1007/BF00333712,PMID:8402833
+HamasakaY,RiegerD,ParmentierML,GrauY,Helfrich-Fo¨rsterC,Na¨sselDR.2007.Glutamateandits
+metabotropicreceptorinDrosophilaclockneuroncircuits.TheJournalofComparativeNeurology505:32–45.
+DOI:https://doi.org/10.1002/cne.21471,PMID:17729267
+HardieRC.1987.Ishistamineaneurotransmitterininsectphotoreceptors?JournalofComparativePhysiologyA
+161:201–213.DOI:https://doi.org/10.1007/BF00615241,PMID:2442380
+HassanJ,IyengarB,ScantleburyN,RodriguezMoncalvoV,CamposAR.2005.Photicinputpathwaysthat
+mediatetheDrosophilalarvalresponsetolightandcircadianrhythmicityaredevelopmentallyrelatedbut
+functionallydistinct.TheJournalofComparativeNeurology481:266–275.DOI:https://doi.org/10.1002/cne.
+20383,PMID:15593374
+HedwigBG.2016.Sequentialfilteringprocessesshapefeaturedetectionincrickets:aframeworkforsong
+patternrecognition.FrontiersinPhysiology7:46.DOI:https://doi.org/10.3389/fphys.2016.00046,PMID:26
+941647
+Helfrich-Fo¨rsterC.1997.Developmentofpigment-dispersinghormone-immunoreactiveneuronsinthenervous
+systemofDrosophilamelanogaster.TheJournalofComparativeNeurology380:335–354.DOI:https://doi.org/
+10.1002/(SICI)1096-9861(19970414)380:3<335::AID-CNE4>3.0.CO;2-3,PMID:9087517
+HumbergTH,SprecherSG.2017.Age-andwavelength-dependencyofdrosophilalarvalphototaxisand
+behavioralresponsestonaturallightingconditions.FrontiersinBehavioralNeuroscience11:66.DOI:https://
+doi.org/10.3389/fnbeh.2017.00066,PMID:28473759
+HuserA,RohwedderA,ApostolopoulouAA,WidmannA,PfitzenmaierJE,MaioloEM,SelchoM,PaulsD,von
+EssenA,GuptaT,SprecherSG,BirmanS,RiemenspergerT,StockerRF,ThumAS2012.Theserotonergic
+centralnervoussystemoftheDrosophilalarva:anatomyandbehavioralfunction.PLoSOne7:e47518.
+DOI:https://doi.org/10.1371/journal.pone.0047518,PMID:23082175
+JoeschM,SchnellB,RaghuSV,ReiffDF,BorstA.2010.ONandOFFpathwaysinDrosophilamotionvision.
+Nature468:300–304.DOI:https://doi.org/10.1038/nature09545,PMID:21068841
+JovanicT,Schneider-MizellCM,ShaoM,MassonJB,DenisovG,FetterRD,MenshBD,TrumanJW,CardonaA,
+ZlaticM.2016.CompetitiveDisinhibitionMediatesBehavioralChoiceandSequencesinDrosophila.Cell167:
+858–870.DOI:https://doi.org/10.1016/j.cell.2016.09.009,PMID:27720450
+JusticeED,MacedoniaNJ,HamiltonC,CondronB.2012.Thesimpleflylarvalvisualsystemcanprocess
+compleximages.NatureCommunications3:1156.DOI:https://doi.org/10.1038/ncomms2174,PMID:23093193
+KaneEA,GershowM,AfonsoB,LarderetI,KleinM,CarterAR,deBivortBL,SprecherSG,SamuelAD.2013.
+SensorimotorstructureofDrosophilalarvaphototaxis.PNAS110:E3868–3877.DOI:https://doi.org/10.1073/
+pnas.1215295110,PMID:24043822
+KanekoM,Helfrich-Fo¨rsterC,HallJC.1997.Spatialandtemporalexpressionoftheperiodandtimelessgenes
+inthedevelopingnervoussystemofDrosophila:newlyidentifiedpacemakercandidatesandnovelfeaturesof
+clockgeneproductcycling.JournalofNeuroscience17:6745–6760.PMID:9254686
+KeeneAC,MazzoniEO,ZhenJ,YoungerMA,YamaguchiS,BlauJ,DesplanC,SprecherSG.2011.Distinctvisual
+pathwaysmediateDrosophilalarvallightavoidanceandcircadianclockentrainment.JournalofNeuroscience
+31:6527–6534.DOI:https://doi.org/10.1523/JNEUROSCI.6165-10.2011,PMID:21525293
+KimAJ,LazarAA,SlutskiyYB.2015. ProjectionneuronsinDrosophilaantennallobessignaltheaccelerationof
+odorconcentrations.eLife4:e06651.DOI:https://doi.org/10.7554/eLife.06651
+KleinM,AfonsoB,VonnerAJ,Hernandez-NunezL,BerckM,TaboneCJ,KaneEA,PieriboneVA,NitabachMN,
+CardonaA,ZlaticM,SprecherSG,GershowM,GarrityPA,SamuelAD.2015.Sensorydeterminantsof
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 20of23
+--- PAGE 21 ---
+Researcharticle Neuroscience
+behavioraldynamicsinDrosophilathermotaxis.PNAS112:E220–229.DOI:https://doi.org/10.1073/pnas.
+1416212112,PMID:25550513
+KreherSA,MathewD,KimJ,CarlsonJR.2008.Translationofsensoryinputintobehavioraloutputviaan
+olfactorysystem.Neuron59:110–124.DOI:https://doi.org/10.1016/j.neuron.2008.06.010,PMID:18614033
+LinsterC,SmithBH.1997.Acomputationalmodeloftheresponseofhoneybeeantennallobecircuitrytoodor
+mixtures:overshadowing,blockingandunblockingcanarisefromlateralinhibition.BehaviouralBrainResearch
+87:1–14.DOI:https://doi.org/10.1016/S0166-4328(96)02271-1,PMID:9331469
+LiuWW,WilsonRI.2013.GlutamateisaninhibitoryneurotransmitterintheDrosophilaolfactorysystem.PNAS
+110:10294–10299.DOI:https://doi.org/10.1073/pnas.1220560110,PMID:23729809
+MahrA,AberleH.2006.TheexpressionpatternoftheDrosophilavesicularglutamatetransporter:amarker
+proteinformotoneuronsandglutamatergiccentersinthebrain.GeneExpressionPatterns6:299–309.
+DOI:https://doi.org/10.1016/j.modgep.2005.07.006,PMID:16378756
+MajeedZR,AbdeljaberE,SovelandR,CornwellK,BankemperA,KochF,CooperRL.2016.ModulatoryAction
+bytheserotonergicsystem:behaviorandneurophysiologyindrosophilamelanogaster.NeuralPlasticity2016:
+7291438–23.DOI:https://doi.org/10.1155/2016/7291438,PMID:26989517
+MalpelS,KlarsfeldA,RouyerF.2002.Larvalopticnerveandadultextra-retinalphotoreceptorssequentially
+associatewithclockneuronsduringDrosophilabraindevelopment.Development129:1443–1453.PMID:11
+880353
+MarderE,BucherD.2001.Centralpatterngeneratorsandthecontrolofrhythmicmovements.CurrentBiology
+11:R986–R996.DOI:https://doi.org/10.1016/S0960-9822(01)00581-4,PMID:11728329
+Masuda-NakagawaLM,GendreN,O’KaneCJ,StockerRF.2009.Localizedolfactoryrepresentationin
+mushroombodiesofDrosophilalarvae.PNAS106:10314–10319.DOI:https://doi.org/10.1073/pnas.
+0900178106,PMID:19502424
+MaussAS,MeierM,SerbeE,BorstA.2014.Optogeneticandpharmacologicdissectionoffeedforward
+inhibitioninDrosophilamotionvision.JournalofNeuroscience34:2254–2263.DOI:https://doi.org/10.1523/
+JNEUROSCI.3938-13.2014,PMID:24501364
+MayerB,EmeryG,BerdnikD,Wirtz-PeitzF,KnoblichJA.2005.Quantitativeanalysisofproteindynamicsduring
+asymmetriccelldivision.CurrentBiology15:1847–1854.DOI:https://doi.org/10.1016/j.cub.2005.08.067,
+PMID:16243032
+MazzoniEO,DesplanC,BlauJ.2005.Circadianpacemakerneuronstransmitandmodulatevisualinformationto
+controlarapidbehavioralresponse.Neuron45:293–300.DOI:https://doi.org/10.1016/j.neuron.2004.12.038,
+PMID:15664180
+MeinertzhagenIA.1989.Flyphotoreceptorsynapses:theirdevelopment,evolution,andplasticity.Journalof
+Neurobiology20:276–294.DOI:https://doi.org/10.1002/neu.480200503,PMID:2664074
+MishraAK,BargmannBO,TsachakiM,FritschC,SprecherSG.2016.Functionalgenomicsidentifiesregulators
+ofthephototransductionmachineryintheDrosophilalarvaleyeandadultocelli.DevelopmentalBiology410:
+164–177.DOI:https://doi.org/10.1016/j.ydbio.2015.12.026,PMID:26769100
+MishraAK,TsachakiM,RisterJ,NgJ,CelikA,SprecherSG.2013.Binarycellfatedecisionsandfate
+transformationintheDrosophilalarvaleye.PLoSGenetics9:e1004027.DOI:https://doi.org/10.1371/journal.
+pgen.1004027,PMID:24385925
+NagelKI,HongEJ,WilsonRI.2015.Synapticandcircuitmechanismspromotingbroadbandtransmissionof
+olfactorystimulusdynamics.NatureNeuroscience18:56–65.DOI:https://doi.org/10.1038/nn.3895,PMID:254
+85755
+OhyamaT,Schneider-MizellCM,FetterRD,AlemanJV,FranconvilleR,Rivera-AlbaM,MenshBD,BransonKM,
+SimpsonJH,TrumanJW,CardonaA,ZlaticM.2015.Amultilevelmultimodalcircuitenhancesactionselection
+inDrosophila.Nature520:633–639.DOI:https://doi.org/10.1038/nature14297,PMID:25896325
+OlsenSR,BhandawatV,WilsonRI.2010.Divisivenormalizationinolfactorypopulationcodes.Neuron66:287–
+299.DOI:https://doi.org/10.1016/j.neuron.2010.04.009,PMID:20435004
+OlsenSR,WilsonRI.2008.Lateralpresynapticinhibitionmediatesgaincontrolinanolfactorycircuit.Nature452:
+956–960.DOI:https://doi.org/10.1038/nature06864,PMID:18344978
+PythonF,StockerRF.2002.Immunoreactivityagainstcholineacetyltransferase,gamma-aminobutyricacid,
+histamine,octopamine,andserotonininthelarvalchemosensorysystemofDosophilamelanogaster.The
+JournalofComparativeNeurology453:157–167.DOI:https://doi.org/10.1002/cne.10383,PMID:12373781
+RandelN,AsadulinaA,Bezares-Caldero´nLA,Veraszto´ C,WilliamsEA,ConzelmannM,ShahidiR,Je´kelyG.
+2014.Neuronalconnectomeofasensory-motorcircuitforvisualnavigation.eLife3:e02730.DOI:https://doi.
+org/10.7554/eLife.02730
+RandelN,ShahidiR,Veraszto´ C,Bezares-Caldero´nLA,SchmidtS,Je´kelyG.2015.Inter-individualstereotypyof
+thePlatynereislarvalvisualconnectome.eLife4:e08069.DOI:https://doi.org/10.7554/eLife.08069,
+PMID:26061864
+ReadyDF,HansonTE,BenzerS.1976.DevelopmentoftheDrosophilaretina,aneurocrystallinelattice.
+DevelopmentalBiology53:217–240.DOI:https://doi.org/10.1016/0012-1606(76)90225-6,PMID:825400
+ReiffDF,PlettJ,MankM,GriesbeckO,BorstA.2010.Visualizingretinotopichalf-waverectifiedinputtothe
+motiondetectioncircuitryofDrosophila.NatureNeuroscience13:973–978.DOI:https://doi.org/10.1038/nn.
+2595,PMID:20622873
+RenGR,FolkeJ,HauserF,LiS,GrimmelikhuijzenCJ.2015.TheA-andB-typemuscarinicacetylcholinereceptors
+fromDrosophilamelanogastercoupletodifferentsecondmessengerpathways.BiochemicalandBiophysical
+ResearchCommunications462:358–364.DOI:https://doi.org/10.1016/j.bbrc.2015.04.141,PMID:25964087
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 21of23
+--- PAGE 22 ---
+Researcharticle Neuroscience
+RodriguezMoncalvoVG,CamposAR.2005.Geneticdissectionoftrophicinteractionsinthelarvaloptic
+neuropilofDrosophilamelanogaster.DevelopmentalBiology286:549–558.DOI:https://doi.org/10.1016/j.
+ydbio.2005.08.030,PMID:16168982
+RodriguezMoncalvoVG,CamposAR.2009.RoleofserotonergicneuronsintheDrosophilalarvalresponseto
+light.BMCNeuroscience10:66.DOI:https://doi.org/10.1186/1471-2202-10-66,PMID:19549295
+RosenbaumEE,BrehmKS,VasiljevicE,LiuCH,HardieRC,ColleyNJ.2011.XPORT-dependenttransportofTRP
+andrhodopsin.Neuron72:602–615.DOI:https://doi.org/10.1016/j.neuron.2011.09.016,PMID:22099462
+RoyB,SinghAP,ShettyC,ChaudharyV,NorthA,LandgrafM,VijayraghavanK,RodriguesV.2007.
+MetamorphosisofanidentifiedserotonergicneuronintheDrosophilaolfactorysystem.Neuraldevelopment2:
+20.DOI:https://doi.org/10.1186/1749-8104-2-20,PMID:17958902
+RybakJ,TalaricoG,RuizS,ArnoldC,CanteraR,HanssonBS.2016.Synapticcircuitryofidentifiedneuronsinthe
+antennallobeofDrosophilamelanogaster.JournalofComparativeNeurology524:1920–1956.DOI:https://
+doi.org/10.1002/cne.23966,PMID:26780543
+SaalfeldS,CardonaA,HartensteinV,TomancakP.2009.CATMAID:collaborativeannotationtoolkitformassive
+amountsofimagedata.Bioinformatics25:1984–1986.DOI:https://doi.org/10.1093/bioinformatics/btp266,
+PMID:19376822
+SaalfeldS,FetterR,CardonaA,TomancakP.2012.Elasticvolumereconstructionfromseriesofultra-thin
+microscopysections.NatureMethods9:717–720.DOI:https://doi.org/10.1038/nmeth.2072,PMID:22688414
+SalcedoE,FarrellDM,ZhengL,PhistryM,BaggEE,BrittSG.2009.Thegreen-absorbingDrosophilaRh6visual
+pigmentcontainsablue-shiftingaminoacidsubstitutionthatisconservedinvertebrates.JournalofBiological
+Chemistry284:5717–5722.DOI:https://doi.org/10.1074/jbc.M807368200,PMID:19126545
+SanesJR,ZipurskySL.2010.Designprinciplesofinsectandvertebratevisualsystems.Neuron66:15–36.
+DOI:https://doi.org/10.1016/j.neuron.2010.01.018,PMID:20399726
+Sawin-McCormackEP,SokolowskiMB,CamposAR.1995.CharacterizationandgeneticanalysisofDrosophila
+melanogasterphotobehaviorduringlarvaldevelopment.JournalofNeurogenetics10:119–135.DOI:https://
+doi.org/10.3109/01677069509083459,PMID:8592272
+SchlegelP,TexadaMJ,MiroschnikowA,SchoofsA,Hu¨ckesfeldS,PetersM,Schneider-MizellCM,LacinH,LiF,
+FetterRD,TrumanJW,CardonaA,PankratzMJ.2016.Synaptictransmissionparallelsneuromodulationina
+centralfood-intakecircuit.eLife5:e16799.DOI:https://doi.org/10.7554/eLife.16799,PMID:27845623
+Schneider-MizellCM,GerhardS,LongairM,KazimiersT,LiF,ZwartMF,ChampionA,MidgleyFM,FetterRD,
+SaalfeldS,CardonaA.2016.QuantitativeneuroanatomyforconnectomicsinDrosophila.eLife5:e12059.
+DOI:https://doi.org/10.7554/eLife.12059,PMID:26990779
+SchulzeA,Gomez-MarinA,RajendranVG,LottG,MusyM,AhammadP,DeogadeA,SharpeJ,RiedlJ,Jarriault
+D,TrautmanET,WernerC,VenkadesanM,DruckmannS,JayaramanV,LouisM.2015.Dynamicalfeature
+extractionatthesensoryperipheryguideschemotaxis.eLife4:e06694.DOI:https://doi.org/10.7554/eLife.
+06694
+SelchoM,PaulsD,ElJundiB,StockerRF,ThumAS.2012.TheroleofoctopamineandtyramineinDrosophila
+larvallocomotion.TheJournalofComparativeNeurology520:3764–3785.DOI:https://doi.org/10.1002/cne.
+23152,PMID:22627970
+SelchoM,PaulsD,HanKA,StockerRF,ThumAS.2009.TheroleofdopamineinDrosophilalarvalclassical
+olfactoryconditioning.PLoSOne4:e5897.DOI:https://doi.org/10.1371/journal.pone.0005897,PMID:1
+9521527
+SelchoM,PaulsD,HuserA,StockerRF,ThumAS.2014.Characterizationoftheoctopaminergicand
+tyraminergicneuronsinthecentralbrainofDrosophilalarvae.JournalofComparativeNeurology522:3485–
+3500.DOI:https://doi.org/10.1002/cne.23616,PMID:24752702
+ShinomiyaK,KaruppuduraiT,LinTY,LuZ,LeeCH,MeinertzhagenIA.2014.Candidateneuralsubstratesforoff-
+edgemotiondetectioninDrosophila.CurrentBiology24:1062–1070.DOI:https://doi.org/10.1016/j.cub.2014.
+03.051,PMID:24768048
+SlepianZ,SundbyK,GlierS,McDanielsJ,NystromT,MukherjeeS,ActonST,CondronB.2015.Visualattraction
+inDrosophilalarvaedevelopsduringacriticalperiodandismodulatedbycrowdingconditions.Journalof
+comparativephysiology.A,Neuroethology,sensory,neural,andbehavioralphysiology201:1019–1027.
+DOI:https://doi.org/10.1007/s00359-015-1034-3,PMID:26265464
+SprecherSG,CardonaA,HartensteinV.2011.TheDrosophilalarvalvisualsystem:high-resolutionanalysisofa
+simplevisualneuropil.DevelopmentalBiology358:33–43.DOI:https://doi.org/10.1016/j.ydbio.2011.07.006,
+PMID:21781960
+SprecherSG,DesplanC.2008.SwitchofrhodopsinexpressioninterminallydifferentiatedDrosophilasensory
+neurons.Nature454:533–537.DOI:https://doi.org/10.1038/nature07062,PMID:18594514
+SprecherSG,ReichertH,HartensteinV.2007.Geneexpressionpatternsinprimaryneuronalclustersofthe
+Drosophilaembryonicbrain.GeneExpressionPatterns7:584–595.DOI:https://doi.org/10.1016/j.modgep.
+2007.01.004,PMID:17300994
+StrausfeldNJ,SinakevitchI,OkamuraJY.2007.Organizationoflocalinterneuronsinopticglomeruliofthe
+dipterousvisualsystemandcomparisonswiththeantennallobes.DevelopmentalNeurobiology67:1267–1288.
+DOI:https://doi.org/10.1002/dneu.20396,PMID:17638381
+StrausfeldNJ.1989.InsectVisionandOlfaction:CommonDesignPrinciplesofNeuronalOrganization.In:Singh
+R.N,StrausfeldN.J(Eds).NeurobiologyofSensorySystems.Boston,MA:SpringerUS.p.319–353.
+StrotherJA,NernA,ReiserMB.2014.DirectobservationofONandOFFpathwaysintheDrosophilavisual
+system.CurrentBiology24:976–983.DOI:https://doi.org/10.1016/j.cub.2014.03.017,PMID:24704075
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 22of23
+--- PAGE 23 ---
+Researcharticle Neuroscience
+SuverMP,MamiyaA,DickinsonMH.2012.Octopamineneuronsmediateflight-inducedmodulationofvisual
+processinginDrosophila.CurrentBiology22:2294–2302.DOI:https://doi.org/10.1016/j.cub.2012.10.034,
+PMID:23142045
+TakemuraSY,BhariokeA,LuZ,NernA,VitaladevuniS,RivlinPK,KatzWT,OlbrisDJ,PlazaSM,WinstonP,Zhao
+T,HorneJA,FetterRD,TakemuraS,BlazekK,ChangLA,OgundeyiO,SaundersMA,ShapiroV,SigmundC,
+etal.2013.AvisualmotiondetectioncircuitsuggestedbyDrosophilaconnectomics.Nature500:175–181.
+DOI:https://doi.org/10.1038/nature12450,PMID:23925240
+TakemuraSY,XuCS,LuZ,RivlinPK,ParagT,OlbrisDJ,PlazaS,ZhaoT,KatzWT,UmayamL,WeaverC,Hess
+HF,HorneJA,Nunez-IglesiasJ,AnicetoR,ChangLA,LauchieS,NascaA,OgundeyiO,SigmundC,etal.
+2015.SynapticcircuitsandtheirvariationswithindifferentcolumnsinthevisualsystemofDrosophila.PNAS
+112:13711–13716.DOI:https://doi.org/10.1073/pnas.1509820112,PMID:26483464
+TixS,MindenJS,TechnauGM.1989.Pre-existingneuronalpathwaysinthedevelopingopticlobesof
+Drosophila.Development105:739–746.PMID:2513178
+TobinWF,WilsonRI,LeeWA.2017.Wiringvariationsthatenableandconstrainneuralcomputationinasensory
+microcircuit.eLife6:e24838.DOI:https://doi.org/10.7554/eLife.24838,PMID:28530904
+VarshneyLR,ChenBL,PaniaguaE,HallDH,ChklovskiiDB.2011.StructuralpropertiesoftheCaenorhabditis
+elegansneuronalnetwork.PLoScomputationalbiology.7:e1001066.DOI:https://doi.org/10.1371/journal.
+pcbi.1001066,PMID:21304930
+vonEssenAM,PaulsD,ThumAS,SprecherSG.2011.CapacityofvisualclassicalconditioninginDrosophila
+larvae.BehavioralNeuroscience125:921–929.DOI:https://doi.org/10.1037/a0025758,PMID:21967373
+VosshallLB,StockerRF.2007.MoleculararchitectureofsmellandtasteinDrosophila.AnnualReviewof
+Neuroscience30:505–533.DOI:https://doi.org/10.1146/annurev.neuro.30.051606.094306,PMID:17506643
+WassermanSM,AptekarJW,LuP,NguyenJ,WangAL,KelesMF,GrygorukA,KrantzDE,LarsenC,FryeMA.
+2015.OlfactoryneuromodulationofmotionvisioncircuitryinDrosophila.Currentbiology:CB25:467–472.
+DOI:https://doi.org/10.1016/j.cub.2014.12.012,PMID:25619767
+WegenerC,HamasakaY,Na¨sselDR.2004.AcetylcholineincreasesintracellularCa2+vianicotinicreceptorsin
+culturedPDF-containingclockneuronsofDrosophila.JournalofNeurophysiology91:912–923.DOI:https://
+doi.org/10.1152/jn.00678.2003,PMID:14534288
+WilsonRI,LaurentG.2005.RoleofGABAergicinhibitioninshapingodor-evokedspatiotemporalpatternsinthe
+Drosophilaantennallobe.JournalofNeuroscience25:9069–9079.DOI:https://doi.org/10.1523/JNEUROSCI.
+2070-05.2005,PMID:16207866
+WolfH,BurrowsM.1995.Proprioceptivesensoryneuronsofalocustlegreceiverhythmicpresynpaticinhibition
+duringwalking.JournalofNeuroscience15:5623–5636.PMID:7643206
+WuM,NernA,WilliamsonWR,MorimotoMM,ReiserMB,CardGM,RubinGM.2016.Visualprojectionneurons
+intheDrosophilalobulalinkfeaturedetectiontodistinctbehavioralprograms.eLife5:e21022.DOI:https://
+doi.org/10.7554/eLife.21022,PMID:28029094
+YamanakaN,RomeroNM,MartinFA,RewitzKF,SunM,O’ConnorMB,Le´opoldP.2013.Neuroendocrine
+controlofDrosophilalarvallightpreference.Science341:1113–1116.DOI:https://doi.org/10.1126/science.
+1241210,PMID:24009394
+YasuyamaK,KitamotoT,SalvaterraPM.1995.Localizationofcholineacetyltransferase-expressingneuronsin
+thelarvalvisualsystemofDrosophilamelanogaster.Cell&TissueResearch282:193–202.DOI:https://doi.org/
+10.1007/BF00319111,PMID:8565051
+YasuyamaK,MeinertzhagenIA.2010.SynapticconnectionsofPDF-immunoreactivelateralneuronsprojectingto
+thedorsalprotocerebrumofDrosophilamelanogaster.TheJournalofComparativeNeurology518:292–304.
+DOI:https://doi.org/10.1002/cne.22210,PMID:19941354
+YasuyamaK,SalvaterraPM.1999.Localizationofcholineacetyltransferase-expressingneuronsinDrosophila
+nervoussystem.Microscopyresearchandtechnique45:65–79.DOI:https://doi.org/10.1002/(SICI)1097-0029
+(19990415)45:2<65::AID-JEMT2>3.0.CO;2-0,PMID:10332725
+YuanQ,LinF,ZhengX,SehgalA.2005.SerotoninmodulatescircadianentrainmentinDrosophila.Neuron47:
+115–127.DOI:https://doi.org/10.1016/j.neuron.2005.05.027,PMID:15996552
+YuanQ,XiangY,YanZ,HanC,JanLY,JanYN.2011.Light-inducedstructuralandfunctionalplasticityin
+Drosophilalarvalvisualsystem.Science333:1458–1462.DOI:https://doi.org/10.1126/science.1207121,
+PMID:21903815
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 23of23

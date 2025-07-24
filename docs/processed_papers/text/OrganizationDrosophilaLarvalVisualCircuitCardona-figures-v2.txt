@@ -1,0 +1,554 @@
+TITLE: Figures and figure supplements
+
+ABSTRACT: 
+
+FULL TEXT:
+
+--- PAGE 1 ---
+RESEARCHARTICLE
+Figures and figure supplements
+Organization of the Drosophila larval visual circuit
+Ivan Larderet et al
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 1of19
+--- PAGE 2 ---
+DD
+VV
+LL RR
+pOLP Pdf-LaN VPLN SP2-1
+lOLP
+PVL09 5th/nc-LaN Tiny VLN sVUM2
+enildim
+Researcharticle Neuroscience
+A G
+SLP
+D
+D BRAIN V L R
+V
+A P LON
+Bolwig nerve
+Bolwig
+LON
+organ
+cps neuropil
+Pdf-LaNs
+SEZ
+H
+SLP
+THORAX
+Rh5-PR VPN third order D LIP
+Rh6-PR VLN aminergic V L R
+B
+LON
+5th-LaN
+I
+LON D LIP
+LON V L R
+LON
+nc-LaN 1
+C D J
+D V L R D V L R D V L R LIP
+LON LON
+LON
+cha-lOLP glu-lOLP nc-LaN 2
+E F K
+SLP
+D D LIP D LIP
+V L R V L R V L R
+VLP VLP
+LON LON LON
+pOLP PVL09 VPLN
+Figure1.Overviewofthelarvalopticneuropil.(A)SchematicofthelarvalvisualsystemwithEM-reconstructedskeletonsofalllarvalopticneuropil
+(LON)neurons.TheRh5-PRs(darkblue)andRh6-PRs(darkgreen)cellbodiesformtheBolwigorgansittinginthecephalopharyngealskeleton(cps).
+Figure1continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 2of19
+--- PAGE 3 ---
+Researcharticle Neuroscience
+Figure1continued
+TheyextendtheiraxonstothebrainviatheBolwignerve.Inthebrain,neuronscellbodiesareintheouterlayer(gray)andprojectneuritsintothe
+neuropil.Wecandistinguishfourmainclassesofneurons:visualprojectioninterneurons(VPN,blue),visuallocalinterneurons(VLN,green),third-order
+interneurons(gray)andaminergicmodulatoryneurons(brown).Octopaminergic/tyraminergicmodulatoryneuronscellbodiessitinthesubesophageal
+zone(SEZ).(B)3DreconstructionofallLON-associatedneuronsfromthessTEMdatasetinbothhemispheres(exceptBolwignerves):VLNingreen:
+localopticlobepioneerneurons(lOLPs);VPNinshadesofblue:theprojectionOLP(pOLP),anovelneuronwhichislocatedintheposteriorventral
+lateralcortex(PVL09),thePdf-lateralneurons(Pdf-LaNs),the5th-LaNandthenon-clock-LaNs(nc-LaNs);third-orderneurons:VPLNinlightbrownand
+TinyVLNingray;aminergicmodulatoryneurons:serotonergicneuron(SP2-1,orange)andSEZ-ventral-unpaired-medial-2octopaminergic/tyraminergic
+neurons(sVUM2,brown).Posteriorview.(C–K)3DreconstructionsfromssTEMdataset,posteriorview,dendritesinblue,axonsingreen,presynaptic
+sitesinred,postsynapticsitesincyan,otherLONneuronsingray.VLP:ventrallateralprotocerebrum.SLP:superiorlateralprotocerebrum.LIP:lateral
+inferiorprotocerebrum.BothlOLPs(cha-lOLP(C)andglu-lOLP(D))havedensearborizationswithintheLON.(E)ThepOLPcellbodyissituatedwith
+thelOLPandprojectstotheVLP.(F)PVL09cellbodyissituatedpostero-ventro-laterallytotheLONandhasanaxonwithacharacteristicloopshape,
+extendingfirsttowardstheventro-medialprotocerebrum,thentowardstheLIPbeforecurvingdownbacktotheVLP,whereitformsmostofits
+synapticoutput.(G)ThefourPdf-LaNsprojecttotheSLP.(H)The5th-LaNprojectsbothtotheSLPandtheLIPregion,whereasnc-LaN1and2(Iand
+J)mainlyprojecttotheLIP.(K)Thethird-orderneuronVPLNcellbodyissituatedanteriorlytotheLONandithasanaxoncomingbackintheLONin
+topofitsprojectionswithinbothSLPandLIPregions.
+DOI:https://doi.org/10.7554/eLife.28387.002
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 3of19
+--- PAGE 4 ---
+Researcharticle Neuroscience
+A E E’ H
+SS01745 ChAT
+LON
+E’’
+LON
+LON
+R72A10 ChAT SS01745 ChAT ChAT R19C05 PER ChAT
+Ai Aii Aiii Aiv F F’ H’
+GFP DVGluT ChAT
+B
+SS00671 ChAT
+F’’
+LON
+LON
+R20C08 ChAT PER
+ChAT
+G G’ H’’
+SS01724 DVGluT
+Bi Bii
+SS01777 DVGluT
+GFP DVGluT
+G’’
+C
+LON
+LON
+SS01777 DVGluT DVGluT ChAT
+I
+Pdf-LaN 2 left
+R72A10 DVGluT ChAT dense core
+D vesicle
+D clear vesicle
+V LON
+A P
+T-bar synapse
+postsynaptic
+partner
+pOLP glu-lOLP cha-lOLP
+Figure1—figuresupplement1.NeurotransmitterexpressionintheLON.(A-C),(E-H)Confocalz-projections,dorsalview.(A)R72A10>UAS-myr::GFP
+(green)showingthethreeOLPs(neuropilmarker:ChAT,red)andclose-uponthecellsbodies(box)showingthatoneOLPisglutamatergic(Aiii)andat
+leastanotheroneisclearlycholinergic(Aiv).B:SS01724>UAS-myr::GFP(green)showingalOLPwithdensearborizationwithintheLON,reduced
+projections,andwhichisglutamatergic(DVGluTinred)(Bi),(Bii)close-upofthecellbody(box)).(C)R72A10>UAS-myr::GFP(green)closeuponthe
+threeOLPscellbodieswherewecanobservethestronglycholinergiccell(ChAT,red)sendingitsaxontowardstheLONviaadifferentpath(arrow)
+thantheglutamatergiccell(DVGluT,blue)andthethirdcell(arrowhead).(D)3DreconstructionofthethreeOLPsinthelefthemisphereofthessTEM
+Figure1—figuresupplement1continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 4of19
+--- PAGE 5 ---
+Researcharticle Neuroscience
+Figure1—figuresupplement1continued
+datasetwherewecouldobservetwocellssendingtheiraxonstogethertotheLON(arrowhead),whereasthethirdonetakesaseparatepath(arrow).
+Comparing(C)and(D)andbasedontheiranatomy,thethreeOLPscanbedistinguishedinthessTEMdataset(D):theprojectionOLP(pOLP,blue)
+andtheglutamatergiclOLP(glu-lOLP,green)axonsfasciculatetogether(arrowhead)butnotwiththecholinergiclOLP(cha-lOLP,lightgreen,arrow).(E)
+SS01745>UAS-myr::GFP(green)showingthepOLPanatomywithweakarborizationwithintheLONanddeepprojectionintotheneuropil.(E’,E’’)
+CloseuponpOLPcellbodyshowingaweakbutclearcholinergiccell(arrowhead,ChATinred/white).(F)R20C08>UAS-myr::GFP(green)showinga
+singleloopingneuronwithastrongoverlapintheLONandhavingitscellbodysituatedpostero-ventro-laterally,correspondingtoPVL09(neuropil
+markerChATinred).(F’),(F’’)CloseuponaPVL09cellbody(SS0671>UAS-H2B-RFP,RFPinblue)thatischolinergic(ChAT,red,arrowhead).Single
+section.(G)SS01777>UAS-myr::GFP(green)showingastochasticsinglecloneofthethird-orderneuronVPLNthatappearsglutamatergic(arrowhead,
+DVGluTinred/white,(G’),(G’’)closeup).(H)R19C05>UAS-myr::GFP(green)showingthreecellsamongwhichonlyoneisPER-positive(5th-LaN,white
+arrow)andtwoarePER-negatives(nc-LaNs,magentaarrow)(H’),PERinblue/white).Allthreecellsarecholinergic(H’’),ChATinred/white).Four
+additionalcellsweaklycoveredbytheGal4lineandexpressingPERcorrespondtothePdf-LaNs(H’),arrowheads).Scalebars:A,B,E,F,G,H:10mm.
+C:5mm.(I)Electronmicroscopyviewofaboutonrichindense-corevesiclesandclearvesiclesinthePdf-LaNnumbered2ofthelefthemisphere.
+DOI:https://doi.org/10.7554/eLife.28387.003
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 5of19
+--- PAGE 6 ---
+Researcharticle Neuroscience
+A B
+16 9
+8 6
+2 3
+2 2
+2 2
+1 1 2
+1 2
+1 1
+1 1
+1 1
+1 1
+11 1
+10 1
+5 1
+2 1
+2 4
+2 3
+1 3
+1 2
+1 2
+1 1
+1 1
+1 Totals 34 16
+Totals 36 39
+C
+D
+V
+L R
+*
+*
+LON
+Tiny VLN left
+Figure1—figuresupplement2.Connectionsandanatomyofthesmallthird-orderneuronTinyVLN.(A)ThemaininputsoftheTinyVLNinboth
+hemispherescomefromthelOLPsinparticulartheglu-lOLP(andextra-glu-lOLPintherighthemisphere).(B)TinyVLNshavefewoutputs,especiallyin
+therighthemisphere,butitseemsthattheirmaintargetsarebacktotheglu-lOLPs.(C)3DreconstructionoftheleftTinyVLNwithamedial-situated
+cellbody,sparseconnectionsintheLONandneuritesenteringdifferentprimarytracts(BLAdtract:blackstar;centraloptictract:magentastar).
+Posteriorview,dendritesinblue,axoningreen,presynapticsitesinred,postsynapticsitesincyan,otherLONneuronsingray.
+DOI:https://doi.org/10.7554/eLife.28387.004
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 6of19
+--- PAGE 7 ---
+Posterior view Lateral view Dorsal view
+sNaL-fdP
+1
+NaL-cn
+NLPV
+90LVP
+PLOp
+calyx
+LH calyx
+LH
+NaL-ht5
+2
+NaL-cn
+Researcharticle Neuroscience
+D D R
+A
+VL R
+A’ ca
+VA
+ly
+P
+x A’’
+LA P
+V M
+AL
+M pedLH
+ped
+LON LON
+AL LON
+AL
+B B’ B’’
+C C’ C’’
+D D’ D’’
+E E’ E’’
+F F’ F’’
+G G’ G’’
+mPN
+seahorse
+Figure1—figuresupplement3.:3DreconstructionsofeachVPNrelativetothelateralhornandtothemushroombody.3Dreconstructionsfrom
+differentviews(posterior,lateral,dorsal)relativetothelateralhorn(LH)shownbydisplayingolfactoryprojectioninterneurons(inred,AL:antennal
+Figure1—figuresupplement3continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 7of19
+--- PAGE 8 ---
+Researcharticle Neuroscience
+Figure1—figuresupplement3continued
+lobe),andtothemushroombody(MB,bluemesh,V:verticallobe,M:mediallobe,ped:peduncle).VPNofinterestinblack,otherLONneuronsin
+gray.(A–A’’)ThePdf-LaNsprojectabovetheLH.The5th-LaN(B–B’’),thenc-LaN1(C–C’’),thenc-LaN2(D–D’’)andthethird-orderneuronVPLN(E–
+E’’)projecttotheLHandMBcalyx.(F–F’’)PVL09projectstotheLHand,afteralongloopingbranchbelowtheMB,projecttothesameregionas
+pOLP.(G–G’’)pOLPprojectslikethemultiglomerularolfactoryprojectionneurons(mPN)SeahorseinthelowerLH(twoPdf-LaNswereremovefor
+thesepanelstounmaskthelowerLH).AlsoseeFigure1—video2for3Danimationmovies.
+DOI:https://doi.org/10.7554/eLife.28387.005
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 8of19
+--- PAGE 9 ---
+A B E
+LONp LONp
+LONi LONi
+LONd LONd
+Rh5-PR
+Rh6-PR lOLP
+C SLP
+D
+V A
+L R LIP
+B
+F
+VLP
+C Photoreceptor Neurons
+LON
+Rh6 Rh5
+VPN Visual Local
+D Interneurons Visual Projection
+SLP
+Interneurons
+LIP
+LONd LONi
+VPN
+VLP
+Aminergic Third Order
+LONp
+Neurons Interneurons
+Rh6-PR
+LONi
+LONp
+LONd
+central brain
+Rh5-PR
+lOLP
+cholinergic glutamatergic other
+90LVP PLOp
+(cid:393)(cid:381)(cid:400)(cid:410)(cid:400)(cid:455)(cid:374)(cid:258)(cid:393)(cid:415)(cid:272)
+76 57 20
+2 3 25 57 35 16 24 44
+3 4 4 2 1
+1 12 13 4 1
+2 4 18 35 28 24 24 26 18
+2 8 20 22 6 11 15
+9 8 16 2 7
+1 8 2 6 11 8 4
+1 5
+1
+3
+PVL09 22
+pOLP 12
+5 7 100 99 70 89 90 92 90 90 74
+(cid:272)(cid:415)(cid:393)(cid:258)(cid:374)(cid:455)(cid:400)(cid:286)(cid:396)(cid:393)
+NLV
+NPV
+VLN VPN
+NLPV
+Researcharticle Neuroscience
+VPLN
+Figure2.Thestructuralorganizationofthelarvalopticneuropil.(A-D)3DrepresentationsofthepresynapticsitesofLONneuronsintheleftlobe,
+posteriorview.(A)Rh6-PRspresynapticterminals(darkgreen)defineadistalLONlayer(LONd)whileRh5-PRspresynapticconnections(darkblue)
+defineanintermediateLONlayer(LONi).AthirdlayeroftheLON,moreproximal(LONp)isdevoidofPRterminals.OtherLONneuronsingray.(B)All
+LONlayers,includingtheLONp,containpresynapticsitesfromthelOLPs(skeletonsingreen,synapsesinyellow).VPNs,TinyVLNandBolwignervein
+gray.(C)VPNs(blue)makesynapticconnectionsinthreemainregionsoutsidetheLON.VPNsprojectionsdefinethreedomains:dorsaldomain(A,
+violet)definedbyprojectionsinthesuperiorlateralprotocerebrum(SLP),lateraldomain(B,orange)inthelateralinferiorprotocerebrum(LIP),ventral
+domain(C,red)intheventrallateralprotocerebrum(VLP).VLNsandBolwignerveingray.(D)SchematicoftheLONthreelayers:LONdinnervatedby
+Rh6-PRs(darkgreen),LONiinnervatedbyRh5-PRs(darkblue)andLONpinnervatedbylOLPs(green);andofthethreedomainsoutsidetheLONwere
+differentVPNssubtypesprojectto(violet,orangeandredemptycircles).lOLPsalsomakepresynapticconnectionsintheLONdandLONi(thickline).
+(E)ConnectivitytableoftheleftLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfromaneuroninarow.Neuronsofsametype
+aregrouped,inbracketsnumberofneuronsinthegroup.SamecolorsasinFigure1B.Onlyconnectionswithatleasttwosynapsesfoundinboth
+hemisphereswereused.(F)Simplifieddiagramofthelarvalvisualsystem.PRsinputsarecholinergicanddefinetwopathways.Rh5-PRstargetVPNs
+(bluearea,LONi)whileRh6-PRstargetthetwomainlarvalVLNs(greenarea,LONd).BetweenthesetwoVLNs,oneischolinergicwhiletheotheroneis
+glutamatergicandtheybothinputsontoVPNs.TheseVLNsalsointegrateaminergicmodulatoryinputs(brownarea)thatpotentiallybringinformation
+fromthecentralbrain.IntheLONp,thetwothird-orderneuronsreceivefromthelOLPs.Thethird-orderneuronVPLN,whichisglutamatergic,
+additionallyreceivesfromtheserotonergicneuron,connectsontotheVPNsandalsoprojectstowardsthecentralbrain(grayarea)likeotherVPNs.
+Blackarrows:cholinergicconnections.Redarrows:glutamatergicconnections.Brownarrows:connectionswithotherneurotransmitters.
+DOI:https://doi.org/10.7554/eLife.28387.008
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 9of19
+--- PAGE 10 ---
+Researcharticle Neuroscience
+A B D
+C
+E
+Figure3.Connectivityandcircuitmotifsofthelarvalvisualsystem.Lefthemisphere,hexagonsrepresentgroupofcells,circlesrepresentsinglecell,
+arrowthicknessweightedbythesquarerootofthenumberofsynapses,arrowthicknessscaleshowsminimumandmedian.Blackarrows:cholinergic
+connections.Redarrows:glutamatergicconnections.Brownarrows:connectionswithotherneurotransmitters.VPNsinshadesofblueforRh5-PRs
+targetsplustheVPLNinlightbrown.(A)WiringdiagramofbothlOLPs(lightgreencircles).ThetwolOLPsreceivesfromRh6-PRs(darkgreen)andare
+reciprocallyconnected.Theyalsosharethesametypeoftargets:VPNs(blue)includingPVL09,allLaNsandtheVPLN,thataredirecttargetsofRh5-PRs
+(darkblue)(excepttheVPLN)andareoutputsoftheLONtowardsthecentralbrain.(B)ThefourPdf-LaNsaretheonlyVPNsthatreceivefromboth
+Rh6-PRsandRh5-PRs.TheVPLNisathird-orderneuronthatdoesnotreceiveanyinputsfromPRs.AllotherVPNsreceivevisualinputsuniquelyfrom
+Rh5-PRs.AllinputsfromPRsontoVPNsaresituatedonthetargetdendrites.(C)VPNs,exceptpOLP,aretargetsofthetwolOLPsandthese
+connectionsaresituatedontheVPNsdendrites.Additionally,PVL09receivesinputsfromboththeVPLNandnc-LaNonewhilethePdf-LaNsreceive
+onlyfromthenc-LaN1,andthe5th-LaNreceiveonlyfromtheVPLN.PVL09andpOLParereciprocallyconnectedontheiraxons.AllVPNstransferlight
+informationtoneuronsdeeperinthebrain.TheVPLNandpOLPadditionallyreceiveontheiraxonssomeinputsfromotherneuronalcircuits.(D)Circuit
+motifoftheVPLNreceivingfrombothlOLPs.E:Circuitmotifofthenc-LaNonethatisunderregulationsfromcha-lOLP,glu-lOLPandtheVPLN.
+Moreover,nc-LaNoneconnectsbacktotheVPLN.SimilarmotifscanbedescribedforotherVPNs(Figure3—figuresupplement1).
+DOI:https://doi.org/10.7554/eLife.28387.011
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 10of19
+--- PAGE 11 ---
+Researcharticle Neuroscience
+A B
+C D
+Figure3—figuresupplement1.Networkmotifsofthenc-LaN2,the5th-LaN,PVL09andthePdf-LaNs.Blackarrows:cholinergicconnections.Red
+arrows:glutamatergicconnections.Thenc-LaN2(A)andthe5th-LaN(B)arecontrolledinsimilarfashionbythetwolOLPsandthethird-orderneuron
+VPLN.(C)PVL09activityisshapedbythesimilarmotifsasthenc-LaN1andthe5th-LaNwithconnectionsfromboththelOLPsandtheVPLN,andis
+additionallycontrolledbyasecondlevelofcoherentfeedforwardloops(FFL)fromthetwonc-LaNs.(D)UnlikeotherVPNs,thePdf-LaNsreceivedirect
+inputsfromRh6-PRs.ThePdf-LaNsaredownstreamoftwointerlockedcoherentFFLsfromtheRh6-PRsviacha-lOLPandnc-LaN1.Lefthemisphere,
+hexagonsrepresentgroupofcells,circlesrepresentsinglecell,arrowthicknessweightedbythesquarerootofthenumberofsynapses,arrowthickness
+scaleshowsminimumandmedian.
+DOI:https://doi.org/10.7554/eLife.28387.012
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 11of19
+--- PAGE 12 ---
+Researcharticle Neuroscience
+Figure3—figuresupplement2.Modelofthecompletelarvalvisualneuralnetwork.Cellcircleoutlinecolordefinestheneuronidentity.Cellfilled
+colorrepresentstheneurotransmitter/neuropeptideexpression:yellowforcholinergiccells,redforglutamatergiccells,brownforoctopaminergic/
+tyraminergiccells,lightorangeforserotonergiccell,pinkforPdfneuropeptide.EachPRssubtypeshavespecifictargets.Rh6-PRs(darkgreen)mainly
+contactthetwolOLPswhileRh5-PRs(darkblue)contactVPNs.OnlythePdf-LaNsreceiveinputsfrombothPRsandthereforecouldbeplacedatthe
+limitbetweenbothRh6-PRsandRh5-PRspathways(greenandblueareas,alsocorrespondingtoLONdistal(LONd)andLONintermediate(LONi)
+layers).AllPRsneuronsarecholinergic(Yasuyamaetal.,1995;Keeneetal.,2011).sVUM2neurons(brown)areoctopaminergic/tyraminergic.SP2-1
+(orange)isserotonergic.OnelOLP(lightgreen)ischolinergicwhiletheotheroneisglutamatergic.VPNs(shadesofblue):pOLPandPVL09are
+cholinergic;Pdf-LaNsexpressthePdfneuropeptideandmayco-expressglycine(Frenkeletal.,2017);bothnc-LaNsandthe5th-LaNarecholinergic.
+Thethird-orderneuronVPLN(lightbrown)isglutamatergicandreceivesitsinputsintheLONproximallayer(LONp,strongergrayarea).Forsimplicity,
+the5th-LaNandthetwonc-LaNsaregroupedtogether.BothlOLPsformareciprocallyconnectedpairthatmodulatesalmostallotherVPNs.The
+VPLNalsomodulatesthe5th/nc-LaNsgroupaswellasPVL09.nc-LaN1additionallyconnectsontothePdf-LaNs,andbothnc-LaNsconnectontothe
+VPLN.pOLPistheonlyVPNthatisnotmodulatedbyothervisualinterneurons,exceptforitsstrongreciprocalconnectionswithPVL09attheiraxonal
+level.Thethreeaminergicneurons(brownarea)targetmainlythetwolOLPsandSP2-1furtherconnectontotheVPLN.Blackarrowsrepresent
+connectionswithinLONneuronswhilegrayarrowsrepresentconnectionsbeyond.AdditionalexternalinputsontosomeVPNsarenotrepresented
+here.Arrowthicknessweightedbythesquarerootofthenumberofsynapses,arrowthicknessscaleshowsminimumandmaximum.
+DOI:https://doi.org/10.7554/eLife.28387.013
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 12of19
+--- PAGE 13 ---
+Researcharticle Neuroscience
+A SLP
+SLP
+LON LON
+D SP2-1 left
+V
+L R
+B C
+LON LON
+LON LON
+D sVUM2md D sVUM2mx
+V V
+L R L R
+D E
+Figure4.Aminergicmodulatoryinputsofthelarvalvisualsystem.(A-C)3DreconstructionsfromssTEMdataset,
+posteriorview,dendritesinblue,axonsingreen,presynapticsitesinred,postsynapticsitesincyan,otherLON
+neuronsingray,dashedlinerepresentbrainmidline.(A)TheSP2-1neuronfromthelefthemisphereinnervatesthe
+ipsilateralSLPandthecontralateralLON.sVUM2md(B)andsVUM2mx(C)neuronsarelocatedalongthemidline
+intheSEZwiththeirneuritsplittingandinnervatingbothhemispheresinasymmetricfashion.Theirbilaterally
+symmetricalbranchesreceivesynapticinputintheSEZandextendtheiraxontowardstheprotocerebrumpriorto
+turninglaterallyandenteringtheLON.BrancheswithintheprotocerebrumandLONcontainpresynapticand
+postsynapticsites.(D)ConnectivitygraphshowingtheSP2-1neuron(orange)oftherighthemisphereconnecting
+withthelOLPs(lightgreen)andtheVPLN(lightbrown)ofthelefthemisphere.ConnectionsbetweenthelOLPs
+andtheVPLNarealsodisplayed,aswellaslOLPsinputsfromRh6-PRs(darkgreen).(E)Connectivitygraphof
+sVUM2mxandsVUM2md(brown)showingthattheironlypartnersarethelOLPs(lightgreen)butinboth
+hemispheres.(D–E)Hexagonsrepresentgroupofcells,circlesrepresentsinglecell,arrowthicknessweightedby
+thesquarerootofthenumberofsynapses,arrowthicknessscalesshowsminimumandmedian.
+DOI:https://doi.org/10.7554/eLife.28387.014
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 13of19
+--- PAGE 14 ---
+Researcharticle Neuroscience
+A A’
+SP1 SP1
+SLP SP2 SP2
+LP1 LP1
+SS01740 5HT 5HT
+B C
+SS02149 sVUM2md SS02149 sVUM2mx
+Figure4—figuresupplement1.ConfocalmicroscopyofthethreeaminergicneuronsoftheLON.(A)Confocalz-
+projectionofSS01740>UAS-myr::GFP(green)showingastochasticsinglecloneofSP2-1neuron(yellowarrow)
+innervatingthecontralateralLON(arrowhead,serotonin(5-HT)inred).(A’)anti-5-HTchannelshowsthethree5-HT
+clustersfromthelowerandsuperiorprotocerebrum(LPandSP)andinnervationintheLON(arrowhead).(B–C)
+Confocalz-projectionofSS02149>UAS-myr::GFP(white)showingstochasticsinglecloneexpressionofsVUM2md
+(B)andsVUM2mx(C)innervatingbothLON(arrowheads).Scalebars:20mm.
+DOI:https://doi.org/10.7554/eLife.28387.015
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 14of19
+--- PAGE 15 ---
+1.2
+Rh6-PR (9L+10R)
+1.0
+0.8
+0.6
+0.4
+Rh5-PR (4L+6R)
+0.2 cha-lOLP (L+R)
+0.0
+glu-lOLP (L+R)
+-0.2
+VPLN
+-0.4 extra-glu-lOLP (R) (L+R)
+pOLP L
+-0.6 Tiny VLN nc-LaN 1
+(L+R)
+(L+R)
+nc-LaN 2
+-0.8 5th-LaN (L+R)
+(L+R) pOLP R
+-1.0 Pdf-LaN
+(4L+4R) PVL09 (L+R)
+-1.2
+-0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5
+Graph(cid:3)(cid:393)(cid:258)(cid:396)(cid:415)(cid:415)(cid:381)(cid:374)
+(cid:449)(cid:381)(cid:327)
+langiS
+A
+B
+90LVP PLOp
+(cid:393)(cid:381)(cid:400)(cid:410)(cid:400)(cid:455)(cid:374)(cid:258)(cid:393)(cid:415)(cid:272)
+69 52 42 8
+2 1 13 29 53 46 19 25 57
+3 3 3 1
+2 10 12 4 1 8
+20 17 25 26 17 19 26 14
+1 9 15 29 18 4 4 11 18
+1 3 7 16 4 5 6 4
+4 2 2 4 10 11 2 4
+1 4 3 3 3 14 8
+6 2 5
+1 1
+PVL09 23
+pOLP 4
+1 3 100 99 100 66 96 93 88 87 85 80
+(cid:272)(cid:415)(cid:393)(cid:258)(cid:374)(cid:455)(cid:400)(cid:286)(cid:396)(cid:393)
+NLV
+NPV
+VLN VPN
+NLPV
+Researcharticle Neuroscience
+VPLN
+Figure5.Larvalopticneuropilarchitectureismaintaineddespiteavariablenumberofneurons.Colorcodeasin
+Figure1B.(A)Wecomparedthestructureoftheleft(L)andright(R)LONcircuitswithspectralgraphanalysis.For
+theleftandrightconnectivitymatrices,weplottedthecomponentsofthefirstnonzeroeigenvectorofthegraph
+Laplacianassociatedwitheachneuron(xaxis)asafunctionofthesignalflowmetric(yaxis),measuresthatreflect
+thetopologicalroleofneuronsinthecircuit(Varshneyetal.,2011).Weexcludedtheneuromodulatoryneurons
+SP2-1,whichareweaklyconnected,andthesVUM2mdandsVUM2mx,whichprojectbilaterally.Visualinformation
+flowsfromPRsatthetoptowardsVPNsatthebottom.Inthisrepresentation,bilaterallyhomologousneurons
+shareasimilarpositionrevealingthatbothsideshavesimilarnetworktopology(Schneider-Mizelletal.,2016).
+Figure5continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 15of19
+--- PAGE 16 ---
+Researcharticle Neuroscience
+Figure5continued
+Notehowtheextra-glu-lOLPoftherighthemisphere(bold)positionedcloselywiththeotherlOLPs.(B)
+ConnectivitytableoftherightLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfroma
+neuroninarow.Onlyconnectionswithatleasttwosynapsesfoundinbothhemisphereswereused(exceptforthe
+extra-glu-lOLP).
+DOI:https://doi.org/10.7554/eLife.28387.016
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 16of19
+--- PAGE 17 ---
+Researcharticle Neuroscience
+B
+Fraction of ssyynappsses onto:
+A
+LON
+OK371 DVGluT
+A’ A’’
+OK371 DVGluT
+C
+Fraction of ppoostssyynappttic sites from:
+Figure5—figuresupplement1.StabilityoftheconnectionsofLONneuronsdespitethevariabilityinneuronnumber.(A)Confocalz-projectionof
+OK371-Gal4>UAS-myr::GFP(green)stainedwithanti-DVGluT(red)withinsetsontotwocellsbodiesintheOLPregionandprojectingintotheLON
+Figure5—figuresupplement1continuedonnextpage
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 17of19
+--- PAGE 18 ---
+Researcharticle Neuroscience
+Figure5—figuresupplement1continued
+andwhicharebothDVGluTpositive(arrowheads,closeup(A’),(A’’)).Dorsalview,scalebar:10mm.(B)Percentageofsynapsesontoallvisual
+interneuronsofbothhemispheres(twobarsperneuronexceptfortheextra-lOLPoftherighthemisphere).lOLPsmaininputsarefromtheRh6-PRs.
+TheVPLNdoesnotreceivesfromeitherPRsbutitsmaininputscomefromthelOLPs.AllotherVPNsreceivefromRh5-PRsandonlythePdf-LaNs
+receivesfrombothPRs-subtypes.ExceptforpOLP,thelOLPsconnectionsrepresentanimportantfractionofeachneuroninputs.TheVPLNinputsare
+mostsignificantonthetwonc-LaNsandthe5th-LaN.(C)PercentageofsynapsesfromallPRs,aminergicmodulatoryneuronsandvisualinterneurons
+withsignificantrolesinlocalprocessing(lOLPs,VPLNandnc-LaNs).AdditionalPRsfromtherighthemispherehaveclearconnectivityprofilesofeither
+Rh5orRh6subtypes.Stronginvolvementoftheaminergicmodulatoryneuronsinotherneuralcircuitsisvisible.
+DOI:https://doi.org/10.7554/eLife.28387.017
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 18of19
+--- PAGE 19 ---
+Researcharticle Neuroscience
+A Drosophila larva B Drosophila adult C Vertebrate
+Rh6 Rh5 R1-6 R7-8 Rods Cones
+cha-lOLP glu-lOLP
+ON? OFF? L1 L2
+ON OFF
+Outer
+LONd Lamina Plexiform
+Layer
+VPLN VPN pOLP Mi1/Tm3 Tm1/2 Tm Dm/Mi HC
+ON OFF
+BPC BPC BPC
+AC
+LONi Inner
+Medulla Plexiform
+Layer
+LONp
+RGC RGC
+Figure6.ComparisonofthestructuralorganizationandputativefunctionsoftheDrosophilalarvalvisualcircuitwiththeDrosophilaadultcompound
+eyeandthevertebratevisualcircuit.(A)Larvalvisualcircuitasdescribedinthispaper.TwomaingroupsofVPNsreceiveinputfromRh5-PRs(purple):
+onecorrespondstothepOLPthatonlyreceivesinputsfromRh5-PRs,whereasthesecondgroup(VPN)alsoreceivesinputsfromchaandglu-lOLPs
+(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo
+lOLPsandconnectontotheVPNgroupintopofitsprojectionbeyondtheLON.Weproposethatchaandglu-lOLPscontrollightintensityincrement
+anddecrement(ON/OFF)detectionrespectivelyandtransfertheseinformationtotheVPLNandtheVPNgroup.Moreover,theVPLNmaypotentially
+keeptheON/OFFresponsesbrief.(B)ModelofasingleunitoftheflycompoundeyewhereR1-6PRs(orange)arewellknowntobeinvolvedin
+contrastandmotiondetection,whereasR7-8PRs(purple)areinvolvedincolorsensing(SanesandZipursky,2010;ClarkandDemb,2016,for
+reviews).Inthelamina,R1-6PRsmakeconnectionstotheglutamatergicL1neuroncontrollingtheONpathway(red)andtothecholinergicL2neuron
+controllingtheOFFpathway(blue).Inthedeepermedulla,L1andL2reachtheirtargets(Mi1,Tm1/2),whereasR7-8PRsconnecttomedullarneurons
+(Dm/Mi).(C)Modelofthevertebratevisualcircuit(SanesandZipursky,2010;ClarkandDemb,2016),forreviews).Cones(purple),whicharealsothe
+colorsensorsoftheretina,connecttobipolarretinalcells(BPC)whichconstitutetheONorOFFpathwaysdependingontheglutamatereceptorthey
+express(ONBPCandpathwayinred,OFFBPCandpathwayinblue).Rods(orange)alsoconnecttoBPCandcontrolvisionindimlightconditions.
+LONd,LONiandLONp:distal,intermediateandproximallarvalopticneuropil.Mi:medullaintrinsicneurons;Tm:transmedullaneurons;Dm:dorsal
+medullaneurons.RGC:retinaganglioncells;HC:horizontalcells;AC:amacrinecells.
+DOI:https://doi.org/10.7554/eLife.28387.018
+Larderetetal.eLife2017;6:e28387.DOI:https://doi.org/10.7554/eLife.28387 19of19

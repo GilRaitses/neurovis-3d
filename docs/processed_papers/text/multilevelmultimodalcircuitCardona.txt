@@ -1,0 +1,2067 @@
+TITLE: doi:10.1038/nature14297
+
+ABSTRACT: 
+
+FULL TEXT:
+
+--- PAGE 1 ---
+ARTICLE
+doi:10.1038/nature14297
+A multilevel multimodal circuit enhances
+action selection in Drosophila
+TomokoOhyama1*,CaseyM.Schneider-Mizell1*,RichardD.Fetter1,JavierValdesAleman1,RomainFranconville1,
+MartaRivera-Alba1,BrettD.Mensh1,KristinM.Branson1,JulieH.Simpson1,JamesW.Truman1,AlbertCardona11&MartaZlatic11
+Natural events present multiple types of sensory cues, each detected by a specialized sensory modality. Combining
+information from several modalities is essential for the selection of appropriate actions. Key to understanding
+multimodal computations isdetermining thestructuralpatterns ofmultimodal convergence and howthesepatterns
+contributetobehaviour.Modalitiescouldconvergeearly,lateoratmultiplelevelsinthesensoryprocessinghierarchy.
+Hereweshowthatcombiningmechanosensoryandnociceptivecuessynergisticallyenhancestheselectionofthefastest
+modeofescapelocomotioninDrosophilalarvae.Inanelectronmicroscopyvolumethatspanstheentireinsectnervous
+system, we reconstructed the multisensory circuit supporting the synergy, spanning multiple levels of the sensory
+processinghierarchy.Thewiringdiagramrevealedacomplexmultilevelmultimodalconvergencearchitecture.Using
+behavioural and physiological studies, we identified functionally connected circuit nodes that trigger the fastest
+locomotormode,andothersthatfacilitateit,andweprovideevidencethatmultiplelevelsofmultimodalintegration
+contribute to escape mode selection. We propose that the multilevel multimodal convergence architecture may bea
+generalfeatureofmultisensorycircuitsenablingcomplexinput–outputfunctionsandselectivetuningtoecologically
+relevantcombinationsofcues.
+Asinglenaturalevent,suchastheattackofapredator,oftenpresents neuronsobservedatdistinctlevelsarestructurallyorfunctionallycon-
+multipletypesofsensorycues,forexample,visual,olfactory,tactile nected,andwhethertheycontributetothesamebehaviour.
+and noxious. These cues are detected separately by distinct sensors The Drosophila larva is an excellent model system to study the
+highlyspecializedforasingletypeofcue.Differentsensorychannels structural and functional patterns of multimodal interactions across
+thus provide independent estimates of the same event that can be multiple levels of the sensory processing hierarchy and how these
+combined to improve sensitivity and reduce ambiguity1–3. Indeed, patterns contribute to behaviour. The relatively small size of its
+across the animal kingdom, multi-cue events often elicit enhanced 10,000-neuronnervoussystemmakesitamenabletocircuitmapping
+reactionscomparedtosingle-cuestimuli1–5. usinglargescaleelectronmicroscopyreconstruction22,23.Powerfulgen-
+The enhancement in reactions to multi-cue stimuli is a result of etictoolsenablefunctionalstudiesofuniquelyidentifiableneurons24–26.
+convergenceandintegrationofinformationfrommultiplemodalit- Larvaehavedistinctsensorymodalitieswithwhichtheycangauge
+ies2,3,6. Because neurons can compute non-linear functions of their the degree of threat27–31 and an array of distinct escape behaviours
+inputs,whereconvergencehappens,andhowoften,determinesthe available for responding to threats, such as turning, digging, fast
+repertoireofinput–outputfunctions7.Inartificialneuralnetworks,a crawlingandrolling27,28,31–35.Themostvigorousescapesequencecon-
+singlelayerofnonlinearunitshasstrictrestrictionsinpossibleres- sistsoftwolocomotionmodes:rollingfollowedbyfastcrawling28,32.
+ponsestocombinationsofinputs8,9.Addingasecondlayerthatpro- Rolling is the fastest—and presumably the most energetically
+cesses combinations of outputs from the first layer enables the costly27,28.Arangeofdistinctaversivecuescanevokethefastcrawling
+networktoimplementfarmorecomplexinput–outputfunctions8–10 response without rolling, including mild nociceptive and strong
+andthustodiscriminatefarbetterbetweendifferentcombinationsof mechanosensory stimulation28,35. In contrast, rolling is observed in
+inputs. Similarly, in the nervous system, an architecture in which extremely threatening situations, such as strong noxious stimu-
+neuronsthatreceivedifferentcombinationsofinputsfromtwomod- lation27,28,32,33,36, or predator attack27,32, the latter of which provides
+alitiesinonelevelconvergeonneuronsindownstreamlevelscould multiplecues,includingnociceptiveandmechanosensory27,31,32.
+enablebetterdiscrimination betweendifferentkindsofmultimodal Here we show that mechanosensory combined with nociceptive
+stimuliandselectivetuningtospecificecologicallyrelevantcombina- cues synergistically increase the likelihood of rolling, and use this
+tionsofthetwocues. tractablemodelsystemtodeterminetheanatomicalandfunctional
+Thestructuralandfunctionalarchitectureofmultisensoryconver- patternsofconvergencesupportingthesynergy.
+genceacrossmultiplelevelsofthesensoryprocessinghierarchyisan
+open question for any large nervous system. Neurons that integrate Multisensorycuesenhancetheselectionofrolling
+information from multiple modalities have been most extensively Wedevelopedanautomatedmultisensoryassayinwhichweactivate
+studied in higher-order and motor-control areas2,3,6,11–17. Multi larvalnociceptivemultidendriticclassIV(MDIV)neuronsthermo-
+sensoryinteractionshavealsobeendescribedatearlierstagesofsensory genetically32,36andlarvalmechanosensorychordotonalneuronsusing
+processing3,18–21. However, it is unclear whether the multisensory vibration28,31(Fig.1a,bandExtendedDataFig.1a–d).
+1HowardHughesMedicalInstituteJaneliaResearchCampus,19700HelixDrive,Ashburn,Virginia20147,USA.
+*Theseauthorscontributedequallytothiswork.
+1Theseauthorsjointlysupervisedthiswork.
+30 APRIL 2015 | VOL 520 | NATURE | 633
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 2 ---
+a Nociceptive c Nociceptive MD IV line,thatdroveGAL4expressioninneuronspotentiallyearlyinthe
+MD + I w V> a d rm Tr t p h A1 100 stimulation sensoryprocessinghierarchy(Fig.2a–candExtendedDataFig.2a,b).
+Mechanosensory Ch Activating the neurons in R72F11 triggered rolling in a significant
+Sound W be in a g t Sting N M o D c i I c V eptive 8 6 0 0 s N N t o o im c s i u c ti l e m a p t u i t o l i a v n e ti o M n D IV + f a r n a d ct i i n on hib o i f tin an g i t m h a em ls ( ( F se ig e . M 2a eth a o n d d s) Su si p g p n l i e fi m ca e n n t t l a y ry de V cr i e d a e s o e s d 4 ro a ll n in d g 5 i ) n ,
+stimulation 40 mechanosensory Ch responsetobimodalstimulation(Fig.2b).
+Mechanosensory Ch Nociceptive MD IV combined stimulation R72F11drivesexpressionselectivelyinfourlineage-related,segmen-
+20 Calculated sum of
++ tally repeated projection neurons with basin-shaped arbors in the
+0
+ventral,sensorydomainofthenervecord;wethereforenamedthem
+18 28 32(°C)
+Rolling behaviour Basins-1–4(Fig.2c,dandExtendedDataFig.2a–c).Thedendritesof
+Basin-1 and Basin-3 span a ventrolateral domain of the nerve cord,
+where the mechanosensory chordotonal terminals are located37,38
+Time (Fig. 2c, d and Extended Data Fig. 2c, d). The dendrites of Basin-2
+and Basin-4 span both the ventrolateral chordotonal domain and a
+ventromedial domain where the nociceptive MD IV terminals are
+located37–39(Fig.2c,dandExtendedDataFig.2c,d).Wethereforeasked
+whetherthemechanosensorychordotonalandthenociceptiveMDIV
+neuronsdirectlyconvergeonBasin-2andBasin-4.
+Inanelectronmicroscopyvolumethatspans1.5nervecordseg-
+ments,wereconstructedthechordotonalandMDIVarbors(Fig.2e
+andExtendedDataFig.2e,f)andalloftheirsynapticpartners(atotal
+of 301 neuronal arbors) (Fig. 2e, Extended Data Fig. 3a–d and
+SupplementaryTable4a–c).Amongstthereconstructedneuronswe
+recognized the left and right Basin-1, -2, -3 and -4 homologues
+(Fig.2d,fandExtendedDataFig.2c,d,g,h).
+Basin-1andBasin-3receivedmanyinputs(each.25synapsesand
+.15%oftotalinput,onaverage)fromchordotonalneurons,butvery
+few(nomorethan1%oftotalinputsynapses)fromMDIVneurons
+(Fig.2gandExtendedDataFig.2i,j).Basin-2andBasin-4received
+many inputs from both chordotonal neurons (on average .20
+synapses and .10% total input) and MD IV neurons (on average
+.20 synapses and .10% total input) (Fig. 2g and Extended Data
+Fig. 2i, j), each on distinct dendritic branches (Fig. 2h). Of all the
+301partnersdownstreamofMDIVandchordotonalneurons,only
+Basin-2 and Basin-4 reproducibly received .5 synapses from both
+chordotonal andMD IVneurons (Fig. 2i),suggesting that they are
+probablykeyintegratorsofchordotonalandMDIVinputs.
+To investigate whether the observed anatomical inputs from the
+sensory neurons onto Basins were functional and excitatory, we
+imaged calcium transients in response to MD IV or chordotonal
+activation (see Methods) collectively in all Basins (Extended Data
+Fig. 4a–d) or in individual Basin types (Fig. 3a, b), using lines that
+driveexpressionselectivelyinBasin-1orBasin-4neurons(Extended
+DataFig.4e–h).
+InBasin-1,weobservedcalciumtransientsinresponsetovibration,
+Differentcombinationsofnociceptiveandmechanosensorystimu- butnotinresponsetoMDIVactivation(Fig.3a),consistentwiththe
+lationinduceddifferentlikelihoodsofthekeyescapesequences:rolling largenumberofsynapsesitreceivesfromchordotonalneuronsand
+followedbyfastcrawlingversusfastcrawlingalone.Nociceptoractiva- therelativelyfewfromMDIVneurons(Fig.2gandExtendedData
+tion alone evoked a relatively low likelihood of rolling (Fig. 1c, d, Fig.2i).InBasin-4,weobservedcalciumtransientsinresponsetoboth
+ExtendedDataFig.1eandSupplementaryVideo1)andahighlike- vibration and MD IV activation (Fig. 3b), consistent with thelarge
+lihood of fast crawling28 (Extended Data Fig. 1e, f). Vibration alone numberofsynapsesitreceivesfrombothsensorytypes(Fig.2gand
+evokedonlyfastcrawling28,33(ExtendedDataFig.1e,f)andessentially Extended Data Fig. 2i). Basin-4 integrated the inputs from the two
+norolling(Fig.1c,dandSupplementaryVideo2). modalities,respondingsignificantlymoretobimodalthantounim-
+Combinedwithnociceptoractivation,vibrationincreasedthelike- odalstimulation(Fig.3b,candcontrolinExtendedDataFig.4i,j).
+lihood of rolling; the effect is dose-dependent and super-additive Next, we asked whether the multisensory Basin-4 interneurons
+(synergistic) (Fig. 1c, d, Extended Data Fig. 1g and Supplementary contributetorollingselection.SilencingBasin-4neuronssignificantly
+Video3).Thisvibration-inducedfacilitationofrollingwasmediated decreasedrollinginresponsetobimodalstimulation,indicatingthese
+throughthemechanosensorychordotonalneurons(Fig.1e). neuronsareinvolvedintriggeringrolling(Fig.3d).Selectiveactiva-
+tionofthemultisensoryBasin-4interneuronstriggeredrollingina
+First-ordermultisensoryinterneuronstriggerrolling dose-dependent way, with strongest activation triggering rolling in
+Wesuspectedthattheinformationfromthetwomodalitiesconverges 45%ofanimals(Fig.3e).
+ontocentralneuronsinvolvedintheselectionofrolling.Toidentify Wealsowonderedwhetherasecondlevelofmultimodalintegration
+such neurons and thus determine where in the sensory processing (that is, integration of information from distinct Basin types, that
+hierarchy multisensory convergence occurs, we performed a beha- receive distinct combinations of chordotonal and MD IV inputs),
+vioural screen for neurons whose thermogenetic activation triggers enhances the selection of rolling. Indeed, co-activation of Basin-1
+rolling (see Methods). We identified a ‘hit’, the R72F11 Drosophila with the bimodal Basin-4 facilitated rolling (Fig. 3e), resulting in a
+)%( gnilloR
+Nociceptive MD IV
+TrpA1 stimulation
+**
+e
+100 **
+80
+60
+40
+20
+0
+Mechanosensory Ch
+and nociceptive MD IV
+combined stimulation
+)%(
+gnilloR
+Mechanosensory
+d Ch inhibition **
+Vibra 0 tion 2 in 4 te 6 nsi 8 ty 1 (m 0 s–2) Effect o G r A
+c
+L
+t r
+4 I
+l
+n
+c
+h
+t
+ib
+rl ition
+)%(
+gnilloR
+100
+80
+60
+40
+20
+0
+Mechanosensory
+Ch stimulation
+**
+RESEARCH ARTICLE
+b
+Brain
+Motor domain A D
+V
+P Nerve Sensory domain
+cord Mechanosensory Ch axon terminal
+Nociceptive MD IV axon terminal
+Figure1|Mechanicalandnociceptivestimulationsynergisticallytrigger
+rolling. a,Schematicofahigh-throughputmultisensoryassayforpresenting
+stimulisimilartowaspattack.Speaker-emittedvibration(green)sensedby
+chordotonal(Ch)neuronsreplacesthemechanosensorystimulus.
+ThermogeneticactivationofMDIVneurons(orange)usingthetransgenic
+temperature-sensitivechannel,dTRPA1,andexposingMDIV-GAL4.UAS-
+dTrpA1larvaetowarmth(30uCor32uC),replacesthenoxioussting.
+b,ChordotonalandMDIVneuronsfromeachhemisegmentprojecttodistinct
+modality-specificventrolateralandventromedialregionsofthenervecord,
+respectively.A,anterior;P,posterior;D,dorsal;V,ventral.SeeSupplementary
+Table1forn(animals)inthisandallotherfigures.SeeSupplementaryTable2
+foralistofgenotypesusedinthisandallotherfigures.c,d,Percentageof
+animalsthatrolledinresponsetomechanical(green,MDIV-GAL4/1),
+nociceptive(orange,MDIV-GAL4.UAS-dTrpA1),combined(black,MDIV-
+GAL4.UAS-dTrpA1),orno(white,MDIV-GAL4/1)stimulation,wheneither
+MDIVactivationisincreased,givenconstantvibration(1,000Hz,6.7ms22;c),
+orvibrationisincreased,givenconstantnociceptoractivation(32uC;d).
+Errorbars,95%confidenceinterval;**P,0.0001,x2testwithHolm–
+Bonferronicorrection.e,Hyperpolarizingchordotonalneuronsreducedrolling
+inresponsetobimodalmechanicalandnociceptivestimulation(32uCand
+1,000Hz,6.7ms22inthisandsubsequentfigures)usingthetransgenicinward
+rectifyingpotassiumchannelKirinMDIV-LexA.lexAop-dTRPA1,ch-
+GAL4.UAS-Kiranimals.Ctrl,controls.
+634 | NATURE | VOL 520 | 30 APRIL 2015
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 3 ---
+f
+g
+13% 4L 15% 2L 21% 1L 19%3L
+Mechanosensory Ch 20% 10% 0.2% 1%
+14% 19% 19% Nociceptive 21% MD IV 10% 4R 10% 2R 1% 1R 3R Fraction of all synaptic inputs (total inputs in parenthesis)
+significantly higher likelihood of rolling compared to activation of mightsupporttheobservedfunctionalconnectivityandtodetermine
+Basin-4 alone (70% versus 45%). Thus, information from distinct whether the information from distinct Basin types converges onto
+Basintypesmayconvergeagainontodownstreamneuronsinvolved Goro,weagainusedelectronmicroscopyreconstruction.
+intriggeringrolling.
+NervecordandbrainpathwaysfromBasinstoGoro
+Goroneuronsinmotornervecordtriggerrolling Weusedasecondelectronmicroscopyvolume(fromasecondlarva)
+To identify potential sites of convergence of information from the thatspanstheentirelarvalnervoussystemandthereforealsoincludes
+differenttypesoffirst-orderBasininterneuronswelookedata‘hit’ Goroneurons(Fig.5aandSupplementaryVideo7).Inthenewvolume,
+fromthethermogeneticactivationscreen,R69F06,aDrosophilaline wereconstructedchordotonal, MDIVandBasinneuronsfromseg-
+thatdroveGAL4expressioninneuronsthatprojectfarfromtheearly mentA1,aswellastheGoroneurons(Fig.5a–c,ExtendedDataFigs2g–
+sensoryprocessingcentres(Fig. 4a–c).Thermogenetic activationof jand3a–d,SupplementaryTable5a–candSupplementaryVideo8).
+neuronsinR69F06triggeredrollinginahighfractionoflarvae(Fig.4a TofindputativepathwaysfromdistinctBasintypestoGoroneu-
+and Supplementary Video 6), and inhibiting them significantly rons, we first reconstructed all neurons downstream of all axonal
+decreasedrollinginresponsetobimodalstimulation(Fig.4b). outputsfromthefourleftandrightBasinhomologuesfromsegment
+R69F06drivesexpressioninafewneuronsinthebrain,inthesub- A1 (Fig. 5d, e, Supplementary Information (Supplementary Atlas
+oesophageal zone (SEZ) and in a pair of thoracic neurons whose section)andSupplementaryTables5and6).Weidentified31pairs
+axonsdescendthroughthedorsal,motordomainofthenervecord ofreproducibledownstreampartners(Fig.5d,eandSupplementary
+(Fig.4c–e).Selectivelyactivatingthesinglepairofthoracicneurons Information(SupplementaryAtlassection)).Amongsttheseweiden-
+(seeMethodsandExtendedDataFig.5a–d)triggeredrollingin76% tifiedsecond-ordernervecordinterneuronsthatconstitutetheshort-
+oflarvae(Fig.4e,f).Wenamedthesecommand-likeneuronsGoro est pathways from Basins to Goro neurons (called A05q and A23g
+(aromanizationoftheJapaneseforrolling). where‘A’standsforabdominalneuron;Fig.5d).Theyreceiveinputs
+ActivationofBasinsevokedstrongcalciumtransientsintheGoro fromdistinctBasintypesandsynapseontoGoroneurons(Fig.5d).
+neurons,indicatingthatthesecelltypesinvolvedinthesamebehaviour Thus, information from distinct Basin types, that receive distinct
+are functionallyconnected(Fig.4g, hand ExtendedDataFig.5e, f). combinations of MD IV and chordotonal inputs, converges onto
+ToidentifytheshortestanatomicalpathwaysfromBasinstoGorothat Goroneurons—providingasecondlevelofmultimodalconvergence.
+thgiL
+d
+Nociceptive MD IV + mechanosensory Ch overlap Mechanosensory Ch overlap
+Basin-2 Basin-1 Basin-3
+D
+V ME
+a b c e
+ssTEM of 1.5 nerve cord segments
+Reconstruction of
+sensory terminals
+in one segment
+Neuropil Mechanosensory Ch boundary Nociceptive MD IV Synapse Pre
+Post
+Reconstruction of synaptic
+Basin-4 partners of sensory terminals
+D
+V
+Ngn
+D
+V
+Output site i
+Input site
+(231 syn) (288 syn) (483 syn) (233 syn) 60
+40 (200 syn) (193 syn) (313 syn) (421 syn) 20 Synapse from mechanosensory Ch
+Synapse from nociceptive MD IV
+h
+0
+0 20 40 60
+No. of inputs from
+mechanosensory Ch terminals
+morf
+stupni fo .oN
+slanimret
+VI DM evitpecicoN
+R72F11 inhibition
+100
+80
+60
+40
+20
+0
+>5 synapses from mechanosensory Ch
+Basin-4 L
+Basin-2 LBasin-2 R Basin-4 R
+>5 synapses from
+nociceptive MD IV
+)%(
+gnilloR
+R72F11 activation
+** 100 **
+80
+60
+40
+20
+0
+E R ff 7 e R 2 c F 7 to 1 2 1 rF c 1 a t 1 r c l t c iv tr a l tion E f R fe 7 R c 2 t 7 F o 2 1 rF 1 c 1 t 1 r in l h c i t b rl ition
+Mechanosensory Ch and nociceptive
+MD IV combined stimulation
+)%(
+gnilloR
+**
+**
+Nerve
+cord
+ARTICLE RESEARCH
+R72F11(basin)>GFP Motor domain
+Neuropil (N-cad) D
+Brain V
+M Ba e s c in h s anosensory Sensory Ch domain
+Nociceptive MD IV
+A Cross section
+P
+Figure2|Activationscreenandelectronmicroscopyreconstructionreveal dashedlines,midline.NeuropilisvisualisedwithlabellingagainstN-cadherin
+first-ordermultisensoryinterneurons. a,Thermogeneticactivationof (N-cad)incorneuroglian(Ngn)ind.Scalebar,20mm.e,Electronmicroscopy
+neuronsinR72F11(exposingR72F11-GAL4.UAS-dTrpA1larvaeto32uC) reconstructionofalldirectsynaptictargetsofthechordotonal(eightleftand
+triggeredrolling.Errorbars,95%confidenceinterval;**P,0.0001,x2test eightright)andMDIV(threeleftandthreeright)neuronsintheabdominal
+withHolm–Bonferronicorrection.b,SilencingneuronsinR72F11significantly segmentA3.ssTEM,serialsectiontransmissionelectronmicroscopy.
+reducedrollinginresponsetobimodalstimulation(inMDIV-LexA.lexAop- f,Amongstthereconstructedarbors,werecognizedBasins,basedon
+dTRPA1,R72F11-GAL4.UAS-Kiranimals).Ch,chordotonal.c,R72F11drives morphologicalfeatures(arrowheads).Greyarrow,midline.Scalebar,10mm.
+expressioninBasinneurons(green,R72F11-GAL4.UAS-GFP).Scalebar, g,ThefractionofinputsontoBasinsoriginatingfromchordotonalorMDIV
+25mm.Arrowheadsindicatemidline.d,FourBasintypesvisualizedwithaFLP- terminals.h,SynapticinputsfromMDIV(orangecircles)andchordotonal
+basedstrategyareidentifiablebasedonuniquecombinationsofdendritic (greencircles)segregateontodistinctdendriticbranchesofBasin-2andBasin-
+features:medialprojection(yellowarrowhead);ventrolateralindentation 4.i,PlotshowsthenumberofsynapsesfromchordotonalandMDIVterminals
+(orangearrowhead);bushydorsalarbor(redarrowhead);andabsenceof ontoeachofthe301downstreampartners.L,Basinhomologuefromtheleft
+medialprojection(whitearrowhead).Solidwhiteoutlines,neuropilboundary; hemisegment;R,Basinhomologuefromtherighthemisegment.
+30 APRIL 2015 | VOL 520 | NATURE | 635
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 4 ---
+d e Basin-1 and Basin-4 activation
+100
+80
+60
+40
+20
+0
+Tendistinctsecond-orderprojectionneurontypesdownstreamof
+Basinsascendtothebrain(Fig.5eandSupplementaryInformation descending axons that synapse onto Goro neurons. Tracing down-
+(Supplementary Atlas section)). Some of these integrate Basin streamofamultisensorysecond-orderascendingprojectionneuron
+informationacrossmultipledistalsegmentsofthebody,eitherexclu- (A00c-a4),weidentifiedthird-orderprojectionneuronsconnecting
+sivelyfromasingleBasintype(forexample,A00c-a6,Fig.5e),orfrom theascendingpathwaysfromBasinstoadescendingpathontoGoro
+distinct Basin types (that receive distinct combinations of sensory neurons(Fig.5f).Thus,theactivityofthecommand-likeGoroneu-
+inputs; for example, A00c-a4 and A00c-a5, Fig. 5e). Then, distinct ronsmaybemodulatedbythemorelocalmultisensoryandunisen-
+second-orderPNs,thatreceivedistinctcombinationsofBasininputs soryinformationviathenervecordBasin–Goropathwayandbythe
+(and therefore distinct combinations of mechanosensory and noci- global body-wide nociceptive and mechanosensory multisensory
+ceptiveinputs),re-convergeagainonthird-orderinterneuronsinthe informationviathebrainBasin–Goropathways(Fig.5d–f).
+brain(Fig.5f).Thus,followingconvergenceoflocalmechanosensory Wealsoidentifiedathird-orderSEZfeedbackneuronthatreceives
+andnociceptiveinformationfromasinglesegmentontomultisensory convergent body-wide mechanosensory and multisensory informa-
+Basins, global mechanosensory and multisensory information from tionanddescendsthroughthenervecordsensorydomain(Fig.5g).
+multiplesegmentsisintegratedwithinthebrainpathway. TheSEZfeedbackneuronsynapsesontothefirst-order(Basins)and
+By tracing upstream of Goro dendritic inputs (Fig. 5f and second-order neurons from both the nerve cord (A05q) and brain
+Supplementary Atlas) we identified brain neurons which send (A00c)Basin–Goropathways(Fig.5g).Boththenervecordandbrain
+)%(
+gnilloR
+a
+5 s
+**
+**
+Basin-4 activation
+Basin-1 activation
+Basin-4 + Basin-1
+activation
+30 °C 32 °C TrpA stimulation
+)%( F/F∆
+1-nisaB
+0
+50
+5 s
+0
+Basin-4 inhibition
+Ba E s f i f n e B - c 4 a t s o G i r n A
+c
+-4 L
+tr
+4
+l
+in
+c
+h
+t
+i
+r
+b
+l ition
+Mechanosensory Ch
+and nociceptive MD IV
+combined stimulation
+)%(
+gnilloR
+c P = 0.016
+*
+100 **
+**
+80
+60
+40
+20
+0
+)%(
+F/F∆
+.xam
+4-nisaB
+0
+b
+60
+30
+0 Calc r u e l s a p te o d n C se o m b s in ti e m d uli
+)%( F/F∆
+4-nisaB
+0
+Basin activation
+50 100
++ ATP puff
+0
+0
+Figure3|Multiplelevelsofmultimodalintegration. a,Calciumtransients
+(mean6s.e.m.)areevokedinBasin-1dendritesbyvibration(1,000Hz,
+6.7ms22,5s,symbolizedbygreenspeaker;greentrace;n57trials),butnotby
+MDIVactivationwithtransgenicATP-gatedchannel,P2X,andlocalinjection
+2
+ofATP(symbolizedbyorangeinjectionelectrode;orangetrace;n56trials;
+MDIV-lexA.laxAop-P2X;Basin-1-GAL4.UAS-GCaMP6).b,Calcium
+2
+transients(mean6s.e.m.)areevokedinBasin-4dendritesbyvibration(green
+trace),nociception(orangetrace)andcombinedstimulation(blacktrace;n57
+triplettrials;MDIV.P2X;Basin-4.GCaMP6);butnotbyATPinjectionin
+2
+theabsenceofP2X expression(bluetrace,MDIV.1;Basin-4.GCaMP6).
+2
+c,PeakDF/F fromeshowsBasin-4responsetocombinedstimulation(filled
+0
+blackcircles)issignificantlyhigher(pairedt-test)thanthecalculatedsumof
+unisensoryresponses(clearblackcircles).d,SilencingBasin-4neurons
+significantlyreducedrollingevokedbybimodalstimulation(inMDIV-
+LexA.lexAop-dTRPA1,Basin-4-GAL4.UAS-Kiranimals)comparedto
+controls.Ch,chordotonal.e,ThermogeneticactivationofBasin-4neurons
+evokedrolling(exposingBasin-4-GAL4.UAS-dTrpA1animalsto30uCorto
+32uC).Basin-1facilitatedrollingincombinationwithBasin-4(exposing
+Basin-4-GAL4,Basin-1-GAL4.UAS-dTrpA1animalsto30uCorto32uC).
+Errorbars,95%confidenceinterval;**P,0.0001,x2testwith
+Holm–Bonferronicorrection.
+)%(
+0 F/F∆
+oroG
+a b
+R69F06 R69F06
+activation inhibition
+** 100 5 s
+80
+60
+40
+20
+Motor domain
+0 Goro
+E R ffe 6 R c 9 t 6 F o 9 0 r F 6 c 0 t a 6 rl c c ti t v r a l tion Eff R e c R 6 t 9 6 o F 9 r 0 F c 6 0 tr 6 l in c h t i r b l ition Mecha B n a o s s in ensory Ch Sensory
+domain
+Mechanosensory Ch Nociceptive MD IV and nociceptive MD IV
+combined stimulation
+)%(
+gnilloR
+100 ** **
+80
+60
+40
+20
+0
+)%(
+gnilloR
+f
+Goro activation
+100 80
+60
+40
+20
+0
+)%(
+gnilloR
+**
+**
+R69F06,tsh- Ga G l8 o 0 G ro o l r e o G x G A o r A c o L t r a 4 l c c ti t v r a l tion
+c d e Goro>dTrpA1-myc Neuropil (N-cad)
+Brain
+Nerve cord
+R69F06>GFP Neuropil (N-cad)
+A
+SEZ
+P
+Cross section
+D
+Nerve cord
+Brain
+SEZ
+xarohT
+nemodbA
+R69F06, tsh-Gal80>GFP Neuropil (nc82)
+Nerve cord
+RESEARCH ARTICLE
+g
+h
+activation
+Brain
+SEZ
+D Goro Motor domain
+Projections
+Sensory domain
+V V Cell body
+Figure4|Basinsarefunctionallyconnectedtocommand-likeGoro
+neurons. a,ThermogeneticactivationofneuronsinR69F06triggeredrolling
+(exposingR69F06-GAL4.UAS-dTrpA1to32uC).b,Silencingneuronsin
+R69F06significantlyreducedrollinginresponsetobimodalstimulation(MD
+IV-LexA.lexAop-dTRPA1,R69F06-GAL4.UAS-Kir).Ch,chordotonal.
+c–e,Imagesofneurons(green)inR69F06.GFP(c),R69F06,tsh-Gal80.GFP
+(d)andGoro.dTRPA1-myc(R16F11-LexA.lexAop-FLP,R69F06-GAL4.UAS-
+FRT-STOP-FRT-dTRPA1-myc)(e)animals.Scalebar,25mm.Arrowheads
+indicatemidline.f,ThermogeneticactivationofthesinglepairofGoroneurons
+triggeredrollingin76%ofanimals(exposingGoro.dTRPA1-mycfromthe
+R16F11-LexA.lexAop-FLP,R69F06-GAL4.UAS-FRT-STOP-FRT-dTRPA-myc
+crossto32uC);thermogeneticactivationofonlythebrainandSEZneuronsin
+R69F06didnot(exposingR69F06,tsh-GAL80.dTRPA1to32uC).Errorbars,
+95%confidenceinterval;**P,0.0001,x2testwithHolm–Bonferronicorrection.
+g,BasinactivationbylocalATPinjection(in72F11.P2X,R69F06.GCaMP
+2
+animals)evokedcalciumtransients(mean6s.e.m.)inGorodendrites(redtrace,
+n59trials);ATPinjectionintheabsenceofP2X (in72F11.1;
+2
+R69F06.GCaMPanimals)didnot(greytrace,n58trials).h,Summaryofthe
+identifiedfunctionalpathwayinvolvedintriggeringrolling.
+636 | NATURE | VOL 520 | 30 APRIL 2015
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 5 ---
+a b
+D
+V
+ssTEM of whole Reconstruction of identified Reconstruction of
+L1 CNS roll-triggering neurons synaptic partners
+c
+Basin–Goro pathways may therefore be jointly regulated based on multisensoryintegrationbyBasin-4,additionallevelsofintegration
+integratedglobalmultisensoryinformation. of global mechanosensory and multisensory information appear to
+furtherfacilitatethetransitiontorollingbehaviour.
+Functionofdistinctpathwaysintriggeringrolling
+Nextwewantedtoexplorethefunctionalroleofthenervecordand Differentialeffectsontriggeringrollandcrawl
+brain Basin–Goro pathways. Basin activation could activate Goro The rolling response triggered by multisensory cues (or by strong
+neurons in the absence of the brain, suggesting the nerve cord nociceptive cues alone) is followed by fast crawling28 (Extended
+Basin–GoropathwayisexcitatoryandsufficientforactivatingGoro DataFig.1e,f).Similarly,optogenetic40activationofthefirst-order
+neuronsandtriggeringrolling(ExtendedDataFig.6a,b).Consistent multisensoryBasin-4neuronstriggeredbothlocomotormodes;roll-
+with this idea, Basin activation evoked calcium transients in their ing followed by fast crawling (Extended Data Fig. 7a–c). However,
+nerve-cord targets, the A05q neurons, and A05q activation evoked optogeneticactivationoftheGoroneuronstriggeredonlyrolling,but
+calcium transients in Goro neurons, (Extended Data Fig. 6c–g). notfastcrawling,suggestingthattheyactasdedicatedcommand-like
+Furthermore,thermogeneticactivationoftheneuronsinalinethat neurons for rolling (Extended Data Fig. 7a–c). This also suggests
+drives expression, amongst others, in the A05q neurons triggered thattheactofrollingitselfisinsufficienttotriggerfastcrawling.In
+rolling(ExtendedDataFig.6c,h). thefutureitwillbeinterestingtodeterminehowallofthe31novel
+Calcium imaging in the terminals of three Basin-target neurons neuron types directly downstream of the Basins identified in our
+that ascend to thebrain (A00c-a6, A00c-a5and A00c-a4) (Fig. 5h) electron microscopy reconstruction (Supplementary Information
+revealedthat,collectively,theyrespondtovibration,toMDIVactiva- (Supplementary Atlas section)) contribute to the selection of the
+tion,andtoBasinactivation,suggestingthatthisconnectionisalso twolocomotormodes,rollingandcrawling,inadefinedsequence.
+excitatory(Fig.5iandExtendedDataFig.6i,j).
+SilencingtheA00cneuronsdecreasedrollinginresponsetobimo- Discussion
+dalstimulation(Fig.5j),andtheirco-activationwithBasin-4facili- Bycombiningbehaviouralandphysiologicalstudieswithlarge-scale
+tated rolling (Fig. 5k). Therefore, downstream from early local electronmicroscopyreconstructionwemappedamultisensorycircuit
+thgiL
+A—P
+A
+P
+Basins and Goro Nerve cord Ascending Brain Basin–Goro
+Basin–Goro pathway Basin targets pathway
+i j
+100
+0
+)%(
+0 F/F∆
+c00A
+a1
+a2
+a3
+a4
+a5
+a6 a7
+a8/9
+droc
+evreN
+Ipsiphone
+Goro
+Contraphone
+Contragoro
+A23g
+Basins
+A05q
+Basins
+(a4) A00c Nerve cord
+partners Ascending
+partners
+3 5 > – – 1 5 1 0 0 } synapses A00c Con Ip tr s a ip p h h o o n n e e Contragoro S D E N Z
+Basin-1 A23g (a6) Basin-3 Goro (a4 and a5)
+Basin-2&4 A05q
+SD MD SD MD SD MD SD MD SD MD
+A00c inhibition
+)%( gnilloR
+Goro>GFP
+Neuropil (neuroglian)
+d e f g
+SEZ
+DN
+t1
+t2
+t3
+Multilevel feedback
+k
+**
+*
+100
+80 60
+40
+20
+0 Effecto A A r 0 0 c 0 0 t c r c l i n c h tr i l bition
+Mechanosensory Ch
+and nociceptive MD IV
+combined stimulation
+niarB
+droc
+evreN
+niarB
+100
+80 60
+40
+20
+0 30 °C 32 °C
+)%( gnilloR
+j
+**
+**
+Basin-4 activation A00c activation
+Basin-4 + A00c combined activation
+)%(gnilloR
+Output site
+Input site
+1
+8 6
+4
+5 s 2
+ME
+ARTICLE RESEARCH
+Figure5|Electronmicroscopyreconstruction
+revealsmultiplelevelsofmultimodal
+convergencewithinBasins-to-Goropathways.
+a,Electronmicroscopyreconstructionofthe
+Goro Basin–Goroanatomicalpathways.ssTEM,serial
+sectiontransmissionelectronmicroscopy.
+Basins
+b,Confocalimage(green)andelectron
+microscopy(EM)reconstructionofasingleGoro
+neuron(magenta;seealsoSupplementaryVideo
+8).Arrowheadsindicatemidline.Scalebars,
+20mm.c–h,Reconstructedinterneurons(top)and
+theirconnectivity(bottom).MD,motordomain;
+SD,sensorydomain.c,ReconstructedBasinsand
+Goroneurons.d,MechanosensoryBasintarget
+A23gandmultisensoryBasintargetA05q
+convergeontoGoroneurons.Grey,allotherBasin
+targetsthatprojecttothenervecord.e,Distinct
+A00c(yellow)ascendingprojectionneurons
+integrateinformationfromdistinctcombinations
+ofBasinsacrossmultiplesegments.Grey,allother
+Basintargetsthatascendtothebrain.f,Third-
+orderbrainprojectionneurons,ipsiphoneand
+contraphone,receiveinputsfromtheA00c
+neuronsandsynapseontobrainneurons
+(contragoro)thatsenddescendingaxonsintothe nervecordandsynapseontoGoro.g,Feedback
+neuronsfromSEZ.DN,descendingneuron. h,Electronmicroscopyreconstructionofasingle
+A00c-a6neuronandconfocalimageofallthree
+pairsofA00c-a4/a5/a6neuronsinlineR71A10.
+h i,Calciumtransients(mean6s.e.m.)inthe
+A00c>GFP A00c activation terminalsofallA00ccells(inMDIV.P2X,
+Neuropil (N-cad) 2
+R71A10.GCaMPanimals)showstheyrespondto
+MDIVactivationbylocalATPinjection(orange
+Brain trace,n512trials)andvibration(greentrace, n54trials).j,SilencingA00cneurons
+significantlyreducesrollinginresponseto
+A00c bimodalstimulation(inMDIV-LexA.lexAop-
+(a6) dTRPA1,R71A10-GAL4.UAS-Kiranimals).Ch,
+a4 chordotonal.k,A00cneuronsfacilitaterollingin a5 a6 combinationwithBasin-4(exposingBasin-4- GAL4,71A10-GAL4.UAS-dTrpA1animalsto
+Output site 30uCorto32uC).Errorbars,95%confidence
+Input site interval;**P,0.0001,x2testwithHolm–
+Bonferronicorrection.
+30 APRIL 2015 | VOL 520 | NATURE | 637
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 6 ---
+RESEARCH ARTICLE
+a bNerve cord pathways Inadditiontothemultilevelmultimodalfeed-forwardconvergence
+Ipsiphone Goro motif,ourelectronmicroscopyreconstructionrevealedhigher-order
+Brain and local feedback neurons (Figs 5g and 6a and Supplementary
+Contraphone pathways
+Information(SupplementaryAtlassection)).Recenttheoreticalmod-
+SEZ I D p N si A23g A05q elsofmultisensoryintegrationsuggestthattheoutputofindividual
+DN Co D n N tra Basin-3 Basin-2 multisensory neurons is normalized by the activity of other multi-
+sensoryneuronsinthatpopulation,buttheanatomicalimplementa-
+Other Rolling
+Goro behaviour tionofsuchfeedbackhasnotbeenidentified2,44.Someofthefeedback
+neuronsinthemultisensorycircuitdescribedinthisstudymayhave
+Basins 1 Mechanosensory Ch Nociceptive
+3 A23g MD IV rolesinsuchnormalizationcomputations.
+Mec N ha o n c o ic s e e p n t s iv o C e r h y 2 4 A05q N pa e t r h v w e a c y o s rd c Brain pathways sen A s n or o y th i e n r fo c r i m rc a u t i i t o m n o in ti t f o r n ev e e rv a e led co b rd y a o n u d r s a t s u c d en y d i i s n t g he br d a i i v n er p g a e t n h c w e ay o s f
+MD IV SEZ DN Ipsiphone
+andsubsequentre-convergenceoftheshorterandthelongerpathway
+ontothesamecommand-likeneuronsinmotornervecord(Goro).
+A (a 0 6 0 ) cA (a 0 5 0 ) c A (a 0 4 0 ) c Thenervecordpathwayintegratesnociceptiveandmechanosensory
+informationfromalocalregionofthebody(fewsegments),whereas
+Unkn
+E
+o
+x
+w
+c
+n
+it a
+s
+t
+i
+o
+g
+r
+n
+y
+:
+:
+A00c Basin-1
+Basin-3 Basin-2 Basin-4 t
+b
+h
+o
+e
+dy
+as
+s
+c
+e
+e
+g
+n
+m
+d
+e
+in
+n
+g
+ts
+b
+a
+r
+n
+a
+d
+in
+p
+p
+ro
+a
+v
+th
+id
+w
+e
+a
+s
+y
+a
+i
+m
+nt
+e
+e
+a
+g
+n
+ra
+s
+te
+o
+s
+fm
+th
+o
+e
+d
+i
+u
+n
+l
+f
+a
+o
+t
+r
+in
+m
+g
+a
+c
+ti
+o
+o
+m
+n
+m
+ac
+a
+r
+n
+o
+d
+s
+-
+s
+li
+a
+k
+l
+e
+l
+neuronactivitybasedonglobalbody-widenociceptiveandmechano-
+Mechanosensory Ch Nociceptive sensory information. The multisensory circuit described here in a
+MD IV genetically tractable model system provides a resource for investi-
+Figure6|Summaryofthemultilevelmultimodalconvergencecircuitfor gatingindetailhowmultiplebrainandnervecordpathwaysinteract
+rolling. a,Whole-animalcircuit.Ch,chordotonal.b,c,Specificnervecord witheachotherandcontributetotheselectionofdifferentmodesof
+(b)andbrain(c)pathwaysArrow,excitatoryconnections.Square,connections
+locomotion(rollingandcrawling)inadefinedsequence.
+ofunknownsign.
+Theelectronmicroscopyvolumespanningtheentireinsectnerv-
+oussystemacquiredforthisstudycanbeusedtomapcircuitsthat
+thatmediatestheselectionofthefastestmodeofescapelocomotion
+mediatemanydifferentbehaviours.Combininginformationfroma
+(rolling)inDrosophilalarva(Fig.6a,b).Wefindthatmechanosen-
+completewiringdiagramwithfunctionalstudieshasbeenveryfruitful
+sory and nociceptive sensory neurons converge on specific types inthe302-neuronnervoussystemofC.elegans45,46.Recently,similar
+of first-order multisensory interneurons that integrate their inputs.
+approacheshavebeenappliedtomicrocircuitsinsmallerregionsof
+Then,interneuronsthat receivedistinct combinations ofmechano-
+largernervoussystems47–50.Inthismanuscript,wedemonstratethat
+sensory and nociceptive inputs converge again at multiple levels
+relatinglocalandglobalstructuretofunctioninacompletenervous
+downstream,allthewaytocommand-likeneuronsinthenervecord.
+system is now possible for the larger and more elaborate nervous
+Activatingjustasingletypeoffirst-ordermultisensoryinterneuron
+systemofaninsect.
+triggers rolling probabilistically. Co-activation of first-order inter-
+neurons that receive distinct combinations of mechanosensory and OnlineContentMethods,alongwithanyadditionalExtendedDatadisplayitems
+nociceptiveinputsincreasesrollingprobability.Thus,actionselection andSourceData,areavailableintheonlineversionofthepaper;referencesunique
+tothesesectionsappearonlyintheonlinepaper.
+startsatthefirst-ordermultisensoryinterneuronsandmultiplestages
+of multimodal integration in the distributed network enhance this
+Received5August2014;accepted6February2015.
+selection.
+Publishedonline20April2015.
+Given that spurious firing from distinct sensors is uncorrelated,
+whereas event-derived signals will be temporally correlated across 1. Stein,E.B.&Meredith,M.A.TheMergingoftheSenses(MITpress,1993).
+the sensory channels, multimodal integration even at a single level 2. Fetsch,C.R.,DeAngelis,G.C.&Angelaki,D.E.Bridgingthegapbetweentheoriesof
+sensorycueintegrationandthephysiologyofmultisensoryneurons.NatureRev.
+improvesthesignal-to-noiseratio1,3,41.Multilevelmultimodalinteg-
+Neurosci.14,429–442(2013).
+rationcanofferadditionaladvantages.Theoreticalstudiesshowthata 3. vanAtteveldt,N.,Murray,M.M.,Thut,G.&Schroeder,C.E.Multisensory
+multilevel convergence architecture enables more complex input– integration:flexibleuseofgeneraloperations.Neuron81,1240–1253(2014).
+4. Stein,B.E.,Meredith,M.A.,Huneycutt,W.S.&McDade,L.Behavioralindicesof
+outputrelationships7–10.Similarly,themultilevelmultimodalconver-
+multisensoryintegration:orientationtovisualcuesisaffectedbyauditorystimuli.
+gence architecture described here could offer better discrimination J.Cogn.Neurosci.1,12–24(1989).
+betweendifferentkindsofmultisensoryevents.Theweightsinsuch 5. McMeniman,C.J.,Corfas,R.A.,Matthews,B.J.,Ritchie,S.A.&Vosshall,L.B.
+networkscouldbetunedeitherthroughexperienceorthroughevolu- Multimodalintegrationofcarbondioxideandothersensorycuesdrivesmosquito
+attractiontohumans.Cell156,1060–1071(2014).
+tiontorespondselectivelytohighlyspecificcombinationsoftwocues.
+6. Stein,B.E.&Stanford,T.R.Multisensoryintegration:currentissuesfromthe
+Usingasimplemodel,wecandemonstrate(ExtendedDataFig.8a–k) perspectiveofthesingleneuron.NatureRev.Neurosci.9,255–266(2008).
+that compared to early-convergence a multilevel architecture could 7. Cybenko,G.Approximationbysuperpositionsofasigmoidalfunction.Math.
+ControlSignalsSyst.2,303–314(1989).
+specifically enhance the selection of the fastest escape mode in the
+8. Duda,R.O.E.,H.P&.Stork,D.G.PatternClassification(JohnWileyandSons,2001).
+mostthreateningsituations,eitherinresponsetoweakmultimodalor 9. Hastie,T.,Friedman,J.&Tibshirani,R.TheElementsofStatisticalLearningVol.2
+strongunimodalnociceptivecues. (Springer,2009).
+Themultilevelmultimodalconvergencearchitecturemaybeagen- 10. Rigotti,M.etal.Theimportanceofmixedselectivityincomplexcognitivetasks.
+Nature497,585–590(2013).
+eral feature in multisensory integration circuits, enabling complex
+11. Fetsch,C.R.,Pouget,A.,DeAngelis,G.C.&Angelaki,D.E.Neuralcorrelatesof
+response profiles tunable to specific ecological needs. For example, reliability-basedcueweightingduringmultisensoryintegration.NatureNeurosci.
+physiologicalstudiesinmammalshaveidentifiedmultisensoryneu- 15,146–154(2012).
+12. Meredith,M.A.&Stein,B.E.Interactionsamongconvergingsensoryinputsinthe
+rons that integrate the same cues at several stages in the sensory
+superiorcolliculus.Science221,389–391(1983).
+processinghierarchy18,19,21,42,43,althoughitisunclearwhetherthemul- 13. Meredith,M.A.&Stein,B.E.Descendingefferentsfromthesuperiorcolliculus
+tisensory neurons at distinct levels are causally related to the same relayintegratedmultisensoryinformation.Science227,657–659(1985).
+behaviour.Duetothesizeofnetworksinvolved,synaptic-levelreso- 14. Olcese,U.,Iurilli,G.&Medini,P.Cellularandsynapticarchitectureofmultisensory
+integrationinthemouseneocortex.Neuron79,579–593(2013).
+lutionstudiesoftheunderlyingconvergencearchitectureacrossmul-
+15. Homberg,U.,Christensen,T.A.&Hildebrand,J.G.Structureandfunctionofthe
+tiplelevelswereunattainable. deutocerebrumininsects.Annu.Rev.Entomol.34,477–501(1989).
+638 | NATURE | VOL 520 | 30 APRIL 2015
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 7 ---
+ARTICLE RESEARCH
+16. Milde,J.J.&Strausfeld,N.J.Clusterorganizationandresponsecharacteristicsof 40. Klapoetke,N.C.etal.Independentopticalexcitationofdistinctneuralpopulations.
+thegiantfiberpathwayoftheblowflyCalliphoraerythrocephala.J.Comp.Neurol. NatureMethods11,338–346(2014).
+294,59–75(1990). 41. Ernst,M.O.&Bulthoff,H.H.Mergingthesensesintoarobustpercept.TrendsCogn.
+17. Mu,L.,Bacon,J.P.,Ito,K.&Strausfeld,N.J.ResponsesofDrosophilagiant Sci.8,162–169(2004).
+descendingneuronstovisualandmechanicalstimuli.J.Exp.Biol.217, 42. Kenshalo,D.R.,Iwata,K.,Sholas,M.&Thomas,D.A.Responsepropertiesand
+2121–2129(2014). organizationofnociceptiveneuronsinarea1ofmonkeyprimarysomatosensory
+18. Basura,G.J.,Koehler,S.D.&Shore,S.E.Multi-sensoryintegrationinbrainstem cortex.J.Neurophysiol.84,719–729(2000).
+andauditorycortex.BrainRes.1485,95–107(2012). 43. Mendell,L.M.Physiologicalpropertiesofunmyelinatedfiberprojectiontothe
+19. Jain,R.&Shore,S.Externalinferiorcolliculusintegratestrigeminalandacoustic spinalcord.Exp.Neurol.16,316–332(1966).
+information:unitresponsestotrigeminalnucleusandacousticstimulationinthe 44. Ohshiro,T.,Angelaki,D.E.&DeAngelis,G.C.Anormalizationmodelof
+guineapig.Neurosci.Lett.395,71–75(2006). multisensoryintegration.NatureNeurosci.14,775–782(2011).
+20. Lakatos,P.,Chen,C.M.,O’Connell,M.N.,Mills,A.&Schroeder,C.E.Neuronal 45. Bargmann,C.I.&Marder,E.Fromtheconnectometobrainfunction.Nature
+oscillationsandmultisensoryinteractioninprimaryauditorycortex.Neuron53, Methods10,483–490(2013).
+279–292(2007). 46. White,J.G.,Southgate,E.,Thomson,J.N.&Brenner,S.Thestructureofthenervous
+21. Shore,S.E.Multisensoryintegrationinthedorsalcochlearnucleus:unitresponses systemofthenematodeCaenorhabditiselegans.Phil.Trans.R.Soc.Lond.B314,
+toacousticandtrigeminalganglionstimulation.Eur.J.Neurosci.21,3334–3348 1–340(1986).
+(2005). 47. Bock,D.D.etal.Networkanatomyandinvivophysiologyofvisualcorticalneurons.
+22. Cardona,A.etal.Anintegratedmicro-andmacroarchitecturalanalysisofthe Nature471,177–182(2011).
+Drosophilabrainbycomputer-assistedserialsectionelectronmicroscopy.PLoS 48. Briggman,K.L.,Helmstaedter,M.&Denk,W.Wiringspecificityinthe
+Biol.8,e1000502(2010). direction-selectivitycircuitoftheretina.Nature471,183–188(2011).
+23. Saalfeld,S.,Fetter,R.,Cardona,A.&Tomancak,P.Elasticvolumereconstruction 49. Kim,J.S.etal.Space-timewiringspecificitysupportsdirectionselectivityinthe
+fromseriesofultra-thinmicroscopysections.NatureMethods9,717–720(2012). retina.Nature509,331–336(2014).
+24. Pfeiffer,B.D.etal.ToolsforneuroanatomyandneurogeneticsinDrosophila.Proc. 50. Takemura,S.Y.etal.AvisualmotiondetectioncircuitsuggestedbyDrosophila
+NatlAcad.Sci.USA105,9715–9720(2008). connectomics.Nature500,175–181(2013).
+25. Pfeiffer,B.D.etal.RefinementoftoolsfortargetedgeneexpressioninDrosophila.
+Genetics186,735–755(2010). SupplementaryInformationisavailableintheonlineversionofthepaper.
+26. Li,H.H.etal.AGAL4driverresourcefordevelopmentalandbehavioralstudieson
+AcknowledgementsWethankG.RubinandtheJaneliaFlyEMProjectforthegiftofthe
+thelarvalCNSofDrosophila.CellRep.8,897–908(2014).
+comprehensiveimagedatasetofthelarvalnervoussystem;S.LauchieandA.Brothers
+27. Hwang,R.Y.etal.NociceptiveneuronsprotectDrosophilalarvaefromparasitoid
+forassistancewithEMimaging;B.ArrudaandT.Dangforassistancewithbehavioural
+wasps.Curr.Biol.17,2105–2116(2007).
+screens;L.Herren,I.Andrade,K.FloriaandA.BertholdvanderBourgforassistance
+28. Ohyama,T.etal.High-throughputanalysisofstimulus-evokedbehaviorsin
+withneuronalreconstruction;G.Rubin,H.DionneandB.PfeifferforGAL4andSplit
+Drosophilalarvarevealsmultiplemodality-specificescapestrategies.PLoSONE8,
+GAL4lines;A.NernandG.RubinforthesinglecellFLP-outstocks;J.-M.Knappfor
+e71706(2013).
+Tsh-LexAstock;H.-H.LiandJaneliaFlyLightProjectTeamforimagesofneuronallines;
+29. Tsubouchi,A.,Caldwell,J.C.&Tracey,W.D.Dendriticfilopodia,RippedPocket,
+K.Hibbard,M.Mercer,T.LavertyandtherestofJaneliaFlyCoreforstockconstruction
+NOMPC,andNMDARscontributetothesenseoftouchinDrosophilalarvae.Curr.
+andflycrosses;G.DenisovfortherollandcrawldetectionLARAsoftware;E.Trautman,
+Biol.22,2124–2134(2012).
+R.Svirskas,C.WeaverandD.Olbrisfordataanalysispipelines;Y.Park,C.Priebe,
+30. Yan,Z.etal.DrosophilaNOMPCisamechanotransductionchannelsubunitfor
+D.NaimanandJ.-B.Massonforadviceonstatisticalanalysis;V.Jayaramanforinputon
+gentle-touchsensation.Nature493,221–225(2013).
+calciumimaging;andW.Denk,B.Dickson,S.Druckmann,B.Gerber,K.Svobodaand
+31. Zhang,W.,Yan,Z.,Jan,L.Y.&Jan,Y.N.SoundresponsemediatedbytheTRP
+C.Zukerforhelpfulcommentsonthemanuscript.WethankJaneliaHHMIforfunding.
+channelsNOMPC,NANCHUNG,andINACTIVEinchordotonalorgansofDrosophila
+A.C.andC.M.S.-M.werealsofundedbytheInstituteofNeuroinformaticsofthe
+larvae.Proc.NatlAcad.Sci.USA110,13612–13617(2013).
+UniversityofZurichandETHZurich,theSNSFgrant31003A_132969,theUniversita¨t
+32. Robertson,J.L.,Tsubouchi,A.&Tracey,W.D.Larvaldefenseagainstattackfrom
+Zu¨richForschungskredit,andtheHHMIVisitingScientistprogramatJanelia.TheEM
+parasitoidwaspsrequiresnociceptiveneurons.PLoSONE8,e78704(2013).
+imagedataisavailableviatheOpenConnectomeProject(http://
+33. Tracey,W.D.Jr,Wilson,R.I.,Laurent,G.&Benzer,S.painless,aDrosophilagene
+www.openconnectomeproject.org).
+essentialfornociception.Cell113,261–273(2003).
+34. Vogelstein,J.T.etal.Discoveryofbrainwideneural–behavioralmapsviamultiscale AuthorContributionsT.O.,C.M.S.-M.,A.C.andM.Z.conceivedtheproject,analysedthe
+unsupervisedstructurelearning.Science344,386–392(2014). dataandwrotethemanuscript.T.O.performedandanalysedbehaviouraland
+35. Xiang,Y.etal.Light-avoidance-mediatingphotoreceptorstiletheDrosophilalarval functionalimagingexperiments.C.M.S.-M.,J.V.A.andA.C.performedneuronal
+bodywall.Nature468,921–926(2010). reconstructions.A.C.registeredtheL1volume.J.W.T.analysedtheexpressionpatterns
+36. Zhong,L.etal.ThermosensoryandnonthermosensoryisoformsofDrosophila ofalltheGAL4linesandintersectionsfortargetingofsinglecelltypes.R.D.F.generated
+melanogasterTRPA1revealheat-sensordomainsofathermoTRPChannel.Cell theEMimagedata.M.R.A.andK.B.wrotetheJAABArolldetectionpipelineand
+Rep.1,43–55(2012). performedstatisticalanalysis.J.H.S.supportedthegenerationoftheabd1.5dataset.
+37. Schrader,S.&Merritt,D.J.CentralprojectionsofDrosophilasensoryneuronsinthe R.F.providedcriticalsuggestionsforfunctionalimagingexperiments.C.M.S.-M.built
+transitionfromembryotolarva.J.Comp.Neurol.425,34–44(2000). themodel.B.D.M.providedcriticalinputandhelpedwithwritingthemanuscript.
+38. Zlatic,M.,Li,F.,Strigini,M.,Grueber,W.&Bate,M.PositionalcuesintheDrosophila
+nervecord:semaphorinspatternthedorso-ventralaxis.PLoSBiol.7,e1000135 AuthorInformationReprintsandpermissionsinformationisavailableat
+(2009). www.nature.com/reprints.Theauthorsdeclarenocompetingfinancialinterests.
+39. Grueber,W.B.etal.ProjectionsofDrosophilamultidendriticneuronsinthecentral Readersarewelcometocommentontheonlineversionofthepaper.Correspondence
+nervoussystem:linkswithperipheraldendritemorphology.Development134, andrequestsformaterialsshouldbeaddressedtoA.C.(cardonaa@hhmi.org)orM.Z.
+55–64(2007). (zlaticm@hhmi.org).
+30 APRIL 2015 | VOL 520 | NATURE | 639
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 8 ---
+RESEARCH ARTICLE
+METHODS oftheagarwasraisedfrom20uCto30uC/32uCtoweakly/stronglyactivatethe
+dTRPA1 channel. By using a temperature gun, we confirmed that the agar
+Flystrains.Inthemaintextandfigures,shortnamesareusedtodescribegeno-
+reachedthePeltiertilesettingtemperature.Thetimetoreachthetargettemper-
+typesforclarity.Thecompletegenotypesofanimalsusedinthisstudyareshown
+aturerangedfrom3to8s.Thebehaviourrigswereinside32.00’’wide328.00’’
+inSupplementaryTable2.
+deep360.00’’hightemperature-controlledenclosureswithtemperaturesettable
+ThefollowingstrainsfromtheRubinGAL4/LexAcollectionwereusedforthe
+figures in the manuscript: R61D08-GAL4, R69F06-GAL4, R72F11-GAL4,
+from ambient to 40uC in 0.1uC steps (Life Science Engineering, Inc.). The
+humidity in the room was monitored and held at 58%, with humidifiers
+R20B01-GAL4, R71A10-GAL4, R57F07-GAL4, R47D07-GAL4, R16E11-LexA,
+(HumidifirstMistPac-5UltrasonicHumidifier).
+R61D08-LexA,R72F11-LexAandthecontrolstockw;;attp2withnoGAL4or
+LexA24,51.Forthethermogeneticactivationscreenweselected586GAL4lines26 Behavioural experiments. Embryos were collected for 6h at 18uC and 65%
+thatdroveexpressioninrelativelyfewneurontypes(onetofive)andusedthemto humidity.LarvaecontainingtheUAS-dTrpA1orLexA-dTrpA1transgenewere
+driveexpressionofTRPAwithUAS-dTRPA152,53. raisedat18uCfor7dayswithnormalcornmealfood.Foragingthirdinstarlarvae
+Thefollowingeffectorstockswereused:pJFRC25-13xLexAop2-IVS-dTrpA1in wereusedforallexperiments.LarvaecontainingtheUAS-CsChrimsontransgene
+vk0525,54; pJFRC48-13xLexAop2-IVS-mrytdTomato in attp18, pJFRC20- weregrowninthedarkat25uCfor4daysonflyfoodcontainingtrans-retinal
+8xLexAop2-IVS-GAL80-WPRE in attp1825,54; pJFRC29-10xUAS-IVS-myr::GFP- (Sigma,R2500)ataconcentrationof500M.
+p10 in attp254; pGP-JFRC7-20xUAS-IVS-GCaMP6s55 (Bloomington stock no. Beforetheexperiments,thelarvaewereseparatedfromfoodbyusing15%
+42749); pGP-JFRC7-20xUAS-IVS-GCaMP6f5 (Bloomington stock no. 52869); sucroseandwashedwithwater.Thelarvaewerethendriedandplacedinthe
+20xUAS-IVS-GCaMP3 (Bloomington stock no. 32236;56); and UAS-JFRC12- centerofthearena.Thesubstrateforthebehaviouralexperimentswas3%Bacto
+10xUAS-mryGFP (Bloomington stock no. 32197;51,54) were gifts from B. D. agargelina25325cmsquareplasticplateforexperimentsinvolvingthermal
+Pfeiffer, G. Rubin, and the GECI project team (HHMI Janelia Research activationandvibrationstimuli,ora10310cmplateforthoseinvolvingthermal
+Campus). ppk1.9-GAL457 was a gift from D. Tracey (Duke University). ppk- activationalone.Wetestedapproximately15–50larvaeatonceinthebehavioural
+1kb-hs43-lexA-GADinattp40wasastockthatwaspreviouslydescribedinref. assays. The temperature of the entire rig was kept at 25uC (for optogenetic
+34.UAS-dTRPA152wasagiftfromP.Garrity.UAS-EGFP-Kir2.158wasoutcrossed activationexperiments)or30uCor32uCforthermogeneticactivationexperi-
+tow1118andgiftedfromD.Sitaraman(YaleUniversity).LexAop2-P2X59wasa ments.Theagarplateswerealsokeptatthedesiredtemperaturepriortoexperi-
+2
+giftfromC.-H.Yang(DukeUniversity;unpublishedstock). ment.Foroptogeneticactivationexperimentsweexposeddishesoflarvaetored
+For selective targeting the Goro neurons, we used LexAop-FLP;
+light(630nm,2.4mWpercm2).Optogeneticactivationoffersgreatertemporal
+UAS.stop.dTrpA1::myc60 a gift from B. Dickson, crossed with w1118;16E11- precisionthanthermogeneticactivationsoweusedtostudytheabilityofBasin,
+LexA(attp40);R69F06-GAL4(attp2),whichdrivesexpressioninGoroneurons. GoroandA00cneuronstotriggertheentirebehaviouralsequenceroll-fastcrawl,
+Theexpressionwasdeterminedbyanti-Mycantibody(seenonimmunohisto- orjustasingleelementofthesequence(rollorcrawl)
+chemistry). TheMWTsoftware64(http://sourceforge.net/projects/mwt)wasusedtorecord
+Tsh-LexAwasagiftfromJ.-M.KnappandJ.Simpson(unpublishedstock).In allbehaviouralresponsesandtocontrolthepresentationofvibrationstimuli.
+brief,thetsh-LexAdriverisanenhancertrapinsertedintothe59UTRofthetsh Forthethermogeneticactivationscreenweused586GAL4linespreselectedfor
+locus.ItwasgeneratedviaaP-elementswapthatreplacedthep{GawB}insertion expressioninrelatively fewneurontypes(one to five) todrive expressionof
+oftsh-GAL461withP{UpP65L}andtheenhancer-trapLexAconstruct.Proper dTRPA1.Ineachexperiment,weexposeddishesoflarvaeto32uCtothermo-
+targetingandorientationofP{UpP65L}wereconfirmedbysplinkerettePCRand geneticallyactivatedTRPA1-expressingneurons.Wedetected32‘hits’thatcon-
+sequencingbyJ.-M.Knapp(unpublishedresults). tainedneuronswhosethermogeneticactivationevokedrollinginasignificant
+LexAop2-mry-TDTomato-p10(attp40),agiftfromD.Mellert(HHMIJanelia fractionofanimals.Weanalysedfurtherhitsthatevokedrollinginthehighest
+Research Campus; unpublished stock), is an mry::TDtomato fragment with fractionoflarvaeandthatdroveexpressionintheleastneurontypes.
+AcNPV p1054. To selectively target Basin-4 neurons we generated a Split- Behaviour quantification. Larvae were tracked in real-time using the MWT
+GAL425,62 stock R72F11_AD inserted in attp40 (chromosome 2L) and software.Werejectedobjectsthatweretrackedforlessthan5secondsormoved
+57F07_DBD in attp2 (3L). AD and DBD combinations were assembled in a lessthanonebodylengthofthelarva.ForeachlarvaMWTreturnsacontour,
+w1118background.WeidentifiedR57F07asacandidatelineforthisintersection spineandcentreofmassasafunctionoftime.Rawvideosareneverstored.From
+becauseitsactivationalsoevokedrollinginthethermogeneticactivationscreen theMWTtrackingdatawecomputedthekeyparametersoflarvalmotion,using
+(ExtendedDataFig.4).StochasticlabellingofsinglecellsinR57F07andR72F11, specificchoreography(partoftheMWTsoftwarepackage)variables28.Fromthe
+usingaFLP-basedstrategy(seebelow)revealedtheybothdriveexpressionin trackingdata,wedetectedandquantifiedcrawlingandrollingeventsandthe
+Basin-4.R57F07alsodroveexpressioninotherneuronsinthetipofthenerve speed of peristaltic crawling strides as described in ref. 28, using the LARA
+cordandbrain(ExtendedDataFig.4). softwarepackage(http://sourceforge.net/projects/salam-hhmi).Wealsotrained
+The‘FLP-out’approach63forstochasticsingle-celllabellingwillbedescribedin amachine-learningclassifier,usingJAABA(JaneliaAutomaticAnimalBehavior
+detailelsewhere(Nernetal.,manuscriptinpreparation).Inbrief,heat-shock Annotator65)todetectrollingeventsfromthetrackingdata.Thefalsedetection
+inducedexpressionofFLPrecombinasewasusedtoexciseFRT-flankedinter- rateoftheJAABArollingclassifierwasslightlysmaller(2.8%,n589)thanthatof
+ruptioncassettesfromUASreporterconstructscarryingHA,V5,andFlagepi- theLARAdetectionsoftware(3.6%),buttheresultsobtainedwithbothmethods
+topetags,andstainedwithepitope-tagspecificantibodies.Thislabelledasubset wereverysimilar.TheMATLABcodefortherollingclassifierisavailableupon
+of the cells in the expression pattern with a stochastic combination of the request.Thedatapresentedisaquantificationofrollingeventsdetectedwith
+threelabels. JAABA.Tocalculatethepercentageofanimalsthatrolledinresponsetothermo-
+Behavioural apparatus. The apparatus comprises a video camera (DALSA geneticactivation,vibration,orboth,weselectedforanalysisalltheanimalsthat
+Falcon 4M30 camera) for monitoring larvae, a ring light illuminator (Cree weretrackedthroughouttheentire15-secondsamplingintervalfollowingstimu-
+C503B-RCS-CW0Z0AA1at624nminthered),acomputer(seeref.28fordetails; lation.Wethencalculatedthepercentageofanimalsfromthissampleforwhichat
+availableuponrequestarethebillofmaterials,schematicdiagramsandPCB leastonerollingeventwasdetectedduringthe15-secondinterval.Theinstant-
+CAMfilesfortheassemblyoftheapparatus)andtwohardwaremodulesfor aneouspercentageofrollingandcrawlinglarvae(ExtendedDataFig.7a)asa
+controllingvibrationandtemperature(OvenIndustriesPA,Model0805).Both functionoftimewascalculatedbydividingthenumberoflarvaeperforming
+hardwaremoduleswerecontrolledthroughmultiwormtracker(MWT)software rolling at each time point with the total number of larvae tracked at each
+(http://sourceforge.net/projects/mwt),asdescribedinref.28. timepoint.
+Themoduleforpresentingvibrationconsistsofaspeaker(120W,12inchesin SelectivetargetingofGoroneurons.WeexpressedFLPselectivelyintheGoro
+diameter)andanamplifier(PyleProPCA3)controlledbyasignalgenerator neurons using the weak 16E11 LexA lines (in 16ElexA/LexAop FLP;
+(TektronixAFG3021B).Thespeakerwasusedtogeneratevibrationsbetween UAS.stop.UAS-dTRPA1::myc/R69F06). Selectively in Goro neurons, FLP
+100 and 1000Hz, with an electronic signal (1V, 100Hz) generating a sound stochasticallyexcisestheSTOPcassettethatpreventstheexpressionofUAS-
+pressure level of 122dB at the assay plate (measured by a Realistic 33-2050 dTRPA1.NowthestrongR69F06promotercandrivehighlevelsofdTRPA1
+SoundLevelMeter).Thefrequencyofvibrationattheagarsurfaceandvibration expression,selectivelyinGoroneurons.SincethismethodofGoroactivationis
+intensity(measuredasaccelerationinms22)wasmeasuredwithanADXL345 stochastic we monitored rolling in response to 32uC exposure in individual
+3-axisaccelerometerassembledontoasmallprintedcircuitboardplacedonthe larvae.Wedissectedallanimals,notedwhethertheyrolledordidnot,andstained
+agarasdescribedinref.28. theirnervoussystemswithanti-Myc,toidentifythosethathadGoroexpression.
+Forthermalactivation,weusedaPeltiermodulecontrolledbyatemperature Statistical analysis. Statistical analysis was performed using MATLAB
+controller(OvenIndustriesPA,Model0805).Analuminiumplatecoveredwitha (MathWorks) software. The calcium responses in the paired trials shown in
+thinlayerof4%charcoalagarwasplacedonthePeltiermodule.Thetemperature Fig.4fwerecomparedbothusingthepairedt-testandWilcoxonsigned-rank
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 9 ---
+ARTICLE RESEARCH
+test.Requiredsamplesizeforpower0.8wasdeterminedusingGPowersoftware Functionalconnectivityassay(GCaMPrecording).Foractivationofpresynap-
+forpairedt-testandforalargepre-specifiedeffectsizebasedonafewpilottrials. ticneurons(MDIV,chordotonal,BasinsorA05q)withtheATP-gatedP2X
+2
+Indeedtheeffectsizeinthedatawaslarge(P50.016andd51.05forone-sided channelandimaginginpostsynapticneurons(Basins,Goro,A00corA05q),the
+pairedt-testandP50.02andr50.81usingWilcoxonsigned-ranktest).The centralnervoussystemofwanderingthirdinstarlarvaeweredissectedoutincold
+speedofperistalticcrawlingstrideswascomparedusingWilcoxconranksumtest physiologicalsalinecontaining103mMNaCl,5mMKCl,5mMHEPES,26mM
+(andBonferronicorrectionformultiplecomparisons).Inallfigures,*and** NaHCO
+3
+,1mMNaH
+2
+PO
+4
+,5mMTrehalose,6mMsucrose,2mMCaCl
+2
+2mM
+representP,0.05andP,0.01,respectively.Requiredsamplesizeforpower0.8 H
+2
+O,8mMMgCl
+2
+6mMH
+2
+O,andkeptstablebystickingthemonpoly-L-lysine
+was determined using GPower software for a medium pre-specified effect (SIGMA,P1524)coatedcoverglassplacedinsmallSylgard(DowCorning)plates.
+size.Thefractionsofanimalsthatrolledunderthedifferentexperimentalcon- Aborosilicatepipette(1to2mmtipdiameter)filledwith5mMadenosine59-
+ditionswerecomparedusingthex2test.Pvalueswerecorrectedformultiple triphosphate(ATP,Amersham27-1006)and50gml21AlexaFluor594hydra-
+comparisons using Bonferroni correction. Power analysis was performed as zide(Invitrogen,A10438)dyeinphysiologicalsalinewaspositioned3to5mm
+describedbelow. fromtheaxonterminalsofthetargetpresynapticneuronsexpressingtheATP-
+We performed an analysisof the power of our statistical tests of behavior gatedP2X 2 channelanddsRedandtheATPsolutionwaspressure-ejectedusinga
+differences, given the sample sizes and effect sizes observed. In addition, we Picospritzer(ParkerHannifinCo.).
+computedtheminimumeffectsizesouranalyseswouldhavebeensensitiveto WhenejectingATPontotheaxonterminalsofMDIVorchordotonalneurons,
+withapower0.95,giventhesamplesizes.Inourpoweranalyses,weassumedthat weimagedcalciumtransientsinthedendriticarboroftheBasinneurons,notthe
+thedistributionofthefractionoflarvaethatrolledforthecontrolpopulations,q, cellbodies(whichintheinsectareremovedfromtheneuropil).Whenstimulat-
+0
+wasknownandequaltothefractionmeasuredinalargenumberoftrials. ingBasinsinabdominalsegments,byejectingATPontotheiraxonterminalsin
+Foreachexperiment,wetestedthenullhypothesisthatthefractionofexperi- ventralnervecord,weimagedcalciumtransientsinthedendritesofGoro(in
+mental animals that rolled was less, more, or equal to the control fraction, dorsalthoracicnervecord),orinaxonterminalsofA05q(indorsalnervecord)
+dependingonthetypeofexperiment.Forexample,whenactivatingtheGoro andA00c(inthebrain).WhenstimulatingA05qbyejectingATPontotheir
+neurons,wetestedwhetherwecouldrejectthenullhypothesisthatthefractionof dendritesinventralnervecordinabdomen,weimagedcalciumtransientsin
+larvae that rolled was less thanor equal to the controlfraction. In this case, Gorodendritesindorsalthoracicnervecord.
+assumingthateachanimalisanindependentsamplefromthesamedistribution, Puffswere25msinduration,andthepressurewasadjustedsothatredfluor-
+thenumberoflarvaerollingfollowsabinomialdistribution.Thus,ifthenull escence (from the Alexa 594) ejection could be seen clearly while imaging.
+hypothesisisthattheexperimentallarvaerollatmostasmuchascontrol,the Thesamestimuluswaspresentedevery30secforatotalofthreetrialsineach
+probabilitythatthenullhypothesisholdscanbecomputedfromthebinomial experiment.
+cumulativedistributionfunction: Whenvibrationstimuliwerealsousedinexperiments,ratherthanonlyP2X 2
+activation,thelarvaeweredissectedusingmethodssimilartothosedescribed
+ƒ P q r 0 ðn,^qnÞ~1{binocdfð^qn,q 0 Þ c p u re t v u i p ou a s l l o y n f g or th n e eu d r o o r m sa u lb sc o u d l y ar w ju a n ll c m tio id n l 6 in 7o e n an th d e t S h y e l n ga o r p d e p n l e a d te b . y In p b la r c ie in f, g la d r i v s a s e ec w ti e o r n e
+Wherenisthenumberofexperimentallarvaetested,^qisthemeasuredfraction pins.Thecellbodiesofabdominalperipheralsensoryneuronsandtheirnerves
+thatroll,andbinocdf(k,r)isthebinomialcumulativedistributionfunction.We werekeptintact.Theanteriortipswereremoved,andtheCNSwasattachedtoa
+assumedwewouldrejectthenullhypothesisifthisprobabilitywaslessthan0.01. poly-L-lysinecoatedcoverglass.Forvibrationstimuliinthetwo-photonrig,we
+Foragivenq 0 andn,wecanthuscompute^q(cid:2) q0,n ,theminimum^qsuchthatwe embeddedpiezoextensionactuators(PiezoSystemInc.,ModelQ220-A4-303XE)
+wouldrejectthenullhypothesisusingthisequation. intheSylgardplateandusedTTLpulsesfromthePrairieViewsoftwaretocontrol
+Tocomputethepowerofthisstatisticaltestgiventhesamplesizenandtrue the timing of stimulation. The acceleration was measuredwith an ADXL345
+fractionofexperimentallarvaeexpectedtorollq,weassumedthatourcollected 3-axis accelerometer28. The vibration stimuli were 1,000Hz and 6.67ms22,
+experimentaldatawereindependentdrawsfromtheBernoullidistributionwith 15seclong.Thesamestimuluswaspresentedevery30secforatotalofthree
+parameterq,andcomputedtheprobabilitythatourobservedfractionof trialsineachexperiment.ForcomparingtheresponsesofBasin-4tocombined
+Prðrejectnullhypothesisjq 0 ƒq,nÞ~1{binocdf (cid:2) ^q(cid:2) q0,n n,q 0 (cid:3) a n c o t c iv ic a e t p io to n r ( a n c o t c iv ic a e t p io t n or o a r c v ti i v b a r t a i t o io n n w a i l t o h n P e 2 ( X F 2 ig a u n r d e4 A d T a P n i d nj e e ) c , t e i a o c n h p t l r u ia s l v c i o b n ra s t i i s o te n d )t o o f
+ATPinjection,vibration,andacombination(ATPinjectionandvibration),with
+Analogousequationswereusedfortestingwhethertheexperimentalrolledat 30secbetweeneachstimulation.Threesuchtriplettrialswerepresentedineach
+leastasmuchascontrolorthesameamountascontrol. experiment.
+Usingtheseequations,wecomputedthepowerofeachstatisticaltestgiventhe We performed imaging on a Prairie Technologies two-photon microscope
+observed sample size n, control fraction that rolled q 0 , and the experimental using an Olympus 603 0.8 NA objective. A mode-locked Ti:Sapphire
+fractionthatrolledq,foreachsetofexperiments.Wealsocomputedthemin- ChameleonUltraIIlaser(Coherent)tunedto925nmwasusedforexcitation.
+imumeffectsizeq/q 0 thatwouldbesensitivewithpower0.95,giventheobserved Fluorescencewascollectedwithphotomultipliertubes(Hamamatsu)afterband-
+sample size n and control fraction that rolled q 0 . These results are listed in pass filtering. Images were acquired in frame-scan mode (maximum speed,
+SupplementaryTables1and3. 1,215f.p.s.)forasingleplaneoftheCNS.
+Immunohistochemistry.Thefollowingantibodieswereused:rabbitanti-GFP GCaMPimageanalysis.ImagedatawereprocessedbyImageJsoftware66(NIH)
+(1:1000, A11122, Invitrogen), rat anti-N-Cad (1:50, Developmental Studies andanalysedusingcustomcodewritteninMATLAB(MathWorks).Specifically,
+HybridomaBank),mouseanti-nc82(1:20;DevelopmentalStudiesHybridoma regionsofinterest(ROIs)weredeterminedbyaveragingthetenframesbefore
+Bank),mouse-anti-Myc(9E10,1:20,DevelopmentalStudiesHybridomaBank), stimulationandsegmentingthisdatabythefunctionMEAN68inImageJ.The
+rabbit anti-HA-Tag (1:300, Cell Signaling, #3724), rat anti-FLAG (1:200, mean intensity of the ROI was measured in ImageJ. In all cases, changes in
+NOVUS, NPP1-06712), mouse anti-V5 Dylight549 (1:400, AbD Serotec, fluorescencewerecalculatedrelativetobaselinefluorescencelevels(F)asdeter-
+0
+MCA1360D549).ForsecondaryantibodyAlexaFluor488goatanti-rabbitIgG minedbyaveragingoveraperiodofatleast3secjustbeforeATPpufforvibration
+(1:200,Invitrogen),AlexaFluor568goatanti-mouseIgG(1:200,Invitrogen)and stimulation.DF/F valueswerecalculatedasDF/F 5(F 2F)/F,whereF isthe
+0 0 t 0 0 t
+AlexaFluor488goatanti-mouseIgG(1:200,Invitrogen)wereused. fluorescentmeanvalueofaROIinagivenflame.PeakDF/F isthemaximum
+0
+Thecentralnervoussystemsofwanderingthirdinstarlarvaeweredissectedin valueinthe5secwindowfollowingstimulusonset.
+coldSchneidersInsectmedium(Sigma,S0146)andfixedin4%phosphate-buf- Electron microscopy preparation and imaging. For generating the electron
+feredsaline(PBS)with4%paraformaldehyde(ElectronMicroscopyScience)at microscopydatasetcomprising1.5abdominalsegments(segmenta2anda3),
+roomtemperaturefor20min.Afterwashesin0.4%TritonX-100inPBS,samples thecentralnervoussystemsfrom12–24-h-oldwild-typew1118firstinstarlarvae
+were preblocked with 3% normal goat serum (NGS) in for 30min at room weremanuallydissectedoutinPBS,andimmediatelytransferredto2%glutar-
+temperature.Thesampleswerethenincubatedinprimaryantibodyfor2to3days aldehydein0.1Msodiumcacodylate,pH7.4buffer.Sampleswerepost-fixedin
+at4uC.Afterextensivewashesin0.4%TritonX-100inPBS,thesampleswere 1%OsO inthesamebufferandstainedenblocwith1%aqueousuranylacetate
+4
+incubated at 4uC for 2days in a secondary antibody solution. After further beforesubsequentdehydrationinethanolandpropyleneoxide,andembedding
+extensive washes, the samples were rinsed in PBS, dehydrated through an inEpon.Serial45nmsectionswerecutwithaLeicaUC6ultramicrotomeusinga
+EtOH series, cleared in Xylene and mounted in DPX mountant (Sigma- Diatomediamondknife,andpickedupwithSynaptekslotgridswithPioloform
+Aldrich).Imagesweretakenwitha710or700laser-scanningconfocalmicro- supportfilms.SectionswerestainedwithuranylacetatefollowedbySato’slead69.
+scope(Zeiss)under2030.8NAor633,1.4NAobjectiveandprocessedin Forgeneratingtheelectronmicroscopydatasetcomprisingtheentirecentral
+ImageJsoftware66(NIH). nervoussystem,centralnervoussystemsfrom6-h-old[iso]CantonSG1xw1118
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 10 ---
+RESEARCH ARTICLE
+[iso]5905femalelarvaeweremanuallydissectedoutinPBS.Theisolatedcentral datainaxonanddendriticprojections.Partialreconstructionsofsiblingneurons,
+nervoussystemswereimmediatelytransferredto125mlof2%glutaraldehydein as well as homologous neurons in adjacent thoracic segments, resulted in
+0.1M sodium cacodylate buffer, pH7.4 in a 0.5 dram glass vial (Electron morphologies very different from that of Goro neurons as observed by light
+MicroscopySciences,cat.no.72630-05)towhichanequalvolumeof2%OsO microscopy,indicatingthatonlytwoneuronsinthewholeofthethoraxmatch
+4
+in0.1Msodiumcacodylatebuffer,pH7.4wasaddedandgentlymixed.EachCNS theexpectedmorphologicalpattern.Descendingneuronswerefoundbyrecon-
+wasthenfixedinanicebathinaPelcoBioWavePROmicrowaveoven(TedPella, structionofneuronsupstreamofsynapticinputsinGorodendrites.Asubsetof
+Inc.)at350-W,375-Wand400-Wpulsesfor30seceach,separatedby60-sec fourth-orderneuronswasfoundbyreconstructingdownstreamofallsynaptic
+intervalswiththemicrowavesoff.Sampleswererinsed3330secat350Wwith outputsitesofonlyoneoftheascendingthird-orderA00c-a4neurons.Leftand
+0.1Msodiumcacodylatebuffer,separatedby60-secintervalswiththemicro- righthomologuesofreconstructedneuronswereidentifiedbyconsideringasuite
+wavesoff,andpost-fixedwith1%OsO in0.1Msodiumcacodylatebufferat350- of morphological and synaptic features, focusing on neuropil entry location,
+4
+W,375-Wand400-Wpulsesfor30seceach,separatedby60-secintervalswith primarybranchlocations,andthelocationofpre-andpostsynapticsites.
+themicrowavesoff.Afterrinsingwithdistilledwater3330secat350Wwith60- Neuronal morphologies were analysed in MATLAB using custom scripts.
+sec pauses between pulses, the samples were stained en bloc with 1% uranyl Circuit diagrams were made in Gephi75 and edited in Adobe Illustrator CS6
+acetateinwaterbymicrowaveat350Wfor3330secwith60-secpausesbetween (AdobeSystems,Inc.).
+microwavepulses.Thesampleswerethendehydratedinanethanolseriesfol- Validation of methodology of electron microscopy reconstruction. In
+lowedbypropyleneoxide,infiltratedandembeddedwithEPONresin.Serial50- Drosophila,asinotherinsects,thegrossmorphologyofmanyneuronsisstereo-
+nmsectionswerecutwithaLeicaUC6ultramicrotomeusingaDiatomediamond typed and individual neurons are uniquely identifiable based on morpho-
+knife,andpickedupwithSynaptekslotgridswithPioloformsupportfilmswith logy37,50,76,77. Furthermore, the nervous system in insects is largely bilaterally
+2nm of carbon (C). Sections were stained with uranyl acetate followed by symmetric and homologous neurons are reproducibly found on the left and
+Sato’slead69. therightsideoftheanimal.Inthisstudywethereforevalidatethewiringdiagram
+BothdatasetswereimagedusingLeginon70,the1.5abdominalsegmentonan by:(1)independentlyreconstructingpartnersofhomologousneuronsontheleft
+FEIT20TEM(Hillsboro)at4.4nm34.4nmpixelresolution,thecompleteL1 andrightsideofthenervoussystem;(2)independentlyreconstructingpartnersof
+brainonanFEISpiritTEMat3.8nm33.8nmpixelresolution.Theresulting homologousneuronsinEMvolumesfromtwodifferentindividuals;(3)perform-
+images were montaged and registered using the nonlinear elastic method ingfunctionalconnectivityexperimentstovalidatesomekeyconnectionspre-
+describedinref.23. dictedbythewiringdiagram.
+Neuronalreconstruction.Reconstructionsweremadeinamodifiedversionof Validatingthewiringdiagrambyindependentreconstructionontheleftand
+CATMAID71(http://www.catmaid.org).Theprocessofreconstructingneurons right.Byrandomlyre-reviewingannotatedsynapsesandterminalarborsinour
+inCATMAIDinvolvesstartingwithaspecifiedneuriteinasectionoftheelectron datasetweestimatedthefalsepositiverateofsynapticcontactdetectiontobe
+microscopy data, and manually building a 3D skeleton representation of the 0.0167(1errorper60synapticcontacts).Assumingthefalsepositivesareuncor-
+neuronal morphology and the location of synaptic active zones and synaptic related,forann-synapseconnectiontheprobabilitythatallnarewrong(andthus
+partners. thattheentireconnectionisafalsepositive)occursatarateof0.0167n.Thus,the
+Thesynapticconnectionsmappedandreportedinthisstudyallrepresentfast, probabilitythataconnectionisfalsepositivereducesdramaticallywiththenum-
+chemicalsynapses.Synapsesmustmatchseveralcriteriaovermultipleadjacent berofsynapticconnectionscontributingtothatconnection.
+sections:athickblackactivezone,vesicles,andpresynapticspecializations,such Evenforn52synapseconnections,theprobabilitythattheconnectionisnot
+as a T-bar, on the presynaptic side, and evidence of postsynaptic membrane trueis0.00028(onceinevery3,586two-synapseconnections)andwecallcon-
+specializations72. nections with two or more connections ‘reliable’ connections. Similarly, the
+Toidentifysensoryaxons,reconstructionwasinitiatedattheentrypointof probabilitythatevenaone-synapseconnectionannotatedbetweenhomologous
+nervesintotheneuropil.Sensoryneuronsprojectventrallyinthenervecord,and neuronsbothontheleftandontherightsideofthenervoussystemisnottrueis
+motorneuronsprojectdorsally37,38,73,sothesensoryaxonswerereadilyidentified 0.00028.Theprobabilitythatafalse-positiveconnectionwithtwosynapsesis
+intheventralportionofthenerveroot.AllsensoryaxonsweretracedandMDIV observedtwicebetweenthesamecelltypesisevenlower(0.000282).Because
+andchordotonalaxonswererecognizedbasedontheirdistinguishingfeatures, false-positivesynapsesbetweenasinglepairofhomologousneuronscouldpoten-
+previouslydescribedusingconfocalmicroscopyimaging37,38,74.Chordotonalpro- tiallybecorrelated(duetomis-annotationofasinglebranchwithmultiplecon-
+jectionswerereadilyidentifiedbasedonthecharacteristicintermediatelocation tacts),weperformextraroundsoffocusedre-reviewofthearborsassociatedwith
+oftheirterminalsinthemediolateralaxisandthedorsoventralaxisofthenervous connectionsinourwiringdiagramwithlessthanfoursynapsestoconfirmthat
+system.Wefoundthatalleightchordotonalaxonswerealreadytightlybundled they are neither mis-annotated synapses or incorrect branches. Furthermore,
+togetherinthenerveroot.TheMDIVprojectionswerereadilyrecognizedbased whilefalsepositivesbetweenasinglepairofhomologousneuronscouldpoten-
+onthecharacteristicmedial-mostandventral-mostlocationoftheirterminals. tiallybe correlated, the false positivesbetweendifferent pairs ofhomologous
+NeuronalpartnersoftheeightchordotonalaxonsandthethreeMDIVaxonsin neurons(ontheleftsideandtherightside)cannotbecorrelated(theyarenot
+bothhemisegmentswerereconstructedbyinitiatingreconstructionsatthesiteof on the same branch). Thus the probability that reliable (with two or more
+every postsynaptic target in all chordotonal terminals until all targets were synapses)andreproducible(foundbetweenboththeleftandrighthomologues
+exhausted.AreviewofallskeletonswasdonebyCMSMtoidentifyincorrect withinanindividual)connectionsarenottrueisextremelylowandwearehighly
+ormissedbranchesandsynapses. confidentinsuchconnections.Alltheconnectionsdiscussedinthisstudyandall
+InthecomprehensiveL1electronmicroscopyvolume,BasincellsinA1andA4 theprinciplesderivedfromthewiringdiagramarebasedonsuchreliableand
+segmentswerefoundusinglandmarkssuchascellbodyposition,theentrypoint reproducibleconnections.
+ofprimaryneuriteintotheneuropil,andbranchpointsontheprimaryneurite.In Falsenegativesarefarmorecommoninourreconstructionsthanfalseposi-
+brief,theBasinlineagewasfirstrecognizedonthebasisofthecharacteristiccell tives.Wewereabletotrace81.5%(1,676/2,054)ofpostsynapticsitesdownstream
+bodylocation(lateralintermediate),thetrajectoryoftheirprimaryneuritewhich of Basins back to identifiable neuronal arbors, leaving 18.5% (378/2,054) of
+isparalleltotheenteringnerve,andtheneuropilentrypointofthelineage,aswell synapticoutputsassociatedwithsmall,unidentifiablearborfragmentsdueto
+asthepatternofthelow-order,largebranches.Thelineagecontainsmorecells ambiguitiesinthedata.Themajorityhaveonlyasinglesynapticinputfrom
+thanjustthefourBasins,buttheothercellshaveverydifferentprojectionpat- Basins(163/231fragments),andonly8/231fragmentshavefiveormoreBasin
+terns.TheBasinsintheA1segmentwereidentifiedbytracingtheprimaryand inputs.Ifthesynapsesthatcouldnotbeassociatedwithidentifiedneuronswere
+secondaryneuritesofmultiplemembersofthelineageandabandoningthosethat distributedrandomly,thelikelihoodofcompletelyomittingaconnectionwith
+didnothavethedistinguishingfeaturesoftheBasins.ThefourBasinsineach n synapses is approximately 0.185n, which is 0.006 for n53. Thus the like-
+hemisegmentwerereconstructedinfullandindividualBasinsrecognizedbased lihoodthatwehavecompletelyomittedathree-or-more-synapseconnectionis
+ontheiruniquefeatures(seeExtendedDataFig.2).Basintargetswererecon- quitelow.
+structed by tracing exhaustively downstream of all presynaptic sites in Basin Reproducibilityofthewiringdiagramacrossdifferentindividuals.Foracon-
+axons.GoroneuronswerefoundinasimilarwayasBasins.Startingwithhigh- nectioninthewiringdiagramtobeusefulforfuturephysiologicalandbeha-
+resolution3Dimagestacksofsinglecells(visualizedusingtheFLP-basedstrategy vioural experiments in different individuals, it should not just be correctly
+describedabove),welookedatthecellbodylocation,primaryneuriteprojection, identifiedinoneanimal,butitshouldbegeneralizableacrossanimals.Wethere-
+andmajorbranchpoints.Wethentracedneuritesconsistentwiththeprimary fore assessed the extent to whichthe connections in this wiring diagram are
+neuriteprojectionandcellbodylocationuntilfindingonlytwoindividualcells, reproducibleacrossindividuals.
+oneineachhemisegmentofsegmentT2,withbranchpointsconsistentwithGoro Forthisstudyweobtainedelectronmicroscopyvolumesfromtwodifferent
+neurons.Completedreconstructionswerethencheckedforconsistencywithlight larvae:onecomprising1.5nervecordsegments(a2/a3),andonecomprisingthe
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 11 ---
+ARTICLE RESEARCH
+entirenervoussystem.WereconstructedthechordotonalandMDIVsensory lowandhighoutputcoverabouthalfoftheinputrange.Weomitbinsubsequent
+neurons,theBasinneuronsandalltheotherpartnersdownstreamofboththe equationsforbrevity.
+nociceptiveandthesensoryneuronsinbothelectronmicroscopyvolumes.Inthe The output of the pure node in the first processing layer is given by:
+smallerabd1.5volumesomeofthedownstreamneuronshadalargefractionof gP ðEMech Þ~fðEMech ;h P Þ.
+theirarboroutsidethevolumeandwerenotidentifiable,whereasotherswere Forthemixednode,wetakethetotalinputtobeaweightedsumofthesensory
+mostlyconfinedwithintheelectronmicroscopyvolumeandwereuniquelyiden- inputs:gM ðEMech ,ENoci Þ~fðwMEMech zð1{wM ÞENoci ;h M Þ
+tifiablebasedonkeymorphologicalfeatures.Wecouldthereforeassesstherepro- where0ƒwM ƒ1measurestherelativeweightingofmechanosensoryinput.To
+ducibilityofconnectionsbetweenhomologousneuronspresent anduniquely requirethatthemaximumtotalinputeachnodecanreceiveisthesame,the
+identifiableinbothvolumesacrosstwoindividuals(ExtendedDataFig.3).We weightssumtoone.
+identifiedconnectionsbetweenneurontypesthathaveatleasttwosynapsesand Forthesecondlayer,wetaketotalinputtobeaweightedsumoftheoutputsfrom
+forwhichaconnectionwithatleasttwosynapsesalsoexistsbetweenhomologous thenodesinthefirstlayer:
+neurontypesontheothersideofthesameindividual.100%(n536)ofconnec-
+g ðE ,E Þ~fðw g ðE Þzð1{w Þg ðE ,E Þ;h Þ
+tionswithatleasttwosynapsesperconnectionthatwerereproducibleacrossthe B Mech Noci B P Mech B M Mech Noci B
+sameindividualwerealsoreproducibleacrossindividuals;thatis,thoseconnec- where0ƒwB ƒ1measurestheweightingofthepurechordotonalnodeinthefirst
+tionsalsoexistedonbothsidesintheotherindividual. layer.
+Ifweconsidereachindividualsensoryneuroninahemisegmentasunique,we Acommonfeatureofmultisensorycircuitsistheirenhancedsensitivityto
+findatotalof76connections(38pairsofconnections)betweenindividualneurons combinationsofweakstimulipresentedtogether.Toconsiderthispropertyin
+withatleasttwosynapsesbetweenhomologuesonboththeleftandrightofthe thecontextofourcircuit,welookedforcircuitresponsesthataremaximally
+sameindividual.In100%ofcasesinwhichaconnectionwaspresentbetween sensitivetomultisensorystimuli,butthatarealsoconsistentwithbasicexperi-
+homologuesonbothsidesinoneanimalitwasalsopresentbetweenhomologues mentalobservations.Wetreatedthisasaconstrainedoptimizationproblem;we
+intheotheranimal,atleastononeside.96%ofconnectionswithatleasttwo foundmixingparametersw andw thatoptimizeameasureofmultisensory
+M B
+synapsesthatexistedbetweenhomologousneuronsonbothsidesinoneanimal sensitivity,subjecttotheconstraintthattheresponsestounimodalstimuliare
+alsoexistedbetweenhomologuesonbothsidesintheotheranimal.4%ofconnec- similartoexperimentalobservations(ExtendedDataFig.8b–d).Welookedatthe
+tionswithatleasttwosynapsespresentbetweenhomologuesonbothsidesinone resultingsolutionsforarangeofthresholdparameters.
+animalwerenotpresentbetweenhomologuesintheotheranimalonthesameside, Forthesensitivitymeasure,weassumedthattheoptimalsolutionsarerespons-
+butaconnectionwaspresentbetweenhomologuesontheotherside(intheother ivetocombinationsofbothinputs(ExtendedDataFig.8b),asmeasuredbythe
+hemisegment)intheotherindividual(seeExtendedDataFig.3formoredetails). integrated response along a Gaussian-weighted band centred along the
+Togetherwiththeaboveerrorrates,theobservedreproducibilityofconnec- E 5E diagonalline:
+Mech Noci
+tions across individuals gives us strong confidence that the observation of a
+100100
+reliableconnectioninoneanimalbothmeasuresarealconnectioninthatindi- ð ð
+vidualandpredictssimilarconnectivityinotheranimals. Sðw M ,w B Þ~ g B ðE Mech ,E Noci Þe(cid:3)(cid:3)ðEMech {ENociÞ=4d2dE Mech dE Noci
+Functional validation of connections mapped using electron microscopy
+0 0
+reconstruction.Anotherwaytovalidateawiringdiagramistofunctionallytest
+wheredmeasuresthewidthoftheband,whichwesetto20(ExtendedData
+theconnectionsobtainedwithelectronmicroscopyreconstruction.Iftheana-
+Fig. 8c). Although this condition alone would encourage strong responsesto
+tomicalandfunctionalconnectivitystudiesaredoneindifferentindividualsthis
+extremelylowvaluesofinputstimulus,anundesirablesituation,thecombination
+providesfurthervalidationofthereproducibilityandgeneralizabilityofthewir-
+oftheconstraintandthemonotonicityoftheresponsefunctionsensurethatthis
+ingdiagram.Inthisstudywewereabletogeneratereagentstofunctionallytesta
+cannotoccur.
+numberofanatomicalconnectionspredictedbythewiringdiagram.Byactivating
+Fortheconstraint,wedemandedthatintenseunimodalinputmatchobserva-
+thepresynapticpartnerandmonitoringcalciumtransientsinthedirectpost-
+tions(seeFig.1c):(1)thatintense,purechordotonalinputinducednorolling;and
+synapticpartnerwetestedthefollowingreproducibledirectanatomicalconnec-
+(2) intense, pure MD IV input induced a modest, but non-zero, fraction of
+tionswith,onaverage,fiveormoresynapsesperconnection:
+NMDIVontoBasin-4(average.10synapsesperconnection)(Fig.3b) animalstoroll(ExtendedDataFig.8d).Wequantifiedthisas:
+N ChordotonalontoBasins(average.10synapsesperconnection)(Extended hðw ,w Þ~
+M B
+DataFig.4d)
+qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+N Basins onto A00c (average .10 synapses per connection) (Extended Data (g ð0,100;w ,w Þ{a )2z(g ð100,0;w ,w Þ{a )2
+B M B Noci B M B Mech
+Fig.6j)
+N Basins onto A05q (average .5 synapses per connection) (Extended Data whereweseta 530anda 50(ExtendedDataFig.8e).
+Noci Mech
+Fig.6e) Wethencalculatedoptimalconnectionweightsgivenneuronthresholds.We
+NA05qontoGoro(average5synapsesperconnection)(ExtendedDataFig.6g) assumedthatthepuremechanosensoryinterneurondoesnothaveanextremely
+For the anatomical connection from MD IV onto Basin-1 with only two highthreshold,seth P toavaluebetween30and50andexploredtheconstrained
+synapses per connection on average, the functional connectivity experiments optimizationproblemforh M andh B valuesbetween10and80.Foreachsetof
+didnotrevealafunctionalexcitatoryconnection(Fig.3a). parameters,themultilevelconvergencesolutionwasdefinedasthecircuitoutput
+Modelof multilevel convergence.Themodelconsistsoftwo sensoryinputs correspondingtotheparameters(w M ,w B )thatmaximizeS(w M ,w B )subjectto
+processedintwolayers(ExtendedDataFig.8a).Thesensoryinputs,chordotonal h(w M ,w B ),h 0 .Wesimilarlydefinedtheearlyconvergencesolutionasthecircuit
+andMDIV,haveactivityE Mech andE Noci respectively.Sensoryinputintensitycan withthew M thatmaximizesS(w M ,0)subjecttoh(w M ,0),h 0 .Weseth 0 53to
+rangefrom0–100(arbitraryunits),withthemaximumvalueintendedtoapprox- ensurestrongcompliancewithourunimodalconstraintsandnumericallycom-
+imatethehighestintensitystimulusprovidedinthebehaviouralexperimentsof putedandcomparedsolutionsacrossagridofw B andw B valuesstartingat0with
+Fig.1.Thefirstprocessinglayerhastwonodes,eachrepresentingoneormore 0.01spacing(ExtendedDataFig.8f).Tochecktherobustnessofearlyandmulti-
+neurons:(1)a‘pure’nodewithoutputg (E )thatreceivesonlymechanosen- levelconvergencesolutionstothresholdparameters,weexploredmultiplevalues
+P Mech
+soryinput;and(2)a‘mixed’nodewithoutputg M (E Mech ,E Noci )thatreceivesinput ofh B andh B (ExtendedDataFig.8g).
+frombothsensorymodalities.Thesecondprocessinglayerisasinglenodewith
+51. Jenett,A.etal.AGAL4-driverlineresourceforDrosophilaneurobiology.CellRep.2,
+outputg (g ,g )thatreceivesinputfrombothnodesofthefirstprocessinglayer.
+B P M 991–1001(2012).
+Theoutputofthesecondlayerconstitutestheoutputofthecircuit. 52. Hamada,F.N.etal.Aninternalthermalsensorcontrollingtemperaturepreference
+We considered the steady-state output of the network, assuming that the inDrosophila.Nature454,217–220(2008).
+responseofeachnodeisasigmoidalfunctionofitstotalinput,withalower 53. Kang,K.etal.ModulationofTRPA1thermalsensitivityenablessensory
+thresholdbelowwhichoutputisnear-zeroandanuppersaturationpoint.We discriminationinDrosophila.Nature481,76–80(2012).
+modelledthisasalogisticfunction78: 54. Pfeiffer,B.D.,Truman,J.W.&Rubin,G.M.Usingtranslationalenhancersto
+increasetransgeneexpressioninDrosophila.Proc.NatlAcad.Sci.USA109,
+fðE;h,bÞ~C 1 6626–6631(2012).
+h,b 1ze {ðE{ b hÞ 55. Chen,T.-W.etal.Ultrasensitivefluorescentproteinsforimagingneuronalactivity.
+Nature499,295–300(2013).
+withtotalinputE,thresholdh,transitionwidthb,andaconstantC h,b definedso 56. Tian,L.etal.Imagingneuralactivityinworms,fliesandmicewithimprovedGCaMP
+thatf(100)5100.Wesetb510forallnodes,whichmakesthetransitionbetween calciumindicators.NatureMethods6,875–881(2009).
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 12 ---
+RESEARCH ARTICLE
+57. Ainsley,J.A.etal.EnhancedlocomotioncausedbylossoftheDrosophilaDEG/ 68. Glasbey,C.A.Ananalysisofhistogram-basedthresholdingalgorithms.CVGIP.
+ENaCproteinPick-pocket1.Curr.Biol.13,1557–1563(2003). Graph.ModelsImageProc.55,532–537(1993).
+58. Baines,R.A.,Uhler,J.P.,Thompson,A.,Sweeney,S.T.&Bate,M.Alteredelectrical 69. Sato,T.Amodifiedmethodforleadstainingofthinsections.J.ElectronMicrosc.
+propertiesinDrosophilaneuronsdevelopingwithoutsynaptictransmission.J. (Tokyo)17,158–159(1968).
+Neurosci.21,1523–1531(2001). 70. Suloway,C.etal.Automatedmolecularmicroscopy:thenewLeginonsystem.J.
+59. Lima,S.Q.&Miesenbck,G.Remotecontrolofbehaviorthroughgenetically Struct.Biol.151,41–60(2005).
+targetedphotostimulationofneurons.Cell121,141–152(2005). 71. Saalfeld,S.,Cardona,A.,Hartenstein,V.&Tomancak,P.CATMAID:collaborative
+60. vonPhilipsborn,A.C.etal.NeuronalcontrolofDrosophilacourtshipsong.Neuron annotationtoolkitformassiveamountsofimagedata.Bioinformatics25,
+69,509–522(2011). 1984–1986(2009).
+61. Calleja,M.,Moreno,E.,Pelaz,S.&Morata,G.Visualizationofgeneexpressionin 72. Prokop,A.&Meinertzhagen,I.A.Developmentandstructureofsynapticcontacts
+livingadultDrosophila.Science274,252–255(1996). inDrosophila.Semin.CellDev.Biol.17,20–30(2006).
+62. Luan,H.,Peabody,N.C.,Vinson,C.R.&White,B.H.Refinedspatialmanipulationof 73. Landgraf,M.,SnchezSoriano,N.,Technau,G.M.,Urban,J.&Prokop,A.Charting
+neuronalfunctionbycombinatorialrestrictionoftransgeneexpression.Neuron theDrosophilaneuropile:astrategyforthestandardisedcharacterizationof
+52,425–436(2006). geneticallyamenableneurites.Dev.Biol.260,207–225(2003).
+63. Struhl,G.&Basler,K.OrganizingactivityofwinglessproteininDrosophila.Cell72, 74. Grueber,W.B.,Jan,L.&Jan,Y.TilingoftheDrosophilaepidermisbymultidendritic
+527–540(1993). sensoryneurons.Development129,2867–2878(2002).
+64. Swierczek,N.A.,Giles,A.C.,Rankin,C.H.&Kerr,R.A.High-throughputbehavioral 75. Bastian,M.etal.Gephi:anopensourcesoftwareforexploringandmanipulating
+analysisinC.elegans.NatureMethods8,592–598(2011). networks(InternationalAAAIConferenceonWeblogsandSocialMedia,2009).
+65. Kabra,M.,Robie,A.A.,Rivera-Alba,M.,Branson,S.&Branson,K.JAABA:interactive 76. Bate,M.,Goodman,C.&Spitzer,N.Embryonicdevelopmentofidentifiedneurons:
+machinelearningforautomaticannotationofanimalbehavior.NatureMethods Segment-specificdifferencesintheHcellhomologues.J.Neurosci.1,103–106
+10,64–67(2013). (1981).
+66. Schneider,C.A.etal.NIHImagetoImageJ:25yearsofimageanalysis.Nature 77. Jefferis,G.S.etal.ComprehensivemapsofDrosophilahigherolfactorycenters:
+Methods9,671–675(2012). spatiallysegregatedfruitandpheromonerepresentation.Cell128,1187–1203
+67. Verstreken,P.,Ohyama,T.&Bellen,H.J.inExocytosisandEndocytosis349–369 (2007).
+(Springer,2008). 78. Dayan,P.&Abbott,L.F.TheoreticalNeuroscience(MITPress,2001).
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 13 ---
+f
+)s/mm(
+deeps
+edirts
+**
+**
+** 5.0 ** ** **
+MD IVstimulation Ch stimulation
+no stimulation MD IV + Ch combined stimulation
+calculated sum of +
+0.0 0100 500 1000(Hz)
+Non-rollersRollers 39.2 19.6 6.9
+32 °C
+gnillor
+%
+g
+100
+80
+60
+40
+20
+0
+vibration
+- MD IV + MD IV intensity (m/s2)
+hC
++
+hC
+-
+a b c d
+0.9 (m/s2) 2.0 (m/s2) 3.8 (m/s2) 100
+100
+100
+50
+50 50
+5s
+5 s 0
+0 0
+0 2 4 6 8
+vibration intensity (m/s2)
+e
+Rolling Fast Rolling Fast Crawling Crawling
+Baseline Fast Baseline Fast
+Crawling Crawling Crawling Crawling
+Baseline Baseline
+Crawling Crawling
+Onset Rolling F C a ra s w t ling Rolling Fast Crawling
+Baseline Fast Baseline Fast Crawling Crawling Crawling Crawling
+Baseline Baseline Crawling
+Time Crawling
+)%(
+F/F∆
+hC
+0
+100
+vibration
+intensity (m/s2)
+6.7 50
+0.2
+0
+)%(
+F/F∆
+VI
+DM
+0
+vibration
+intensity (m/s2)
+6.7
+5 s
+2.5 MD IV stimulation
+Ch stimulation no stimulation
+MD IV + Ch combined stimulation
+)%(
+F/F∆
+VI
+DM
+0
+)%(
+F/F∆
+xam
+0
+ARTICLE RESEARCH
+ExtendedDataFigure1|Thisfigurerelates toFig.1a–d.Chordotonal(Ch) GAL4.UAS-dTRPA1larvae)(orange);ortheircombination(grey).Inthe
+neuronsrespondtovibrationina‘dose-dependent’manner,butMDIV nociceptiveandcombinedcondition,weseparatelyanalysedthestridespeedof
+neuronsdonot,consistentwithpreviousreports.a,1,000Hzvibrationevokes animalsthatdidnotroll(non-rollers)andthosethatrolled(rollers)following
+calciumtransients(mean6s.e.m.inthisandallsubsequentfigures)in stimulation.Aspreviouslydescribed,vibrationaloneevokedanincreasein
+chordotonal(ch-GAL4.UAS-GCaMP6s),inadose-dependentmanner. stridespeed.Nociceptiveactivationalone,orincombinationwithvibration,
+b,c,CalciumtransientsofMDIVneuronsinresponsetodifferentvibration alsoevokedanincreaseinstridespeed,bothinanimalsthatdidnotrollandin
+(1,000Hz)intensitiesrevealnoresponsetovibration(MDIV-GAL4.UAS- animalsthatdidroll,afterrolling.Combiningvibrationwithnociceptive
+GCaMP6s).d,Quantificationofcalciumtransientsinmechanosensory(black) stimulationinanimalsthatselectedfastcrawlsignificantlyincreasedstride
+andnociceptive(orange)neuronsfrom(a–c).n53trialsineachcondition. speedcomparedtoeitherstimulationalone.Vibrationcombinedwith
+e,Aschematicoflarvalreactionstounimodalandmultimodalstimuli.Line nociceptivestimulationthereforeaffectsbothaspectsoftheescapesresponse,
+thicknessqualitativelyreflectstheprobabilityofthebehaviourtransition facilitatingthetriggeringofrolling(Fig.1e,f)andincreasingcrawlingstride
+occurringintheabsenceofstimulation(bottomleft)andaftertheonsetofMD speedinanimalsthatdonotroll.WilcoxonranksumtestwithHolm–
+IVactivation(orangetriangle,bottomright),vibration(greentriangle,topleft), Bonferronicorrection.**P,0.0001.g,Thesynergisticeffectonrollingof
+ortheircombination(blacktriangle,topright).Behavioursingreyoccurwith combiningvibrationwithnociceptivestimulationisobservedacrossarangeof
+extremelylowfrequency.Inresponsetonociceptiveorcombinedstimulation frequencies.RollingprobabilitiesofMDIV-GAL4.UAS-dTrpA1(nociceptive
+animalscanselectoneoftwotypesofescapesresponses:(1)roll-fastcrawl;or andcombinedconditions)orMDIV-GAL4.1(nostimuliand
+(2)fastcrawlalone.Eveninresponsetocombinedstimulationtheselectionis mechanosensoryconditions)animalsduringvibrationstimulationatdifferent
+probabilistic;themajorityofanimalsselectroll-fastcrawl,butsomeselectfast frequencies,eitheralone(green)orincombinationwiththermogenetic
+crawlwithoutrolling.f,Crawlingstridespeedintheabsenceofstimulation activationofnociceptiveneurons(32uC)(grey).SeeSupplementaryTable3for
+(white)andfollowing1,000Hz,6.7ms22vibration(green)(inMDIV- n(animals)inthisandallotherExtendedDataFigures.SeeSupplementary
+GAL4.1larvae);thermogeneticnociceptiveactivation(32uC,inMDIV- Table2foralistofgenotypesusedallFigures.
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 14 ---
+Basin-1 Basin-2 Basin-3 Basin-4
+atad
+5.1dba
+atad
+1L
+atad
+5.1dba
+atad
+1L
+lleC
+tfeL
+lleC
+thgiR
+lleC
+tfeL
+lleC
+thgiR
+)derorrim(
+)derorrim(
+a e
+Ch MD IV
+R72F11(Basin) > GFP
+MD IV > tdTomato Basin–MD IV overlap Central lateral terminals +
+A Five cells in intersegmental nerve, three in +
+segmental nerve
+P Extreme ventromedial terminals +
+One cell in intersegmental nerve, two in +
+D segmental nerve
+d
+V MD IV Basin Basin B - a 1 sin B - a 2 sin B - a 3 sin-4 f
+b Lateral soma location + + + + abd1.5 data L1 data
+R72 C F h 1 1 > ( B td a T s o in m ) a > t o GFP Basin–mechano-ch overlap Primary neurite following M in e t d e ia rs l e ip g s m ila e t n e t r a a l l n a e x r o v n e + + + + + + + + D
+A Dendrites on ventral side of Ch domain + + + +
+Dendrites on dorsal side of Ch domain +
+No ventral branch off primary neurite +
+P
+Ventral dendrites stop lateral to axon position + +
+D Ventral dendrites extend to or across midline + A D
+Relative position of axon is ventral + +
+Relative position of axon is dorsal + +
+VV Ch Basin Presynaptic sites exist on dendritic arbor + +
+Seg.
+c Nerve
+i
+Anterior Segment of Basin Posterior
+Segment M-1 Segment M
+MD IV Ch MD IV Ch
+Basin-1L 0 (0.00) 40 (0.08) 1 (0.00) 63 (0.13)
+Basin-1R 0 (0.00) 31 (0.07) 4 (0.01) 50 (0.12)
+Basin-2L 9 (0.03) 22 (0.08) 21 (0.07) 20 (0.07)
+Basin-2R 10 (0.03) 15 (0.05) 20 (0.06) 29 (0.09)
+Basin-3L 2 (0.01) 11 (0.05) 1 (0.00) 33 (0.14)
+Basin-3R 0 (0.00) 18 (0.09) 0 (0.00) 19 (0.10)
+Basin-4L 1 (0.00) 3 (0.01) 46 (0.20) 28 (0.12)
+g Basin-4R 0 (0.00) 5 (0.03) 19 (0.10) 35 (0.18)
+40 µm # syn (fraction total input) Segment M+1
+Basin-1L 2 (0.01) 29 (0.08) 0 (0.00) 0 (0.00)
+Basin-1R 1 (0.00) 49 (0.13) 1 (0.00) 0 (0.00)
+Basin-2L 18 (0.06) 8 (0.03) 1 (0.00) 0 (0.00)
+47 µm Basin-2R 20 (0.06) 17 (0.05) 0 (0.00) 1 (0.00)
+Basin-3L 1 (0.01) 28 (0.17) 0 (0.00) 0 (0.00)
+Basin-3R 0 (0.00) 36 (0.15) 0 (0.00) 0 (0.00)
+Basin-4L 36 (0.17) 21 (0.10) 7 (0.03) 0 (0.00)
+Basin-4R 40 (0.20) 6 (0.03) 7 (0.04) 0 (0.00)
+h
+presynaptic site j
+postsynaptic site Anterior Same Posterior
+Segment Segment Segment
+Ipsilateral
+Side
+Ch
+Basins
+Contralateral
+Side
+MD IV
+atad
+5.1dba
+atad
+1L
+RESEARCH ARTICLE
+Interseg.
+Nerve
+MD IV Ch MD IV Ch
+Ipsilateral
+Side
+Contralateral
+Side
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 15 ---
+ARTICLE RESEARCH
+ExtendedDataFigure2|Thisfigurerelates toFig.2a,b.a,b,Confocal approximateneuropilboundaries.Scalebar,20mm.TheMDIVand
+imagesofbasins(green)andnociceptors(a)orchordotonals(b)(bothin chordotonalterminalsspantheventromedialandventrocentralnervecord
+magenta),withcartoonstodemonstratetheirpositionwithinthenervecord. domains,respectively.Basin-2andBasin-4dendritesoverlapwith
+c,ConfocalimagesofindividualBasins(inadditiontothoseshownin chordotonalandMDIVterminals.h,Detailedviewsoftheneuronalarbors
+Fig.3a)visualizedwithaFLP-basedmethod.Outline,neuropilboundary. andsynapticlocationsofeachBasincelltypefromthetwosegments(from
+Scalebar,30mm.d,TableofmorphologicalfeaturesbasedonwhichBasins thetwoanimals).Cellsontherightsidearemirroredforeasiercomparison.
+areuniquelydistinguishablefromotherinterneurons(blue)andindividual Thelocationofsynapticdomainsisconservedacrosshemisegmental
+Basintypesfromeachother(purple).e,Thetableofmorphologicalfeatures homologuesandanimals.ThedendriticarborsofindividualBasinsacrossall
+basedonwhichthemechanosensorychordotonal(Ch;green)andthe fourhemisegmentsarehighlystereotypedanduniquelyrecognizable.
+nociceptive(orange)neuronprojectionsareuniquelyidentifiable.f,Electron i,TablesshowthenumbersofsynapsesthatBasinsintheA3segment(from
+microscopyreconstructionsofMDIV(orange)andchordotonal(green) thesmaller1.5segmentelectronmicroscopydataset,top)andintheA1
+axonsintwoabdominalsegments,fromtwodifferentanimals.Top, segment(fromthecomprehensiveL1electronmicroscopyvolume,bottom)
+reconstructionsfromtheA3segmentinthesmallerelectronmicroscopy receivefromMDIVandchordotonalneuronsintheirownandinadjacent
+volume(comprising1.5abdominalsegments:A3andapartofA2)shownin abdominalsegments.SeealsoSupplementaryTables4aand5aformore
+Fig.2.Bottom,reconstructionsfromthesegmentA1inthecomprehensive information.BoththeleftandrightBasin-1andBasin-3homologues
+electronmicroscopyvolumethatspanstheentirenervoussystem(L1 reproduciblyreceivedmanysynapses(each.25synapsesand.15%oftotal
+electronmicroscopyvolume,seeFig.5andSupplementaryVideo7). input,onaverage)fromchordotonalinbothanimals,butveryfew(nomore
+Outlinesindicateapproximateneuropilboundaries.Scalebar,20mm. than1%oftotalinputsynapses)fromMDIVneurons.Boththeleftandright
+g,Electronmicroscopyreconstructionsofnociceptive(orange)and Basin-2andBasin-4homologuesreceivedmanyinputsfromboth
+mechanosensory(green)axonsandofthefourBasintypes(black)inthetwo chordotonal(onaverage.20synapsesand.10%totalinput)andMDIV
+abdominalsegments,fromtwodifferentanimals.Top,A3segmentfromthe (onaverage.20synapsesand.10%totalinput)neurons.j,Schematic
+smaller1.5abdominalsegmentvolume.Bottom,A1segmentinthe representationofthedistributionofinputsfromMDIVandchordotonal
+comprehensiveL1electronmicroscopyvolume.Outlinesindicate fromadjacentsegmentsontoBasins.
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 16 ---
+RESEARCH ARTICLE
+a b
+A02m A02n A10a
+abd1.5 L1 abd1.5 L1 abd1.5 L1 Total inputs
+A02m abd1.5 L 69
+Left A02m abd1.5 R 55
+soma A02m L1 L 50
+outside A02m L1 R 73
+data
+A02n abd1.5 L 81
+A02n abd1.5 R 55
+Right
+A02n L1 L 74
+soma
+outside A02n L1 R 80
+data
+c A10a abd1.5 L 162
+A02m+A02n A10a A10a abd1.5 R 178
+Ch MD IV Basin-2 Basin-4 Ch MD IV Basin-2 Basin-4 A10a L1 L 103
+abd1.5 L 6 31 15 0 abd1.5 L 0 41 0 2 A10a L1 R 105
+abd1.5 R 5 18 6 0 abd1.5 R 0 32 0 3
+L1 L 3 29 15 0 L1 L 0 20 1 2
+L1 R 6 15 24 0 L1 R 0 26 0.5 3.5
+Basin-1 Basin-2 Basin-3
+Ch MD IV Basin-2 Basin-4 Ch MD IV Basin-2 Basin-4 Ch MD IV Basin-2 Basin-4
+2+ syn. both hemisegments
+abd1.5 L 63 1 0.5 0 abd1.5 L 20 21 0 0 abd1.5 L 33 1 0 0
+abd1.5 R 50 4 0 0 abd1.5 R 29 20 0 0 abd1.5 R 19 0 0 1 >0 syn. both hemisegments
+L1 L 29 2 0 0 L1 L 8 18 0 0 L1 L 28 1 0 0 2+ syn one hemisegment,
+L1 R 49 1 0 0.5 L1 R 17 20 0 0 L1 R 36 0 0 0 other animal 2+ syn.
+d
+A02m/n A02n/m
+vchA/B (2) v’ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2) vdaB v’ada ddaCBasin-2 Basin-4 vchA/B (2) v’ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2) vdaB v’ada ddaCBasin-2 Basin-4
+abd1.5 L 0 3 0 0 0 0 3 1 14 6 0 abd1.5 L 0 3 0 0 0 0 1 3 9 9 0
+abd1.5 R 0 1 1 0 0 0 0 1 12 1 0 abd1.5 R 0 3 0 0 0 0 1 0 4 5 0
+L1 L 0 0 0 0 0 0 3 3 5 10 0 L1 L 2 1 0 0 0 0 3 7 8 5 0
+L1 R 0 4 0 0 0 0 0 0 3 10 0 L1 R 0 2 0 0 0 0 1 1 10 14 0
+Basin-1 Basin-2
+vchA/B (2) v’ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2) vdaB v’ada ddaCBasin-2 Basin-4 vchA/B (2) v’ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2) vdaB v’ada ddaCBasin-2 Basin-4
+abd1.5 L 10 18 12 7 1 15 1 0 0 1 0 abd1.5 L 2 13 4 1 0 0 3 11 7 0 0
+abd1.5 R 9 13 11 9 1 7 0 3 1 0 0 abd1.5 R 4 13 3 9 0 0 10 0 10 0 0
+L1 L 6 11 4 1 0 7 2 0 0 0 0 L1 L 1 2 3 2 0 0 2 12 4 0 0
+L1 R 10 11 9 5 0 14 1 0 0 0 1 L1 R 0 13 1 0 1 2 1 11 8 0 0
+Basin-3
+vchA/B (2) v’ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2) vdaB v’ada ddaCBasin-2 Basin-4
+abd1.5 L 20 6 6 1 0 0 1 0 0 0 0
+abd1.5 R 6 4 6 2 0 1 0 0 0 0 2
+L1 L 21 0 4 3 0 0 1 0 0 0 0
+L1 R 20 3 13 0 0 0 0 0 0 0 0
+ExtendedDataFigure3|Reproducibilityofthewiringdiagramacross neurontype.A10aalsohaveuniqueprojectionsandbelongtolineage10.
+animals. a,Electronmicroscopyreconstructionsofthelocalinterneurons b,Totalnumberofinputseachneuroninareceives.c,Reproducibilityof
+downstreamofboththeMDIVandBasinneuronsinbothelectronmicroscopy connectionsbetweenneurontypesacrossindividuals.Tableshowsclasslevel
+volumes;thevolumecomprising1.5abdominal(A2/A3)nervecordsegments connectivitybetweenneuronsintheabd1.5andL1datasets.Valuesgivenare
+ofoneanimal(abd1.5,Fig.2e),andtheelectronmicroscopyvolumecomprising thetotalsumofallsynapsesforallmembersofeachclass.100%ofconnections
+theentirenervoussystemofanother(L1,Fig.5aandSupplementaryVideo7). withatleasttwosynapsesbetweenhomologousneurontypesthatwere
+Theselocalneurons(aswellastheBasinsshowninFig.2fandExtendedData reproducibleacrossthesameindividualwerealsoreproducibleacross
+Fig.2h)withcellbodiesandthemajorityoftheirarborinthesamesegmentas individuals;thatis,theconnectionbetweenthoseneuronsexistedintheother
+thesensoryneuronsarereadilyidentifiableinbothvolumesandcanbeusedto individual.d,Reproducibilityofconnectionsbetweenindividualneurons
+assessthereproducibilityofsensory–interneuronandinterneuron– acrossindividuals.Tableshowsconnectivitybetweenindividualneuronsinthe
+interneuronconnectivityacrossanimals.Threedistinctshort-range abd1.5andL1datasets.Whenevertwoormoresynapseswerefoundbetween
+interneurontypes(A02m,A02nandA10a)receivedatleasttwosynapsesfrom homologousneuronsinbothhemisegmentsinoneanimal,eithertwoormore
+nociceptivesensoryneuronsinbothanimals.A02m/nandA10aneuronsalso werealsofoundinbothhemisegmentsintheotheranimal(darkgreencells);or
+receivedinputsfromBasin-2orBasin-4(SupplementaryInformation atleastonesynapseperedgewasfoundinbothhemisegmentsintheother
+(SupplementaryAtlassection)).ThetwointerneuronsA02mandA02nbelong animal(lightgreencells);ortwoormoresynapseswerefoundinatleastone
+tothesamelineage(lineage2),haveindistinguishableprojectionsand hemisegmentoftheotheranimal(yellowcells).Thus,in100%ofcasesinwhich
+connectivity,andcanonlybedistinguishedbasedonasmalldifferenceinthe aconnectionwaspresentbetweenhomologuesonbothsidesinoneindividual
+dorsoventralcellbodylocation.Incontrast,Basin-1,Basin-2,Basin-3and itwasalsopresentbetweenhomologuesintheotherindividual,atleaston
+Basin-4,eventhoughtheybelongtothesamelineage(lineage9),allhave oneside.
+distinctprojections(andconnectivity)andcaneachbeconsideredaunique
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 17 ---
+a
+MD IV activation
+100
+0
+)%(
+F/F∆
+snisaB
+0
+b Basin-4
+Ch activation
+50
+5 s
+5 s
+0 200 nm
+)%(
+F/F∆
+snisaB
+0
+c Ch d
+MD IV Basin-1
+e f g h
+100
+80
+60
+40
+20
+0
+effector
+ctl
+)%(
+gnillor
+R57F07 > GFP
+neuropil (N-Cad)
+**
+R57F07
+activation
+calc r u e l s a p te o d nse st c i m o m ul b i ined
+)%(
+F/F∆
+xam
+icon
+0
+100
+100
+50
+50
+0 0
+)%(
+F/F∆
+icon
+0
+ARTICLE RESEARCH
+i j
+Basin-1 > GFP Basin-4 > GFP
+neuropil (N-Cad) neuropil (N-Cad)
++
+A A
+5 s
+P P
+D D V V
+ExtendedDataFigure4|Thisfigurerelates toFigs2and3.a,c,Electron inthesameanimal.e,R57F07drivesexpressioninBasin-4neuronsandinafew
+micrographsofrepresentativesynapsesformedbyMDIVandchordotonal brainneurons.R57F07wasthereforeusedforgeneratingtheBasin-4selective
+(Ch)projectionsontoBasinscontainingaT-barribbon.Circlespointtothe split-GAL4lineshowning.g,h,Expressionpatternsofdriverlinesselectivefor
+postsynapticneuronandarrowspointtovesiclecloudsinthepresynaptic Basin-1(R20B01)andBasin-4(R72F11andR57F07intersection)neurons
+terminals.Allsynapseshavesmallclear-corevesiclesassociatedwithfast (green).Scalebar,25mm.f,ActivationofR57F07issufficienttoevokerollingin
+chemicalneurotransmitterssuchasacetylcholine,glutamate,orGABA.Scale 45%ofanimals.IntersectingtheparentlineR57F07withR72F11(bothdrive
+barsare200nm.b,d,CalciumtransientsevokedinBasinsbyMDIV(b)and expressioninBasin-4neuronsandevokerolling)resultsinasplit-GAL4line
+chordotonal(d)activationbylocalATPinjection.TheATP-gatedchannel, thatdrivesexpressionselectivelyinBasin-4neurons,showning.i,j,Negative
+P2X,isexpressedinMDIV(b)andchordotonal(d)neuronsandGCaMP6is controlforFig.4d,f.i,CalciumtransientsinMDIVterminalsobservedin
+2
+expressedinBasins(inMDIV-lexA.lexAop-P2X;R72F11-GAL4.UAS- responsetovibration(1,000Hz,6.8ms22),MDIVactivationbylocalATP
+2
+GCaMP6(b)andCh-lexA.lexAop-P2X;R72F11-GAL4.UAS-GCaMP6 injectionortheircombination(inMDIV-lexA.lexAop-P2X;MDIV-
+2 2
+(d)animals).n530trials(b),and18trials(d).Functionalconnectivity GAL4.UAS-GCaMP6animals).n514trials.j,MaximumDF/Fofcalcium
+experimentssuggesttheconnectionfromsensoryneuronsontoBasinsis transientsinresponsetomechanosensory,nociceptive,andcombined
+excitatory.Sincechordotonalneuronsaretheonlyneuronsthatrespondto simulationfromi.UnlikeBasin-4(Fig.3b,c),theMDIVneuronsdonot
+vibration32,35weusedvibrationinsubsequentexperimentssothatwecould respondmoretothecombinationofstimulicomparedtoMDIVactivation
+activatechordotonalwithvibration,andMDIVwithP2X andATPinjection, alone.
+2
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 18 ---
+b c d
+100
+80
+60
+40
+20
+0
+effector
+ctl
+A
+activation
+E11-Lex
+R16
+)%(
+gnillor
+a
+R16E11-LexA
+LexAop-tdTomato
+R69F06-GAL4 R69F06-GAL4 R16E11-LexA
+UAS-GFP neuropil (nc82) UAS-GFP LexAop-tdTomato
+**
+**
+A
+ctl
+E11-Lex
+R16
+e
+GORO > GFP
+Basin > tdTomato
+A
+P
+D
+5 s V D
+V
+Goro
+projections
+Basin projections
+)%(
+F/F∆
+oroG
+0
+RESEARCH ARTICLE
+f
+Basin-4 activation
+50
+0
+ExtendedDataFigure5|ThisfigurerelatestoFig.4.a–c,TheR16E11-LexA alsodrivesexpressioninmoreneurons.UsingaFLP-basedintersection
+linefaintly,butselectively,drivesexpressioninthesamepairofthoracic betweenR16E11-lexAandR69F06(seeMethods),wefoundthat76%ofanimals
+neurons(Goroneurons)astheR69F06GAL4line.a,Co-localizationof withexpressionofdTRPA1selectivelyinGororolledwhenexposedto
+R16E11-LexAandR69F06-GAL4expressioninthesamenervoussystem restrictivetemperature(32uC).Thus,activatingthesinglepairofcommand-
+(genotype:R16E11-lexA/LexAop-mry-tdTomato;R69F06-GAL4,UAS-mry- likeGoroneuronsevokesrolling.e,CalciumtransientsinGorodendritesin
+GFP).R16E11-lexA.lexAop-tdTomato(red)andR69F06-GAL4.UAS-GFP responsetoselectiveBasin-4activationbylocalATPinjection(n512trials).
+(green)co-localizeinthetwoGorocellbodiesandtheirprojectionsinthenerve TheATP-gatedP2X channelandGCaMP6areexpressedselectivelyinBasin-4
+2
+cord(yellow).b,c,Single-channelimagesfroma.Scalebar,20mm. andGoroneurons,respectively(inBasin-4-Gal4.UAS-P2X;Goro-
+2
+d,Thermogeneticactivation(32uC)ofthesinglepairofGoroneuronsusing lexA(R69F06-lexA).lexAop-GCaMP6animals).f,Basin(magenta)andGoro
+theR16E11line(R16E11-lexA.lexop-dTRPA1)evokedrollingin36%of (green)projectionsdonotco-localize(in16E11-lexA.LexAop-tdTomato;
+animals.ActivatingneuronsinR69F06evokesevenmorerolling(86%,Fig.4a). R72F11-GAL4.UAS-GFPlarvae),indicatingthatthetwocelltypesthatare
+R69F06drivesexpressioninGoroneuronsmorestronglythatR16E11,butit functionallyconnectedcannotbedirectlysynapticallyconnected.
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 19 ---
+j
+Basin activation
+50
+0
+)%(
+F/F∆
+c00A
+0
+i Basin-3
+A00c
+50
+5 s 5 s
+0
+)%(
+F/F∆
+q50A
+0
+a b
+80
+0
+Brain Brain
+intact cut
+d f Basin-2 Goro
+A05q A05q
+e g
+Basin activation A05q activation
+50
+5 s
+0
+)%(
+F/F
+oroG
+0
+c h
+R47D07-GAL4 100
+UAS-GFP
+Basin activation neuropil (nc82)
+80
+60
+brain lobe intact
+80
+brain lobe cut 40
+20
+0
+5 s
+0
+)%(
+gnillor
+A05q
+A
+P
+effecto
+D
+r
+0
+c
+7
+tl activation
+R47
+)%(
+F/F
+xam
+oroG
+0
+)%(
+F/F∆
+oroG
+0
+ARTICLE RESEARCH
+ExtendedDataFigure6|Thisfigurerelates toFig.5.a,Thenervecord Basin-2ontoA05q(d),A05qontoGoro(f)andBasinsontoA00c(i)containing
+Basin–GoropathwayissufficienttoactivatetheGoroneurons.Calcium T-barribbons.Circlespointtothepostsynapticneuronandarrowspointto
+transientsinGorodendritesevokedbyBasinactivationbylocalATPinjection vesiclecloudsinthepresynapticterminals.Allsynapseshavesmallclear-core
+withthebrainlobesintact(n515trials)orremoved(n524trials)(inR72F11- vesiclesassociatedwithfastchemicalneurotransmitterssuchasacetylcholine,
+LexA.LexAop-P2X;Goro-GAL4(R69F06).GCaMP6animals). glutamate,orGABA.Scalebars,200nm.e,CalciumtransientsinA05qaxon
+2
+b,Quantificationofa.Thedifferenceisnotsignificant.Errorbarsshows.e.m. terminals(squareinc)evokedbyBasinactivationusinglocalATPinjection
+c,Left,R47D07drivesexpressioninA05qneurons(thatreceivedirectinputs (R72F11-LexA.lexop-P2X;R47D07-GAL4.UAS-GCaMP6,n518trials)
+2
+fromBasin-2andsynapseontoGoroneurons)andinotherneuronsinthorax suggestafunctionallyexcitatoryconnection.g,CalciumtransientsinGoro
+andbrain(green,visualizedwithanti-GFP).InabdominalsegmentsA8andA7, neuronsevokedbyA05qactivationusinglocalATPinjectionspecificallyinthe
+theonlyneuronslabelledwiththislinearetheA05qneurons(dashedcircle). vicinityofA05qdendritesinA8(dottedcircleinc;R47D07-GAL4.UAS-P2X;
+2
+Therestofthenervoussystem(grey)isvisualizedwithanti-N-cadherin.White Goro(R69E06-LexA.lexop-GCaMP6,n518trials)suggestafunctionally
+square,A05qaxonterminalsthatsynapseontoGorodendrites.Scalebar, excitatoryconnection.h,ThermogeneticactivationofneuronsinR47D07
+25mm.Notethatthislinealsodrivesexpressionindevelopingadultneuronsin triggersrolling(exposingR47D07-GAL4.UAS-dTrpA1animalsto32uC).
+thoraxandbrainthatarenotfunctionalinthelarvalnervoussystem(secondary Control,1.UAS-dTrpA1.j,CalciumtransientsinA00cevokedbyBasin
+lineages).Right,imageofindividualA05qcells(magenta)visualizedwitha activationusinglocalATPinjection(R72F11-LexA.lexop-P2X;R71A10-
+2
+FLP-basedstrategyinR47D07,intop-down(top)andcross-section(bottom) GAL4.UAS-GCaMP6,n515trials)suggestafunctionallyexcitatory
+views.Arrowheadsindicatemidline.Thinwhitelinesindicateneuropil connection.
+boundary.d,f,i,Electronmicrographsofrepresentativesynapsesformedby
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 20 ---
+b
+100
+80
+60
+40
+20
+0
+control Basin-1 Basin-4 Goro A00c
+)%(
+gnillor
+**
+**
+3
+2
+1
+control Basin-1 Basin-4 Goro
+deeps
+edirts
+.mron
+a
+2
+** ** **
+A00c
+deeps
+edirts
+.mron
+100
+1
+0 0
+lortnoC
+gnillor
+/
+gnilwarc
+%
+2
+100
+1
+0 0
+1-nisaB
+gnillor
+/ gnilwarc
+%
+deeps
+edirts
+.mron
+2
+100
+1 c
+0 0
+4-nisaB
+gnillor
+/ gnilwarc
+%
+deeps
+edirts
+.mron
+2
+100
+1
+0 0
+oroG
+gnillor
+/
+gnilwarc
+%
+deeps
+edirts
+.mron
+100
+0
+time (s)
+gnillor
+/
+gnilwarc
+%
+2
+1
+0
+-15 0 15 30
+c00A
+deeps
+edirts
+.mron
+RESEARCH ARTICLE
+ExtendedDataFigure7|Distinctneuronsdifferentiallycontroldistinct optogeneticactivation.Boxesshowmedians(red)with25thand75thquantiles
+aspectsoftheescapesequence. a,Graphsshowthetimecourseofrolling ofthedata.Whiskeris1.5interquartilerange(IQR)forthelengthofthe
+(green)andcrawling(redandblue)behavioursbefore,duringandaftera15sec whiskers.Redplusisoutlier.**P,0.0001.Weobservethatincontrollarvae,
+(indicatedbythegreybox)optogenetic(617nmredlight)activationperiod. redlightaloneevokedamildreductionincrawlingspeed,whereasBasin-1
+Thepercentageoflarvaethatarerolling(greenline)orcrawling(redline)at activationevokedamild,butsignificant,increaseinstridespeedanddidnot
+eachtimepointisshown.Thenormalizedspeedofcrawlingstrides(normalized evokerolling.Basin-4activationevokedtheentireescapesequence(roll
+byspeedpriortooptogeneticstimulation)isalsoshownforthoseanimalsthat followedbyfastcrawl).Notefirstanincreaseininstantaneouspercentageof
+arecrawlingatthetime(blueline).Means(darkline)ands.e.m.(shadedareas) rollinglarvae(peakingreenlineina),followedbyanincreaseinthe
+areshown.Dataarefrom1.UAS-CsChrimson,basin1-GAL4.UAS- instantaneouspercentageofcrawlinglarvae,andanincreaseinstridespeed
+CsChrimson,basin4-GAL4.UAS-CsChrimson,Goro-GAL4(R69F06).UAS- relativetotheperiodpriortostimulation(peakinbluelineina).Goroneuron
+CsChrimson,orA00c-GAL4(R71A10).UAS-CsChrimsonanimals,fromtopto activationonlyevokedrollingandnotcrawling(notethepercentageof
+bottom.b,Percentageoflarvaethatrolledatleastonceduringtheentire15sec crawlinglarvaeisalmost0duringtheoptogeneticactivationperiod).
+activationwindow.Errorbarsare95%confidenceintervals.**P,0.0001. Furthermoretherewasnoincreaseinrelativestridespeedfollowingstimulation
+OptogeneticactivationofBasin-4andGoroneuronsevokesrolling,consistent offset.ActivationofthethreeA00cneuronswithR71A10wasnotsufficientto
+withtheresultsofthermogenticactivationexperimentsshowninFigs2a,gand evokerolling,butitwassufficienttoevokeamild,butsignificant,increasein
+4e.Notethattheinstantaneouspercentageofrollingshowninaisalwayslower stridespeed.Thus,distinctneuronsdownstreamofBasinsappearto
+thanthepercentageshowninbbecausenotalllarvaerollatexactlythesame differentiallycontroldistinctaspectsofthe‘roll-fastcrawl’escapesequence.
+time.c,Comparisonofthenormalizedspeedofcrawlingstridesinresponseto
+G2015 MacmillanPublishersLimited.Allrightsreserved
+--- PAGE 21 ---
+ARTICLE RESEARCH
+a b Objective: g θ
+Multilevel Convergence Early Convergence b
+30 35 40 45 50 55 60 65 70 75 80
+(MC) (EC)
+10
+Output Output Output
+15
+E
+g g Mech 20
+B B
+25
+sensitivity to
++ combined input 30
+w B 1-w B E 35
+g g g Noci 40
+P M M c multimodal θ m45
+circuit output template
++ + 50
+w M 1-w M w M 1-w M S = x 55
+60
+E E E E 65
+Mech Noci Mech Noci more output 0 1 70
+75
+d Mechano-ch only Noci only e Deviation from target outputs f 80 w w M
+target: target: 0.6 100 0.6 h 10 1 B
+ou z t e p r u o t output ( w 30 e % ak ) 0.4 80 0.4 Constraint-al r l e o g w i e o d n 3 2 0 0 0.8
+w M 0.2 4 6 0 0 h w M 0.2 E so C lution M so C lution θ m 4 5 6 0 0 0 0 0 . . 4 6 M (n a o x rm S .)
+20 70 0.2
+0
+0 0.2 0.4 0.6
+0 0
+0 0.2 0.4 0.6
+80
+30 40 50 60 70 80
+0
+100 0 0 100 w B w B θ b
+i j k
+EC solution MC solution (MC - EC) / EC
+Output
+75 100 75 75 1M Hi C gher
+E Mech 50 E Mech 50 E Mech 50 0
+EC
+25 w wM B = = 0 0.44 0 25 w w M B = = 0 0 . . 3 2 1 6 25 −1Higher
+25 50 75 25 50 75 25 50 75
+E E E
+Noci Noci Noci
+ExtendedDataFigure8|Multilevelconvergencecanenhancesensitivityto (keepingh 540).Notethatalthoughtheoptimalsensitivitymultilevel
+p
+weakmultimodalstimuli. Abenefitofthemultilevelarchitecturecouldbeto convergencesolutioncouldhavew 50andthuseffectivelybeanearly
+M
+amplifytheeffectofmechanosensorycuesonnociceptivecues,increasingthe convergencesolution,thisdoesnotoccur;multilevelconvergencesolutionsare
+sensitivitytorelativelyweakbimodalcues.Toexplorethisideafurther,weused alwaysmoresensitivewhentheyexist.Multilevelconvergencesolutionswith
+asimplemodeltoaskwhetheratwo-levelnetworkwithtwolevelsof w 50arenotshownsincetheydonotexhibitmultilevelconvergence.
+B
+convergence(multilevelconvergence;MC)canbemoresensitivetorelatively h,Sensitivityoftheoptimalmultilevelconvergencesolutionasafunctionofthe
+weakbimodaleventsthananetworkwithonlyearlyconvergence(EC). samethresholdsasinExtendedDataFig.8g,normalizedbythemostsensitive
+a,Schematicforasimplemodelofearlyandmultilevelconvergencenetworks multilevelconvergencesolutionfound.Multilevelconvergencesolutionsare
+(seeMethodsfordetails).Weconsideredanearlyconvergenceandamultilevel moresensitivetorelativelyweakmultimodalstimulithanearlyconvergence
+convergencetwo-layerfeed-forwardcircuitwithtwoinputs,correspondingto solutions.Acrossallthresholdstested,themostsensitivecircuitsoccurfor
+MDIV(E )andchordotonal(E ),andoneoutputcorrespondingto h 550andh 575(ExtendedDataFig.8k).Forsuchparameters,noearly
+Noci Mech M B
+rollingoccurrence.Wemodelledsteady-statefiringrates,wheretheoutputof convergencesolutionssatisfytheunimodalconstraints,hencemultilevel
+eachmodelneuronisasigmoidallogisticfunction(withalowerthresholdand convergencesolutionsareoverallthemostsensitive.i,j,Exampleearly
+uppersaturation)ofaweightedsumofitsinputs.Onepathwayremainsonly convergenceandmultilevelconvergencesolutionsforw andw thatsatisfythe
+B B
+chordotonal,whiletheothermixesmodalitiesonlyearly,oratbothlevels, conditionindforonesetofneuronalfiringthresholds(h 540;h 550;
+p M
+dependingonweights(w andw ).b–d,Solutionsforw andw arefound h 575).k,Subtractingtheoutputofearlyconvergencefromthemultilevel
+M B M B B
+usingaconstrainedoptimizationprocedurethatmaximizessensitivitytoweak convergencecircuit.Themultilevelconvergencecircuittriggersmorerolling
+bimodalinputs(b,c)withintwoexperimentallyobservedunimodaltarget thantheearlyconvergencecircuitinresponsetorelativelyweakbimodalcues
+outputs(d):(1)thatmechanosensorystimulusaloneneverevokesrolling;and andstrongunimodalMDIVcues,butlessrollingthantheearlyconvergence
+(2)thatthestrongestMDIVstimulusaloneevokesonly30%output(Fig.1e,f circuittostrongunimodalchordotonalcues(topleftcorner).Themultilevel
+andseeMethodsfordetails).e,Exampledeviationhfromtargetoutputs(see convergencecircuitthusoffersamorecomplexresponsefunctionwithgreater
+Methods)formultiplevaluesofw andw foronesetofthresholds(h 540; sensitivityandselectivityformultimodalandstrongunimodalMDIVcues,but
+M B p
+h 550;h 575).f,Valuesofw andw thatmaximizesensitivityS(dots) notchordotonalcues,andcouldenableenhancedselectionofrollingtomore
+M B M B
+whilealsosatisfyingh,3(greyarea).g,Earlyandmultilevelsolutions(ifthey threateningeventsandreducedselectionofrollingtolessthreateningevents.
+exist)forotherthresholds.Solutionsexistifoneorbothh orh ishigh
+M B
+G2015 MacmillanPublishersLimited.Allrightsreserved

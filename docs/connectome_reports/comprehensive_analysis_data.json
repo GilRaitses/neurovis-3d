@@ -1,0 +1,4153 @@
+{
+  "multilevelmultimodalcircuitCardona": {
+    "paper_name": "multilevelmultimodalcircuitCardona",
+    "analysis_date": "2025-07-24T17:53:10.099829",
+    "basic_stats": {
+      "total_words": 7814,
+      "total_sentences": 1245,
+      "total_figures": 73,
+      "text_length_chars": 113821,
+      "pages_estimated": 21,
+      "figure_density": 3.4761904761904763
+    },
+    "neural_terminology": {
+      "neuron_types": {
+        "mechanosensory": 48,
+        "photoreceptor": 1,
+        "interneuron": 20,
+        "projection neuron": 1,
+        "sensory neuron": 5,
+        "chordotonal": 61,
+        "multidendritic": 3
+      },
+      "brain_regions": {
+        "deutocerebrum": 1
+      },
+      "connectivity_terms": {
+        "synapse": 66,
+        "synaptic": 42,
+        "presynaptic": 9,
+        "postsynaptic": 8,
+        "connectivity": 13,
+        "circuit": 31,
+        "pathway": 28,
+        "network": 11,
+        "projection": 26
+      },
+      "developmental_terms": {
+        "developmental": 4
+      }
+    },
+    "circuit_analysis": {
+      "circuit_types": {
+        "mechanosensory_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "alitiesinonelevelconvergeonneuronsindownstreamlevelscould",
+            "larvalnociceptivemultidendriticclassIV(MDIV)neuronsthermo-",
+            "genetically32,36andlarvalmechanosensorychordotonalneuronsusing",
+            "neurons",
+            "neuronsdirectlyconvergeonBasin-2andBasin-4.",
+            "driveexpressionselectivelyinBasin-1orBasin-4neurons(Extended",
+            "largenumberofsynapsesitreceivesfromchordotonalneuronsand",
+            "therelativelyfewfromMDIVneurons(Fig.2gandExtendedData",
+            "contributetorollingselection.SilencingBasin-4neuronssignificantly",
+            "throughthemechanosensorychordotonalneurons(Fig.1e).",
+            "neuronsareinvolvedintriggeringrolling(Fig.3d).Selectiveactiva-",
+            "tionofthemultisensoryBasin-4interneuronstriggeredrollingina",
+            "First-ordermultisensoryinterneuronstriggerrolling",
+            "chordotonal(Ch)neuronsreplacesthemechanosensorystimulus.",
+            "ThermogeneticactivationofMDIVneurons(orange)usingthetransgenic",
+            "b,ChordotonalandMDIVneuronsfromeachhemisegmentprojecttodistinct",
+            "ceptiveinputs),re-convergeagainonthird-orderinterneuronsinthe",
+            "Wealsoidentifiedathird-orderSEZfeedbackneuronthatreceives",
+            "ceptiveinputs),re-convergeagainonthird-orderinterneuronsinthe",
+            "Wealsoidentifiedathird-orderSEZfeedbackneuronthatreceives",
+            "Wealsoidentifiedathird-orderSEZfeedbackneuronthatreceives",
+            "neuron(magenta;seealsoSupplementaryVideo",
+            "20mm.c\u2013h,Reconstructedinterneurons(top)and",
+            "Goroneurons.d,MechanosensoryBasintarget",
+            "convergeontoGoroneurons.Grey,allotherBasin",
+            "A00c(yellow)ascendingprojectionneurons",
+            "neuronsinthemultisensorycircuitdescribedinthisstudymayhave",
+            "neuronactivitybasedonglobalbody-widenociceptiveandmechano-",
+            "ducibilityofconnectionsbetweenhomologousneuronspresent",
+            "Wethencalculatedoptimalconnectionweightsgivenneuronthresholds.We",
+            "assumedthatthepuremechanosensoryinterneurondoesnothaveanextremely",
+            "b,c,CalciumtransientsofMDIVneuronsinresponsetodifferentvibration",
+            "andnociceptive(orange)neuronsfrom(a\u2013c).n53trialsineachcondition.",
+            "activationofnociceptiveneurons(32uC)(grey).SeeSupplementaryTable3for",
+            "thetwoanimals).Cellsontherightsidearemirroredforeasiercomparison.",
+            "areuniquelydistinguishablefromotherinterneurons(blue)andindividual",
+            "nociceptive(orange)neuronprojectionsareuniquelyidentifiable.f,Electron",
+            "than1%oftotalinputsynapses)fromMDIVneurons.Boththeleftandright",
+            "(onaverage.20synapsesand.10%totalinput)neurons.j,Schematic",
+            "experimentssuggesttheconnectionfromsensoryneuronsontoBasinsis",
+            "excitatory.Sincechordotonalneuronsaretheonlyneuronsthatrespondto",
+            "simulationfromi.UnlikeBasin-4(Fig.3b,c),theMDIVneuronsdonot"
+          ],
+          "pathways": []
+        },
+        "visual_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "neuronsobservedatdistinctlevelsarestructurallyorfunctionallycon-",
+            "first-ordermultisensoryinterneurons.",
+            "neuronsinR72F11(exposingR72F11-GAL4.UAS-dTrpA1larvaeto32uC)",
+            "expressioninBasinneurons(green,R72F11-GAL4.UAS-GFP).Scalebar,",
+            "integration:flexibleuseofgeneraloperations.Neuron81,1240\u20131253(2014).",
+            "descendingneuronstovisualandmechanicalstimuli.J.Exp.Biol.217,",
+            "organizationofnociceptiveneuronsinarea1ofmonkeyprimarysomatosensory",
+            "Bock,D.D.etal.Networkanatomyandinvivophysiologyofvisualcorticalneurons.",
+            "axons.GoroneuronswerefoundinasimilarwayasBasins.Startingwithhigh-",
+            "resolution3Dimagestacksofsinglecells(visualizedusingtheFLP-basedstrategy",
+            "vonPhilipsborn,A.C.etal.NeuronalcontrolofDrosophilacourtshipsong.Neuron",
+            "inDrosophila.Semin.CellDev.Biol.17,20\u201330(2006).",
+            "chordotonalandMDIVterminals.h,Detailedviewsoftheneuronalarbors",
+            "andsynapticlocationsofeachBasincelltypefromthetwosegments(from",
+            "thetwoanimals).Cellsontherightsidearemirroredforeasiercomparison.",
+            "areuniquelydistinguishablefromotherinterneurons(blue)andindividual",
+            "c,Left,R47D07drivesexpressioninA05qneurons(thatreceivedirectinputs",
+            "fromBasin-2andsynapseontoGoroneurons)andinotherneuronsinthorax",
+            "neuronsevokedbyA05qactivationusinglocalATPinjectionspecificallyinthe",
+            "theonlyneuronslabelledwiththislinearetheA05qneurons(dashedcircle).",
+            "neuronsevokedbyA05qactivationusinglocalATPinjectionspecificallyinthe",
+            "theonlyneuronslabelledwiththislinearetheA05qneurons(dashedcircle).",
+            "excitatoryconnection.h,ThermogeneticactivationofneuronsinR47D07",
+            "25mm.Notethatthislinealsodrivesexpressionindevelopingadultneuronsin",
+            "excitatoryconnection.h,ThermogeneticactivationofneuronsinR47D07",
+            "25mm.Notethatthislinealsodrivesexpressionindevelopingadultneuronsin",
+            "lineages).Right,imageofindividualA05qcells(magenta)visualizedwitha"
+          ],
+          "pathways": []
+        },
+        "chemosensory_circuits": {
+          "mentions": 0,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "motor_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "larvalnociceptivemultidendriticclassIV(MDIV)neuronsthermo-",
+            "genetically32,36andlarvalmechanosensorychordotonalneuronsusing",
+            "Basintypesmayconvergeagainontodownstreamneuronsinvolved",
+            "Goroneuronsinmotornervecordtriggerrolling",
+            "neurons",
+            "(Fig.4c\u2013e).Selectivelyactivatingthesinglepairofthoracicneurons",
+            "tifiedsecond-ordernervecordinterneuronsthatconstitutetheshort-",
+            "neuronsandtriggeringrolling(ExtendedDataFig.6a,b).Consistent",
+            "multisensoryBasin-4neuronstriggeredbothlocomotormodes;roll-",
+            "SilencingtheA00cneuronsdecreasedrollinginresponsetobimo-",
+            "neuron(magenta;seealsoSupplementaryVideo",
+            "20mm.c\u2013h,Reconstructedinterneurons(top)and",
+            "Goroneurons.d,MechanosensoryBasintarget",
+            "convergeontoGoroneurons.Grey,allotherBasin",
+            "ontothesamecommand-likeneuronsinmotornervecord(Goro).",
+            "nervesintotheneuropil.Sensoryneuronsprojectventrallyinthenervecord,and",
+            "neuronsbothontheleftandontherightsideofthenervoussystemisnottrueis",
+            "motorneuronsprojectdorsally37,38,73,sothesensoryaxonswerereadilyidentified",
+            "observedtwicebetweenthesamecelltypesisevenlower(0.000282).Because",
+            "false-positivesynapsesbetweenasinglepairofhomologousneuronscouldpoten-"
+          ],
+          "pathways": []
+        },
+        "integration_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "etictoolsenablefunctionalstudiesofuniquelyidentifiableneurons24\u201326.",
+            "neurons",
+            "ontocentralneuronsinvolvedintheselectionofrolling.Toidentify",
+            "neurons",
+            "startsatthefirst-ordermultisensoryinterneuronsandmultiplestages",
+            "sensorycueintegrationandthephysiologyofmultisensoryneurons.NatureRev.",
+            "integration:flexibleuseofgeneraloperations.Neuron81,1240\u20131253(2014).",
+            "integration:flexibleuseofgeneraloperations.Neuron81,1240\u20131253(2014).",
+            "attractiontohumans.Cell156,1060\u20131071(2014).",
+            "attractiontohumans.Cell156,1060\u20131071(2014).",
+            "perspectiveofthesingleneuron.NatureRev.Neurosci.9,255\u2013266(2008).",
+            "Olcese,U.,Iurilli,G.&Medini,P.Cellularandsynapticarchitectureofmultisensory",
+            "integrationinthemouseneocortex.Neuron79,579\u2013593(2013).",
+            "organizationofnociceptiveneuronsinarea1ofmonkeyprimarysomatosensory",
+            "Lakatos,P.,Chen,C.M.,O\u2019Connell,M.N.,Mills,A.&Schroeder,C.E.Neuronal",
+            "oscillationsandmultisensoryinteractioninprimaryauditorycortex.Neuron53,"
+          ],
+          "pathways": []
+        }
+      },
+      "connectivity_patterns": [
+        {
+          "source": "that",
+          "target": "Goro",
+          "context": "that synapse onto Goro"
+        }
+      ],
+      "circuit_complexity": {
+        "multilevel": 32,
+        "integration": 71,
+        "feedback": 7,
+        "parallel_processing": 29,
+        "modularity": 5
+      }
+    },
+    "methodological_content": {
+      "electron microscopy": 4,
+      "em": 281,
+      "optogenetics": 1,
+      "calcium imaging": 1
+    },
+    "figure_analysis": {
+      "total_figures": 73,
+      "figure_types": {
+        "medium_chart": 45,
+        "small_diagram": 23,
+        "full_page_image": 3,
+        "large_figure": 2
+      },
+      "size_distribution": [
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig1.png",
+          "width": 227,
+          "height": 110,
+          "size_bytes": 29321
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig2.png",
+          "width": 216,
+          "height": 77,
+          "size_bytes": 16829
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig3.png",
+          "width": 220,
+          "height": 77,
+          "size_bytes": 16727
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig4.png",
+          "width": 213,
+          "height": 77,
+          "size_bytes": 16824
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig5.png",
+          "width": 213,
+          "height": 77,
+          "size_bytes": 16418
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig6.png",
+          "width": 197,
+          "height": 89,
+          "size_bytes": 9778
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig7.png",
+          "width": 192,
+          "height": 121,
+          "size_bytes": 15289
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig8.png",
+          "width": 189,
+          "height": 108,
+          "size_bytes": 11596
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig9.png",
+          "width": 186,
+          "height": 96,
+          "size_bytes": 11045
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig10.png",
+          "width": 194,
+          "height": 84,
+          "size_bytes": 10519
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig11.png",
+          "width": 165,
+          "height": 102,
+          "size_bytes": 9851
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig12.png",
+          "width": 228,
+          "height": 86,
+          "size_bytes": 18188
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig13.png",
+          "width": 186,
+          "height": 92,
+          "size_bytes": 9880
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig14.png",
+          "width": 187,
+          "height": 120,
+          "size_bytes": 12131
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig15.png",
+          "width": 203,
+          "height": 106,
+          "size_bytes": 10355
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig16.png",
+          "width": 191,
+          "height": 113,
+          "size_bytes": 10159
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig17.png",
+          "width": 186,
+          "height": 134,
+          "size_bytes": 13797
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig18.png",
+          "width": 207,
+          "height": 106,
+          "size_bytes": 10086
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig19.png",
+          "width": 169,
+          "height": 102,
+          "size_bytes": 10422
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig20.png",
+          "width": 173,
+          "height": 127,
+          "size_bytes": 11258
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig21.png",
+          "width": 147,
+          "height": 95,
+          "size_bytes": 9039
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig22.png",
+          "width": 202,
+          "height": 119,
+          "size_bytes": 48405
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig23.png",
+          "width": 230,
+          "height": 103,
+          "size_bytes": 19816
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig24.png",
+          "width": 202,
+          "height": 120,
+          "size_bytes": 47857
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig25.png",
+          "width": 205,
+          "height": 110,
+          "size_bytes": 46582
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig26.png",
+          "width": 206,
+          "height": 120,
+          "size_bytes": 43896
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig27.png",
+          "width": 205,
+          "height": 116,
+          "size_bytes": 43330
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig28.png",
+          "width": 206,
+          "height": 141,
+          "size_bytes": 55469
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig29.png",
+          "width": 140,
+          "height": 77,
+          "size_bytes": 19692
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig30.png",
+          "width": 123,
+          "height": 65,
+          "size_bytes": 14677
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig31.png",
+          "width": 135,
+          "height": 77,
+          "size_bytes": 17548
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig32.png",
+          "width": 104,
+          "height": 70,
+          "size_bytes": 12744
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig33.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 104
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig34.png",
+          "width": 230,
+          "height": 117,
+          "size_bytes": 30369
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig35.png",
+          "width": 3,
+          "height": 30,
+          "size_bytes": 281
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig36.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 106
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig37.png",
+          "width": 177,
+          "height": 113,
+          "size_bytes": 33671
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig38.png",
+          "width": 127,
+          "height": 79,
+          "size_bytes": 15109
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig39.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 106
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig40.png",
+          "width": 5,
+          "height": 34,
+          "size_bytes": 390
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig41.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 106
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig42.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 104
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig43.png",
+          "width": 4,
+          "height": 33,
+          "size_bytes": 293
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig44.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 107
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig45.png",
+          "width": 174,
+          "height": 120,
+          "size_bytes": 11322
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig46.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 107
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig47.png",
+          "width": 3,
+          "height": 31,
+          "size_bytes": 272
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig48.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 107
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig49.png",
+          "width": 206,
+          "height": 132,
+          "size_bytes": 46306
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig50.png",
+          "width": 153,
+          "height": 82,
+          "size_bytes": 20641
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig51.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 104
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig52.png",
+          "width": 12,
+          "height": 32,
+          "size_bytes": 715
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig53.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 107
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig54.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 107
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig55.png",
+          "width": 6,
+          "height": 40,
+          "size_bytes": 574
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig56.png",
+          "width": 210,
+          "height": 90,
+          "size_bytes": 17994
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig57.png",
+          "width": 2,
+          "height": 3,
+          "size_bytes": 108
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig58.png",
+          "width": 3,
+          "height": 4,
+          "size_bytes": 123
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig59.png",
+          "width": 11,
+          "height": 59,
+          "size_bytes": 995
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig60.png",
+          "width": 3,
+          "height": 4,
+          "size_bytes": 125
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig61.png",
+          "width": 219,
+          "height": 106,
+          "size_bytes": 62987
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig62.png",
+          "width": 219,
+          "height": 106,
+          "size_bytes": 37214
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig63.png",
+          "width": 219,
+          "height": 108,
+          "size_bytes": 63494
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig64.png",
+          "width": 219,
+          "height": 108,
+          "size_bytes": 42370
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig65.png",
+          "width": 210,
+          "height": 90,
+          "size_bytes": 17720
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig66.png",
+          "width": 210,
+          "height": 90,
+          "size_bytes": 17755
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page14_fig67.png",
+          "width": 210,
+          "height": 90,
+          "size_bytes": 18715
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig1.png",
+          "width": 266,
+          "height": 448,
+          "size_bytes": 231116
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig2.png",
+          "width": 266,
+          "height": 448,
+          "size_bytes": 58605
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig3.png",
+          "width": 266,
+          "height": 448,
+          "size_bytes": 116030
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig4.png",
+          "width": 124,
+          "height": 169,
+          "size_bytes": 34406
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig5.png",
+          "width": 377,
+          "height": 169,
+          "size_bytes": 147003
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig6.png",
+          "width": 377,
+          "height": 133,
+          "size_bytes": 51688
+        }
+      ],
+      "page_distribution": {
+        "14": 67,
+        "18": 6
+      },
+      "content_analysis": [
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig1.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig2.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig3.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig4.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig5.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        },
+        {
+          "filename": "multilevelmultimodalcircuitCardona_page18_fig6.png",
+          "captions": [
+            "a\u2013c, The R16E11-LexA"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    "connectome_specifics": {
+      "neuron_count": {
+        "values": [
+          301,
+          4,
+          7
+        ],
+        "max": 301,
+        "mentions": 3
+      },
+      "synapse_count": {
+        "values": [
+          20,
+          20,
+          5,
+          20,
+          5,
+          5,
+          10,
+          5
+        ],
+        "max": 20,
+        "mentions": 8
+      },
+      "segment_count": {
+        "values": [
+          1
+        ],
+        "max": 1,
+        "mentions": 1
+      }
+    },
+    "behavioral_relevance": {
+      "behavior_mentions": {
+        "locomotion": 5,
+        "crawling": 43,
+        "turning": 1,
+        "escape": 13,
+        "avoidance": 1,
+        "learning": 4,
+        "sensory processing": 2
+      },
+      "behavioral_circuits": [
+        "of behavior",
+        "10 response",
+        "Ch response",
+        "in response",
+        "rolling response",
+        "Neuralcorrelatesof\nresponse",
+        "in response",
+        "calcium response",
+        "integrated response",
+        "strong response"
+      ],
+      "sensory_motor_integration": {
+        "integration": 21,
+        "processing": 13,
+        "computation": 2,
+        "convergence": 50,
+        "multimodal": 26
+      }
+    },
+    "technical_specifications": {
+      "dimensions_um": {
+        "values": [
+          40.0,
+          47.0
+        ],
+        "count": 2,
+        "range": [
+          40.0,
+          47.0
+        ]
+      },
+      "dimensions_nm": {
+        "values": [
+          630.0,
+          624.0,
+          925.0,
+          45.0,
+          2.0,
+          4.4,
+          34.4,
+          3.8,
+          33.8,
+          200.0,
+          200.0,
+          200.0,
+          617.0
+        ],
+        "count": 13,
+        "range": [
+          2.0,
+          925.0
+        ]
+      },
+      "timing_ms": {
+        "values": [
+          6.7,
+          6.7,
+          6.7,
+          25.0,
+          6.67,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          6.7,
+          6.8
+        ],
+        "count": 11,
+        "range": [
+          0.1,
+          25.0
+        ]
+      },
+      "frequency_hz": {
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          1000.0,
+          100.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "count": 10,
+        "range": [
+          0.0,
+          1000.0
+        ]
+      }
+    },
+    "implementation_insights": {
+      "data_integration_opportunities": [
+        "Implement circuit topology"
+      ],
+      "visualization_requirements": [
+        "High-density figure processing needed",
+        "3D visualization capabilities required",
+        "Temporal/dynamic visualization needed"
+      ],
+      "circuit_modeling_needs": [
+        "Mechanosensory circuit implementation",
+        "Optogenetic stimulation modeling",
+        "Behavioral output prediction"
+      ],
+      "experimental_validation_points": [
+        "Optogenetic stimulation validation"
+      ]
+    }
+  },
+  "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2": {
+    "paper_name": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2",
+    "analysis_date": "2025-07-24T17:53:10.476911",
+    "basic_stats": {
+      "total_words": 1085,
+      "total_sentences": 275,
+      "total_figures": 168,
+      "text_length_chars": 24647,
+      "pages_estimated": 19,
+      "figure_density": 8.842105263157896
+    },
+    "neural_terminology": {
+      "neuron_types": {
+        "photoreceptor": 1,
+        "interneuron": 10
+      },
+      "brain_regions": {
+        "protocerebrum": 10
+      },
+      "connectivity_terms": {
+        "synapse": 10,
+        "synaptic": 19,
+        "presynaptic": 9,
+        "postsynaptic": 7,
+        "connectivity": 7,
+        "circuit": 12,
+        "pathway": 7,
+        "network": 3,
+        "projection": 16,
+        "innervation": 1
+      },
+      "developmental_terms": {}
+    },
+    "circuit_analysis": {
+      "circuit_types": {
+        "mechanosensory_circuits": {
+          "mentions": 0,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "visual_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "(LON)neurons.TheRh5-PRs(darkblue)andRh6-PRs(darkgreen)cellbodiesformtheBolwigorgansittinginthecephalopharyngealskeleton(cps).",
+            "TheyextendtheiraxonstothebrainviatheBolwignerve.Inthebrain,neuronscellbodiesareintheouterlayer(gray)andprojectneuritsintothe",
+            "neuropil.Wecandistinguishfourmainclassesofneurons:visualprojectioninterneurons(VPN,blue),visuallocalinterneurons(VLN,green),third-order",
+            "interneurons(gray)andaminergicmodulatoryneurons(brown).Octopaminergic/tyraminergicmodulatoryneuronscellbodiessitinthesubesophageal",
+            "zone(SEZ).(B)3DreconstructionofallLON-associatedneuronsfromthessTEMdatasetinbothhemispheres(exceptBolwignerves):VLNingreen:",
+            "localopticlobepioneerneurons(lOLPs);VPNinshadesofblue:theprojectionOLP(pOLP),anovelneuronwhichislocatedintheposteriorventral",
+            "lateralcortex(PVL09),thePdf-lateralneurons(Pdf-LaNs),the5th-LaNandthenon-clock-LaNs(nc-LaNs);third-orderneurons:VPLNinlightbrownand",
+            "TinyVLNingray;aminergicmodulatoryneurons:serotonergicneuron(SP2-1,orange)andSEZ-ventral-unpaired-medial-2octopaminergic/tyraminergic",
+            "Neurons",
+            "Interneurons",
+            "Interneurons",
+            "Interneurons",
+            "(E)ConnectivitytableoftheleftLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfromaneuroninarow.Neuronsofsametype",
+            "aregrouped,inbracketsnumberofneuronsinthegroup.SamecolorsasinFigure1B.Onlyconnectionswithatleasttwosynapsesfoundinboth",
+            "fromthecentralbrain.IntheLONp,thetwothird-orderneuronsreceivefromthelOLPs.Thethird-orderneuronVPLN,whichisglutamatergic,",
+            "additionallyreceivesfromtheserotonergicneuron,connectsontotheVPNsandalsoprojectstowardsthecentralbrain(grayarea)likeotherVPNs.",
+            "Figure3.Connectivityandcircuitmotifsofthelarvalvisualsystem.Lefthemisphere,hexagonsrepresentgroupofcells,circlesrepresentsinglecell,",
+            "Rh6-PRsandRh5-PRs.TheVPLNisathird-orderneuronthatdoesnotreceiveanyinputsfromPRs.AllotherVPNsreceivevisualinputsuniquelyfrom",
+            "informationtoneuronsdeeperinthebrain.TheVPLNandpOLPadditionallyreceiveontheiraxonssomeinputsfromotherneuronalcircuits.(D)Circuit",
+            "Figure3\u2014figuresupplement2.Modelofthecompletelarvalvisualneuralnetwork.Cellcircleoutlinecolordefinestheneuronidentity.Cellfilled",
+            "colorrepresentstheneurotransmitter/neuropeptideexpression:yellowforcholinergiccells,redforglutamatergiccells,brownforoctopaminergic/",
+            "tyraminergiccells,lightorangeforserotonergiccell,pinkforPdfneuropeptide.EachPRssubtypeshavespecifictargets.Rh6-PRs(darkgreen)mainly",
+            "layers).AllPRsneuronsarecholinergic(Yasuyamaetal.,1995;Keeneetal.,2011).sVUM2neurons(brown)areoctopaminergic/tyraminergic.SP2-1",
+            "Thethird-orderneuronVPLN(lightbrown)isglutamatergicandreceivesitsinputsintheLONproximallayer(LONp,strongergrayarea).Forsimplicity,",
+            "VPLN.pOLPistheonlyVPNthatisnotmodulatedbyothervisualinterneurons,exceptforitsstrongreciprocalconnectionswithPVL09attheiraxonal",
+            "level.Thethreeaminergicneurons(brownarea)targetmainlythetwolOLPsandSP2-1furtherconnectontotheVPLN.Blackarrowsrepresent",
+            "connectionswithinLONneuronswhilegrayarrowsrepresentconnectionsbeyond.AdditionalexternalinputsontosomeVPNsarenotrepresented",
+            "neuronsingray,dashedlinerepresentbrainmidline.(A)TheSP2-1neuronfromthelefthemisphereinnervatesthe",
+            "ipsilateralSLPandthecontralateralLON.sVUM2md(B)andsVUM2mx(C)neuronsarelocatedalongthemidline",
+            "Figure5.Larvalopticneuropilarchitectureismaintaineddespiteavariablenumberofneurons.Colorcodeasin",
+            "Laplacianassociatedwitheachneuron(xaxis)asafunctionofthesignalflowmetric(yaxis),measuresthatreflect",
+            "thetopologicalroleofneuronsinthecircuit(Varshneyetal.,2011).Weexcludedtheneuromodulatoryneurons",
+            "flowsfromPRsatthetoptowardsVPNsatthebottom.Inthisrepresentation,bilaterallyhomologousneurons",
+            "interneuronsofbothhemispheres(twobarsperneuronexceptfortheextra-lOLPoftherighthemisphere).lOLPsmaininputsarefromtheRh6-PRs.",
+            "receivesfrombothPRs-subtypes.ExceptforpOLP,thelOLPsconnectionsrepresentanimportantfractionofeachneuroninputs.TheVPLNinputsare",
+            "mostsignificantonthetwonc-LaNsandthe5th-LaN.(C)PercentageofsynapsesfromallPRs,aminergicmodulatoryneuronsandvisualinterneurons",
+            "interneuronsofbothhemispheres(twobarsperneuronexceptfortheextra-lOLPoftherighthemisphere).lOLPsmaininputsarefromtheRh6-PRs.",
+            "receivesfrombothPRs-subtypes.ExceptforpOLP,thelOLPsconnectionsrepresentanimportantfractionofeachneuroninputs.TheVPLNinputsare",
+            "mostsignificantonthetwonc-LaNsandthe5th-LaN.(C)PercentageofsynapsesfromallPRs,aminergicmodulatoryneuronsandvisualinterneurons",
+            "Rh5orRh6subtypes.Stronginvolvementoftheaminergicmodulatoryneuronsinotherneuralcircuitsisvisible.",
+            "(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo",
+            "(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo",
+            "reviews).Inthelamina,R1-6PRsmakeconnectionstotheglutamatergicL1neuroncontrollingtheONpathway(red)andtothecholinergicL2neuron",
+            "controllingtheOFFpathway(blue).Inthedeepermedulla,L1andL2reachtheirtargets(Mi1,Tm1/2),whereasR7-8PRsconnecttomedullarneurons",
+            "colorsensorsoftheretina,connecttobipolarretinalcells(BPC)whichconstitutetheONorOFFpathwaysdependingontheglutamatereceptorthey",
+            "LONd,LONiandLONp:distal,intermediateandproximallarvalopticneuropil.Mi:medullaintrinsicneurons;Tm:transmedullaneurons;Dm:dorsal",
+            "medullaneurons.RGC:retinaganglioncells;HC:horizontalcells;AC:amacrinecells."
+          ],
+          "pathways": []
+        },
+        "chemosensory_circuits": {
+          "mentions": 0,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "motor_circuits": {
+          "mentions": 0,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "integration_circuits": {
+          "mentions": 0,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        }
+      },
+      "connectivity_patterns": [],
+      "circuit_complexity": {
+        "multilevel": 0,
+        "integration": 0,
+        "feedback": 0,
+        "parallel_processing": 7,
+        "modularity": 0
+      }
+    },
+    "methodological_content": {
+      "em": 62
+    },
+    "figure_analysis": {
+      "total_figures": 168,
+      "figure_types": {
+        "full_page_image": 103,
+        "medium_chart": 20,
+        "small_diagram": 4,
+        "large_figure": 41
+      },
+      "size_distribution": [
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig1.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 140484
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig2.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 145440
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig3.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 131331
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig4.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 141420
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig5.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 135253
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig6.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 135439
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig7.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 139852
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig8.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 149002
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig9.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 152254
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig10.png",
+          "width": 315,
+          "height": 110,
+          "size_bytes": 515
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig11.png",
+          "width": 106,
+          "height": 220,
+          "size_bytes": 12789
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig12.png",
+          "width": 106,
+          "height": 440,
+          "size_bytes": 2862
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig13.png",
+          "width": 420,
+          "height": 110,
+          "size_bytes": 3664
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig14.png",
+          "width": 335,
+          "height": 405,
+          "size_bytes": 93854
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig15.png",
+          "width": 106,
+          "height": 219,
+          "size_bytes": 2104
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig16.png",
+          "width": 106,
+          "height": 437,
+          "size_bytes": 13061
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig17.png",
+          "width": 211,
+          "height": 109,
+          "size_bytes": 3217
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig18.png",
+          "width": 211,
+          "height": 545,
+          "size_bytes": 12273
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig19.png",
+          "width": 450,
+          "height": 226,
+          "size_bytes": 4567
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig20.png",
+          "width": 450,
+          "height": 338,
+          "size_bytes": 83579
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig21.png",
+          "width": 5,
+          "height": 627,
+          "size_bytes": 828
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig22.png",
+          "width": 642,
+          "height": 361,
+          "size_bytes": 130388
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig23.png",
+          "width": 257,
+          "height": 722,
+          "size_bytes": 121023
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig24.png",
+          "width": 642,
+          "height": 361,
+          "size_bytes": 171230
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig1.png",
+          "width": 773,
+          "height": 773,
+          "size_bytes": 691711
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig2.png",
+          "width": 339,
+          "height": 339,
+          "size_bytes": 117287
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig3.png",
+          "width": 339,
+          "height": 339,
+          "size_bytes": 112570
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig4.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 538135
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig5.png",
+          "width": 230,
+          "height": 230,
+          "size_bytes": 89552
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig6.png",
+          "width": 230,
+          "height": 230,
+          "size_bytes": 55803
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig7.png",
+          "width": 140,
+          "height": 140,
+          "size_bytes": 16370
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig8.png",
+          "width": 140,
+          "height": 140,
+          "size_bytes": 39124
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig9.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 465785
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig10.png",
+          "width": 560,
+          "height": 560,
+          "size_bytes": 519533
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig11.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 503941
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig12.png",
+          "width": 199,
+          "height": 199,
+          "size_bytes": 81173
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig13.png",
+          "width": 199,
+          "height": 199,
+          "size_bytes": 36878
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig14.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 474677
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig15.png",
+          "width": 472,
+          "height": 472,
+          "size_bytes": 130963
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig16.png",
+          "width": 108,
+          "height": 108,
+          "size_bytes": 14553
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig17.png",
+          "width": 108,
+          "height": 108,
+          "size_bytes": 16023
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig18.png",
+          "width": 118,
+          "height": 118,
+          "size_bytes": 26359
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig19.png",
+          "width": 118,
+          "height": 118,
+          "size_bytes": 23204
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig20.png",
+          "width": 118,
+          "height": 118,
+          "size_bytes": 19851
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig21.png",
+          "width": 118,
+          "height": 118,
+          "size_bytes": 36875
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig22.png",
+          "width": 475,
+          "height": 475,
+          "size_bytes": 468277
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page4_fig23.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 421322
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page6_fig1.png",
+          "width": 709,
+          "height": 709,
+          "size_bytes": 237727
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig1.png",
+          "width": 32,
+          "height": 75,
+          "size_bytes": 5978
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig2.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 131851
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig3.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 131727
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig4.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 132395
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig5.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 132204
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig6.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 132446
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig7.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 131978
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig8.png",
+          "width": 445,
+          "height": 325,
+          "size_bytes": 130480
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig9.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 128770
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig10.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 129147
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig11.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 129181
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig12.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 129510
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig13.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 129980
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig14.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 128357
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig15.png",
+          "width": 398,
+          "height": 325,
+          "size_bytes": 128008
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig16.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 127894
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig17.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 128070
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig18.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 128404
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig19.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 127628
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig20.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 127625
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig21.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 127395
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page7_fig22.png",
+          "width": 356,
+          "height": 326,
+          "size_bytes": 128132
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig1.png",
+          "width": 366,
+          "height": 366,
+          "size_bytes": 107200
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig2.png",
+          "width": 366,
+          "height": 366,
+          "size_bytes": 106490
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig3.png",
+          "width": 744,
+          "height": 708,
+          "size_bytes": 294106
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig1.png",
+          "width": 396,
+          "height": 124,
+          "size_bytes": 4619
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig2.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 6429
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig3.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 13052
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig4.png",
+          "width": 132,
+          "height": 872,
+          "size_bytes": 8844
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig5.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 5974
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig6.png",
+          "width": 791,
+          "height": 124,
+          "size_bytes": 15036
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig7.png",
+          "width": 133,
+          "height": 374,
+          "size_bytes": 4674
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig8.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 11469
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig9.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 6872
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig10.png",
+          "width": 392,
+          "height": 511,
+          "size_bytes": 25295
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig11.png",
+          "width": 392,
+          "height": 510,
+          "size_bytes": 20900
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig12.png",
+          "width": 791,
+          "height": 127,
+          "size_bytes": 5626
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig13.png",
+          "width": 396,
+          "height": 255,
+          "size_bytes": 17215
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig14.png",
+          "width": 396,
+          "height": 254,
+          "size_bytes": 14336
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig15.png",
+          "width": 133,
+          "height": 637,
+          "size_bytes": 9251
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig16.png",
+          "width": 396,
+          "height": 255,
+          "size_bytes": 15034
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig17.png",
+          "width": 396,
+          "height": 254,
+          "size_bytes": 14720
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig1.png",
+          "width": 710,
+          "height": 427,
+          "size_bytes": 25496
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig2.png",
+          "width": 710,
+          "height": 428,
+          "size_bytes": 32629
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig3.png",
+          "width": 710,
+          "height": 427,
+          "size_bytes": 27781
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig4.png",
+          "width": 710,
+          "height": 428,
+          "size_bytes": 22737
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig5.png",
+          "width": 710,
+          "height": 427,
+          "size_bytes": 13831
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig6.png",
+          "width": 710,
+          "height": 428,
+          "size_bytes": 13761
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig7.png",
+          "width": 710,
+          "height": 427,
+          "size_bytes": 27650
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page11_fig8.png",
+          "width": 710,
+          "height": 428,
+          "size_bytes": 22832
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig1.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 67283
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig2.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 28569
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig3.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 33307
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig4.png",
+          "width": 592,
+          "height": 566,
+          "size_bytes": 39620
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig5.png",
+          "width": 592,
+          "height": 566,
+          "size_bytes": 53847
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig6.png",
+          "width": 592,
+          "height": 566,
+          "size_bytes": 127623
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig7.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 31638
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig8.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 26313
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page12_fig9.png",
+          "width": 592,
+          "height": 565,
+          "size_bytes": 70056
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig1.png",
+          "width": 379,
+          "height": 663,
+          "size_bytes": 24824
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig2.png",
+          "width": 137,
+          "height": 595,
+          "size_bytes": 12155
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig3.png",
+          "width": 543,
+          "height": 593,
+          "size_bytes": 38610
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig4.png",
+          "width": 1368,
+          "height": 614,
+          "size_bytes": 517928
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig5.png",
+          "width": 551,
+          "height": 472,
+          "size_bytes": 188582
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig6.png",
+          "width": 551,
+          "height": 473,
+          "size_bytes": 177725
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page14_fig1.png",
+          "width": 472,
+          "height": 472,
+          "size_bytes": 298552
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page14_fig2.png",
+          "width": 472,
+          "height": 472,
+          "size_bytes": 240431
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page14_fig3.png",
+          "width": 473,
+          "height": 473,
+          "size_bytes": 277114
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page14_fig4.png",
+          "width": 472,
+          "height": 472,
+          "size_bytes": 264492
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig1.png",
+          "width": 656,
+          "height": 2,
+          "size_bytes": 111
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig2.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 5050
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig3.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 4826
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig4.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 4816
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig5.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 4436
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig6.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 4084
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig7.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 4633
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig8.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 5139
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig9.png",
+          "width": 134,
+          "height": 389,
+          "size_bytes": 1677
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig10.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1750
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig11.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1503
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig12.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1352
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig13.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1368
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig14.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1346
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig15.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 2858
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig16.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1476
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig17.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1490
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig18.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1422
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig19.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1398
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig20.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1351
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig21.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1499
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig22.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 3384
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig23.png",
+          "width": 134,
+          "height": 649,
+          "size_bytes": 5727
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig24.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1523
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig25.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1644
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig26.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1486
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig27.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1681
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig28.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1771
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig29.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 1645
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig30.png",
+          "width": 267,
+          "height": 259,
+          "size_bytes": 3519
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig31.png",
+          "width": 489,
+          "height": 1,
+          "size_bytes": 98
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig32.png",
+          "width": 256,
+          "height": 133,
+          "size_bytes": 4539
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig33.png",
+          "width": 894,
+          "height": 133,
+          "size_bytes": 13516
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig34.png",
+          "width": 256,
+          "height": 399,
+          "size_bytes": 3393
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig35.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 2649
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig36.png",
+          "width": 384,
+          "height": 266,
+          "size_bytes": 2706
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig37.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 3993
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig38.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 2707
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig39.png",
+          "width": 384,
+          "height": 266,
+          "size_bytes": 2403
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig40.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 4645
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig41.png",
+          "width": 256,
+          "height": 399,
+          "size_bytes": 1727
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig42.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 2942
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig43.png",
+          "width": 384,
+          "height": 266,
+          "size_bytes": 2798
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig44.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 4174
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig45.png",
+          "width": 256,
+          "height": 399,
+          "size_bytes": 8981
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig46.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 3259
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig47.png",
+          "width": 384,
+          "height": 266,
+          "size_bytes": 3025
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig48.png",
+          "width": 383,
+          "height": 266,
+          "size_bytes": 5381
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig49.png",
+          "width": 539,
+          "height": 539,
+          "size_bytes": 588264
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig50.png",
+          "width": 270,
+          "height": 270,
+          "size_bytes": 79443
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page17_fig51.png",
+          "width": 270,
+          "height": 270,
+          "size_bytes": 55910
+        }
+      ],
+      "page_distribution": {
+        "2": 24,
+        "4": 23,
+        "6": 1,
+        "7": 22,
+        "9": 3,
+        "10": 17,
+        "11": 8,
+        "12": 9,
+        "13": 6,
+        "14": 4,
+        "17": 51
+      },
+      "content_analysis": [
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig1.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig2.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig3.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig4.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig5.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig6.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig7.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig8.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig9.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig10.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig11.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig12.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig13.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig14.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig15.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig16.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig17.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig18.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig19.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig20.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig21.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig22.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig23.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page2_fig24.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil"
+          ],
+          "page": 2
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig1.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig2.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page9_fig3.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig1.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig2.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig3.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig4.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig5.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig6.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig7.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig8.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig9.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig10.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig11.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig12.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig13.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig14.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig15.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig16.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page10_fig17.png",
+          "captions": [
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,"
+          ],
+          "page": 10
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig1.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig2.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig3.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig4.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig5.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2_page13_fig6.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    "connectome_specifics": {},
+    "behavioral_relevance": {
+      "behavior_mentions": {
+        "turning": 1
+      },
+      "behavioral_circuits": [],
+      "sensory_motor_integration": {
+        "processing": 1
+      }
+    },
+    "technical_specifications": {},
+    "implementation_insights": {
+      "data_integration_opportunities": [],
+      "visualization_requirements": [
+        "High-density figure processing needed",
+        "3D visualization capabilities required",
+        "Temporal/dynamic visualization needed"
+      ],
+      "circuit_modeling_needs": [],
+      "experimental_validation_points": []
+    }
+  },
+  "OrganizationDrosophilaLarvalVisualCircuitCardona": {
+    "paper_name": "OrganizationDrosophilaLarvalVisualCircuitCardona",
+    "analysis_date": "2025-07-24T17:53:10.558345",
+    "basic_stats": {
+      "total_words": 6377,
+      "total_sentences": 1015,
+      "total_figures": 50,
+      "text_length_chars": 91161,
+      "pages_estimated": 23,
+      "figure_density": 2.1739130434782608
+    },
+    "neural_terminology": {
+      "neuron_types": {
+        "mechanosensory": 1,
+        "chemosensory": 1,
+        "photoreceptor": 12,
+        "interneuron": 45,
+        "sensory neuron": 5,
+        "chordotonal": 1
+      },
+      "brain_regions": {
+        "brain hemisphere": 3,
+        "subesophageal zone": 2,
+        "protocerebrum": 15,
+        "mushroom body": 4,
+        "visual system": 4,
+        "antennal lobe": 3
+      },
+      "connectivity_terms": {
+        "synapse": 32,
+        "synaptic": 50,
+        "presynaptic": 18,
+        "postsynaptic": 13,
+        "connectivity": 11,
+        "circuit": 65,
+        "pathway": 28,
+        "network": 9,
+        "projection": 25,
+        "innervation": 1
+      },
+      "developmental_terms": {
+        "first instar": 2,
+        "third instar": 2,
+        "larval stage": 1,
+        "developmental": 6,
+        "metamorphosis": 2
+      }
+    },
+    "circuit_analysis": {
+      "circuit_types": {
+        "mechanosensory_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "visual_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "Computationofvisualfeaturesdependsonphotoreceptorneurontypes(PR)present,organization",
+            "Computationofvisualfeaturesdependsonphotoreceptorneurontypes(PR)present,organization",
+            "Computationofvisualfeaturesdependsonphotoreceptorneurontypes(PR)present,organization",
+            "informationthensignalsviadedicatedprojectioninterneuronstohigherbrainareasincludingthe",
+            "Computationofvisualfeaturesdependsonphotoreceptorneurontypes(PR)present,organization",
+            "informationthensignalsviadedicatedprojectioninterneuronstohigherbrainareasincludingthe",
+            "informationthensignalsviadedicatedprojectioninterneuronstohigherbrainareasincludingthe",
+            "theprecisenumbersofneuronsinvolvedinitsfirstordervisualprocessingcenterremainunknown.",
+            "neuronal",
+            "ponentsoftheLONandhowvisualneuronalcomponentsconnecttoeachothertoformafunctional",
+            "Neurons",
+            "interneurons",
+            "interneurons",
+            "interneurons",
+            "skeletonsofalllarvalopticneuropil(LON)neurons.TheRh5-PRs(darkblue)andRh6-PRs(darkgreen)cellbodies",
+            "Bolwignerve.Inthebrain,neuronscellbodiesareintheouterlayer(gray)andprojectneuritsintotheneuropil.",
+            "Wecandistinguishfourmainclassesofneurons:visualprojectioninterneurons(VPN,blue),visuallocal",
+            "interneurons(VLN,green),third-orderinterneurons(gray)andaminergicmodulatoryneurons(brown).",
+            "Octopaminergic/tyraminergicmodulatoryneuronscellbodiessitinthesubesophagealzone(SEZ).(B)3D",
+            "reconstructionofallLON-associatedneuronsfromthessTEMdatasetinbothhemispheres(exceptBolwignerves):",
+            "VLNingreen:localopticlobepioneerneurons(lOLPs);VPNinshadesofblue:theprojectionOLP(pOLP),anovel",
+            "neuronwhichislocatedintheposteriorventrallateralcortex(PVL09),thePdf-lateralneurons(Pdf-LaNs),the5th-",
+            "Figuresupplement2.Connectionsandanatomyofthesmallthird-orderneuronTinyVLN.",
+            "neurons.ColorcodeasinFigure1B.",
+            "Figure1\u2014video2.3DanimationsoftherotatingbrainwithallinterneuronsoftheLONinthelefthemisphere,",
+            "(Figure1I,J;Figure1\u2014figuresupplement1),andoneneurondefinedbyits\u2018postero-ventro-lateral\u2019",
+            "cellbodyposition,termedPVL09(Figure1F).AlltheseVPNs,exceptthefourpeptidergicPdf-LaNs,",
+            "Wealsoidentifiedtwothird-orderinterneuronsthatmakeconnectionswithintheLONbutdonot",
+            "LONandsignificantpre-synapticterminiwithintheLON.Wethereforenamedthisneuronvisualpro-",
+            "interneuron",
+            "neurons,",
+            "speculatethatRh5-PRsandRh6-PRsconnecttodistincttypesofvisualinterneurons.Supportingthis",
+            "Neurons",
+            "Interneurons",
+            "Interneurons",
+            "Interneurons",
+            "(E)ConnectivitytableoftheleftLONwiththepercentageofpostsynapticsitesofaneuroninacolumnfromaneuroninarow.Neuronsofsametype",
+            "aregrouped,inbracketsnumberofneuronsinthegroup.SamecolorsasinFigure1B.Onlyconnectionswithatleasttwosynapsesfoundinboth",
+            "fromthecentralbrain.IntheLONp,thetwothird-orderneuronsreceivefromthelOLPs.Thethird-orderneuronVPLN,whichisglutamatergic,",
+            "additionallyreceivesfromtheserotonergicneuron,connectsontotheVPNsandalsoprojectstowardsthecentralbrain(grayarea)likeotherVPNs.",
+            "Figure3.Connectivityandcircuitmotifsofthelarvalvisualsystem.Lefthemisphere,hexagonsrepresentgroupofcells,circlesrepresentsinglecell,",
+            "Rh6-PRsandRh5-PRs.TheVPLNisathird-orderneuronthatdoesnotreceiveanyinputsfromPRs.AllotherVPNsreceivevisualinputsuniquelyfrom",
+            "informationtoneuronsdeeperinthebrain.TheVPLNandpOLPadditionallyreceiveontheiraxonssomeinputsfromotherneuronalcircuits.(D)Circuit",
+            "neuronsingray,dashedlinerepresentbrainmidline.(A)TheSP2-1neuronfromthelefthemisphereinnervatesthe",
+            "ipsilateralSLPandthecontralateralLON.sVUM2md(B)andsVUM2mx(C)neuronsarelocatedalongthemidline",
+            "nergiccellswiththesethreevisualinterneurons,whileadditionaleffectsmightbeelicitedbyvolume",
+            "Figure5.Larvalopticneuropilarchitectureismaintaineddespiteavariablenumberofneurons.Colorcodeasin",
+            "Laplacianassociatedwitheachneuron(xaxis)asafunctionofthesignalflowmetric(yaxis),measuresthatreflect",
+            "thetopologicalroleofneuronsinthecircuit(Varshneyetal.,2011).Weexcludedtheneuromodulatoryneurons",
+            "flowsfromPRsatthetoptowardsVPNsatthebottom.Inthisrepresentation,bilaterallyhomologousneurons",
+            "Figuresupplement1.StabilityoftheconnectionsofLONneuronsdespitethevariabilityinneuronnumber.",
+            "structingneuronsrecursivelyfromtheopticnervestothird-orderneuronsfollowingallchemicalsyn-",
+            "twoPRsubtypessynapseontodistincttargetinterneurons,showingaclearseparationofvisualinfor-",
+            "structingneuronsrecursivelyfromtheopticnervestothird-orderneuronsfollowingallchemicalsyn-",
+            "twoPRsubtypessynapseontodistincttargetinterneurons,showingaclearseparationofvisualinfor-",
+            "sitydirectlyontothelarvalvisualsystemoutputneurons,theVPNs.",
+            "(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo",
+            "(redandblue)thataretargetsofRh6-PRs(orange).Thethird-orderneuronVPLNdoesnotreceivefromeitherlarvalPRsbutisdownstreamofthetwo",
+            "reviews).Inthelamina,R1-6PRsmakeconnectionstotheglutamatergicL1neuroncontrollingtheONpathway(red)andtothecholinergicL2neuron",
+            "controllingtheOFFpathway(blue).Inthedeepermedulla,L1andL2reachtheirtargets(Mi1,Tm1/2),whereasR7-8PRsconnecttomedullarneurons",
+            "colorsensorsoftheretina,connecttobipolarretinalcells(BPC)whichconstitutetheONorOFFpathwaysdependingontheglutamatereceptorthey",
+            "LONd,LONiandLONp:distal,intermediateandproximallarvalopticneuropil.Mi:medullaintrinsicneurons;Tm:transmedullaneurons;Dm:dorsal",
+            "medullaneurons.RGC:retinaganglioncells;HC:horizontalcells;AC:amacrinecells.",
+            "olfactoryreceptorneuronsthatprojecttotheantennallobewheretheycontactolfactoryprojection",
+            "interneurons",
+            "localinterneurons.Similarly",
+            "ityrecordingofvisualcircuitneuronswillallowtoaddadditionallayersontothisfunctionalmap.",
+            "themotiondetectorinDrosophila.Neuron70:1165\u20131177.DOI:https://doi.org/10.1016/j.neuron.2011.05.023,",
+            "DanielsRW,GelfandMV,CollinsCA,DiAntonioA.2008.Visualizingglutamatergiccellbodiesandsynapsesin",
+            "DanielsRW,GelfandMV,CollinsCA,DiAntonioA.2008.Visualizingglutamatergiccellbodiesandsynapsesin",
+            "GreenP,HartensteinAY,HartensteinV.1993.TheembryonicdevelopmentoftheDrosophilavisualsystem.Cell",
+            "GreenP,HartensteinAY,HartensteinV.1993.TheembryonicdevelopmentoftheDrosophilavisualsystem.Cell",
+            "metabotropicreceptorinDrosophilaclockneuroncircuits.TheJournalofComparativeNeurology505:32\u201345.",
+            "HardieRC.1987.Ishistamineaneurotransmitterininsectphotoreceptors?JournalofComparativePhysiologyA",
+            "ZlaticM.2016.CompetitiveDisinhibitionMediatesBehavioralChoiceandSequencesinDrosophila.Cell167:",
+            "858\u2013870.DOI:https://doi.org/10.1016/j.cell.2016.09.009,PMID:27720450",
+            "ProjectionneuronsinDrosophilaantennallobessignaltheaccelerationof",
+            "asymmetriccelldivision.CurrentBiology15:1847\u20131854.DOI:https://doi.org/10.1016/j.cub.2005.08.067,",
+            "MazzoniEO,DesplanC,BlauJ.2005.Circadianpacemakerneuronstransmitandmodulatevisualinformationto",
+            "controlarapidbehavioralresponse.Neuron45:293\u2013300.DOI:https://doi.org/10.1016/j.neuron.2004.12.038,",
+            "MeinertzhagenIA.1989.Flyphotoreceptorsynapses:theirdevelopment,evolution,andplasticity.Journalof",
+            "2014.Neuronalconnectomeofasensory-motorcircuitforvisualnavigation.eLife3:e02730.DOI:https://doi.",
+            "2014.Neuronalconnectomeofasensory-motorcircuitforvisualnavigation.eLife3:e02730.DOI:https://doi.",
+            "RenGR,FolkeJ,HauserF,LiS,GrimmelikhuijzenCJ.2015.TheA-andB-typemuscarinicacetylcholinereceptors",
+            "SanesJR,ZipurskySL.2010.Designprinciplesofinsectandvertebratevisualsystems.Neuron66:15\u201336.",
+            "DOI:https://doi.org/10.1016/j.neuron.2010.01.018,PMID:20399726",
+            "SanesJR,ZipurskySL.2010.Designprinciplesofinsectandvertebratevisualsystems.Neuron66:15\u201336.",
+            "DOI:https://doi.org/10.1016/j.neuron.2010.01.018,PMID:20399726",
+            "tyraminergicneuronsinthecentralbrainofDrosophilalarvae.JournalofComparativeNeurology522:3485\u2013",
+            "neurons.Nature454:533\u2013537.DOI:https://doi.org/10.1038/nature07062,PMID:18594514",
+            "SprecherSG,ReichertH,HartensteinV.2007.Geneexpressionpatternsinprimaryneuronalclustersofthe",
+            "neurons.Nature454:533\u2013537.DOI:https://doi.org/10.1038/nature07062,PMID:18594514",
+            "SprecherSG,ReichertH,HartensteinV.2007.Geneexpressionpatternsinprimaryneuronalclustersofthe",
+            "neurons.Nature454:533\u2013537.DOI:https://doi.org/10.1038/nature07062,PMID:18594514",
+            "SprecherSG,ReichertH,HartensteinV.2007.Geneexpressionpatternsinprimaryneuronalclustersofthe",
+            "StrausfeldNJ,SinakevitchI,OkamuraJY.2007.Organizationoflocalinterneuronsinopticglomeruliofthe",
+            "StrausfeldNJ.1989.InsectVisionandOlfaction:CommonDesignPrinciplesofNeuronalOrganization.In:Singh",
+            "StrausfeldNJ,SinakevitchI,OkamuraJY.2007.Organizationoflocalinterneuronsinopticglomeruliofthe",
+            "StrausfeldNJ.1989.InsectVisionandOlfaction:CommonDesignPrinciplesofNeuronalOrganization.In:Singh",
+            "SuverMP,MamiyaA,DickinsonMH.2012.Octopamineneuronsmediateflight-inducedmodulationofvisual",
+            "SuverMP,MamiyaA,DickinsonMH.2012.Octopamineneuronsmediateflight-inducedmodulationofvisual",
+            "TixS,MindenJS,TechnauGM.1989.Pre-existingneuronalpathwaysinthedevelopingopticlobesof",
+            "elegansneuronalnetwork.PLoScomputationalbiology.7:e1001066.DOI:https://doi.org/10.1371/journal.",
+            "WolfH,BurrowsM.1995.Proprioceptivesensoryneuronsofalocustlegreceiverhythmicpresynpaticinhibition",
+            "WuM,NernA,WilliamsonWR,MorimotoMM,ReiserMB,CardGM,RubinGM.2016.Visualprojectionneurons",
+            "YasuyamaK,KitamotoT,SalvaterraPM.1995.Localizationofcholineacetyltransferase-expressingneuronsin",
+            "thelarvalvisualsystemofDrosophilamelanogaster.Cell&TissueResearch282:193\u2013202.DOI:https://doi.org/",
+            "YasuyamaK,MeinertzhagenIA.2010.SynapticconnectionsofPDF-immunoreactivelateralneuronsprojectingto",
+            "YasuyamaK,SalvaterraPM.1999.Localizationofcholineacetyltransferase-expressingneuronsinDrosophila",
+            "YuanQ,LinF,ZhengX,SehgalA.2005.SerotoninmodulatescircadianentrainmentinDrosophila.Neuron47:",
+            "115\u2013127.DOI:https://doi.org/10.1016/j.neuron.2005.05.027,PMID:15996552"
+          ],
+          "pathways": []
+        },
+        "chemosensory_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "OlsenSR,BhandawatV,WilsonRI.2010.Divisivenormalizationinolfactorypopulationcodes.Neuron66:287\u2013",
+            "299.DOI:https://doi.org/10.1016/j.neuron.2010.04.009,PMID:20435004",
+            "2014.Neuronalconnectomeofasensory-motorcircuitforvisualnavigation.eLife3:e02730.DOI:https://doi."
+          ],
+          "pathways": []
+        },
+        "motor_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "ZlaticM.2016.CompetitiveDisinhibitionMediatesBehavioralChoiceandSequencesinDrosophila.Cell167:",
+            "858\u2013870.DOI:https://doi.org/10.1016/j.cell.2016.09.009,PMID:27720450",
+            "2014.Neuronalconnectomeofasensory-motorcircuitforvisualnavigation.eLife3:e02730.DOI:https://doi."
+          ],
+          "pathways": []
+        },
+        "integration_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        }
+      },
+      "connectivity_patterns": [
+        {
+          "source": "they",
+          "target": "Kenyon",
+          "context": "they synapse onto Kenyon"
+        },
+        {
+          "source": "uniquely",
+          "target": "the",
+          "context": "uniquely synapse onto the"
+        },
+        {
+          "source": "predominantly",
+          "target": "VPNs",
+          "context": "predominantly synapse onto VPNs"
+        },
+        {
+          "source": "turn",
+          "target": "most",
+          "context": "turn synapse onto most"
+        },
+        {
+          "source": "further",
+          "target": "theVPNs",
+          "context": "further connect onto\ntheVPNs"
+        }
+      ],
+      "circuit_complexity": {
+        "multilevel": 1,
+        "integration": 3,
+        "feedback": 8,
+        "parallel_processing": 30,
+        "modularity": 0
+      }
+    },
+    "methodological_content": {
+      "electron microscopy": 1,
+      "em": 244,
+      "serial section": 1,
+      "proofreading": 1
+    },
+    "figure_analysis": {
+      "total_figures": 50,
+      "figure_types": {
+        "full_page_image": 31,
+        "medium_chart": 9,
+        "large_figure": 9,
+        "small_diagram": 1
+      },
+      "size_distribution": [
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig1.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 137005
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig2.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 140715
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig3.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 127754
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig4.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 136955
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig5.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 132914
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig6.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 131828
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig7.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 134914
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig8.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 144554
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig9.png",
+          "width": 466,
+          "height": 466,
+          "size_bytes": 147509
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig10.png",
+          "width": 310,
+          "height": 108,
+          "size_bytes": 494
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig11.png",
+          "width": 104,
+          "height": 216,
+          "size_bytes": 12590
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig12.png",
+          "width": 104,
+          "height": 431,
+          "size_bytes": 2810
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig13.png",
+          "width": 413,
+          "height": 108,
+          "size_bytes": 3564
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig14.png",
+          "width": 329,
+          "height": 398,
+          "size_bytes": 90141
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig15.png",
+          "width": 104,
+          "height": 214,
+          "size_bytes": 2037
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig16.png",
+          "width": 104,
+          "height": 429,
+          "size_bytes": 12204
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig17.png",
+          "width": 207,
+          "height": 107,
+          "size_bytes": 3125
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig18.png",
+          "width": 208,
+          "height": 536,
+          "size_bytes": 11929
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig19.png",
+          "width": 442,
+          "height": 222,
+          "size_bytes": 4502
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig20.png",
+          "width": 442,
+          "height": 332,
+          "size_bytes": 80348
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig21.png",
+          "width": 5,
+          "height": 627,
+          "size_bytes": 843
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig22.png",
+          "width": 630,
+          "height": 355,
+          "size_bytes": 126501
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig23.png",
+          "width": 253,
+          "height": 711,
+          "size_bytes": 117446
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig24.png",
+          "width": 630,
+          "height": 355,
+          "size_bytes": 166695
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig1.png",
+          "width": 366,
+          "height": 366,
+          "size_bytes": 107200
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig2.png",
+          "width": 366,
+          "height": 366,
+          "size_bytes": 106490
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig3.png",
+          "width": 744,
+          "height": 708,
+          "size_bytes": 294106
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig1.png",
+          "width": 396,
+          "height": 124,
+          "size_bytes": 4619
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig2.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 6429
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig3.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 13052
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig4.png",
+          "width": 132,
+          "height": 872,
+          "size_bytes": 8844
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig5.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 5974
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig6.png",
+          "width": 791,
+          "height": 124,
+          "size_bytes": 15036
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig7.png",
+          "width": 133,
+          "height": 374,
+          "size_bytes": 4674
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig8.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 11469
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig9.png",
+          "width": 396,
+          "height": 248,
+          "size_bytes": 6872
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig10.png",
+          "width": 392,
+          "height": 511,
+          "size_bytes": 25295
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig11.png",
+          "width": 392,
+          "height": 510,
+          "size_bytes": 20900
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig12.png",
+          "width": 791,
+          "height": 127,
+          "size_bytes": 5626
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig13.png",
+          "width": 396,
+          "height": 255,
+          "size_bytes": 17215
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig14.png",
+          "width": 396,
+          "height": 254,
+          "size_bytes": 14336
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig15.png",
+          "width": 133,
+          "height": 637,
+          "size_bytes": 9251
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig16.png",
+          "width": 396,
+          "height": 255,
+          "size_bytes": 15034
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig17.png",
+          "width": 396,
+          "height": 254,
+          "size_bytes": 14720
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig1.png",
+          "width": 379,
+          "height": 663,
+          "size_bytes": 24824
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig2.png",
+          "width": 137,
+          "height": 595,
+          "size_bytes": 12155
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig3.png",
+          "width": 543,
+          "height": 593,
+          "size_bytes": 38610
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig4.png",
+          "width": 1368,
+          "height": 614,
+          "size_bytes": 517928
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig5.png",
+          "width": 551,
+          "height": 472,
+          "size_bytes": 188582
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig6.png",
+          "width": 551,
+          "height": 473,
+          "size_bytes": 177725
+        }
+      ],
+      "page_distribution": {
+        "3": 24,
+        "6": 3,
+        "7": 17,
+        "9": 6
+      },
+      "content_analysis": [
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig1.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig2.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig3.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig4.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig5.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig6.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig7.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig8.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig9.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig10.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig11.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig12.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig13.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig14.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig15.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig16.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig17.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig18.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig19.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig20.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig21.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig22.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig23.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page3_fig24.png",
+          "captions": [
+            "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed"
+          ],
+          "page": 3
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig1.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 6
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig2.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 6
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page6_fig3.png",
+          "captions": [
+            "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,"
+          ],
+          "page": 6
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig1.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig2.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig3.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig4.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig5.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig6.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig7.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig8.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig9.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig10.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig11.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig12.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig13.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig14.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig15.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig16.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page7_fig17.png",
+          "captions": [
+            "Source data 1. Complete synaptic connection matrices from both LONs.",
+            "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+            "Figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs."
+          ],
+          "page": 7
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig1.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig2.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig3.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig4.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig5.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        },
+        {
+          "filename": "OrganizationDrosophilaLarvalVisualCircuitCardona_page9_fig6.png",
+          "captions": [
+            "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+            "Figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON."
+          ],
+          "page": 9
+        }
+      ]
+    },
+    "connectome_specifics": {
+      "neuron_count": {
+        "values": [
+          2,
+          1,
+          2,
+          2,
+          60,
+          1,
+          2
+        ],
+        "max": 60,
+        "mentions": 7
+      },
+      "synapse_count": {
+        "values": [
+          20
+        ],
+        "max": 20,
+        "mentions": 1
+      }
+    },
+    "behavioral_relevance": {
+      "behavior_mentions": {
+        "locomotion": 1,
+        "turning": 1,
+        "avoidance": 4,
+        "navigation": 5,
+        "learning": 2,
+        "memory": 3
+      },
+      "behavioral_circuits": [
+        "authorsdeclarethatno\nbehavior",
+        "govern\nbehavior",
+        "innate\nbehavior",
+        "previous behavior",
+        "dependencyofdrosophilalarvalphototaxisand\nbehavior",
+        "Neuroscience\nbehavior",
+        "LarvalPRs response",
+        "PRs response",
+        "calcium response",
+        "calcium response"
+      ],
+      "sensory_motor_integration": {
+        "sensorimotor": 1,
+        "integration": 3,
+        "transformation": 2,
+        "processing": 11,
+        "computation": 9,
+        "multimodal": 1
+      }
+    },
+    "technical_specifications": {
+      "dimensions_nm": {
+        "values": [
+          50.0,
+          4.0,
+          50.0
+        ],
+        "count": 3,
+        "range": [
+          4.0,
+          50.0
+        ]
+      }
+    },
+    "implementation_insights": {
+      "data_integration_opportunities": [],
+      "visualization_requirements": [
+        "3D visualization capabilities required",
+        "Temporal/dynamic visualization needed"
+      ],
+      "circuit_modeling_needs": [
+        "Mechanosensory circuit implementation",
+        "Optogenetic stimulation modeling",
+        "Behavioral output prediction"
+      ],
+      "experimental_validation_points": [
+        "Optogenetic stimulation validation"
+      ]
+    }
+  },
+  "TheConnectomeOfAnInsectBrain_Cardona": {
+    "paper_name": "TheConnectomeOfAnInsectBrain_Cardona",
+    "analysis_date": "2025-07-24T17:53:10.836538",
+    "basic_stats": {
+      "total_words": 19692,
+      "total_sentences": 1515,
+      "total_figures": 51,
+      "text_length_chars": 131735,
+      "pages_estimated": 44,
+      "figure_density": 1.1590909090909092
+    },
+    "neural_terminology": {
+      "neuron_types": {
+        "mechanosensory": 3,
+        "chemosensory": 1,
+        "motor neuron": 8,
+        "interneuron": 22,
+        "projection neuron": 2,
+        "local neuron": 5,
+        "sensory neuron": 7,
+        "chordotonal": 1
+      },
+      "brain_regions": {
+        "brain hemisphere": 7,
+        "subesophageal zone": 1,
+        "mushroom body": 4,
+        "central complex": 2,
+        "visual system": 1,
+        "antennal lobe": 1
+      },
+      "connectivity_terms": {
+        "synapse": 63,
+        "synaptic": 100,
+        "presynaptic": 25,
+        "postsynaptic": 32,
+        "connectivity": 51,
+        "circuit": 45,
+        "pathway": 46,
+        "network": 59,
+        "projection": 7
+      },
+      "developmental_terms": {
+        "l1 larva": 1,
+        "larval stage": 1,
+        "developmental": 6
+      }
+    },
+    "circuit_analysis": {
+      "circuit_types": {
+        "mechanosensory_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "visual_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "neurons.",
+            "Neuron."
+          ],
+          "pathways": []
+        },
+        "chemosensory_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [],
+          "pathways": []
+        },
+        "motor_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "neuron",
+            "neuron",
+            "neurons",
+            "interneurons",
+            "neurons",
+            "neurons",
+            "neurons",
+            "neurons",
+            "neurons",
+            "neurons",
+            "neurons.",
+            "neurons,",
+            "neurons",
+            "neurons,",
+            "neurons",
+            "neurons,",
+            "neurons",
+            "interneurons",
+            "interneurons",
+            "Neuron.",
+            "neuron"
+          ],
+          "pathways": []
+        },
+        "integration_circuits": {
+          "mentions": 1,
+          "key_concepts": [],
+          "neuron_types": [
+            "cell"
+          ],
+          "pathways": []
+        }
+      },
+      "connectivity_patterns": [
+        {
+          "source": "directly",
+          "target": "other",
+          "context": "directly synapse onto other"
+        },
+        {
+          "source": "axons",
+          "target": "both",
+          "context": "axons project to both"
+        },
+        {
+          "source": "directly",
+          "target": "each",
+          "context": "directly synapse onto\neach"
+        },
+        {
+          "source": "that",
+          "target": "distinct",
+          "context": "that project to\ndistinct"
+        },
+        {
+          "source": "to",
+          "target": "each",
+          "context": "to\nsynapse onto each"
+        },
+        {
+          "source": "directly",
+          "target": "brain",
+          "context": "directly synapse onto brain"
+        },
+        {
+          "source": "i",
+          "target": "j",
+          "context": "i \u2192 j"
+        }
+      ],
+      "circuit_complexity": {
+        "multilevel": 12,
+        "integration": 15,
+        "feedback": 68,
+        "parallel_processing": 56,
+        "modularity": 5
+      }
+    },
+    "methodological_content": {
+      "electron microscopy": 3,
+      "em": 223,
+      "segmentation": 1,
+      "proofreading": 6
+    },
+    "figure_analysis": {
+      "total_figures": 51,
+      "figure_types": {
+        "small_diagram": 44,
+        "full_page_image": 7
+      },
+      "size_distribution": [
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page1_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page2_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page3_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page4_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page5_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page6_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page7_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page8_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page9_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page10_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page11_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page12_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page13_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page14_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page15_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page16_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page17_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page18_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page19_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page20_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page21_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page22_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page23_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page24_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page25_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page26_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page27_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page28_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page29_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page30_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page31_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page32_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page33_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page34_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page34_fig2.png",
+          "width": 2096,
+          "height": 1265,
+          "size_bytes": 2021605
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page35_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page35_fig2.png",
+          "width": 2096,
+          "height": 1524,
+          "size_bytes": 1971003
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page36_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page37_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page37_fig2.png",
+          "width": 2096,
+          "height": 2039,
+          "size_bytes": 2639896
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page38_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page39_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page39_fig2.png",
+          "width": 2096,
+          "height": 1443,
+          "size_bytes": 2117437
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page40_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page41_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page41_fig2.png",
+          "width": 2096,
+          "height": 996,
+          "size_bytes": 1484249
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page42_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page42_fig2.png",
+          "width": 2096,
+          "height": 1071,
+          "size_bytes": 1558363
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page43_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page43_fig2.png",
+          "width": 2096,
+          "height": 2040,
+          "size_bytes": 2303456
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page44_fig1.png",
+          "width": 16,
+          "height": 16,
+          "size_bytes": 358
+        }
+      ],
+      "page_distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 2,
+        "35": 2,
+        "36": 1,
+        "37": 2,
+        "38": 1,
+        "39": 2,
+        "40": 1,
+        "41": 2,
+        "42": 2,
+        "43": 2,
+        "44": 1
+      },
+      "content_analysis": [
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page34_fig1.png",
+          "captions": [
+            "Comprehensive reconstruction of a Drosophila larva brain."
+          ],
+          "page": 34
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page34_fig2.png",
+          "captions": [
+            "Comprehensive reconstruction of a Drosophila larva brain."
+          ],
+          "page": 34
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page35_fig1.png",
+          "captions": [
+            "Identification of all brain axons and dendrites revealed four connection types."
+          ],
+          "page": 35
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page35_fig2.png",
+          "captions": [
+            "Identification of all brain axons and dendrites revealed four connection types."
+          ],
+          "page": 35
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page37_fig1.png",
+          "captions": [
+            "Hierarchical clustering and analysis of brain structure."
+          ],
+          "page": 37
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page37_fig2.png",
+          "captions": [
+            "Hierarchical clustering and analysis of brain structure."
+          ],
+          "page": 37
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page39_fig1.png",
+          "captions": [
+            "Multimodal sensory integration across the brain."
+          ],
+          "page": 39
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page39_fig2.png",
+          "captions": [
+            "Multimodal sensory integration across the brain."
+          ],
+          "page": 39
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page41_fig1.png",
+          "captions": [
+            "Characterization of interhemispheric communication by bilateral and contralateral "
+          ],
+          "page": 41
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page41_fig2.png",
+          "captions": [
+            "Characterization of interhemispheric communication by bilateral and contralateral "
+          ],
+          "page": 41
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page42_fig1.png",
+          "captions": [
+            "Comprehensive recurrent pathways through the brain."
+          ],
+          "page": 42
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page42_fig2.png",
+          "captions": [
+            "Comprehensive recurrent pathways through the brain."
+          ],
+          "page": 42
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page43_fig1.png",
+          "captions": [
+            "Investigation of brain-nerve cord interactions revealed direct connectivity between "
+          ],
+          "page": 43
+        },
+        {
+          "filename": "TheConnectomeOfAnInsectBrain_Cardona_page43_fig2.png",
+          "captions": [
+            "Investigation of brain-nerve cord interactions revealed direct connectivity between "
+          ],
+          "page": 43
+        }
+      ]
+    },
+    "connectome_specifics": {
+      "neuron_count": {
+        "values": [
+          3016,
+          3,
+          455,
+          1507,
+          3016,
+          176,
+          2421,
+          13,
+          102,
+          95,
+          98,
+          6,
+          16,
+          14,
+          43,
+          8,
+          79,
+          198,
+          1,
+          20,
+          1,
+          32,
+          14,
+          1
+        ],
+        "max": 3016,
+        "mentions": 24
+      },
+      "synapse_count": {
+        "values": [
+          548000,
+          2,
+          5,
+          2,
+          10
+        ],
+        "max": 548000,
+        "mentions": 5
+      },
+      "segment_count": {
+        "values": [
+          1
+        ],
+        "max": 1,
+        "mentions": 1
+      }
+    },
+    "behavioral_relevance": {
+      "behavior_mentions": {
+        "locomotion": 5,
+        "turning": 2,
+        "escape": 2,
+        "feeding": 2,
+        "avoidance": 2,
+        "navigation": 2,
+        "learning": 50,
+        "memory": 17,
+        "decision making": 1,
+        "sensory processing": 4
+      },
+      "behavioral_circuits": [
+        "Brain Behavior",
+        "rich behavior",
+        "rich behavior",
+        "adaptive behavior",
+        "in behavior",
+        "and behavior",
+        "how behavior",
+        "specific behavior",
+        "candidate behavior",
+        "distinct behavior"
+      ],
+      "sensory_motor_integration": {
+        "sensorimotor": 2,
+        "integration": 8,
+        "processing": 14,
+        "computation": 15,
+        "convergence": 7,
+        "multimodal": 10
+      }
+    },
+    "technical_specifications": {
+      "dimensions_nm": {
+        "values": [
+          50.0
+        ],
+        "count": 1,
+        "range": [
+          50.0,
+          50.0
+        ]
+      }
+    },
+    "implementation_insights": {
+      "data_integration_opportunities": [],
+      "visualization_requirements": [
+        "High-density figure processing needed",
+        "3D visualization capabilities required",
+        "Temporal/dynamic visualization needed"
+      ],
+      "circuit_modeling_needs": [
+        "Mechanosensory circuit implementation",
+        "Optogenetic stimulation modeling",
+        "Behavioral output prediction"
+      ],
+      "experimental_validation_points": [
+        "Optogenetic stimulation validation"
+      ]
+    }
+  }
+}

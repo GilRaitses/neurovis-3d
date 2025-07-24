@@ -49,6 +49,12 @@ Thumbs.db
 .env.test
 .env.production
 
+# API Keys and secrets
+*.api-key
+*api_key*
+*secret*
+.secrets/
+
 # Build artifacts
 *.tgz
 *.tar.gz
@@ -243,4 +249,26 @@ data/
 # Analysis output files
 *analysis-results.json
 *-report.md
-*test-checklist.md 
+*test-checklist.md
+
+# ===== LARVAL CONNECTOME PROJECT SPECIFIC =====
+
+# Yijie Yin video files (large size, contains personal research data)
+docs/larvaconnectome/Yijie\ Yin/
+docs/larvaconnectome/Yijie*
+
+# Gemini API analysis scripts (contains API calls)
+docs/scripts/gemini_figure_analysis.py
+docs/scripts/*gemini*
+docs/scripts/*api*
+analyze_figures_local.py
+figure_analysis_results.json
+
+# Processed figure analysis results (large files)
+docs/processed_papers/figures/
+docs/connectome_reports/gemini_*
+docs/connectome_reports/*api*
+
+# PDF processing temporary files
+docs/processed_papers/temp/
+*.pdf.tmp 
