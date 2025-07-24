@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Angular cache
+.angular/
+
+# Source files (only deploy dist/)
+src/
+e2e/
+cypress/
+
+# Development files
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Config files
+tsconfig*.json
+angular.json
+package*.json
+karma.conf.js
+cypress.config.ts
+
+# Only deploy the dist folder
+!dist/

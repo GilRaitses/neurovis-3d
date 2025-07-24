@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # Main FlyWire Backend Service
+  flywire-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: flywire-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - FLYWIRE_CAVE_TOKEN=${FLYWIRE_CAVE_TOKEN}
+      - NEUROGLANCER_PORT=9997
+      - DATASET=flywire_fafb_production
+    restart: unless-stopped
+    networks:
+      - neurovis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Analytics Stats Service
+  stats-service:
+    build:
+      context: ./backend/stats-service
+      dockerfile: Dockerfile
+    container_name: stats-service
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - neurovis-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Frontend (for local full-stack development)
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: neurovis-frontend
+    ports:
+      - "4200:4200"
+    environment:
+      - NODE_ENV=development
+      - API_BASE_URL=http://flywire-backend:5000
+      - STATS_API_URL=http://stats-service:8080
+    depends_on:
+      - flywire-backend
+      - stats-service
+    networks:
+      - neurovis-network
+    profiles:
+      - dev
+
+networks:
+  neurovis-network:
+    driver: bridge 

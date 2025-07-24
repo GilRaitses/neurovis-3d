@@ -1,0 +1,25 @@
+runtime: nodejs20
+
+handlers:
+  # Serve all static files with correct content-type
+  - url: /.*\.(js|css|map|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$
+    static_files: dist/neurovis3d/\1
+    upload: dist/neurovis3d/.*\.(js|css|map|ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$
+    secure: always
+    
+  # Serve JSON data files
+  - url: /assets/data/.*\.json$
+    static_files: dist/neurovis3d\1
+    upload: dist/neurovis3d/assets/data/.*\.json$
+    mime_type: application/json
+    secure: always
+    
+  # Angular SPA - all routes go to index.html
+  - url: /.*
+    static_files: dist/neurovis3d/index.html
+    upload: dist/neurovis3d/index.html
+    secure: always
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10 
