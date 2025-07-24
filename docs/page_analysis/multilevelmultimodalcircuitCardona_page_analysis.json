@@ -1,0 +1,1201 @@
+{
+  "pdf_name": "multilevelmultimodalcircuitCardona.pdf",
+  "total_pages": 21,
+  "processed_date": "2025-07-24T18:05:43.439050",
+  "pages": [
+    {
+      "page_number": 1,
+      "full_text": "ARTICLE\ndoi:10.1038/nature14297\nA multilevel multimodal circuit enhances\naction selection in Drosophila\nTomoko Ohyama1*, Casey M. Schneider-Mizell1*, Richard D. Fetter1, Javier Valdes Aleman1, Romain Franconville1,\nMarta Rivera-Alba1, Brett D. Mensh1, Kristin M. Branson1, Julie H. Simpson1, James W. Truman1, Albert Cardona11 & Marta Zlatic11\nNatural events present multiple types of sensory cues, each detected by a specialized sensory modality. Combining\ninformation from several modalities is essential for the selection of appropriate actions. Key to understanding\nmultimodal computations is determining the structural patterns of multimodal convergence and how these patterns\ncontribute to behaviour. Modalities could converge early, late or at multiple levels in the sensory processing hierarchy.\nHere we show that combining mechanosensory and nociceptive cues synergistically enhances the selection of the fastest\nmode of escape locomotion in Drosophila larvae. In an electron microscopy volume that spans the entire insect nervous\nsystem, we reconstructed the multisensory circuit supporting the synergy, spanning multiple levels of the sensory\nprocessing hierarchy. The wiring diagram revealed a complex multilevel multimodal convergence architecture. Using\nbehavioural and physiological studies, we identified functionally connected circuit nodes that trigger the fastest\nlocomotor mode, and others that facilitate it, and we provide evidence that multiple levels of multimodal integration\ncontribute to escape mode selection. We propose that the multilevel multimodal convergence architecture may be a\ngeneral feature of multisensory circuits enabling complex input\u2013output functions and selective tuning to ecologically\nrelevant combinations of cues.\nA single natural event, such as the attack of a predator, often presents\nmultiple types of sensory cues, for example, visual, olfactory, tactile\nand noxious. These cues are detected separately by distinct sensors\nhighly specialized for a single type of cue. Different sensory channels\nthus provide independent estimates of the same event that can be\ncombined to improve sensitivity and reduce ambiguity1\u20133. Indeed,\nacross the animal kingdom, multi-cue events often elicit enhanced\nreactions compared to single-cue stimuli1\u20135.\nThe enhancement in reactions to multi-cue stimuli is a result of\nconvergence and integration of information from multiple modalit-\nies2,3,6. Because neurons can compute non-linear functions of their\ninputs, where convergence happens, and how often, determines the\nrepertoire of input\u2013output functions7. In artificial neural networks, a\nsingle layer of nonlinear units has strict restrictions in possible res-\nponses to combinations of inputs8,9. Adding a second layer that pro-\ncesses combinations of outputs from the first layer enables the\nnetwork to implement far more complex input\u2013output functions8\u201310\nand thus to discriminate far better between different combinations of\ninputs. Similarly, in the nervous system, an architecture in which\nneurons that receive different combinations of inputs from two mod-\nalities in one level converge on neurons in downstream levels could\nenable better discrimination between different kinds of multimodal\nstimuli and selective tuning to specific ecologically relevant combina-\ntions of the two cues.\nThe structural and functional architecture of multisensory conver-\ngence across multiple levels of the sensory processing hierarchy is an\nopen question for any large nervous system. Neurons that integrate\ninformation from multiple modalities have been most extensively\nstudied in higher-order and motor-control areas2,3,6,11\u201317. Multi\nsensory interactions havealso been described at earlier stages of sensory\nprocessing3,18\u201321. However, it is unclear whether the multisensory\nneurons observed at distinct levels are structurally or functionally con-\nnected, and whether they contribute to the same behaviour.\nThe Drosophila larva is an excellent model system to study the\nstructural and functional patterns of multimodal interactions across\nmultiple levels of the sensory processing hierarchy and how these\npatterns contribute to behaviour. The relatively small size of its\n10,000-neuron nervous system makes it amenable to circuit mapping\nusing large scale electron microscopy reconstruction22,23. Powerful gen-\netic tools enable functional studies of uniquely identifiable neurons24\u201326.\nLarvae have distinct sensory modalities with which they can gauge\nthe degree of threat27\u201331 and an array of distinct escape behaviours\navailable for responding to threats, such as turning, digging, fast\ncrawling and rolling27,28,31\u201335. The most vigorous escape sequence con-\nsists of two locomotion modes: rolling followed by fast crawling28,32.\nRolling is the fastest\u2014and presumably the most energetically\ncostly27,28. A range of distinct aversive cues can evoke the fast crawling\nresponse without rolling, including mild nociceptive and strong\nmechanosensory stimulation28,35. In contrast, rolling is observed in\nextremely threatening situations, such as strong noxious stimu-\nlation27,28,32,33,36, or predator attack27,32, the latter of which provides\nmultiple cues, including nociceptive and mechanosensory27,31,32.\nHere we show that mechanosensory combined with nociceptive\ncues synergistically increase the likelihood of rolling, and use this\ntractable model system to determine the anatomical and functional\npatterns of convergence supporting the synergy.\nMultisensory cues enhance the selection of rolling\nWe developed an automated multisensory assay in which we activate\nlarval nociceptive multidendritic class IV (MD IV) neurons thermo-\ngenetically32,36 and larval mechanosensory chordotonal neurons using\nvibration28,31 (Fig. 1a, b and Extended Data Fig. 1a\u2013d).\n*These authors contributed equally to this work.\n1These authors jointly supervised this work.\n1Howard Hughes Medical Institute Janelia Research Campus, 19700 Helix Drive, Ashburn, Virginia 20147, USA.\n3 0\nA P R I L 2 0 1 5\n| V O L\n5 2 0\n| N A T U R E\n|\n6 3 3\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "multisensory",
+          "chordotonal",
+          "which",
+          "identifiable",
+          "on",
+          "because"
+        ],
+        "key_concepts": [
+          "convergence",
+          "locomotion",
+          "escape",
+          "turn",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 2,
+      "full_text": "Different combinations of nociceptive and mechanosensory stimu-\nlation induced different likelihoods of the key escape sequences: rolling\nfollowed by fast crawling versus fast crawling alone. Nociceptor activa-\ntion alone evoked a relatively low likelihood of rolling (Fig. 1c, d,\nExtended Data Fig. 1e and Supplementary Video 1) and a high like-\nlihood of fast crawling28 (Extended Data Fig. 1e, f). Vibration alone\nevoked only fast crawling28,33 (Extended Data Fig. 1e, f) and essentially\nno rolling (Fig. 1c, d and Supplementary Video 2).\nCombined with nociceptor activation, vibration increased the like-\nlihood of rolling; the effect is dose-dependent and super-additive\n(synergistic) (Fig. 1c, d, Extended Data Fig. 1g and Supplementary\nVideo 3). This vibration-induced facilitation of rolling was mediated\nthrough the mechanosensory chordotonal neurons (Fig. 1e).\nFirst-order multisensory interneurons trigger rolling\nWe suspected that the information from the two modalities converges\nonto central neurons involved in the selection of rolling. To identify\nsuch neurons and thus determine where in the sensory processing\nhierarchy multisensory convergence occurs, we performed a beha-\nvioural screen for neurons whose thermogenetic activation triggers\nrolling (see Methods). We identified a \u2018hit\u2019, the R72F11 Drosophila\nline, that drove GAL4 expression in neurons potentially early in the\nsensory processing hierarchy (Fig. 2a\u2013c and Extended Data Fig. 2a, b).\nActivating the neurons in R72F11 triggered rolling in a significant\nfraction of animals (Fig. 2a and Supplementary Videos 4 and 5),\nand inhibiting them (see Methods) significantly decreased rolling in\nresponse to bimodal stimulation (Fig. 2b).\nR72F11 drives expression selectively in four lineage-related, segmen-\ntally repeated projection neurons with basin-shaped arbors in the\nventral, sensory domain of the nerve cord; we therefore named them\nBasins-1\u20134 (Fig. 2c, d and Extended Data Fig. 2a\u2013c). The dendrites of\nBasin-1 and Basin-3 span a ventrolateral domain of the nerve cord,\nwhere the mechanosensory chordotonal terminals are located37,38\n(Fig. 2c, d and Extended Data Fig. 2c, d). The dendrites of Basin-2\nand Basin-4 span both the ventrolateral chordotonal domain and a\nventromedial domain where the nociceptive MD IV terminals are\nlocated37\u201339(Fig. 2c,d and Extended Data Fig.2c, d). Wethereforeasked\nwhether the mechanosensory chordotonal and the nociceptive MD IV\nneurons directly converge on Basin-2 and Basin-4.\nIn an electron microscopy volume that spans 1.5 nerve cord seg-\nments, we reconstructed the chordotonal and MD IV arbors (Fig. 2e\nand Extended Data Fig. 2e, f) and all of their synaptic partners (a total\nof 301 neuronal arbors) (Fig. 2e, Extended Data Fig. 3a\u2013d and\nSupplementary Table 4a\u2013c). Amongst the reconstructed neurons we\nrecognized the left and right Basin-1, -2, -3 and -4 homologues\n(Fig. 2d, f and Extended Data Fig. 2c, d, g, h).\nBasin-1 and Basin-3 received many inputs (each .25 synapses and\n.15% of total input, on average) from chordotonal neurons, but very\nfew (no more than 1% of total input synapses) from MD IV neurons\n(Fig. 2g and Extended Data Fig. 2i, j). Basin-2 and Basin-4 received\nmany inputs from both chordotonal neurons (on average .20\nsynapses and .10% total input) and MD IV neurons (on average\n.20 synapses and .10% total input) (Fig. 2g and Extended Data\nFig. 2i, j), each on distinct dendritic branches (Fig. 2h). Of all the\n301 partners downstream of MD IV and chordotonal neurons, only\nBasin-2 and Basin-4 reproducibly received .5 synapses from both\nchordotonal and MD IV neurons (Fig. 2i), suggesting that they are\nprobably key integrators of chordotonal and MD IV inputs.\nTo investigate whether the observed anatomical inputs from the\nsensory neurons onto Basins were functional and excitatory, we\nimaged calcium transients in response to MD IV or chordotonal\nactivation (see Methods) collectively in all Basins (Extended Data\nFig. 4a\u2013d) or in individual Basin types (Fig. 3a, b), using lines that\ndrive expression selectively in Basin-1 or Basin-4 neurons (Extended\nData Fig. 4e\u2013h).\nIn Basin-1, we observed calcium transients in response to vibration,\nbut not in response to MD IV activation (Fig. 3a), consistent with the\nlarge number of synapses it receives from chordotonal neurons and\nthe relatively few from MD IV neurons (Fig. 2g and Extended Data\nFig. 2i). In Basin-4, we observed calcium transients in response to both\nvibration and MD IV activation (Fig. 3b), consistent with the large\nnumber of synapses it receives from both sensory types (Fig. 2g and\nExtended Data Fig. 2i). Basin-4 integrated the inputs from the two\nmodalities, responding significantly more to bimodal than to unim-\nodal stimulation (Fig. 3b, c and control in Extended Data Fig. 4i, j).\nNext, we asked whether the multisensory Basin-4 interneurons\ncontribute to rolling selection. Silencing Basin-4 neurons significantly\ndecreased rolling in response to bimodal stimulation, indicating these\nneurons are involved in triggering rolling (Fig. 3d). Selective activa-\ntion of the multisensory Basin-4 interneurons triggered rolling in a\ndose-dependent way, with strongest activation triggering rolling in\n45% of animals (Fig. 3e).\nWe also wondered whether a second level of multimodal integration\n(that is, integration of information from distinct Basin types, that\nreceive distinct combinations of chordotonal and MD IV inputs),\nenhances the selection of rolling. Indeed, co-activation of Basin-1\nwith the bimodal Basin-4 facilitated rolling (Fig. 3e), resulting in a\na\nSound\nNociceptive \nMD IV>dTrpA1\n+ warmth\nSting\nRolling behaviour\nWing\nbeat\nMechanosensory Ch\nNociceptive MD IV\nNociceptive\nMD IV\nstimulation\nTime\nNociceptive MD IV \nstimulation\nMechanosensory Ch \nstimulation\nNociceptive MD IV + \nmechanosensory Ch \ncombined stimulation\nNo stimulation\n + \nCalculated sum of \nc\n18\n28\n32 (\u00b0C)\n100\n80\n60\n40\n20\n0\nRolling (%)\nNociceptive MD IV\nTrpA1 stimulation\n**\nMechanosensory Ch \nand nociceptive MD IV \ncombined stimulation\n**\ne\n100\n80\n60\n40\n20\n0\nRolling (%)\nEffector ctrl\n GAL4 ctrl\n Inhibition\nMechanosensory\nCh  inhibition\n**\nd\nVibration intensity (m s\u20132)\n10\n0 2 4 6 8\nRolling (%)\n100\n80\n60\n40\n20\n0\nMechanosensory \nCh stimulation\n**\nb\nMechanosensory Ch axon terminal\nNerve \ncord\nBrain\nA\nP\nMotor domain\nD\nV\nSensory domain\nNociceptive MD IV axon terminal\nFigure 1 | Mechanical and nociceptive stimulation synergistically trigger\nrolling. a, Schematic of a high-throughput multisensory assay for presenting\nstimuli similar to wasp attack. Speaker-emitted vibration (green) sensed by\nchordotonal (Ch) neurons replaces the mechanosensory stimulus.\nThermogenetic activation of MD IV neurons (orange) using the transgenic\ntemperature-sensitive channel, dTRPA1, and exposing MD IV-GAL4.UAS-\ndTrpA1 larvae to warmth (30 uC or 32 uC), replaces the noxious sting.\nb, Chordotonal and MD IV neurons from each hemisegment project to distinct\nmodality-specific ventrolateral and ventromedial regions of the nerve cord,\nrespectively. A, anterior; P, posterior; D, dorsal; V, ventral. See Supplementary\nTable 1 for n (animals) in this and all other figures. See Supplementary Table 2\nfor a list of genotypes used in this and all other figures. c, d, Percentage of\nanimals that rolled in response to mechanical (green, MD IV-GAL4/1),\nnociceptive (orange, MD IV-GAL4.UAS-dTrpA1), combined (black, MD IV-\nGAL4.UAS-dTrpA1), or no (white, MDIV-GAL4/1) stimulation, when either\nMD IV activation is increased, given constant vibration (1,000Hz, 6.7 m s22; c),\nor vibration is increased, given constant nociceptor activation (32 uC; d).\nError bars, 95% confidence interval; **P , 0.0001, x2 test with Holm\u2013\nBonferroni correction. e, Hyperpolarizing chordotonal neurons reduced rolling\nin response to bimodal mechanical and nociceptive stimulation (32 uC and\n1,000 Hz, 6.7 m s22 in this and subsequent figures) using the transgenic inward\nrectifying potassium channel Kir in MD IV-LexA.lexAop-dTRPA1, ch-\nGAL4.UAS-Kir animals. Ctrl, controls.\n6 3 4\n| N A T U R E |\nV O L\n5 2 0\n| 3 0 A P R I L\n2 0 1 5\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "301",
+          "reconstructed",
+          "multisensory",
+          "chordotonal",
+          "projection",
+          "these",
+          "4",
+          "sensory",
+          "central",
+          "iv",
+          "the",
+          "such",
+          "for",
+          "in"
+        ],
+        "key_concepts": [
+          "convergence",
+          "escape",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "full_text": "significantly higher likelihood of rolling compared to activation of\nBasin-4 alone (70% versus 45%). Thus, information from distinct\nBasin types may converge again onto downstream neurons involved\nin triggering rolling.\nGoro neurons in motor nerve cord trigger rolling\nTo identify potential sites of convergence of information from the\ndifferent types of first-order Basin interneurons we looked at a \u2018hit\u2019\nfrom the thermogenetic activation screen, R69F06, a Drosophila line\nthat drove GAL4 expression in neurons that project far from the early\nsensory processing centres (Fig. 4a\u2013c). Thermogenetic activation of\nneurons in R69F06 triggered rolling in a high fraction of larvae (Fig. 4a\nand Supplementary Video 6), and inhibiting them significantly\ndecreased rolling in response to bimodal stimulation (Fig. 4b).\nR69F06 drives expression in a few neurons in the brain, in the sub-\noesophageal zone (SEZ) and in a pair of thoracic neurons whose\naxons descend through the dorsal, motor domain of the nerve cord\n(Fig. 4c\u2013e). Selectively activating the single pair of thoracic neurons\n(see Methods and Extended Data Fig. 5a\u2013d) triggered rolling in 76%\nof larvae (Fig. 4e, f). We named these command-like neurons Goro\n(a romanization of the Japanese for rolling).\nActivation of Basins evoked strong calcium transients in the Goro\nneurons, indicating that these cell types involved in the same behaviour\nare functionally connected (Fig. 4g, h and Extended Data Fig. 5e, f).\nTo identify the shortest anatomical pathways from Basins to Goro that\nmight support the observed functional connectivity and to determine\nwhether the information from distinct Basin types converges onto\nGoro, we again used electron microscopy reconstruction.\nNerve cord and brain pathways from Basins to Goro\nWe used a second electron microscopy volume (from a second larva)\nthat spans the entire larval nervous system and therefore also includes\nGoro neurons (Fig.5aand Supplementary Video 7). Inthe new volume,\nwe reconstructed chordotonal, MD IV and Basin neurons from seg-\nmentA1,aswellastheGoroneurons(Fig.5a\u2013c,ExtendedDataFigs2g\u2013\nj and 3a\u2013d, Supplementary Table 5a\u2013c and Supplementary Video 8).\nTo find putative pathways from distinct Basin types to Goro neu-\nrons, we first reconstructed all neurons downstream of all axonal\noutputs from the four left and right Basin homologues from segment\nA1 (Fig. 5d, e, Supplementary Information (Supplementary Atlas\nsection) and Supplementary Tables 5 and 6). We identified 31 pairs\nof reproducible downstream partners (Fig. 5d, e and Supplementary\nInformation (Supplementary Atlas section)). Amongst these we iden-\ntified second-order nerve cord interneurons that constitute the short-\nest pathways from Basins to Goro neurons (called A05q and A23g\nwhere \u2018A\u2019 stands for abdominal neuron; Fig. 5d). They receive inputs\nfrom distinct Basin types and synapse onto Goro neurons (Fig. 5d).\nThus, information from distinct Basin types, that receive distinct\ncombinations of MD IV and chordotonal inputs, converges onto\nGoro neurons\u2014providing a second level of multimodal convergence.\ng\nf\nFraction of all synaptic inputs (total inputs in parenthesis)\n21%\n19%\n19%\n19%\n10%\n15%\n10%\n14%\n20%\n13%\n21%\n10%\n1L\n1R\n2L\n2R\n4L\n4R\n3L\n3R\nMechanosensory\nCh\nNociceptive\nMD IV\n1%\n0.2%\n1%\nLight\nd\nNociceptive MD IV + mechanosensory Ch overlap\nMechanosensory Ch overlap\nV\nD\nBasin-1\nBasin-2\nBasin-3\nEM\nBasin-4\nNgn\nV\nD\na\nb\nc\nSynapse\nOutput site\nInput site\nV\nD\ne\nssTEM of\n1.5 nerve cord segments\nReconstruction of\nsensory terminals\nin one segment\nMechanosensory Ch\nNociceptive MD IV\nReconstruction of synaptic\npartners of sensory terminals\nPre\nPost\n(483 syn)\n(421 syn)\n(233 syn)\n(200 syn)\n(288 syn)\n(313 syn)\n(231 syn)\n(193 syn)\ni\nNeuropil\nboundary\nh\nSynapse from mechanosensory Ch            \nSynapse from nociceptive MD IV\n0\n20\n40\n60\n0\n20\n40\n60\nNo. of inputs from\nmechanosensory Ch terminals\nNo. of inputs from \nNociceptive MD IV terminals\n>5 synapses from \nnociceptive MD IV\n>5 synapses from mechanosensory Ch\nBasin-2 L Basin-2 R\nBasin-4 L\nBasin-4 R\nR72F11 inhibition\n100\n80\n60\n40\n20\n0\nRolling (%)\n**\n**\nEffector ctrl\n R72F11 ctrl\n R72F11 inhibition\nMechanosensory Ch and nociceptive \nMD IV combined stimulation\nR72F11 activation\n Effector ctrl\n R72F11 ctrl\n R72F11 activation\n100\n80\n60\n40\n20\n0\nRolling (%)\n**\n**\nNerve cord\nR72F11(basin)>GFP\nNeuropil (N-cad)\nBrain\nCross section\nP\nA\nNociceptive MD IV\nMechanosensory \nCh\nSensory\ndomain\nMotor domain\nBasins\nV\nD\nFigure 2 | Activation screen and electron microscopy reconstruction reveal\nfirst-order multisensory interneurons. a, Thermogenetic activation of\nneurons in R72F11 (exposing R72F11-GAL4.UAS-dTrpA1 larvae to 32 uC)\ntriggered rolling. Error bars, 95% confidence interval; **P , 0.0001, x2 test\nwith Holm\u2013Bonferroni correction. b, Silencing neurons in R72F11 significantly\nreduced rolling in response to bimodal stimulation (in MD IV-LexA.lexAop-\ndTRPA1, R72F11-GAL4.UAS-Kir animals). Ch, chordotonal. c, R72F11 drives\nexpression in Basin neurons (green, R72F11-GAL4.UAS-GFP). Scale bar,\n25 mm. Arrowheads indicate midline. d, Four Basin types visualized with a FLP-\nbased strategy are identifiable based on unique combinations of dendritic\nfeatures: medial projection (yellow arrowhead); ventrolateral indentation\n(orange arrowhead); bushy dorsal arbor (red arrowhead); and absence of\nmedial projection (white arrowhead). Solid white outlines, neuropil boundary;\ndashed lines, midline. Neuropil is visualised with labelling against N-cadherin\n(N-cad) in c or neuroglian (Ngn) in d. Scale bar, 20 mm. e, Electron microscopy\nreconstruction of all direct synaptic targets of the chordotonal (eight left and\neight right) and MD IV (three left and three right) neurons in the abdominal\nsegment A3. ssTEM, serial section transmission electron microscopy.\nf, Amongst the reconstructed arbors, we recognized Basins, based on\nmorphological features (arrowheads). Grey arrow, midline. Scale bar, 10 mm.\ng, The fraction of inputs onto Basins originating from chordotonal or MD IV\nterminals. h, Synaptic inputs from MD IV (orange circles) and chordotonal\n(green circles) segregate onto distinct dendritic branches of Basin-2 and Basin-\n4. i, Plot shows the number of synapses from chordotonal and MD IV terminals\nonto each of the 301 downstream partners. L, Basin homologue from the left\nhemisegment; R, Basin homologue from the right hemisegment.\n3 0\nA P R I L 2 0 1 5\n| V O L\n5 2 0\n| N A T U R E\n|\n6 3 5\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "like",
+          "goro",
+          "silencing",
+          "abdominal",
+          "of",
+          "multisensory",
+          "basin",
+          "few",
+          "all",
+          "downstream",
+          "cord",
+          "thoracic",
+          "in"
+        ],
+        "key_concepts": [
+          "convergence",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 4,
+      "full_text": "Ten distinct second-order projection neuron types downstream of\nBasins ascend to the brain (Fig. 5e and Supplementary Information\n(Supplementary Atlas section)). Some of these integrate Basin\ninformation across multiple distal segments of the body, either exclu-\nsively from a single Basin type (for example, A00c-a6, Fig. 5e), or from\ndistinct Basin types (that receive distinct combinations of sensory\ninputs; for example, A00c-a4 and A00c-a5, Fig. 5e). Then, distinct\nsecond-order PNs, that receive distinct combinations of Basin inputs\n(and therefore distinct combinations of mechanosensory and noci-\nceptive inputs), re-converge again on third-order interneurons in the\nbrain (Fig. 5f). Thus, following convergence of local mechanosensory\nand nociceptive information from a single segment onto multisensory\nBasins, global mechanosensory and multisensory information from\nmultiple segments is integrated within the brain pathway.\nBy tracing upstream of Goro dendritic inputs (Fig. 5f and\nSupplementary Atlas) we identified brain neurons which send\ndescending axons that synapse onto Goro neurons. Tracing down-\nstream of a multisensory second-order ascending projection neuron\n(A00c-a4), we identified third-order projection neurons connecting\nthe ascending pathways from Basins to a descending path onto Goro\nneurons (Fig. 5f). Thus, the activity of the command-like Goro neu-\nrons may be modulated by the more local multisensory and unisen-\nsory information via the nerve cord Basin\u2013Goro pathway and by the\nglobal body-wide nociceptive and mechanosensory multisensory\ninformation via the brain Basin\u2013Goro pathways (Fig. 5d\u2013f).\nWe also identified a third-order SEZ feedback neuron that receives\nconvergent body-wide mechanosensory and multisensory informa-\ntion and descends through the nerve cord sensory domain (Fig. 5g).\nThe SEZ feedback neuron synapses onto the first-order (Basins) and\nsecond-order neurons from both the nerve cord (A05q) and brain\n(A00c) Basin\u2013Goro pathways (Fig. 5g). Both the nerve cord and brain\ne\nd\nBasin-1 and Basin-4 activation\n100\n80\n60\n40\n20\n0\nRolling (%)\nBasin-1 activation\nBasin-4 activation\nBasin-4 + Basin-1 \n activation\n30 \u00b0C\n32 \u00b0C \n TrpA stimulation\n**\n**\na\n5 s\nBasin-1 \u2206F/F0 (%)\n0\n50\n5 s\nBasin-4 inhibition\nMechanosensory Ch\nand nociceptive MD IV \ncombined stimulation\nBasin-4 GAL4 ctrl\nBasin-4 inhibition\nEffector ctrl\nRolling (%)\n100\n80\n60\n40\n20\n0\n**\n**\nc\nP = 0.016\n*\nBasin-4 max. \u2206F/F0 (%)\n60\n30\n0\nCombined\nstimuli\nCalculated\nresponse\nb\nBasin-4 \u2206F/F0 (%)\n0\n50\n +\nATP puff\nFigure 3 | Multiple levels of multimodal integration. a, Calcium transients\n(mean 6 s.e.m.) are evoked in Basin-1 dendrites by vibration (1,000Hz,\n6.7m s22, 5 s, symbolized by green speaker; green trace; n 5 7 trials), but not by\nMD IVactivationwith transgenic ATP-gatedchannel, P2X2, andlocal injection\nof ATP (symbolized by orange injection electrode; orange trace; n 5 6 trials;\nMD IV-lexA.laxAop-P2X2; Basin-1-GAL4.UAS-GCaMP6). b, Calcium\ntransients (mean 6 s.e.m.) are evoked in Basin-4 dendrites by vibration (green\ntrace), nociception (orange trace) and combined stimulation (black trace; n 5 7\ntriplet trials; MD IV.P2X2; Basin-4.GCaMP6); but not by ATP injection in\nthe absence of P2X2 expression (blue trace, MD IV.1; Basin-4.GCaMP6).\nc, Peak DF/F0 from e shows Basin-4 response to combined stimulation (filled\nblack circles) is significantly higher (paired t-test) than the calculated sum of\nunisensory responses (clear black circles). d, Silencing Basin-4 neurons\nsignificantly reduced rolling evoked by bimodal stimulation (in MD IV-\nLexA.lexAop-dTRPA1, Basin-4-GAL4.UAS-Kir animals) compared to\ncontrols. Ch, chordotonal. e, Thermogenetic activation of Basin-4 neurons\nevoked rolling (exposing Basin-4-GAL4.UAS-dTrpA1 animals to 30 uC or to\n32 uC). Basin-1 facilitated rolling in combination with Basin-4 (exposing\nBasin-4-GAL4, Basin-1-GAL4.UAS-dTrpA1 animals to 30 uC or to 32 uC).\nError bars, 95% confidence interval; **P , 0.0001, x2 test with\nHolm\u2013Bonferroni correction.\nBasin activation\n0\n100\nGoro \u2206F/F0 (%)\n5 s\nBasin\nNociceptive MD IV\nMechanosensory Ch\nGoro\nMotor domain\nSensory\ndomain\nR69F06\nactivation\n Effector ctrl\n R69F06 ctrl\n R69F06 activation\na\n Effector ctrl\n R69F06 ctrl\nR69F06\ninhibition\nMechanosensory Ch \nand nociceptive MD IV \ncombined stimulation \nb\n R69F06 inhibition\n**\n100\n80\n60\n40\n20\n0\nRolling (%)\n****\n100\n80\n60\n40\n20\n0\nRolling (%)\nf\nGoro activation\n100\n80\n60\n40\n20\n0\nRolling (%)\nGoro lexA ctrl\nGoro activation\nR69F06,tsh-Gal80\n****\nGoro GAL4 ctrl\ne\nd\nc\nBrain\nGoro>dTrpA1-myc\nNeuropil (N-cad)\nNerve cord\nSEZ\nR69F06>GFP\nNeuropil (N-cad)\nD\nCross section\nA\nP\nNerve cord\nBrain\nSEZ\nThorax\nAbdomen\nR69F06, tsh-Gal80>GFP\nNeuropil (nc82)\nNerve cord\nBrain\nSEZ\nV\nCell body\nGoro\nMotor domain\nSensory domain\nProjections\nD\nactivation\nV\ng\nh\nFigure 4 | Basins are functionally connected to command-like Goro\nneurons. a, Thermogenetic activation of neurons in R69F06 triggered rolling\n(exposing R69F06-GAL4.UAS-dTrpA1 to 32uC). b, Silencing neurons in\nR69F06 significantly reduced rolling in response to bimodal stimulation (MD\nIV-LexA.lexAop-dTRPA1, R69F06-GAL4.UAS-Kir). Ch, chordotonal.\nc\u2013e, Images of neurons (green) in R69F06.GFP (c), R69F06,tsh-Gal80.GFP\n(d) and Goro.dTRPA1-myc (R16F11-LexA.lexAop-FLP, R69F06-GAL4.UAS-\nFRT-STOP-FRT-dTRPA1-myc) (e) animals. Scale bar, 25 mm. Arrowheads\nindicate midline. f, Thermogenetic activation of the single pair of Goro neurons\ntriggered rolling in 76% of animals (exposing Goro.dTRPA1-myc from the\nR16F11-LexA.lexAop-FLP, R69F06-GAL4.UAS-FRT-STOP-FRT-dTRPA-myc\ncross to 32uC); thermogenetic activation of only the brain and SEZ neurons in\nR69F06 did not (exposing R69F06, tsh-GAL80.dTRPA1 to 32uC). Error bars,\n95% confidence interval; **P,0.0001, x2 test with Holm\u2013Bonferroni correction.\ng, Basin activation by local ATP injection (in 72F11.P2X2, R69F06.GCaMP\nanimals) evoked calcium transients (mean6s.e.m.) in Goro dendrites (red trace,\nn59 trials); ATP injection in the absence of P2X2 (in 72F11.1;\nR69F06.GCaMP animals) did not (grey trace, n58 trials). h, Summary of the\nidentified functional pathway involved in triggering rolling.\n6 3 6\n| N A T U R E |\nV O L\n5 2 0\n| 3 0 A P R I L\n2 0 1 5\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 8,
+        "connectome_relevance": 3,
+        "neuron_types_mentioned": [
+          "goro",
+          "feedback",
+          "silencing",
+          "of",
+          "sez",
+          "projection",
+          "brain",
+          "order",
+          "4"
+        ],
+        "key_concepts": [
+          "feedback",
+          "convergence",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "full_text": "Basin\u2013Goro pathways may therefore be jointly regulated based on\nintegrated global multisensory information.\nFunction of distinct pathways in triggering rolling\nNext we wanted to explore the functional role of the nerve cord and\nbrain Basin\u2013Goro pathways. Basin activation could activate Goro\nneurons in the absence of the brain, suggesting the nerve cord\nBasin\u2013Goro pathway is excitatory and sufficient for activating Goro\nneurons and triggering rolling (Extended Data Fig. 6a, b). Consistent\nwith this idea, Basin activation evoked calcium transients in their\nnerve-cord targets, the A05q neurons, and A05q activation evoked\ncalcium transients in Goro neurons, (Extended Data Fig. 6c\u2013g).\nFurthermore, thermogenetic activation of the neurons in a line that\ndrives expression, amongst others, in the A05q neurons triggered\nrolling (Extended Data Fig. 6c, h).\nCalcium imaging in the terminals of three Basin-target neurons\nthat ascend to the brain (A00c-a6, A00c-a5 and A00c-a4) (Fig. 5h)\nrevealed that, collectively, they respond to vibration, to MD IV activa-\ntion, and to Basin activation, suggesting that this connection is also\nexcitatory (Fig. 5i and Extended Data Fig. 6i, j).\nSilencing the A00c neurons decreased rolling in response to bimo-\ndal stimulation (Fig. 5j), and their co-activation with Basin-4 facili-\ntated rolling (Fig. 5k). Therefore, downstream from early local\nmultisensory integration by Basin-4, additional levels of integration\nof global mechanosensory and multisensory information appear to\nfurther facilitate the transition to rolling behaviour.\nDifferential effects on triggering roll and crawl\nThe rolling response triggered by multisensory cues (or by strong\nnociceptive cues alone) is followed by fast crawling28 (Extended\nData Fig. 1e, f). Similarly, optogenetic40 activation of the first-order\nmultisensory Basin-4 neurons triggered both locomotor modes; roll-\ning followed by fast crawling (Extended Data Fig. 7a\u2013c). However,\noptogenetic activation of the Goro neurons triggered only rolling, but\nnot fast crawling, suggesting that they act as dedicated command-like\nneurons for rolling (Extended Data Fig. 7a\u2013c). This also suggests\nthat the act of rolling itself is insufficient to trigger fast crawling. In\nthe future it will be interesting to determine how all of the 31 novel\nneuron types directly downstream of the Basins identified in our\nelectron microscopy reconstruction (Supplementary Information\n(Supplementary Atlas section)) contribute to the selection of the\ntwo locomotor modes, rolling and crawling, in a defined sequence.\nDiscussion\nBy combining behavioural and physiological studies with large-scale\nelectron microscopy reconstruction we mapped a multisensory circuit\nc\nssTEM of whole\nL1 CNS\nReconstruction of identified\nroll-triggering neurons\nReconstruction of\nsynaptic partners\na\nD\nV\nb\nLight\nA\u2014P\nj\nA\nP\nBasins and Goro\nNerve cord\nBasin\u2013Goro pathway\nAscending\nBasin targets\nBrain Basin\u2013Goro\npathway \ni\n0\n100\nA00c \u2206F/F0 (%)\na1\na2\na3\na4\na5\na6\na7\na8/9\nNerve cord\nSD\nMD\nSD\nMD\nSD\nMD\nBasins\nGoro\nA23g\nA05q\nNerve cord\npartners\nAscending\npartners\nA00c\nContragoro\nBasins\n(a4)\nContraphone\nIpsiphone\nSD\nMD\nBasin-3\nBasin-1\nBasin-2&4\nGoro\nA23g\nA05q\nA00c\n(a4 and a5)\nContragoro\nIpsiphone\nContraphone\nSD\nMD\nSEZ\nDN\n3\u20135 \n5\u201310   synapses \n>10 \n(a6)\n}\nA00c inhibition\nRolling (%)\n100\n80\n60\n40\n20\n0\n*\nEffector ctrl\nA00c ctrl\nA00c inhibition\n**\nd\ne\nf\nMultilevel feedback\nSEZ\nDN\ng\nk\nMechanosensory Ch \nand nociceptive MD IV \ncombined stimulation\nt2\nt1\nt3\nGoro>GFP\nNeuropil (neuroglian)\nBrain\nNerve cord\nBrain\n100\n80\n60\n40\n20\n0\n30 \u00b0C 32 \u00b0C\nRolling (%)\n**\n**\nBasin-4 activation\nA00c activation\nBasin-4 + A00c \ncombined activation\nj\nRolling (%)\n1\n8\n6\n4\n2\n5 s\nOutput site\nInput site\nEM\nOutput site\nInput site\nh\nA00c\n(a6)\na4\na5\na6\nBrain\nA00c>GFP\nNeuropil (N-cad)\nBasins\nGoro\nA00c activation\nFigure 5 | Electron microscopy reconstruction\nreveals multiple levels of multimodal\nconvergence within Basins-to-Goro pathways.\na, Electron microscopy reconstruction of the\nBasin\u2013Goro anatomical pathways. ssTEM, serial\nsection transmission electron microscopy.\nb, Confocal image (green) and electron\nmicroscopy (EM) reconstruction of a single Goro\nneuron (magenta; see also Supplementary Video\n8). Arrowheads indicate midline. Scale bars,\n20 mm. c\u2013h, Reconstructed interneurons (top) and\ntheir connectivity (bottom). MD, motor domain;\nSD, sensory domain. c, Reconstructed Basins and\nGoro neurons. d, Mechanosensory Basin target\nA23g and multisensory Basin target A05q\nconverge onto Goro neurons. Grey, all other Basin\ntargets that project to the nerve cord. e, Distinct\nA00c (yellow) ascending projection neurons\nintegrate information from distinct combinations\nof Basins across multiple segments. Grey, all other\nBasin targets that ascend to the brain. f, Third-\norder brain projection neurons, ipsiphone and\ncontraphone, receive inputs from the A00c\nneurons and synapse onto brain neurons\n(contragoro) that send descending axons into the\nnerve cord and synapse onto Goro. g, Feedback\nneurons from SEZ. DN, descending neuron.\nh, Electron microscopy reconstruction of a single\nA00c-a6 neuron and confocal image of all three\npairs of A00c-a4/a5/a6 neurons in line R71A10.\ni, Calcium transients (mean 6 s.e.m.) in the\nterminals of all A00c cells (in MD IV.P2X2,\nR71A10.GCaMP animals) shows they respond to\nMD IV activation by local ATP injection (orange\ntrace, n 5 12 trials) and vibration (green trace,\nn 5 4 trials). j, Silencing A00c neurons\nsignificantly reduces rolling in response to\nbimodal stimulation (in MD IV-LexA.lexAop-\ndTRPA1, R71A10-GAL4.UAS-Kir animals). Ch,\nchordotonal. k, A00c neurons facilitate rolling in\ncombination with Basin-4 (exposing Basin-4-\nGAL4, 71A10-GAL4.UAS-dTrpA1 animals to\n30 uC or to 32 uC). Error bars, 95% confidence\ninterval; **P , 0.0001, x2 test with Holm\u2013\nBonferroni correction.\n3 0 A P R I L\n2 0 1 5 | V O L 5 2 0\n|\nN A T U R E\n| 6 3 7\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 9,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "a6",
+          "like",
+          "goro",
+          "feedback",
+          "reconstructed",
+          "novel",
+          "projection",
+          "target",
+          "triggering",
+          "brain",
+          "descending",
+          "a05q",
+          "a00c",
+          "the",
+          "4"
+        ],
+        "key_concepts": [
+          "feedback",
+          "convergence",
+          "calcium imaging",
+          "confocal",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 6,
+      "full_text": "that mediates the selection of the fastest mode of escape locomotion\n(rolling) in Drosophila larva (Fig. 6a, b). We find that mechanosen-\nsory and nociceptive sensory neurons converge on specific types\nof first-order multisensory interneurons that integrate their inputs.\nThen, interneurons that receive distinct combinations of mechano-\nsensory and nociceptive inputs converge again at multiple levels\ndownstream, all the way to command-like neurons in the nerve cord.\nActivating just a single type of first-order multisensory interneuron\ntriggers rolling probabilistically. Co-activation of first-order inter-\nneurons that receive distinct combinations of mechanosensory and\nnociceptive inputs increases rolling probability. Thus, action selection\nstarts at the first-order multisensory interneurons and multiple stages\nof multimodal integration in the distributed network enhance this\nselection.\nGiven that spurious firing from distinct sensors is uncorrelated,\nwhereas event-derived signals will be temporally correlated across\nthe sensory channels, multimodal integration even at a single level\nimproves the signal-to-noise ratio1,3,41. Multilevel multimodal integ-\nration can offer additional advantages. Theoretical studies show that a\nmultilevel convergence architecture enables more complex input\u2013\noutput relationships7\u201310. Similarly, the multilevel multimodal conver-\ngence architecture described here could offer better discrimination\nbetween different kinds of multisensory events. The weights in such\nnetworks could be tuned either through experience or through evolu-\ntion to respond selectively to highly specific combinations of two cues.\nUsing a simple model, we can demonstrate (Extended Data Fig. 8a\u2013k)\nthat compared to early-convergence a multilevel architecture could\nspecifically enhance the selection of the fastest escape mode in the\nmost threatening situations, either in response to weak multimodal or\nstrong unimodal nociceptive cues.\nThe multilevel multimodal convergence architecture may be a gen-\neral feature in multisensory integration circuits, enabling complex\nresponse profiles tunable to specific ecological needs. For example,\nphysiological studies in mammals have identified multisensory neu-\nrons that integrate the same cues at several stages in the sensory\nprocessing hierarchy18,19,21,42,43, although it is unclear whether the mul-\ntisensory neurons at distinct levels are causally related to the same\nbehaviour. Due to the size of networks involved, synaptic-level reso-\nlution studies of the underlying convergence architecture across mul-\ntiple levels were unattainable.\nIn addition to the multilevel multimodal feed-forward convergence\nmotif, our electron microscopy reconstruction revealed higher-order\nand local feedback neurons (Figs 5g and 6a and Supplementary\nInformation (Supplementary Atlas section)). Recent theoretical mod-\nels of multisensory integration suggest that the output of individual\nmultisensory neurons is normalized by the activity of other multi-\nsensory neurons in that population, but the anatomical implementa-\ntion of such feedback has not been identified2,44. Some of the feedback\nneurons in the multisensory circuit described in this study may have\nroles in such normalization computations.\nAnother circuit motif revealed by our study is the divergence of\nsensory information into nerve cord and ascending brain pathways\nand subsequent re-convergence of the shorter and the longer pathway\nonto the same command-like neurons in motor nerve cord (Goro).\nThe nerve cord pathway integrates nociceptive and mechanosensory\ninformation from a local region of the body (few segments), whereas\nthe ascending brain pathway integrates the information across all\nbody segments and provides a means of modulating command-like\nneuron activity based on global body-wide nociceptive and mechano-\nsensory information. The multisensory circuit described here in a\ngenetically tractable model system provides a resource for investi-\ngating in detail how multiple brain and nerve cord pathways interact\nwith each other and contribute to the selection of different modes of\nlocomotion (rolling and crawling) in a defined sequence.\nThe electron microscopy volume spanning the entire insect nerv-\nous system acquired for this study can be used to map circuits that\nmediate many different behaviours. Combining information from a\ncomplete wiring diagram with functional studies has been very fruitful\nin the 302-neuron nervous system of C. elegans45,46. Recently, similar\napproaches have been applied to microcircuits in smaller regions of\nlarger nervous systems47\u201350. In this manuscript, we demonstrate that\nrelating local and global structure to function in a complete nervous\nsystem is now possible for the larger and more elaborate nervous\nsystem of an insect.\nOnline Content Methods, along with any additional Extended Data display items\nandSource Data, are available in the onlineversion of the paper; references unique\nto these sections appear only in the online paper.\nReceived 5 August 2014; accepted 6 February 2015.\nPublished online 20 April 2015.\n1.\nStein, E. B. & Meredith, M. A. The Merging of the Senses (MIT press, 1993).\n2.\nFetsch, C. R., DeAngelis, G. C. & Angelaki, D. E. Bridging the gap between theories of\nsensory cue integration and the physiology of multisensory neurons. Nature Rev.\nNeurosci. 14, 429\u2013442 (2013).\n3.\nvan Atteveldt, N., Murray, M. M., Thut, G. & Schroeder, C. E. Multisensory\nintegration: flexible use of general operations. Neuron 81, 1240\u20131253 (2014).\n4.\nStein, B. E., Meredith, M. A., Huneycutt, W. S. & McDade, L. Behavioral indices of\nmultisensory integration: orientation to visual cues is affected by auditory stimuli.\nJ. Cogn. Neurosci. 1, 12\u201324 (1989).\n5.\nMcMeniman, C. J., Corfas, R. A., Matthews, B. J., Ritchie, S. A. & Vosshall, L. B.\nMultimodal integration of carbon dioxide and other sensory cues drives mosquito\nattraction to humans. Cell 156, 1060\u20131071 (2014).\n6.\nStein, B. E. & Stanford, T. R. Multisensory integration: current issues from the\nperspective of the single neuron. Nature Rev. Neurosci. 9, 255\u2013266 (2008).\n7.\nCybenko, G. Approximation by superpositions of a sigmoidal function. Math.\nControl Signals Syst. 2, 303\u2013314 (1989).\n8.\nDuda, R. O. E., H. P&. Stork, D. G. Pattern Classification (John Wiley and Sons, 2001).\n9.\nHastie, T., Friedman, J. & Tibshirani, R. The Elements of Statistical Learning Vol. 2\n(Springer, 2009).\n10. Rigotti, M. et al. The importance of mixed selectivity in complex cognitive tasks.\nNature 497, 585\u2013590 (2013).\n11. Fetsch, C. R., Pouget, A., DeAngelis, G. C. & Angelaki, D. E. Neural correlates of\nreliability-based cue weighting during multisensory integration. Nature Neurosci.\n15, 146\u2013154 (2012).\n12. Meredith, M. A. & Stein, B. E. Interactions among converging sensory inputs in the\nsuperior colliculus. Science 221, 389\u2013391 (1983).\n13. Meredith, M. A. & Stein, B. E. Descending efferents from the superior colliculus\nrelay integrated multisensory information. Science 227, 657\u2013659 (1985).\n14. Olcese, U., Iurilli, G. & Medini, P. Cellular and synaptic architecture of multisensory\nintegration in the mouse neocortex. Neuron 79, 579\u2013593 (2013).\n15. Homberg, U., Christensen, T. A. & Hildebrand, J. G. Structure and function of the\ndeutocerebrum in insects. Annu. Rev. Entomol. 34, 477\u2013501 (1989).\nBasin-3\nA23g\nNerve cord pathways\nA05q\nBasin-2\nGoro\nNociceptive \nMD IV\nMechanosensory Ch\nBrain pathways\nA00c\n(a4)\nIpsiphone\nBasin-3\nMechanosensory Ch\nNociceptive \nMD IV\nA00c\n(a6)\nBasin-1\nSEZ DN\nA00c\n(a5)\nBasin-2\nBasin-4\nb\nc\na\nNociceptive\nMD IV\nRolling\nbehaviour\nNerve cord\npathways\nMechanosensory\nCh\nBrain\npathways\n1\n3\n2\n4\nGoro\nBasins\nA00c\nSEZ\nDN\nExcitatory:\nUnknown sign:\nA23g\nA05q\nOther\nContraphone\nIpsiphone\nIpsi\nDN\nContra\nDN\nFigure 6 | Summary of the multilevel multimodal convergence circuit for\nrolling. a, Whole-animal circuit. Ch, chordotonal. b, c, Specific nerve cord\n(b) and brain (c) pathways Arrow, excitatory connections. Square, connections\nof unknown sign.\n6 3 8\n| N A T U R E |\nV O L\n5 2 0\n| 3 0 A P R I L\n2 0 1 5\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 7,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "like",
+          "multisensory",
+          "feedback",
+          "single",
+          "nociceptive",
+          "sensory",
+          "tisensory"
+        ],
+        "key_concepts": [
+          "feed-forward",
+          "feedback",
+          "convergence",
+          "divergence",
+          "locomotion",
+          "orientation",
+          "attraction",
+          "escape",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 7,
+      "full_text": "16. Milde, J. J. & Strausfeld, N. J. Cluster organization and response characteristics of\nthe giant fiber pathway of the blowfly Calliphora erythrocephala. J. Comp. Neurol.\n294, 59\u201375 (1990).\n17. Mu, L., Bacon, J. P., Ito, K. & Strausfeld, N. J. Responses of Drosophila giant\ndescending neurons to visual and mechanical stimuli. J. Exp. Biol. 217,\n2121\u20132129 (2014).\n18. Basura, G. J., Koehler, S. D. & Shore, S. E. Multi-sensory integration in brainstem\nand auditory cortex. Brain Res. 1485, 95\u2013107 (2012).\n19. Jain, R. & Shore, S. External inferior colliculus integrates trigeminal and acoustic\ninformation: unit responses to trigeminal nucleus and acoustic stimulation in the\nguinea pig. Neurosci. Lett. 395, 71\u201375 (2006).\n20. Lakatos, P., Chen, C. M., O\u2019Connell, M. N., Mills, A. & Schroeder, C. E. Neuronal\noscillations and multisensory interaction in primary auditory cortex. Neuron 53,\n279\u2013292 (2007).\n21. Shore, S.E.Multisensory integration inthedorsalcochlearnucleus: unitresponses\nto acoustic and trigeminal ganglion stimulation. Eur. J. Neurosci. 21, 3334\u20133348\n(2005).\n22. Cardona, A. et al. An integrated micro- and macroarchitectural analysis of the\nDrosophila brain by computer-assisted serial section electron microscopy. PLoS\nBiol. 8, e1000502 (2010).\n23. Saalfeld, S., Fetter, R., Cardona, A. & Tomancak, P. Elastic volume reconstruction\nfrom series of ultra-thin microscopy sections. Nature Methods 9, 717\u2013720 (2012).\n24. Pfeiffer, B. D. et al. Tools for neuroanatomy and neurogenetics in Drosophila. Proc.\nNatl Acad. Sci. USA 105, 9715\u20139720 (2008).\n25. Pfeiffer, B. D. et al. Refinement of tools for targeted gene expression in Drosophila.\nGenetics 186, 735\u2013755 (2010).\n26. Li, H. H. et al. A GAL4 driver resource for developmental and behavioral studies on\nthe larval CNS of Drosophila. Cell Rep. 8, 897\u2013908 (2014).\n27. Hwang, R. Y. et al. Nociceptive neurons protect Drosophila larvae from parasitoid\nwasps. Curr. Biol. 17, 2105\u20132116 (2007).\n28. Ohyama, T. et al. High-throughput analysis of stimulus-evoked behaviors in\nDrosophila larva reveals multiplemodality-specific escape strategies. PLoS ONE 8,\ne71706 (2013).\n29. Tsubouchi, A., Caldwell, J. C. & Tracey, W. D. Dendritic filopodia, Ripped Pocket,\nNOMPC, and NMDARs contribute to the sense of touch in Drosophila larvae. Curr.\nBiol. 22, 2124\u20132134 (2012).\n30. Yan, Z. et al. Drosophila NOMPC is a mechanotransduction channel subunit for\ngentle-touch sensation. Nature 493, 221\u2013225 (2013).\n31. Zhang, W., Yan, Z., Jan, L. Y. & Jan, Y. N. Sound response mediated by the TRP\nchannels NOMPC,NANCHUNG,andINACTIVEinchordotonalorgansofDrosophila\nlarvae. Proc. Natl Acad. Sci. USA 110, 13612\u201313617 (2013).\n32. Robertson, J. L., Tsubouchi, A. & Tracey, W. D. Larval defense against attack from\nparasitoid wasps requires nociceptive neurons. PLoS ONE 8, e78704 (2013).\n33. Tracey, W. D. Jr, Wilson, R. I., Laurent, G. & Benzer, S. painless, a Drosophila gene\nessential for nociception. Cell 113, 261\u2013273 (2003).\n34. Vogelstein,J. T.etal. Discovery ofbrainwide neural\u2013behavioral maps via multiscale\nunsupervised structure learning. Science 344, 386\u2013392 (2014).\n35. Xiang, Y. et al. Light-avoidance-mediating photoreceptors tile the Drosophila larval\nbody wall. Nature 468, 921\u2013926 (2010).\n36. Zhong, L. et al. Thermosensory and nonthermosensory isoforms of Drosophila\nmelanogaster TRPA1 reveal heat-sensor domains of a thermoTRP Channel. Cell\nRep. 1, 43\u201355 (2012).\n37. Schrader,S.& Merritt,D.J.Central projections ofDrosophilasensoryneurons inthe\ntransition from embryo to larva. J. Comp. Neurol. 425, 34\u201344 (2000).\n38. Zlatic, M., Li, F., Strigini, M., Grueber, W. & Bate, M. Positional cues in the Drosophila\nnerve cord: semaphorins pattern the dorso-ventral axis. PLoS Biol. 7, e1000135\n(2009).\n39. Grueber, W. B. et al. Projections of Drosophila multidendritic neurons in the central\nnervous system: links with peripheral dendrite morphology. Development 134,\n55\u201364 (2007).\n40. Klapoetke, N. C. et al. Independent optical excitation of distinct neural populations.\nNature Methods 11, 338\u2013346 (2014).\n41. Ernst,M. O. & Bulthoff, H. H. Mergingthe senses into a robust percept. Trends Cogn.\nSci. 8, 162\u2013169 (2004).\n42. Kenshalo, D. R., Iwata, K., Sholas, M. & Thomas, D. A. Response properties and\norganization of nociceptive neurons in area 1 of monkey primary somatosensory\ncortex. J. Neurophysiol. 84, 719\u2013729 (2000).\n43. Mendell, L. M. Physiological properties of unmyelinated fiber projection to the\nspinal cord. Exp. Neurol. 16, 316\u2013332 (1966).\n44. Ohshiro, T., Angelaki, D. E. & DeAngelis, G. C. A normalization model of\nmultisensory integration. Nature Neurosci. 14, 775\u2013782 (2011).\n45. Bargmann, C. I. & Marder, E. From the connectome to brain function. Nature\nMethods 10, 483\u2013490 (2013).\n46. White,J. G., Southgate, E., Thomson, J. N.& Brenner, S.Thestructureofthe nervous\nsystem of the nematode Caenorhabditis elegans. Phil. Trans. R. Soc. Lond. B 314,\n1\u2013340 (1986).\n47. Bock, D. D. et al. Network anatomy and in vivo physiology of visual cortical neurons.\nNature 471, 177\u2013182 (2011).\n48. Briggman, K. L., Helmstaedter, M. & Denk, W. Wiring specificity in the\ndirection-selectivity circuit of the retina. Nature 471, 183\u2013188 (2011).\n49. Kim, J. S. et al. Space-time wiring specificity supports direction selectivity in the\nretina. Nature 509, 331\u2013336 (2014).\n50. Takemura, S. Y. et al. A visual motion detection circuit suggested by Drosophila\nconnectomics. Nature 500, 175\u2013181 (2013).\nSupplementary Information is available in the online version of the paper.\nAcknowledgements We thank G. Rubin and the Janelia Fly EM Project for the gift of the\ncomprehensive image dataset of the larval nervous system; S. Lauchie and A. Brothers\nfor assistance with EM imaging; B. Arruda and T. Dang for assistance with behavioural\nscreens; L. Herren, I. Andrade, K. Floria and A. Berthold van der Bourg for assistance\nwith neuronal reconstruction; G. Rubin, H. Dionne and B. Pfeiffer for GAL4 and Split\nGAL4 lines; A. Nern and G. Rubin for the single cell FLP-out stocks; J.-M. Knapp for\nTsh-LexA stock; H.-H. Li and Janelia Fly Light Project Team for images of neuronal lines;\nK. Hibbard, M. Mercer, T. Laverty and the rest of Janelia Fly Core for stock construction\nand fly crosses; G. Denisov for the roll and crawl detection LARA software; E. Trautman,\nR. Svirskas, C. Weaver and D. Olbris for data analysis pipelines; Y. Park, C. Priebe,\nD. Naiman and J.-B. Masson for advice on statistical analysis; V. Jayaraman for input on\ncalcium imaging; and W. Denk, B. Dickson, S. Druckmann, B. Gerber, K. Svoboda and\nC. Zuker for helpful comments on the manuscript. We thank Janelia HHMI for funding.\nA.C. and C.M.S.-M. were also funded by the Institute of Neuroinformatics of the\nUniversity of Zurich and ETH Zurich, the SNSF grant 31003A_132969, the Universita\u00a8t\nZu\u00a8rich Forschungskredit, and the HHMI Visiting Scientist program at Janelia. The EM\nimage data is available via the Open Connectome Project (http://\nwww.openconnectomeproject.org).\nAuthor Contributions T.O., C.M.S.-M., A.C. and M.Z. conceived the project, analysed the\ndata and wrote the manuscript. T.O. performed and analysed behavioural and\nfunctional imaging experiments. C.M.S.-M., J.V.A. and A.C. performed neuronal\nreconstructions. A.C. registered the L1 volume. J.W.T. analysed the expression patterns\nof all the GAL4 lines and intersections for targeting of single cell types. R.D.F. generated\nthe EM image data. M.R.A. and K.B. wrote the JAABA roll detection pipeline and\nperformed statistical analysis. J.H.S. supported the generation of the abd1.5 dataset.\nR.F. provided critical suggestions for functional imaging experiments. C.M.S.-M. built\nthe model. B.D.M. provided critical input and helped with writing the manuscript.\nAuthor Information Reprints and permissions information is available at\nwww.nature.com/reprints. The authors declare no competing financial interests.\nReaders are welcome to comment on the online version of the paper. Correspondence\nand requests for materials should be addressed to A.C. (cardonaa@hhmi.org) or M.Z.\n(zlaticm@hhmi.org).\n3 0\nA P R I L 2 0 1 5 |\nV O L\n5 2 0 |\nN A T U R E\n| 6 3 9\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "with",
+          "multidendritic",
+          "of",
+          "nociceptive",
+          "descending",
+          "performed",
+          "cortical"
+        ],
+        "key_concepts": [
+          "calcium imaging",
+          "avoidance",
+          "escape",
+          "direction",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 8,
+      "full_text": "METHODS\nFly strains. In the main text and figures, short names are used to describe geno-\ntypes for clarity. The complete genotypes of animals used in this study are shown\nin Supplementary Table 2.\nThe following strains from the Rubin GAL4/LexA collection were used for the\nfigures in the manuscript: R61D08-GAL4, R69F06-GAL4, R72F11-GAL4,\nR20B01-GAL4, R71A10-GAL4, R57F07-GAL4, R47D07-GAL4, R16E11-LexA,\nR61D08-LexA, R72F11-LexA and the control stock w;;attp2 with no GAL4 or\nLexA24,51. For the thermogenetic activation screen we selected 586 GAL4 lines26\nthat drove expression in relatively few neuron types (one to five) and used them to\ndrive expression of TRPA with UAS-dTRPA152,53.\nThe following effector stocks were used: pJFRC25-13xLexAop2-IVS-dTrpA1 in\nvk0525,54;\npJFRC48-13xLexAop2-IVS-mrytdTomato\nin\nattp18,\npJFRC20-\n8xLexAop2-IVS-GAL80-WPRE in attp1825,54; pJFRC29-10xUAS-IVS-myr::GFP-\np10 in attp254; pGP-JFRC7-20xUAS-IVS-GCaMP6s55 (Bloomington stock no.\n42749); pGP-JFRC7-20xUAS-IVS-GCaMP6f5 (Bloomington stock no. 52869);\n20xUAS-IVS-GCaMP3 (Bloomington stock no. 32236;56); and UAS-JFRC12-\n10xUAS-mryGFP (Bloomington stock no. 32197;51,54) were gifts from B. D.\nPfeiffer, G. Rubin, and the GECI project team (HHMI Janelia Research\nCampus). ppk1.9-GAL457 was a gift from D. Tracey (Duke University). ppk-\n1kb-hs43-lexA-GAD in attp40 was a stock that was previously described in ref.\n34. UAS-dTRPA152 was a gift from P. Garrity. UAS-EGFP-Kir2.158 was outcrossed\nto w1118 and gifted from D. Sitaraman (Yale University). LexAop2-P2X2\n59 was a\ngift from C.-H. Yang (Duke University; unpublished stock).\nFor\nselective\ntargeting\nthe\nGoro\nneurons,\nwe\nused\nLexAop-FLP;\nUAS.stop.dTrpA1::myc60 a gift from B. Dickson, crossed with w1118;16E11-\nLexA (attp40); R69F06-GAL4 (attp2), which drives expression in Goro neurons.\nThe expression was determined by anti-Myc antibody (seen on immunohisto-\nchemistry).\nTsh-LexA was a gift from J.-M. Knapp and J. Simpson (unpublished stock). In\nbrief, the tsh-LexA driver is an enhancer trap inserted into the 59 UTR of the tsh\nlocus. It was generated via a P-element swap that replaced the p{GawB} insertion\nof tsh-GAL461 with P{UpP65L} and the enhancer-trap LexA construct. Proper\ntargeting and orientation of P{UpP65L} were confirmed by splinkerette PCR and\nsequencing by J.-M. Knapp (unpublished results).\nLexAop2-mry-TDTomato-p10 (attp40), a gift from D. Mellert (HHMI Janelia\nResearch Campus; unpublished stock), is an mry::TDtomato fragment with\nAcNPV p1054. To selectively target Basin-4 neurons we generated a Split-\nGAL425,62 stock R72F11_AD inserted in attp40 (chromosome 2L) and\n57F07_DBD in attp2 (3L). AD and DBD combinations were assembled in a\nw1118 background. We identified R57F07 as a candidate line for this intersection\nbecause its activation also evoked rolling in the thermogenetic activation screen\n(Extended Data Fig. 4). Stochastic labelling of single cells in R57F07 and R72F11,\nusing a FLP-based strategy (see below) revealed they both drive expression in\nBasin-4. R57F07 also drove expression in other neurons in the tip of the nerve\ncord and brain (Extended Data Fig. 4).\nThe \u2018FLP-out\u2019 approach63 for stochastic single-cell labelling will be described in\ndetail elsewhere (Nern et al., manuscript in preparation). In brief, heat-shock\ninduced expression of FLP recombinase was used to excise FRT-flanked inter-\nruption cassettes from UAS reporter constructs carrying HA, V5, and Flag epi-\ntope tags, and stained with epitope-tag specific antibodies. This labelled a subset\nof the cells in the expression pattern with a stochastic combination of the\nthree labels.\nBehavioural apparatus. The apparatus comprises a video camera (DALSA\nFalcon 4M30 camera) for monitoring larvae, a ring light illuminator (Cree\nC503B-RCS-CW0Z0AA1 at 624 nm in the red), a computer (see ref. 28 for details;\navailable upon request are the bill of materials, schematic diagrams and PCB\nCAM files for the assembly of the apparatus) and two hardware modules for\ncontrolling vibration and temperature (Oven Industries PA, Model 0805). Both\nhardware modules were controlled through multi worm tracker (MWT) software\n(http://sourceforge.net/projects/mwt), as described in ref. 28.\nThe module for presenting vibration consists of a speaker (120 W, 12 inches in\ndiameter) and an amplifier (Pyle Pro PCA3) controlled by a signal generator\n(Tektronix AFG3021B). The speaker was used to generate vibrations between\n100 and 1000 Hz, with an electronic signal (1 V, 100 Hz) generating a sound\npressure level of 122 dB at the assay plate (measured by a Realistic 33-2050\nSound Level Meter). The frequency of vibration at the agar surface and vibration\nintensity (measured as acceleration in m s22) was measured with an ADXL345\n3-axis accelerometer assembled onto a small printed circuit board placed on the\nagar as described in ref. 28.\nFor thermal activation, we used a Peltier module controlled by a temperature\ncontroller (Oven Industries PA, Model 0805). An aluminium plate covered with a\nthin layer of 4% charcoal agar was placed on the Peltier module. The temperature\nof the agar was raised from 20 uC to 30 uC/32 uC to weakly/strongly activate the\ndTRPA1 channel. By using a temperature gun, we confirmed that the agar\nreached the Peltier tile setting temperature. The time to reach the target temper-\nature ranged from 3 to 8 s. The behaviour rigs were inside 32.00\u2019\u2019 wide 3 28.00\u2019\u2019\ndeep 3 60.00\u2019\u2019 high temperature-controlled enclosures with temperature settable\nfrom ambient to 40 uC in 0.1 uC steps (Life Science Engineering, Inc.). The\nhumidity in the room was monitored and held at 58%, with humidifiers\n(Humidifirst Mist Pac-5 Ultrasonic Humidifier).\nBehavioural experiments. Embryos were collected for 6 h at 18 uC and 65%\nhumidity. Larvae containing the UAS-dTrpA1 or LexA-dTrpA1 transgene were\nraised at 18 uC for 7 days with normal cornmeal food. Foraging third instar larvae\nwere used for all experiments. Larvae containing the UAS-CsChrimson transgene\nwere grown in the dark at 25 uC for 4 days on fly food containing trans-retinal\n(Sigma, R2500) at a concentration of 500 M.\nBefore the experiments, the larvae were separated from food by using 15%\nsucrose and washed with water. The larvae were then dried and placed in the\ncenter of the arena. The substrate for the behavioural experiments was 3% Bacto\nagar gel in a 25 3 25 cm square plastic plate for experiments involving thermal\nactivation and vibration stimuli, or a 10 3 10 cm plate for those involving thermal\nactivation alone. We tested approximately 15\u201350 larvae at once in the behavioural\nassays. The temperature of the entire rig was kept at 25 uC (for optogenetic\nactivation experiments) or 30 uC or 32 uC for thermogenetic activation experi-\nments. The agar plates were also kept at the desired temperature prior to experi-\nment. For optogenetic activation experiments we exposed dishes of larvae to red\nlight (630 nm, 2.4 mW per cm2). Optogenetic activation offers greater temporal\nprecision than thermogenetic activation so we used to study the ability of Basin,\nGoro and A00c neurons to trigger the entire behavioural sequence roll-fast crawl,\nor just a single element of the sequence (roll or crawl)\nThe MWT software64 (http://sourceforge.net/projects/mwt) was used to record\nall behavioural responses and to control the presentation of vibration stimuli.\nFor the thermogenetic activation screen we used 586 GAL4 lines preselected for\nexpression in relatively few neuron types (one to five) to drive expression of\ndTRPA1. In each experiment, we exposed dishes of larvae to 32 uC to thermo-\ngenetically activate dTRPA1-expressing neurons. We detected 32 \u2018hits\u2019 that con-\ntained neurons whose thermogenetic activation evoked rolling in a significant\nfraction of animals. We analysed further hits that evoked rolling in the highest\nfraction of larvae and that drove expression in the least neuron types.\nBehaviour quantification. Larvae were tracked in real-time using the MWT\nsoftware. We rejected objects that were tracked for less than 5 seconds or moved\nless than one body length of the larva. For each larva MWT returns a contour,\nspine and centre of mass as a function of time. Raw videos are never stored. From\nthe MWT tracking data we computed the key parameters of larval motion, using\nspecific choreography (part of the MWT software package) variables28. From the\ntracking data, we detected and quantified crawling and rolling events and the\nspeed of peristaltic crawling strides as described in ref. 28, using the LARA\nsoftware package (http://sourceforge.net/projects/salam-hhmi). We also trained\na machine-learning classifier, using JAABA (Janelia Automatic Animal Behavior\nAnnotator65) to detect rolling events from the tracking data. The false detection\nrate of the JAABA rolling classifier was slightly smaller (2.8%, n 5 89) than that of\nthe LARA detection software (3.6%), but the results obtained with both methods\nwere very similar. The MATLAB code for the rolling classifier is available upon\nrequest. The data presented is a quantification of rolling events detected with\nJAABA. To calculate the percentage of animals that rolled in response to thermo-\ngenetic activation, vibration, or both, we selected for analysis all the animals that\nwere tracked throughout the entire 15-second sampling interval following stimu-\nlation. We then calculated the percentage of animals from this sample for which at\nleast one rolling event was detected during the 15-second interval. The instant-\naneous percentage of rolling and crawling larvae (Extended Data Fig. 7a) as a\nfunction of time was calculated by dividing the number of larvae performing\nrolling at each time point with the total number of larvae tracked at each\ntime point.\nSelective targeting of Goro neurons. We expressed FLP selectively in the Goro\nneurons using the weak 16E11 LexA lines (in 16ElexA/LexAop FLP;\nUAS.stop.UAS-dTRPA1::myc/R69F06). Selectively in Goro neurons, FLP\nstochastically excises the STOP cassette that prevents the expression of UAS-\ndTRPA1. Now the strong R69F06 promoter can drive high levels of dTRPA1\nexpression, selectively in Goro neurons. Since this method of Goro activation is\nstochastic we monitored rolling in response to 32 uC exposure in individual\nlarvae. We dissected all animals, noted whether they rolled or did not, and stained\ntheir nervous systems with anti-Myc, to identify those that had Goro expression.\nStatistical analysis. Statistical analysis was performed using MATLAB\n(MathWorks) software. The calcium responses in the paired trials shown in\nFig. 4f were compared both using the paired t-test and Wilcoxon signed-rank\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "least",
+          "goro",
+          "other",
+          "few",
+          "expressing",
+          "a00c",
+          "tained",
+          "4"
+        ],
+        "key_concepts": [
+          "orientation",
+          "turn",
+          "speed",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 9,
+      "full_text": "test. Required sample size for power 0.8 was determined using GPower software\nfor paired t-test and for a large pre-specified effect size based on a few pilot trials.\nIndeed the effect size in the data was large (P 5 0.016 and d 5 1.05 for one-sided\npaired t-test and P 5 0.02 and r 5 0.81 using Wilcoxon signed-rank test). The\nspeed of peristaltic crawling strides was compared using Wilcoxcon rank sum test\n(and Bonferroni correction for multiple comparisons). In all figures, * and **\nrepresent P , 0.05 and P , 0.01, respectively. Required sample size for power 0.8\nwas determined using GPower software for a medium pre-specified effect\nsize. The fractions of animals that rolled under the different experimental con-\nditions were compared using the x2 test. P values were corrected for multiple\ncomparisons using Bonferroni correction. Power analysis was performed as\ndescribed below.\nWe performed an analysis of the power of our statistical tests of behavior\ndifferences, given the sample sizes and effect sizes observed. In addition, we\ncomputed the minimum effect sizes our analyses would have been sensitive to\nwith a power 0.95, given the sample sizes. In our power analyses, we assumed that\nthe distribution of the fraction of larvae that rolled for the control populations, q0,\nwas known and equal to the fraction measured in a large number of trials.\nFor each experiment, we tested the null hypothesis that the fraction of experi-\nmental animals that rolled was less, more, or equal to the control fraction,\ndepending on the type of experiment. For example, when activating the Goro\nneurons, we tested whether we could reject the null hypothesis that the fraction of\nlarvae that rolled was less than or equal to the control fraction. In this case,\nassuming that each animal is an independent sample from the same distribution,\nthe number of larvae rolling follows a binomial distribution. Thus, if the null\nhypothesis is that the experimental larvae roll at most as much as control, the\nprobability that the null hypothesis holds can be computed from the binomial\ncumulative distribution function:\nPr\n\u0192q0 n,^qn\n\u00f0\n\u00de~1{binocdf ^qn,q0\n\u00f0\n\u00de\nWhere n is the number of experimental larvae tested, ^q is the measured fraction\nthat roll, and binocdf (k,r) is the binomial cumulative distribution function. We\nassumed we would reject the null hypothesis if this probability was less than 0.01.\nFor a given q0 and n, we can thus compute ^q\u0002\nq0,n, the minimum ^q such that we\nwould reject the null hypothesis using this equation.\nTo compute the power of this statistical test given the sample size n and true\nfraction of experimental larvae expected to roll q, we assumed that our collected\nexperimental data were independent draws from the Bernoulli distribution with\nparameter q, and computed the probability that our observed fraction of\nPr reject null hypothesisjq0\u0192q, n\n\u00f0\n\u00de~1{binocdf ^q\u0002\nq0,nn, q0\n\u0002\n\u0003\nAnalogous equations were used for testing whether the experimental rolled at\nleast as much as control or the same amount as control.\nUsing these equations, we computed the power of each statistical test given the\nobserved sample size n, control fraction that rolled q0, and the experimental\nfraction that rolled q, for each set of experiments. We also computed the min-\nimum effect size q / q0 that would be sensitive with power 0.95, given the observed\nsample size n and control fraction that rolled q0. These results are listed in\nSupplementary Tables 1 and 3.\nImmunohistochemistry. The following antibodies were used: rabbit anti-GFP\n(1:1000, A11122, Invitrogen), rat anti-N-Cad (1:50, Developmental Studies\nHybridoma Bank), mouse anti-nc82 (1:20; Developmental Studies Hybridoma\nBank), mouse-anti-Myc (9E10, 1:20, Developmental Studies Hybridoma Bank),\nrabbit anti-HA-Tag (1:300, Cell Signaling, #3724), rat anti-FLAG (1:200,\nNOVUS, NPP1-06712), mouse anti-V5 Dylight549 (1:400, AbD Serotec,\nMCA1360D549). For secondary antibody Alexa Fluor 488 goat anti-rabbit IgG\n(1:200, Invitrogen), Alexa Fluor 568 goat anti-mouse IgG (1:200, Invitrogen) and\nAlexa Fluor 488 goat anti-mouse IgG (1:200, Invitrogen) were used.\nThe central nervous systems of wandering third instar larvae were dissected in\ncold Schneiders Insect medium (Sigma, S0146) and fixed in 4% phosphate-buf-\nfered saline (PBS) with 4% paraformaldehyde (Electron Microscopy Science) at\nroom temperature for 20 min. After washes in 0.4% Triton X-100 in PBS, samples\nwere preblocked with 3% normal goat serum (NGS) in for 30 min at room\ntemperature. The samples were then incubatedin primary antibody for 2 to 3 days\nat 4 uC. After extensive washes in 0.4% Triton X-100 in PBS, the samples were\nincubated at 4 uC for 2 days in a secondary antibody solution. After further\nextensive washes, the samples were rinsed in PBS, dehydrated through an\nEtOH series, cleared in Xylene and mounted in DPX mountant (Sigma-\nAldrich). Images were taken with a 710 or 700 laser-scanning confocal micro-\nscope (Zeiss) under 203 0.8 NA or 633, 1.4 NA objective and processed in\nImageJ software66 (NIH).\nFunctional connectivity assay (GCaMP recording). For activation of presynap-\ntic neurons (MD IV, chordotonal, Basins or A05q) with the ATP-gated P2X2\nchannel and imaging in postsynaptic neurons (Basins, Goro, A00c or A05q), the\ncentral nervous system of wandering third instar larvae were dissected out in cold\nphysiological saline containing 103 mM NaCl, 5 mM KCl, 5 mM HEPES, 26 mM\nNaHCO3 , 1 mM NaH2 PO4 , 5 mM Trehalose, 6 mM sucrose, 2 mM CaCl2 2 mM\nH2O, 8 mM MgCl2 6 mM H2O, and kept stable by sticking them on poly-L-lysine\n(SIGMA, P1524) coated cover glass placed in small Sylgard (Dow Corning) plates.\nA borosilicate pipette (1 to 2 mm tip diameter) filled with 5 mM adenosine 59-\ntriphosphate (ATP, Amersham 27-1006) and 50 g ml21 Alexa Fluor 594 hydra-\nzide (Invitrogen, A10438) dye in physiological saline was positioned 3 to 5 mm\nfrom the axon terminals of the target presynaptic neurons expressing the ATP-\ngated P2X2 channel and dsRed and the ATP solution was pressure-ejected using a\nPicospritzer (Parker Hannifin Co.).\nWhen ejecting ATP onto the axon terminals of MD IV or chordotonal neurons,\nwe imaged calcium transients in the dendritic arbor of the Basin neurons, not the\ncell bodies (which in the insect are removed from the neuropil). When stimulat-\ning Basins in abdominal segments, by ejecting ATP onto their axon terminals in\nventral nerve cord, we imaged calcium transients in the dendrites of Goro (in\ndorsal thoracic nerve cord), or in axon terminals of A05q (in dorsal nerve cord)\nand A00c (in the brain). When stimulating A05q by ejecting ATP onto their\ndendrites in ventral nerve cord in abdomen, we imaged calcium transients in\nGoro dendrites in dorsal thoracic nerve cord.\nPuffs were 25 ms in duration, and the pressure was adjusted so that red fluor-\nescence (from the Alexa 594) ejection could be seen clearly while imaging.\nThe same stimulus was presented every 30 sec for a total of three trials in each\nexperiment.\nWhen vibration stimuli were also used in experiments, rather than only P2X2\nactivation, the larvae were dissected using methods similar to those described\npreviously for neuromuscular junction67 on the Sylgard plate. In brief, larvae were\ncut up along the dorsal body wall midline and then opened by placing dissection\npins. The cell bodies of abdominal peripheral sensory neurons and their nerves\nwere kept intact. The anterior tips were removed, and the CNS was attached to a\npoly-L-lysine coated cover glass. For vibration stimuli in the two-photon rig, we\nembedded piezo extension actuators (Piezo System Inc., Model Q220-A4-303XE)\nin the Sylgard plate and used TTL pulses from the Prairie View software to control\nthe timing of stimulation. The acceleration was measured with an ADXL345\n3-axis accelerometer28. The vibration stimuli were 1,000 Hz and 6.67 m s22,\n15 sec long. The same stimulus was presented every 30 sec for a total of three\ntrials in each experiment. For comparing the responses of Basin-4 to combined\nactivation (nociceptor activation with P2X2 and ATP injection plus vibration) to\nnociceptor activation or vibration alone (Figure 4d and e), each trial consisted of\nATP injection, vibration, and a combination (ATP injection and vibration), with\n30 sec between each stimulation. Three such triplet trials were presented in each\nexperiment.\nWe performed imaging on a Prairie Technologies two-photon microscope\nusing an Olympus 603 0.8 NA objective. A mode-locked Ti:Sapphire\nChameleon Ultra II laser (Coherent) tuned to 925 nm was used for excitation.\nFluorescence was collected with photomultiplier tubes (Hamamatsu) after band-\npass filtering. Images were acquired in frame-scan mode (maximum speed,\n1,215 f.p.s.) for a single plane of the CNS.\nGCaMP image analysis. Image data were processed by ImageJ software66 (NIH)\nand analysed using custom code written in MATLAB (MathWorks). Specifically,\nregions of interest (ROIs) were determined by averaging the ten frames before\nstimulation and segmenting this data by the function MEAN68 in ImageJ. The\nmean intensity of the ROI was measured in ImageJ. In all cases, changes in\nfluorescence were calculated relative to baseline fluorescence levels (F0) as deter-\nmined by averaging over a period of at least 3 sec just before ATP puff or vibration\nstimulation. DF/F0 values were calculated as DF/F0 5 (Ft 2 F0)/F0, where Ft is the\nfluorescent mean value of a ROI in a given flame. Peak DF/F0 is the maximum\nvalue in the 5 sec window following stimulus onset.\nElectron microscopy preparation and imaging. For generating the electron\nmicroscopy dataset comprising 1.5 abdominal segments (segment a2 and a3),\nthe central nervous systems from 12\u201324-h-old wild-type w1118 first instar larvae\nwere manually dissected out in PBS, and immediately transferred to 2% glutar-\naldehyde in 0.1 M sodium cacodylate, pH 7.4 buffer. Samples were post-fixed in\n1% OsO4 in the same buffer and stained en bloc with 1% aqueous uranyl acetate\nbefore subsequent dehydration in ethanol and propylene oxide, and embedding\nin Epon. Serial 45 nm sections were cut with a Leica UC6 ultramicrotome using a\nDiatome diamond knife, and picked up with Synaptek slot grids with Pioloform\nsupport films. Sections were stained with uranyl acetate followed by Sato\u2019s lead69.\nFor generating the electron microscopy dataset comprising the entire central\nnervous system, central nervous systems from 6-h-old [iso] Canton S G1 x w1118\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "goro",
+          "chordotonal",
+          "presynaptic",
+          "basin",
+          "sensory",
+          "postsynaptic",
+          "tic",
+          "peripheral"
+        ],
+        "key_concepts": [
+          "two-photon",
+          "confocal",
+          "speed",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 10,
+      "full_text": "[iso] 5905 female larvae were manually dissected out in PBS. The isolated central\nnervous systems were immediately transferred to 125 ml of 2% glutaraldehyde in\n0.1 M sodium cacodylate buffer, pH 7.4 in a 0.5 dram glass vial (Electron\nMicroscopy Sciences, cat. no. 72630-05) to which an equal volume of 2% OsO4\nin 0.1 M sodium cacodylate buffer, pH 7.4 was added and gently mixed. Each CNS\nwas then fixed in an ice bath in a Pelco BioWave PRO microwave oven (Ted Pella,\nInc.) at 350-W, 375-W and 400-W pulses for 30 sec each, separated by 60-sec\nintervals with the microwaves off. Samples were rinsed 3 3 30 sec at 350 W with\n0.1 M sodium cacodylate buffer, separated by 60-sec intervals with the micro-\nwaves off, and post-fixed with 1% OsO4 in 0.1 M sodium cacodylate buffer at 350-\nW, 375-W and 400-W pulses for 30 sec each, separated by 60-sec intervals with\nthe microwaves off. After rinsing with distilled water 3 3 30 sec at 350 W with 60-\nsec pauses between pulses, the samples were stained en bloc with 1% uranyl\nacetate in water by microwave at 350 W for 3 3 30 sec with 60-sec pauses between\nmicrowave pulses. The samples were then dehydrated in an ethanol series fol-\nlowed by propylene oxide, infiltrated and embedded with EPON resin. Serial 50-\nnm sections were cut with a Leica UC6 ultramicrotome using a Diatome diamond\nknife, and picked up with Synaptek slot grids with Pioloform support films with\n2 nm of carbon (C). Sections were stained with uranyl acetate followed by\nSato\u2019s lead69.\nBoth data sets were imaged using Leginon70, the 1.5 abdominal segment on an\nFEI T20 TEM (Hillsboro) at 4.4 nm 3 4.4 nm pixel resolution, the complete L1\nbrain on an FEI Spirit TEM at 3.8 nm 3 3.8 nm pixel resolution. The resulting\nimages were montaged and registered using the nonlinear elastic method\ndescribed in ref. 23.\nNeuronal reconstruction. Reconstructions were made in a modified version of\nCATMAID71 (http://www.catmaid.org). The process of reconstructing neurons\nin CATMAID involves starting with a specified neurite in a section of the electron\nmicroscopy data, and manually building a 3D skeleton representation of the\nneuronal morphology and the location of synaptic active zones and synaptic\npartners.\nThe synaptic connections mapped and reported in this study all represent fast,\nchemical synapses. Synapses must match several criteria over multiple adjacent\nsections: a thick black active zone, vesicles, and presynaptic specializations, such\nas a T-bar, on the presynaptic side, and evidence of postsynaptic membrane\nspecializations72.\nTo identify sensory axons, reconstruction was initiated at the entry point of\nnerves into the neuropil. Sensory neurons project ventrally in the nerve cord, and\nmotor neurons project dorsally37,38,73, so the sensory axons were readily identified\nin the ventral portion of the nerve root. All sensory axons were traced and MD IV\nand chordotonal axons were recognized based on their distinguishing features,\npreviously described using confocal microscopy imaging37,38,74. Chordotonal pro-\njections were readily identified based on the characteristic intermediate location\nof their terminals in the mediolateral axis and the dorsoventral axis of the nervous\nsystem. We found that all eight chordotonal axons were already tightly bundled\ntogether in the nerve root. The MD IV projections were readily recognized based\non the characteristic medial-most and ventral-most location of their terminals.\nNeuronal partners of the eight chordotonal axons and the three MD IV axons in\nboth hemisegments were reconstructed by initiating reconstructions at the site of\nevery postsynaptic target in all chordotonal terminals until all targets were\nexhausted. A review of all skeletons was done by CMSM to identify incorrect\nor missed branches and synapses.\nIn the comprehensive L1 electron microscopy volume, Basin cells in A1 and A4\nsegments were found using landmarks such as cell body position, the entry point\nof primary neurite into the neuropil, and branch points on the primary neurite. In\nbrief, the Basin lineage was first recognized on the basis of the characteristic cell\nbody location (lateral intermediate), the trajectory of their primary neurite which\nis parallel to the entering nerve, and the neuropil entry point of the lineage, as well\nas the pattern of the low-order, large branches. The lineage contains more cells\nthan just the four Basins, but the other cells have very different projection pat-\nterns. The Basins in the A1 segment were identified by tracing the primary and\nsecondary neurites of multiple members of the lineage and abandoning those that\ndid not have the distinguishing features of the Basins. The four Basins in each\nhemisegment were reconstructed in full and individual Basins recognized based\non their unique features (see Extended Data Fig. 2). Basin targets were recon-\nstructed by tracing exhaustively downstream of all presynaptic sites in Basin\naxons. Goro neurons were found in a similar way as Basins. Starting with high-\nresolution 3D image stacks of single cells (visualized using the FLP-based strategy\ndescribed above), we looked at the cell body location, primary neurite projection,\nand major branch points. We then traced neurites consistent with the primary\nneurite projection and cell body location until finding only two individual cells,\none in each hemisegment of segment T2, with branch points consistent with Goro\nneurons. Completed reconstructions were then checked for consistency with light\ndata in axon and dendritic projections. Partial reconstructions of sibling neurons,\nas well as homologous neurons in adjacent thoracic segments, resulted in\nmorphologies very different from that of Goro neurons as observed by light\nmicroscopy, indicating that only two neurons in the whole of the thorax match\nthe expected morphological pattern. Descending neurons were found by recon-\nstruction of neurons upstream of synaptic inputs in Goro dendrites. A subset of\nfourth-order neurons was found by reconstructing downstream of all synaptic\noutput sites of only one of the ascending third-order A00c-a4 neurons. Left and\nright homologues of reconstructed neurons were identified by considering a suite\nof morphological and synaptic features, focusing on neuropil entry location,\nprimary branch locations, and the location of pre- and postsynaptic sites.\nNeuronal morphologies were analysed in MATLAB using custom scripts.\nCircuit diagrams were made in Gephi75 and edited in Adobe Illustrator CS6\n(Adobe Systems, Inc.).\nValidation of methodology of electron microscopy reconstruction. In\nDrosophila, as in other insects, the gross morphology of many neurons is stereo-\ntyped and individual neurons are uniquely identifiable based on morpho-\nlogy37,50,76,77. Furthermore, the nervous system in insects is largely bilaterally\nsymmetric and homologous neurons are reproducibly found on the left and\nthe right side of the animal. In this study we therefore validate the wiring diagram\nby: (1) independently reconstructing partners of homologous neurons on the left\nand right side of the nervous system; (2) independently reconstructing partners of\nhomologous neurons in EM volumes from two different individuals; (3) perform-\ning functional connectivity experiments to validate some key connections pre-\ndicted by the wiring diagram.\nValidating the wiring diagram by independent reconstruction on the left and\nright. By randomly re-reviewing annotated synapses and terminal arbors in our\ndataset we estimated the false positive rate of synaptic contact detection to be\n0.0167 (1 error per 60 synaptic contacts). Assuming the false positives are uncor-\nrelated, for an n-synapse connection the probability that all n are wrong (and thus\nthat the entire connection is a false positive) occurs at a rate of 0.0167n. Thus, the\nprobability that a connection is false positive reduces dramatically with the num-\nber of synaptic connections contributing to that connection.\nEven for n 5 2 synapse connections, the probability that the connection is not\ntrue is 0.00028 (once in every 3,586 two-synapse connections) and we call con-\nnections with two or more connections \u2018reliable\u2019 connections. Similarly, the\nprobability that even a one-synapse connection annotated between homologous\nneurons both on the left and on the right side of the nervous system is not true is\n0.00028. The probability that a false-positive connection with two synapses is\nobserved twice between the same cell types is even lower (0.000282). Because\nfalse-positive synapses between a single pair of homologous neurons could poten-\ntially be correlated (due to mis-annotation of a single branch with multiple con-\ntacts), we perform extra rounds of focused re-review of the arbors associated with\nconnections in our wiring diagram with less than four synapses to confirm that\nthey are neither mis-annotated synapses or incorrect branches. Furthermore,\nwhile false positives between a single pair of homologous neurons could poten-\ntially be correlated, the false positives between different pairs of homologous\nneurons (on the left side and the right side) cannot be correlated (they are not\non the same branch). Thus the probability that reliable (with two or more\nsynapses) and reproducible (found between both the left and right homologues\nwithin an individual) connections are not true is extremely low and we are highly\nconfident in such connections. All the connections discussed in this study and all\nthe principles derived from the wiring diagram are based on such reliable and\nreproducible connections.\nFalse negatives are far more common in our reconstructions than false posi-\ntives. We were able to trace 81.5% (1,676/2,054) of postsynaptic sites downstream\nof Basins back to identifiable neuronal arbors, leaving 18.5% (378/2,054) of\nsynaptic outputs associated with small, unidentifiable arbor fragments due to\nambiguities in the data. The majority have only a single synaptic input from\nBasins (163/231 fragments), and only 8/231 fragments have five or more Basin\ninputs. If the synapses that could not be associated with identified neurons were\ndistributed randomly, the likelihood of completely omitting a connection with\nn synapses is approximately 0.185n, which is 0.006 for n 5 3. Thus the like-\nlihood that we have completely omitted a three-or-more-synapse connection is\nquite low.\nReproducibility of the wiring diagram across different individuals. For a con-\nnection in the wiring diagram to be useful for future physiological and beha-\nvioural experiments in different individuals, it should not just be correctly\nidentified in one animal, but it should be generalizable across animals. We there-\nfore assessed the extent to which the connections in this wiring diagram are\nreproducible across individuals.\nFor this study we obtained electron microscopy volumes from two different\nlarvae: one comprising 1.5 nerve cord segments (a2/a3), and one comprising the\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 4,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "goro",
+          "reconstructed",
+          "of",
+          "motor",
+          "homologous",
+          "order",
+          "a4",
+          "and",
+          "descending",
+          "sensory",
+          "reconstructing",
+          "sibling",
+          "identifiable",
+          "the",
+          "two",
+          "many",
+          "individual",
+          "identified"
+        ],
+        "key_concepts": [
+          "parallel",
+          "confocal"
+        ]
+      }
+    },
+    {
+      "page_number": 11,
+      "full_text": "entire nervous system. We reconstructed the chordotonal and MD IV sensory\nneurons, the Basin neurons and all the other partners downstream of both the\nnociceptive and the sensory neurons in both electron microscopy volumes. In the\nsmaller abd1.5 volume some of the downstream neurons had a large fraction of\ntheir arbor outside the volume and were not identifiable, whereas others were\nmostly confined within the electron microscopy volume and were uniquely iden-\ntifiable based on key morphological features. We could therefore assess the repro-\nducibility of connections between homologous neurons present and uniquely\nidentifiable in both volumes across two individuals (Extended Data Fig. 3). We\nidentified connections between neuron types that have at least two synapses and\nfor which a connection with at least two synapses also exists between homologous\nneuron types on the other side of the same individual. 100% (n 5 36) of connec-\ntions with at least two synapses per connection that were reproducible across the\nsame individual were also reproducible across individuals; that is, those connec-\ntions also existed on both sides in the other individual.\nIf we consider each individual sensory neuron in a hemisegment as unique, we\nfind a total of 76 connections (38 pairs of connections) between individual neurons\nwith at least two synapses between homologues on both the left and right of the\nsame individual. In 100% of cases in which a connection was present between\nhomologues on both sides in one animal it was also present between homologues\nin the other animal, at least on one side. 96% of connections with at least two\nsynapses that existed between homologous neurons on both sides in one animal\nalso existed between homologues on both sides in the other animal. 4% of connec-\ntions with at least two synapses present between homologues on both sides in one\nanimal were not present between homologues in the other animal on the same side,\nbut a connection was present between homologues on the other side (in the other\nhemisegment) in the other individual (see Extended Data Fig. 3 for more details).\nTogether with the above error rates, the observed reproducibility of connec-\ntions across individuals gives us strong confidence that the observation of a\nreliable connection in one animal both measures a real connection in that indi-\nvidual and predicts similar connectivity in other animals.\nFunctional validation of connections mapped using electron microscopy\nreconstruction. Another way to validate a wiring diagram is to functionally test\nthe connections obtained with electron microscopy reconstruction. If the ana-\ntomical and functional connectivity studies are done in different individuals this\nprovides further validation of the reproducibility and generalizability of the wir-\ning diagram. In this study we were able to generate reagents to functionally test a\nnumber of anatomical connections predicted by the wiring diagram. By activating\nthe presynaptic partner and monitoring calcium transients in the direct post-\nsynaptic partner we tested the following reproducible direct anatomical connec-\ntions with, on average, five or more synapses per connection:\nN MD IV onto Basin-4 (average .10 synapses per connection) (Fig. 3b)\nN Chordotonal onto Basins (average .10 synapses per connection) (Extended\nData Fig. 4d)\nN Basins onto A00c (average .10 synapses per connection) (Extended Data\nFig. 6j)\nN Basins onto A05q (average .5 synapses per connection) (Extended Data\nFig. 6e)\nN A05q onto Goro (average 5 synapses per connection) (Extended Data Fig. 6g)\nFor the anatomical connection from MD IV onto Basin-1 with only two\nsynapses per connection on average, the functional connectivity experiments\ndid not reveal a functional excitatory connection (Fig. 3a).\nModel of multilevel convergence. The model consists of two sensory inputs\nprocessed in two layers (Extended Data Fig. 8a). The sensory inputs, chordotonal\nand MD IV, have activity EMech and ENoci respectively. Sensory input intensity can\nrange from 0\u2013100 (arbitrary units), with the maximum value intended to approx-\nimate the highest intensity stimulus provided in the behavioural experiments of\nFig. 1. The first processing layer has two nodes, each representing one or more\nneurons: (1) a \u2018pure\u2019 node with output gP(EMech) that receives only mechanosen-\nsory input; and (2) a \u2018mixed\u2019 node with output gM(EMech,ENoci) that receives input\nfrom both sensory modalities. The second processing layer is a single node with\noutput gB (gP, gM) that receives input from both nodes of the first processing layer.\nThe output of the second layer constitutes the output of the circuit.\nWe considered the steady-state output of the network, assuming that the\nresponse of each node is a sigmoidal function of its total input, with a lower\nthreshold below which output is near-zero and an upper saturation point. We\nmodelled this as a logistic function78:\nf E; h,b\n\u00f0\n\u00de~Ch,b\n1\n1ze\n{ E{h\n\u00f0\n\u00de\nb\nwith total input E, threshold h, transition width b, and a constant Ch, b defined so\nthat f(100)5100. We set b510 for all nodes, which makes the transition between\nlow and high output cover about half of the input range. We omit b in subsequent\nequations for brevity.\nThe output of the pure node in the first processing layer is given by:\ngP EMech\n\u00f0\n\u00de~f EMech; hP\n\u00f0\n\u00de.\nFor the mixed node, we take the total input to be a weighted sum of the sensory\ninputs: gM EMech,ENoci\n\u00f0\n\u00de~f wMEMechz 1{wM\n\u00f0\n\u00deENoci; hM\n\u00f0\n\u00de\nwhere 0\u0192wM\u01921 measures the relative weighting of mechanosensory input. To\nrequire that the maximum total input each node can receive is the same, the\nweights sum to one.\nFor the second layer, we take total input to be a weighted sum of the outputs from\nthe nodes in the first layer:\ngB EMech,ENoci\n\u00f0\n\u00de~f wBgP EMech\n\u00f0\n\u00dez 1{wB\n\u00f0\n\u00degM EMech,ENoci\n\u00f0\n\u00de; hB\n\u00f0\n\u00de\nwhere 0\u0192wB\u01921 measures the weighting of the pure chordotonal node in the first\nlayer.\nA common feature of multisensory circuits is their enhanced sensitivity to\ncombinations of weak stimuli presented together. To consider this property in\nthe context of our circuit, we looked for circuit responses that are maximally\nsensitive to multisensory stimuli, but that are also consistent with basic experi-\nmental observations. We treated this as a constrained optimization problem; we\nfound mixing parameters wM and wB that optimize a measure of multisensory\nsensitivity, subject to the constraint that the responses to unimodal stimuli are\nsimilar to experimental observations (Extended Data Fig. 8b\u2013d). We looked at the\nresulting solutions for a range of threshold parameters.\nFor the sensitivity measure, we assumed that the optimal solutions are respons-\nive to combinations of both inputs (Extended Data Fig. 8b), as measured by the\nintegrated response along a Gaussian-weighted band centred along the\nEMech5ENoci diagonal line:\nS wM,wB\n\u00f0\n\u00de~\n\u00f0\n100\n0\n\u00f0\n100\n0\ngB EMech,ENoci\n\u00f0\n\u00dee\u0003\u0003 EMech{ENoci\n\u00f0\n\u00de=4d2dEMechdENoci\nwhere d measures the width of the band, which we set to 20 (Extended Data\nFig. 8c). Although this condition alone would encourage strong responses to\nextremely low values of input stimulus, an undesirable situation, the combination\nof the constraint and the monotonicity of the response functions ensure that this\ncannot occur.\nFor the constraint, we demanded that intense unimodal input match observa-\ntions (see Fig. 1c): (1) that intense, pure chordotonal input induced no rolling; and\n(2) intense, pure MD IV input induced a modest, but non-zero, fraction of\nanimals to roll (Extended Data Fig. 8d). We quantified this as:\nh wM,wB\n\u00f0\n\u00de~\n\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\ufb03\n(gB 0,100; wM,wB\n\u00f0\n\u00de{aNoci)2z(gB 100,0; wM,wB\n\u00f0\n\u00de{aMech)2\nq\nwhere we set aNoci 5 30 and aMech 5 0 (Extended Data Fig. 8e).\nWe then calculated optimal connection weights given neuron thresholds. We\nassumed that the pure mechanosensory interneuron does not have an extremely\nhigh threshold, set hP to a value between 30 and 50 and explored the constrained\noptimization problem for hM and hB values between 10 and 80. For each set of\nparameters, the multilevel convergence solution was defined as the circuit output\ncorresponding to the parameters (wM, wB) that maximize S(wM, wB) subject to\nh(wM, wB) , h0. We similarly defined the early convergence solution as the circuit\nwith the wM that maximizes S(wM, 0) subject to h(wM, 0) , h0. We set h0 5 3 to\nensure strong compliance with our unimodal constraints and numerically com-\nputed and compared solutions across a grid of wB and wB values starting at 0 with\n0.01 spacing (Extended Data Fig. 8f). To check the robustness of early and multi-\nlevel convergence solutions to threshold parameters, we explored multiple values\nof hB and hB (Extended Data Fig. 8g).\n51. Jenett, A. et al. A GAL4-driver line resource for Drosophila neurobiology. Cell Rep. 2,\n991\u20131001 (2012).\n52. Hamada, F. N. et al. An internal thermal sensor controlling temperature preference\nin Drosophila. Nature 454, 217\u2013220 (2008).\n53. Kang, K. et al. Modulation of TRPA1 thermal sensitivity enables sensory\ndiscrimination in Drosophila. Nature 481, 76\u201380 (2012).\n54. Pfeiffer, B. D., Truman, J. W. & Rubin, G. M. Using translational enhancers to\nincrease transgene expression in Drosophila. Proc. Natl Acad. Sci. USA 109,\n6626\u20136631 (2012).\n55. Chen, T.-W. et al. Ultrasensitive fluorescent proteins for imaging neuronal activity.\nNature 499, 295\u2013300 (2013).\n56. Tian,L.etal.Imaging neuralactivityinworms,flies and micewithimprovedGCaMP\ncalcium indicators. Nature Methods 6, 875\u2013881 (2009).\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "between",
+          "basin",
+          "homologous",
+          "mechanosensory",
+          "downstream",
+          "sensory",
+          "more",
+          "imaging",
+          "iv",
+          "the",
+          "given",
+          "individual"
+        ],
+        "key_concepts": [
+          "convergence",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 12,
+      "full_text": "57. Ainsley, J. A. et al. Enhanced locomotion caused by loss of the Drosophila DEG/\nENaC protein Pick-pocket1. Curr. Biol. 13, 1557\u20131563 (2003).\n58. Baines, R. A., Uhler, J. P., Thompson, A., Sweeney, S. T. & Bate, M. Altered electrical\nproperties in Drosophila neurons developing without synaptic transmission. J.\nNeurosci. 21, 1523\u20131531 (2001).\n59. Lima, S. Q. & Miesenbck, G. Remote control of behavior through genetically\ntargeted photostimulation of neurons. Cell 121, 141\u2013152 (2005).\n60. von Philipsborn, A. C. et al. Neuronal control of Drosophila courtship song. Neuron\n69, 509\u2013522 (2011).\n61. Calleja, M., Moreno, E., Pelaz, S. & Morata, G. Visualization of gene expression in\nliving adult Drosophila. Science 274, 252\u2013255 (1996).\n62. Luan, H., Peabody, N. C., Vinson, C. R. & White, B. H. Refined spatial manipulation of\nneuronal function by combinatorial restriction of transgene expression. Neuron\n52, 425\u2013436 (2006).\n63. Struhl, G. & Basler, K. Organizing activity of wingless protein in Drosophila. Cell 72,\n527\u2013540 (1993).\n64. Swierczek, N. A., Giles, A. C., Rankin, C. H. & Kerr, R. A. High-throughput behavioral\nanalysis in C. elegans. Nature Methods 8, 592\u2013598 (2011).\n65. Kabra, M., Robie,A. A., Rivera-Alba, M., Branson, S. & Branson, K. JAABA: interactive\nmachine learning for automatic annotation of animal behavior. Nature Methods\n10, 64\u201367 (2013).\n66. Schneider, C. A. et al. NIH Image to ImageJ: 25 years of image analysis. Nature\nMethods 9, 671\u2013675 (2012).\n67. Verstreken, P., Ohyama, T. & Bellen, H. J. in Exocytosis and Endocytosis 349\u2013369\n(Springer, 2008).\n68. Glasbey, C. A. An analysis of histogram-based thresholding algorithms. CVGIP.\nGraph. Models Image Proc. 55, 532\u2013537 (1993).\n69. Sato, T. A modified method for lead staining of thin sections. J. Electron Microsc.\n(Tokyo) 17, 158\u2013159 (1968).\n70. Suloway, C. et al. Automated molecular microscopy: the new Leginon system. J.\nStruct. Biol. 151, 41\u201360 (2005).\n71. Saalfeld, S., Cardona, A., Hartenstein, V. & Tomancak, P. CATMAID: collaborative\nannotation toolkit for massive amounts of image data. Bioinformatics 25,\n1984\u20131986 (2009).\n72. Prokop, A. & Meinertzhagen, I. A. Development and structure of synaptic contacts\nin Drosophila. Semin. Cell Dev. Biol. 17, 20\u201330 (2006).\n73. Landgraf, M., Snchez Soriano, N., Technau, G. M., Urban, J. & Prokop, A. Charting\nthe Drosophila neuropile: a strategy for the standardised characterization of\ngenetically amenable neurites. Dev. Biol. 260, 207\u2013225 (2003).\n74. Grueber, W. B., Jan, L. & Jan, Y. Tiling of the Drosophila epidermis by multidendritic\nsensory neurons. Development 129, 2867\u20132878 (2002).\n75. Bastian, M. et al. Gephi: an open source software for exploring and manipulating\nnetworks (International AAAI Conference on Weblogs and Social Media, 2009).\n76. Bate, M., Goodman, C. & Spitzer, N. Embryonic development of identified neurons:\nSegment-specific differences in the H cell homologues. J. Neurosci. 1, 103\u2013106\n(1981).\n77. Jefferis, G. S. et al. Comprehensive maps of Drosophila higher olfactory centers:\nspatially segregated fruit and pheromone representation. Cell 128, 1187\u20131203\n(2007).\n78. Dayan, P. & Abbott, L. F. Theoretical Neuroscience (MIT Press, 2001).\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 8,
+        "larval_relevance": 3,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "multidendritic",
+          "of",
+          "drosophila",
+          "sensory",
+          "identified"
+        ],
+        "key_concepts": [
+          "locomotion"
+        ]
+      }
+    },
+    {
+      "page_number": 13,
+      "full_text": "f\nstride speed (mm/s) \nRollers\nNon-rollers\n**\n5.0\n0.0\n32 \u00b0C \n**\n**\n**\n**\n**\nMD IVstimulation\nCh stimulation\nMD IV + Ch \ncombined stimulation\nno stimulation\n + \ncalculated sum of \n1000\n6.9\n0 100\n500\n(Hz)\n39.2\n19.6\n% rolling\n100\n80\n60\n40\n20\n0\nvibration\nintensity (m/s2)\ng\n- MD IV\n+ MD IV\n+ Ch\n- Ch\nBaseline\nCrawling\nBaseline\nCrawling\nFast\nCrawling\nRolling\nFast\nCrawling\nBaseline\nCrawling\nBaseline\nCrawling\nFast\nCrawling\nRolling\nFast\nCrawling\nBaseline\nCrawling\nBaseline\nCrawling\nFast\nCrawling\nRolling\nFast\nCrawling\nBaseline\nCrawling\nBaseline\nCrawling\nFast\nCrawling\nRolling\nFast\nCrawling\nTime\nOnset\ne\n5s\n50\n100\n0\n3.8 (m/s2)\n2.0 (m/s2)\n0.9 (m/s2)\nc\nd\nvibration intensity (m/s2)\n0\n2\n4\n6\n8\n0\n50\n100\na\nb\n0\n50\n100\n5 s\nCh \u2206F/F0 (%)\n0.2\n6.7\nvibration\nintensity\n (m/s2)\n0\n50\n100\nMD IV \u2206F/F0 (%)\nvibration\nintensity\n (m/s2)\n6.7\n5 s\n2.5\nMD IV stimulation\nCh stimulation\nMD IV + Ch \ncombined stimulation\nno stimulation\nMD IV \u2206F/F0 (%)\nmax \u2206F/F0 (%)\nExtended Data Figure 1 | This figure relates to Fig. 1a\u2013d. Chordotonal (Ch)\nneurons respond to vibration in a \u2018dose-dependent\u2019 manner, but MD IV\nneurons do not, consistent with previous reports. a, 1,000 Hz vibration evokes\ncalcium transients (mean 6 s.e.m. in this and all subsequent figures) in\nchordotonal (ch-GAL4.UAS-GCaMP6s), in a dose-dependent manner.\nb, c, Calcium transients of MD IV neurons in response to different vibration\n(1,000 Hz) intensities reveal no response to vibration (MD IV-GAL4.UAS-\nGCaMP6s). d, Quantification of calcium transients in mechanosensory (black)\nand nociceptive (orange) neurons from (a\u2013c). n 5 3 trials in each condition.\ne, A schematic of larval reactions to unimodal and multimodal stimuli. Line\nthickness qualitatively reflects the probability of the behaviour transition\noccurring in the absence of stimulation (bottom left) and after the onset of MD\nIV activation (orange triangle, bottom right), vibration (green triangle, top left),\nor their combination (black triangle, top right). Behaviours in grey occur with\nextremely low frequency. In response to nociceptive or combined stimulation\nanimals can select one of two types of escapes responses: (1) roll-fast crawl; or\n(2) fast crawl alone. Even in response to combined stimulation the selection is\nprobabilistic; the majority of animals select roll-fast crawl, but some select fast\ncrawl without rolling. f, Crawling stride speed in the absence of stimulation\n(white) and following 1,000 Hz, 6.7 m s22 vibration (green) (in MD IV-\nGAL4.1 larvae); thermogenetic nociceptive activation (32 uC, in MD IV-\nGAL4.UAS-dTRPA1 larvae) (orange); or their combination (grey). In the\nnociceptive and combined condition, we separately analysed the stride speed of\nanimals that did not roll (non-rollers) and those that rolled (rollers) following\nstimulation. As previously described, vibration alone evoked an increase in\nstride speed. Nociceptive activation alone, or in combination with vibration,\nalso evoked an increase in stride speed, both in animals that did not roll and in\nanimals that did roll, after rolling. Combining vibration with nociceptive\nstimulation in animals that selected fast crawl significantly increased stride\nspeed compared to either stimulation alone. Vibration combined with\nnociceptive stimulation therefore affects both aspects of the escapes response,\nfacilitating the triggering of rolling (Fig. 1e, f) and increasing crawling stride\nspeed in animals that do not roll. Wilcoxon rank sum test with Holm\u2013\nBonferroni correction. **P , 0.0001. g, The synergistic effect on rolling of\ncombining vibration with nociceptive stimulation is observed across a range of\nfrequencies. Rolling probabilities of MD IV-GAL4.UAS-dTrpA1 (nociceptive\nand combined conditions) or MD IV-GAL4.1 (no stimuli and\nmechanosensory conditions) animals during vibration stimulation at different\nfrequencies, either alone (green) or in combination with thermogenetic\nactivation of nociceptive neurons (32 uC) (grey). See Supplementary Table 3 for\nn (animals) in this and all other Extended Data Figures. See Supplementary\nTable 2 for a list of genotypes used all Figures.\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 5,
+        "larval_relevance": 10,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "nociceptive",
+          "iv"
+        ],
+        "key_concepts": [
+          "escape",
+          "speed",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 14,
+      "full_text": "Basin-1\nBasin-2\nBasin-3\nBasin-4\nabd1.5 data\nL1 data\nLeft Cell\nRight Cell\n(mirrored)\nLeft Cell\nRight Cell\n(mirrored)\nabd1.5 data\nL1 data\npresynaptic site\npostsynaptic site\nc\nh\ng\n40 \u00b5m\n47 \u00b5m\nL1 data\nabd1.5 data\nSeg.\nNerve\nA\nD\nf\nCentral lateral terminals\n+\nFive cells in intersegmental nerve, three in\nsegmental nerve\n+\nExtreme ventromedial terminals\n+\nOne cell in intersegmental nerve, two in\nsegmental nerve\n+\nCh MD IV\ne\na\nb\nBasin\nMD IV\nBasin\u2013MD IV overlap\nBasin\nCh\nBasin\u2013mechano-ch overlap\nD\nV\nR72F11(Basin) > GFP\nMD IV > tdTomato\nR72F11(Basin) > GFP\nCh > tdTomato\nD\nV\nA\nP\nD\nV\nA\nP\nd\nLateral soma location\n+ +\n+\n+\nPrimary neurite following intersegmental nerve\n+\n+\n+\n+\nMedial ipsilateral axon\n+\n+\n+\n+\nDendrites on ventral side of Ch domain\n+\n+\n+\n+\nDendrites on dorsal side of Ch domain\n+\nNo ventral branch off primary neurite\n+\nVentral dendrites stop lateral to axon position\n+\nVentral dendrites extend to or across midline\n+\nRelative position of axon is ventral\n+\n+\nRelative position of axon is dorsal\n+\n+\nPresynaptic sites exist on dendritic arbor\n+\n+\nBasin-1\nBasin-2\nBasin-3\nBasin-4\n+\ni\nj\nSame\nSegment\nAnterior\nSegment\nPosterior\nSegment\nIpsilateral\nSide\nContralateral\nSide\nCh\nBasins\nMD IV\n# syn  (fraction total input)\nPosterior\nAnterior\nSegment of Basin\nSegment M-1\nSegment M\nMD IV\nCh\nMD IV\nCh\nBasin-1L\n0 (0.00)\n40 (0.08)\n1 (0.00)\n63 (0.13)\nBasin-1R\n0 (0.00)\n31 (0.07)\n4 (0.01)\n50 (0.12)\nBasin-2L\n9 (0.03)\n22 (0.08)\n21 (0.07)\n20 (0.07)\nBasin-2R\n10 (0.03)\n15 (0.05)\n20 (0.06)\n29 (0.09)\nBasin-3L\n2 (0.01)\n11 (0.05)\n1 (0.00)\n33 (0.14)\nBasin-3R\n0 (0.00)\n18 (0.09)\n0 (0.00)\n19 (0.10)\nBasin-4L\n1 (0.00)\n3 (0.01)\n46 (0.20)\n28 (0.12)\nBasin-4R\n0 (0.00)\n5 (0.03)\n19 (0.10)\n35 (0.18)\nSegment M+1\nBasin-1L\n2 (0.01)\n29 (0.08)\n0 (0.00)\n0 (0.00)\nBasin-1R\n1 (0.00)\n49 (0.13)\n1 (0.00)\n0 (0.00)\nBasin-2L\n18 (0.06)\n8 (0.03)\n1 (0.00)\n0 (0.00)\nBasin-2R\n20 (0.06)\n17 (0.05)\n0 (0.00)\n1 (0.00)\nBasin-3L\n1 (0.01)\n28 (0.17)\n0 (0.00)\n0 (0.00)\nBasin-3R\n0 (0.00)\n36 (0.15)\n0 (0.00)\n0 (0.00)\nBasin-4L\n36 (0.17)\n21 (0.10)\n7 (0.03)\n0 (0.00)\nBasin-4R\n40 (0.20)\n6 (0.03)\n7 (0.04)\n0 (0.00)\nabd1.5 data\nL1 data\nIpsilateral\nSide\nContralateral\nSide\nInterseg.\nNerve\nMD IV\nCh\nMD IV\nCh\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [
+        {
+          "figure_file": "page_14_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 14]",
+          "image_index": 1,
+          "dimensions": [
+            227,
+            110
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_2.png",
+          "caption": "[Caption not found for figure 2 on page 14]",
+          "image_index": 2,
+          "dimensions": [
+            216,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_3.png",
+          "caption": "[Caption not found for figure 3 on page 14]",
+          "image_index": 3,
+          "dimensions": [
+            220,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_4.png",
+          "caption": "[Caption not found for figure 4 on page 14]",
+          "image_index": 4,
+          "dimensions": [
+            213,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_5.png",
+          "caption": "[Caption not found for figure 5 on page 14]",
+          "image_index": 5,
+          "dimensions": [
+            213,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_6.png",
+          "caption": "[Caption not found for figure 6 on page 14]",
+          "image_index": 6,
+          "dimensions": [
+            197,
+            89
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_7.png",
+          "caption": "[Caption not found for figure 7 on page 14]",
+          "image_index": 7,
+          "dimensions": [
+            192,
+            121
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_8.png",
+          "caption": "[Caption not found for figure 8 on page 14]",
+          "image_index": 8,
+          "dimensions": [
+            189,
+            108
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_9.png",
+          "caption": "[Caption not found for figure 9 on page 14]",
+          "image_index": 9,
+          "dimensions": [
+            186,
+            96
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_10.png",
+          "caption": "[Caption not found for figure 10 on page 14]",
+          "image_index": 10,
+          "dimensions": [
+            194,
+            84
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_11.png",
+          "caption": "[Caption not found for figure 11 on page 14]",
+          "image_index": 11,
+          "dimensions": [
+            165,
+            102
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_12.png",
+          "caption": "[Caption not found for figure 12 on page 14]",
+          "image_index": 12,
+          "dimensions": [
+            228,
+            86
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_13.png",
+          "caption": "[Caption not found for figure 13 on page 14]",
+          "image_index": 13,
+          "dimensions": [
+            186,
+            92
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_14.png",
+          "caption": "[Caption not found for figure 14 on page 14]",
+          "image_index": 14,
+          "dimensions": [
+            187,
+            120
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_15.png",
+          "caption": "[Caption not found for figure 15 on page 14]",
+          "image_index": 15,
+          "dimensions": [
+            203,
+            106
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_16.png",
+          "caption": "[Caption not found for figure 16 on page 14]",
+          "image_index": 16,
+          "dimensions": [
+            191,
+            113
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_17.png",
+          "caption": "[Caption not found for figure 17 on page 14]",
+          "image_index": 17,
+          "dimensions": [
+            186,
+            134
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_18.png",
+          "caption": "[Caption not found for figure 18 on page 14]",
+          "image_index": 18,
+          "dimensions": [
+            207,
+            106
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_19.png",
+          "caption": "[Caption not found for figure 19 on page 14]",
+          "image_index": 19,
+          "dimensions": [
+            169,
+            102
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_20.png",
+          "caption": "[Caption not found for figure 20 on page 14]",
+          "image_index": 20,
+          "dimensions": [
+            173,
+            127
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_21.png",
+          "caption": "[Caption not found for figure 21 on page 14]",
+          "image_index": 21,
+          "dimensions": [
+            147,
+            95
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_22.png",
+          "caption": "[Caption not found for figure 22 on page 14]",
+          "image_index": 22,
+          "dimensions": [
+            202,
+            119
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_23.png",
+          "caption": "[Caption not found for figure 23 on page 14]",
+          "image_index": 23,
+          "dimensions": [
+            230,
+            103
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_24.png",
+          "caption": "[Caption not found for figure 24 on page 14]",
+          "image_index": 24,
+          "dimensions": [
+            202,
+            120
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_25.png",
+          "caption": "[Caption not found for figure 25 on page 14]",
+          "image_index": 25,
+          "dimensions": [
+            205,
+            110
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_26.png",
+          "caption": "[Caption not found for figure 26 on page 14]",
+          "image_index": 26,
+          "dimensions": [
+            206,
+            120
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_27.png",
+          "caption": "[Caption not found for figure 27 on page 14]",
+          "image_index": 27,
+          "dimensions": [
+            205,
+            116
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_28.png",
+          "caption": "[Caption not found for figure 28 on page 14]",
+          "image_index": 28,
+          "dimensions": [
+            206,
+            141
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_29.png",
+          "caption": "[Caption not found for figure 29 on page 14]",
+          "image_index": 29,
+          "dimensions": [
+            140,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_30.png",
+          "caption": "[Caption not found for figure 30 on page 14]",
+          "image_index": 30,
+          "dimensions": [
+            123,
+            65
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_31.png",
+          "caption": "[Caption not found for figure 31 on page 14]",
+          "image_index": 31,
+          "dimensions": [
+            135,
+            77
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_32.png",
+          "caption": "[Caption not found for figure 32 on page 14]",
+          "image_index": 32,
+          "dimensions": [
+            104,
+            70
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_33.png",
+          "caption": "[Caption not found for figure 33 on page 14]",
+          "image_index": 33,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_34.png",
+          "caption": "[Caption not found for figure 34 on page 14]",
+          "image_index": 34,
+          "dimensions": [
+            230,
+            117
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_35.png",
+          "caption": "[Caption not found for figure 35 on page 14]",
+          "image_index": 35,
+          "dimensions": [
+            3,
+            30
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_36.png",
+          "caption": "[Caption not found for figure 36 on page 14]",
+          "image_index": 36,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_37.png",
+          "caption": "[Caption not found for figure 37 on page 14]",
+          "image_index": 37,
+          "dimensions": [
+            177,
+            113
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_38.png",
+          "caption": "[Caption not found for figure 38 on page 14]",
+          "image_index": 38,
+          "dimensions": [
+            127,
+            79
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_39.png",
+          "caption": "[Caption not found for figure 39 on page 14]",
+          "image_index": 39,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_40.png",
+          "caption": "[Caption not found for figure 40 on page 14]",
+          "image_index": 40,
+          "dimensions": [
+            5,
+            34
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_41.png",
+          "caption": "[Caption not found for figure 41 on page 14]",
+          "image_index": 41,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_42.png",
+          "caption": "[Caption not found for figure 42 on page 14]",
+          "image_index": 42,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_43.png",
+          "caption": "[Caption not found for figure 43 on page 14]",
+          "image_index": 43,
+          "dimensions": [
+            4,
+            33
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_44.png",
+          "caption": "[Caption not found for figure 44 on page 14]",
+          "image_index": 44,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_45.png",
+          "caption": "[Caption not found for figure 45 on page 14]",
+          "image_index": 45,
+          "dimensions": [
+            174,
+            120
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_46.png",
+          "caption": "[Caption not found for figure 46 on page 14]",
+          "image_index": 46,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_47.png",
+          "caption": "[Caption not found for figure 47 on page 14]",
+          "image_index": 47,
+          "dimensions": [
+            3,
+            31
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_48.png",
+          "caption": "[Caption not found for figure 48 on page 14]",
+          "image_index": 48,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_49.png",
+          "caption": "[Caption not found for figure 49 on page 14]",
+          "image_index": 49,
+          "dimensions": [
+            206,
+            132
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_50.png",
+          "caption": "[Caption not found for figure 50 on page 14]",
+          "image_index": 50,
+          "dimensions": [
+            153,
+            82
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_51.png",
+          "caption": "[Caption not found for figure 51 on page 14]",
+          "image_index": 51,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_52.png",
+          "caption": "[Caption not found for figure 52 on page 14]",
+          "image_index": 52,
+          "dimensions": [
+            12,
+            32
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_53.png",
+          "caption": "[Caption not found for figure 53 on page 14]",
+          "image_index": 53,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_54.png",
+          "caption": "[Caption not found for figure 54 on page 14]",
+          "image_index": 54,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_55.png",
+          "caption": "[Caption not found for figure 55 on page 14]",
+          "image_index": 55,
+          "dimensions": [
+            6,
+            40
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_56.png",
+          "caption": "[Caption not found for figure 56 on page 14]",
+          "image_index": 56,
+          "dimensions": [
+            210,
+            90
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_57.png",
+          "caption": "[Caption not found for figure 57 on page 14]",
+          "image_index": 57,
+          "dimensions": [
+            2,
+            3
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_58.png",
+          "caption": "[Caption not found for figure 58 on page 14]",
+          "image_index": 58,
+          "dimensions": [
+            3,
+            4
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_59.png",
+          "caption": "[Caption not found for figure 59 on page 14]",
+          "image_index": 59,
+          "dimensions": [
+            11,
+            59
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_60.png",
+          "caption": "[Caption not found for figure 60 on page 14]",
+          "image_index": 60,
+          "dimensions": [
+            3,
+            4
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_61.png",
+          "caption": "[Caption not found for figure 61 on page 14]",
+          "image_index": 61,
+          "dimensions": [
+            219,
+            106
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_62.png",
+          "caption": "[Caption not found for figure 62 on page 14]",
+          "image_index": 62,
+          "dimensions": [
+            219,
+            106
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_63.png",
+          "caption": "[Caption not found for figure 63 on page 14]",
+          "image_index": 63,
+          "dimensions": [
+            219,
+            108
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_64.png",
+          "caption": "[Caption not found for figure 64 on page 14]",
+          "image_index": 64,
+          "dimensions": [
+            219,
+            108
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_65.png",
+          "caption": "[Caption not found for figure 65 on page 14]",
+          "image_index": 65,
+          "dimensions": [
+            210,
+            90
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_66.png",
+          "caption": "[Caption not found for figure 66 on page 14]",
+          "image_index": 66,
+          "dimensions": [
+            210,
+            90
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_67.png",
+          "caption": "[Caption not found for figure 67 on page 14]",
+          "image_index": 67,
+          "dimensions": [
+            210,
+            90
+          ]
+        }
+      ],
+      "figure_count": 67,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 4,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 15,
+      "full_text": "Extended Data Figure 2 | This figure relates to Fig. 2a, b. a, b, Confocal\nimages of basins (green) and nociceptors (a) or chordotonals (b) (both in\nmagenta), with cartoons to demonstrate their position within the nerve cord.\nc, Confocal images of individual Basins (in addition to those shown in\nFig. 3a) visualized with a FLP-based method. Outline, neuropil boundary.\nScale bar, 30 mm. d, Table of morphological features based on which Basins\nare uniquely distinguishable from other interneurons (blue) and individual\nBasin types from each other (purple). e, The table of morphological features\nbased on which the mechanosensory chordotonal (Ch; green) and the\nnociceptive (orange) neuron projections are uniquely identifiable. f, Electron\nmicroscopy reconstructions of MD IV (orange) and chordotonal (green)\naxons in two abdominal segments, from two different animals. Top,\nreconstructions from the A3 segment in the smaller electron microscopy\nvolume (comprising 1.5 abdominal segments: A3 and a part of A2) shown in\nFig. 2. Bottom, reconstructions from the segment A1 in the comprehensive\nelectron microscopy volume that spans the entire nervous system (L1\nelectron microscopy volume, see Fig. 5 and Supplementary Video 7).\nOutlines indicate approximate neuropil boundaries. Scale bar, 20 mm.\ng, Electron microscopy reconstructions of nociceptive (orange) and\nmechanosensory (green) axons and of the four Basin types (black) in the two\nabdominal segments, from two different animals. Top, A3 segment from the\nsmaller 1.5 abdominal segment volume. Bottom, A1 segment in the\ncomprehensive L1 electron microscopy volume. Outlines indicate\napproximate neuropil boundaries. Scale bar, 20 mm. The MD IV and\nchordotonal terminals span the ventromedial and ventrocentral nerve cord\ndomains, respectively. Basin-2 and Basin-4 dendrites overlap with\nchordotonal and MD IV terminals. h, Detailed views of the neuronal arbors\nand synaptic locations of each Basin cell type from the two segments (from\nthe two animals). Cells on the right side are mirrored for easier comparison.\nThe location of synaptic domains is conserved across hemisegmental\nhomologues and animals. The dendritic arbors of individual Basins across all\nfour hemisegments are highly stereotyped and uniquely recognizable.\ni, Tables show the numbers of synapses that Basins in the A3 segment (from\nthe smaller 1.5 segment electron microscopy dataset, top) and in the A1\nsegment (from the comprehensive L1 electron microscopy volume, bottom)\nreceive from MD IV and chordotonal neurons in their own and in adjacent\nabdominal segments. See also Supplementary Tables 4a and 5a for more\ninformation. Both the left and right Basin-1 and Basin-3 homologues\nreproducibly received many synapses (each .25 synapses and .15% of total\ninput, on average) from chordotonal in both animals, but very few (no more\nthan 1% of total input synapses) from MD IV neurons. Both the left and right\nBasin-2 and Basin-4 homologues received many inputs from both\nchordotonal (on average .20 synapses and .10% total input) and MD IV\n(on average .20 synapses and .10% total input) neurons. j, Schematic\nrepresentation of the distribution of inputs from MD IV and chordotonal\nfrom adjacent segments onto Basins.\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 5,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "the",
+          "iv",
+          "other",
+          "chordotonal"
+        ],
+        "key_concepts": [
+          "confocal"
+        ]
+      }
+    },
+    {
+      "page_number": 16,
+      "full_text": "Left\nRight\na\nA02n\nL1\nabd1.5\nA02m\nL1\nabd1.5\nA02m/n\nvchA/B (2)\nv\u2019ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2)\nvdaB v\u2019ada ddaC Basin-2 Basin-4\nabd1.5 L\n0\n3\n0\n0\n0\n0\n3\n1\n14\n6\n0\nabd1.5 R\n0\n1\n1\n0\n0\n0\n0\n1\n12\n1\n0\nL1 L\n0\n0\n0\n0\n0\n0\n3\n3\n5\n10\n0\nL1 R\n0\n4\n0\n0\n0\n0\n0\n0\n3\n10\n0\nvchA/B (2)\nv\u2019ch lch5-1 lch5-3 lch5-5 lch5-2/4 (2)\nvdaB v\u2019ada ddaC Basin-2 Basin-4\nabd1.5 L\n0\n3\n0\n0\n0\n0\n1\n3\n9\n9\n0\nabd1.5 R\n0\n3\n0\n0\n0\n0\n1\n0\n4\n5\n0\nL1 L\n2\n1\n0\n0\n0\n0\n3\n7\n8\n5\n0\nL1 R\n0\n2\n0\n0\n0\n0\n1\n1\n10\n14\n0\nA02n/m\n2+ syn. both hemisegments\n>0 syn. both hemisegments\n2+ syn one hemisegment,\nother animal 2+ syn.\nCh\nMD IV\nBasin-2\nBasin-4\nabd1.5 L\n63\n1\n0.5\n0\nabd1.5 R\n50\n4\n0\n0\nL1 L\n29\n2\n0\n0\nL1 R\n49\n1\n0\n0.5\nCh\nMD IV\nBasin-2\nBasin-4\nabd1.5 L\n20\n21\n0\n0\nabd1.5 R\n29\n20\n0\n0\nL1 L\n8\n18\n0\n0\nL1 R\n17\n20\n0\n0\nCh\nMD IV\nBasin-2\nBasin-4\nabd1.5 L\n33\n1\n0\n0\nabd1.5 R\n19\n0\n0\n1\nL1 L\n28\n1\n0\n0\nL1 R\n36\n0\n0\n0\nBasin-1\nBasin-2\nBasin-3\nA02m+A02n\nCh\nMD IV\nBasin-2\nBasin-4\nabd1.5 L\n6\n31\n15\n0\nabd1.5 R\n5\n18\n6\n0\nL1 L\n3\n29\n15\n0\nL1 R\n6\n15\n24\n0\nTotal inputs \nA02m abd1.5 L\n69\nA02m abd1.5 R\n55\nA02m L1 L\n50\nA02m L1 R\n73\nA02n abd1.5 L\n81\nA02n abd1.5 R\n55\nA02n L1 L\n74\nA02n L1 R\n80\nA10a abd1.5 L\n162\nA10a abd1.5 R\n178\nA10a L1 L\n103\nA10a L1 R\n105\nb\nA10a\nL1\nabd1.5\nsoma\noutside\ndata\nsoma\noutside\ndata\nc\nd\nBasin-1\nCh\nMD IV\nBasin-2\nBasin-4\nabd1.5 L\n0\n41\n0\n2\nabd1.5 R\n0\n32\n0\n3\nL1 L\n0\n20\n1\n2\nL1 R\n0\n26\n0.5\n3.5\nA10a\nvchA/B (2)\nv\u2019ch lch5-1\nlch5-3\nlch5-5\nlch5-2/4 (2)\nvdaB v\u2019ada ddaC Basin-2\nBasin-4\nabd1.5 L\n10\n18\n12\n7\n1\n15\n1\n0\n0\n1\n0\nabd1.5 R\n9\n13\n11\n9\n1\n7\n0\n3\n1\n0\n0\nL1 L\n6\n11\n4\n1\n0\n7\n2\n0\n0\n0\n0\nL1 R\n10\n11\n9\n5\n0\n14\n1\n0\n0\n0\n1\nBasin-3\nBasin-2\nvchA/B (2)\nv\u2019ch lch5-1\nlch5-3\nlch5-5\nlch5-2/4 (2)\nvdaB v\u2019ada ddaC Basin-2\nBasin-4\nabd1.5 L\n2\n13\n4\n1\n0\n0\n3\n11\n7\n0\n0\nabd1.5 R\n4\n13\n3\n9\n0\n0\n10\n0\n10\n0\n0\nL1 L\n1\n2\n3\n2\n0\n0\n2\n12\n4\n0\n0\nL1 R\n0\n13\n1\n0\n1\n2\n1\n11\n8\n0\n0\nvchA/B (2)\nv\u2019ch lch5-1\nlch5-3\nlch5-5\nlch5-2/4 (2)\nvdaB v\u2019ada ddaC Basin-2\nBasin-4\nabd1.5 L\n20\n6\n6\n1\n0\n0\n1\n0\n0\n0\n0\nabd1.5 R\n6\n4\n6\n2\n0\n1\n0\n0\n0\n0\n2\nL1 L\n21\n0\n4\n3\n0\n0\n1\n0\n0\n0\n0\nL1 R\n20\n3\n13\n0\n0\n0\n0\n0\n0\n0\n0\nExtended Data Figure 3 | Reproducibility of the wiring diagram across\nanimals. a, Electron microscopy reconstructions of the local interneurons\ndownstream of boththeMD IV and Basin neurons in both electron microscopy\nvolumes; the volume comprising 1.5 abdominal (A2/A3) nerve cord segments\nofoneanimal (abd1.5, Fig. 2e),andthe electronmicroscopy volume comprising\nthe entire nervous system of another (L1, Fig. 5a and Supplementary Video 7).\nThese local neurons (as well as the Basins shown in Fig. 2f and Extended Data\nFig. 2h) with cell bodies and the majority of their arbor in the same segment as\nthe sensory neurons are readily identifiable in both volumes and can be used to\nassess the reproducibility of sensory\u2013interneuron and interneuron\u2013\ninterneuron connectivity across animals. Three distinct short-range\ninterneuron types (A02m, A02n and A10a) received at least two synapses from\nnociceptive sensory neurons in both animals. A02m/n and A10a neurons also\nreceived inputs from Basin-2 or Basin-4 (Supplementary Information\n(Supplementary Atlas section)). The two interneurons A02m and A02n belong\nto the same lineage (lineage 2), have indistinguishable projections and\nconnectivity, and can only be distinguished based on a small difference in the\ndorsoventral cell body location. In contrast, Basin-1, Basin-2, Basin-3 and\nBasin-4, even though they belong to the same lineage (lineage 9), all have\ndistinct projections (and connectivity) and can each be considered a unique\nneuron type. A10a also have unique projections and belong to lineage 10.\nb, Total number of inputs each neuron in a receives. c, Reproducibility of\nconnections between neuron types across individuals. Table shows class level\nconnectivity between neurons in the abd1.5 and L1 data sets. Values given are\nthe total sum of all synapses for all members of each class. 100% of connections\nwith at least two synapses between homologous neuron types that were\nreproducible across the same individual were also reproducible across\nindividuals; that is, the connection between those neurons existed in the other\nindividual. d, Reproducibility of connections between individual neurons\nacross individuals. Table shows connectivity between individual neurons in the\nabd1.5 and L1 data sets. Whenever two or more synapses were found between\nhomologous neurons in both hemisegments in one animal, either two or more\nwere also found in both hemisegments in the other animal (dark green cells); or\nat least one synapse per edge was found in both hemisegments in the other\nanimal (light green cells); or two or more synapses were found in at least one\nhemisegment of the other animal (yellow cells). Thus, in 100% of cases in which\na connection was present between homologues on both sides in one individual\nit was also present between homologues in the other individual, at least on\none side.\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "between",
+          "each",
+          "basin",
+          "homologous",
+          "nociceptive",
+          "local",
+          "and",
+          "a10a",
+          "those",
+          "sensory",
+          "two",
+          "unique",
+          "the",
+          "range",
+          "individual"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 17,
+      "full_text": "a\nMD IV activation\n100\n0\nBasins \u2206F/F0 (%)\n5 s\nBasin-4\n200 nm\nb\nCh activation\n50\n0\n5 s\nBasins  \u2206F/F0 (%)\nCh\nBasin-1\nc\nd\ne\nf\ng\nh\nMD IV\n effector ctl\n100\n80\n60\n40\n20\n0\n rolling (%)\n R57F07 activation\n**\nR57F07 > GFP\nneuropil (N-Cad)\ncombined\nstimuli\ncalculated\nresponse\nnoci max \u2206F/F0  (%)\n100\n50\n0\n50\n0\n100\nnoci \u2206F/F0  (%)\n +\n5 s\nBasin-1 > GFP\nneuropil (N-Cad)\nA\nP\nD\nV\nBasin-4 > GFP\nneuropil (N-Cad)\nA\nP\nD\nV\ni\nj\nExtended Data Figure 4 | This figure relates to Figs 2 and 3. a, c, Electron\nmicrographs of representative synapses formed by MD IV and chordotonal\n(Ch) projections onto Basins containing a T-bar ribbon. Circles point to the\npostsynaptic neuron and arrows point to vesicle clouds in the presynaptic\nterminals. All synapses have small clear-core vesicles associated with fast\nchemical neurotransmitters such as acetylcholine, glutamate, or GABA. Scale\nbars are 200nm. b, d, Calcium transients evoked in Basins by MD IV (b) and\nchordotonal (d) activation by local ATP injection. The ATP-gated channel,\nP2X2, is expressed in MD IV (b) and chordotonal (d) neurons and GCaMP6 is\nexpressed in Basins (in MD IV-lexA.lexAop-P2X2; R72F11-GAL4.UAS-\nGCaMP6 (b) and Ch-lexA.lexAop-P2X2; R72F11-GAL4.UAS-GCaMP6\n(d) animals). n 5 30 trials (b), and 18 trials (d). Functional connectivity\nexperiments suggest the connection from sensory neurons onto Basins is\nexcitatory. Since chordotonal neurons are the only neurons that respond to\nvibration32,35 we used vibration in subsequent experiments so that we could\nactivate chordotonal with vibration, and MD IV with P2X2 and ATP injection,\nin the same animal. e, R57F07 drives expression in Basin-4 neurons and in a few\nbrain neurons. R57F07 was therefore used for generating the Basin-4 selective\nsplit-GAL4 line shown in g. g, h, Expression patterns of driver lines selective for\nBasin-1 (R20B01) and Basin-4 (R72F11 and R57F07 intersection) neurons\n(green). Scale bar, 25 mm. f, Activation of R57F07 is sufficient to evoke rolling in\n45% of animals. Intersecting the parent line R57F07 with R72F11 (both drive\nexpression in Basin-4 neurons and evoke rolling) results in a split-GAL4 line\nthat drives expression selectively in Basin-4 neurons, shown in g. i, j, Negative\ncontrol for Fig. 4d, f. i, Calcium transients in MD IV terminals observed in\nresponse to vibration (1,000 Hz, 6.8 m s22), MD IV activation by local ATP\ninjection or their combination (in MD IV-lexA.lexAop-P2X2; MD IV-\nGAL4.UAS-GCaMP6 animals). n 5 14 trials. j, Maximum DF/F of calcium\ntransients in response to mechanosensory, nociceptive, and combined\nsimulation from i. Unlike Basin-4 (Fig. 3b, c), the MD IV neurons do not\nrespond more to the combination of stimuli compared to MD IV activation\nalone.\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "chordotonal",
+          "only",
+          "brain",
+          "sensory",
+          "from",
+          "iv",
+          "postsynaptic",
+          "4"
+        ],
+        "key_concepts": [
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 18,
+      "full_text": "c\nd\nb\neffector ctl\nR16E11-LexA activation\n100\n80\n60\n40\n20\n0\n rolling (%)\nR16E11-LexA ctl\n**\n**\nR16E11-LexA\nLexAop-tdTomato\nR69F06-GAL4\nUAS-GFP\nR69F06-GAL4\nUAS-GFP\nneuropil (nc82)\nR16E11-LexA\nLexAop-tdTomato\na\nGoro\nprojections\nBasin projections\nD\nV\nA\nP\nD\nV\nGORO > GFP\nBasin > tdTomato\ne\n5 s\nGoro \u2206F/F0  (%)\n50\n0\nBasin-4 activation\nf\nExtended Data Figure 5 | This figure relates to Fig. 4. a\u2013c, The R16E11-LexA\nline faintly, but selectively, drives expression in the same pair of thoracic\nneurons (Goro neurons) as the R69F06 GAL4 line. a, Co-localization of\nR16E11-LexA and R69F06-GAL4 expression in the same nervous system\n(genotype: R16E11-lexA/LexAop-mry-tdTomato;R69F06-GAL4,UAS-mry-\nGFP). R16E11-lexA.lexAop-tdTomato (red) and R69F06-GAL4.UAS-GFP\n(green) co-localize in the two Goro cell bodies and their projections in the nerve\ncord (yellow). b, c, Single-channel images from a. Scale bar, 20 mm.\nd, Thermogenetic activation (32 uC) of the single pair of Goro neurons using\nthe R16E11 line (R16E11-lexA.lexop-dTRPA1) evoked rolling in 36% of\nanimals. Activating neurons in R69F06 evokes even more rolling (86%, Fig. 4a).\nR69F06 drives expression in Goro neurons more strongly that R16E11, but it\nalso drives expression in more neurons. Using a FLP-based intersection\nbetween R16E11-lexA andR69F06 (see Methods), wefoundthat 76%ofanimals\nwith expression of dTRPA1 selectively in Goro rolled when exposed to\nrestrictive temperature (32 uC). Thus, activating the single pair of command-\nlike Goro neurons evokes rolling. e, Calcium transients in Goro dendrites in\nresponse to selective Basin-4 activation by local ATP injection (n 5 12 trials).\nThe ATP-gated P2X2 channel and GCaMP6 are expressed selectively in Basin-4\nand Goro neurons, respectively (in Basin-4-Gal4.UAS-P2X2; Goro-\nlexA(R69F06-lexA).lexAop-GCaMP6 animals). f, Basin (magenta) and Goro\n(green) projections do not co-localize (in 16E11-lexA.LexAop-tdTomato;\nR72F11-GAL4.UAS-GFP larvae), indicating that the two cell types that are\nfunctionally connected cannot be directly synaptically connected.\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [
+        {
+          "figure_file": "page_18_fig_1.png",
+          "caption": "| This figure relates to Fig. 4. a\u2013c, The R16E11-LexA",
+          "image_index": 1,
+          "dimensions": [
+            266,
+            448
+          ]
+        },
+        {
+          "figure_file": "page_18_fig_2.png",
+          "caption": "Extended Data Figure 5 | This figure relates to Fig. 4. a\u2013c, The R16E11-LexA line faintly, but selectively, drives expression in the same pair of thoracic neurons (Goro neurons) as the R69F06 GAL4 line. a, Co-localization of",
+          "image_index": 2,
+          "dimensions": [
+            266,
+            448
+          ]
+        },
+        {
+          "figure_file": "page_18_fig_3.png",
+          "caption": "Extended Data Figure 5 | This figure relates to Fig. 4. a\u2013c, The R16E11-LexA line faintly, but selectively, drives expression in the same pair of thoracic neurons (Goro neurons) as the R69F06 GAL4 line. a, Co-localization of",
+          "image_index": 3,
+          "dimensions": [
+            266,
+            448
+          ]
+        },
+        {
+          "figure_file": "page_18_fig_4.png",
+          "caption": "a\u2013c, The R16E11-LexA line faintly, but selectively, drives expression in the same pair of thoracic neurons (Goro neurons) as the R69F06 GAL4 line. a, Co-localization of",
+          "image_index": 4,
+          "dimensions": [
+            124,
+            169
+          ]
+        },
+        {
+          "figure_file": "page_18_fig_5.png",
+          "caption": "| This figure relates to Fig. 4. a\u2013c, The R16E11-LexA",
+          "image_index": 5,
+          "dimensions": [
+            377,
+            169
+          ]
+        },
+        {
+          "figure_file": "page_18_fig_6.png",
+          "caption": "Extended Data Figure 5 | This figure relates to Fig. 4. a\u2013c, The R16E11-LexA line faintly, but selectively, drives expression in the same pair of thoracic neurons (Goro neurons) as the R69F06 GAL4 line. a, Co-localization of",
+          "image_index": 6,
+          "dimensions": [
+            377,
+            133
+          ]
+        }
+      ],
+      "figure_count": 6,
+      "analysis": {
+        "circuit_relevance": 9,
+        "larval_relevance": 1,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "more",
+          "goro",
+          "thoracic",
+          "activating"
+        ],
+        "key_concepts": [
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 19,
+      "full_text": "j\nBasin activation\n50\n0\nA00c  \u2206F/F0  (%)\n5 s\ni\nA00c\nBasin-3\n5 s\n50\n0\nA05q  \u2206F/F0  (%)\nBasin activation\ne\nd\nBasin-2\nA05q\ng\nA05q activation\n50\n0\n5 s\nf\nA05q\nGoro\na\nb\nBrain\nintact \nBrain\ncut \n0\n80\nGoro F/F0   (%) \nBasin activation \n0\n80\nbrain lobe cut\nbrain lobe intact\n5 s\nc\nh\nR47D07-GAL4\nUAS-GFP\nneuropil (nc82)\n100\n80\n60\n40\n20\n0\n rolling (%)\neffector ctl\nR47D07 activation\nA05q\nA\nP\nGoro max F/F0    (%) \nGoro \u2206F/F0  (%)\nExtended Data Figure 6 | This figure relates to Fig. 5. a, The nerve cord\nBasin\u2013Goro pathway is sufficient to activate the Goro neurons. Calcium\ntransients in Goro dendrites evoked by Basin activation by local ATP injection\nwith the brain lobes intact (n 5 15 trials) or removed (n 5 24 trials) (in R72F11-\nLexA.LexAop-P2X2; Goro-GAL4(R69F06).GCaMP6 animals).\nb, Quantification of a. The difference is not significant. Error bars show s.e.m.\nc, Left, R47D07 drives expression in A05q neurons (that receive direct inputs\nfrom Basin-2 and synapse onto Goro neurons) and in other neurons in thorax\nandbrain(green, visualized with anti-GFP).InabdominalsegmentsA8 andA7,\nthe only neurons labelled with this line are the A05q neurons (dashed circle).\nThe rest of the nervous system (grey) is visualized with anti-N-cadherin. White\nsquare, A05q axon terminals that synapse onto Goro dendrites. Scale bar,\n25 mm. Note that this line also drives expression in developing adult neurons in\nthorax and brain that are not functional in thelarval nervous system (secondary\nlineages). Right, image of individual A05q cells (magenta) visualized with a\nFLP-based strategy in R47D07, in top-down (top) and cross-section (bottom)\nviews. Arrowheads indicate midline. Thin white lines indicate neuropil\nboundary. d, f, i, Electron micrographs of representative synapses formed by\nBasin-2 ontoA05q (d), A05q ontoGoro (f) and Basins onto A00c (i) containing\nT-bar ribbons. Circles point to the postsynaptic neuron and arrows point to\nvesicle clouds in the presynaptic terminals. All synapses have small clear-core\nvesicles associated with fast chemical neurotransmitters such as acetylcholine,\nglutamate, or GABA. Scale bars, 200nm. e, Calcium transients in A05q axon\nterminals (square in c) evoked by Basin activation using local ATP injection\n(R72F11-LexA.lexop-P2X2; R47D07-GAL4.UAS-GCaMP6, n 5 18 trials)\nsuggest a functionally excitatory connection. g, Calcium transients in Goro\nneurons evoked by A05q activation using local ATP injection specifically in the\nvicinity of A05q dendrites in A8 (dotted circle in c; R47D07-GAL4.UAS-P2X2;\nGoro(R69E06-LexA.lexop-GCaMP6, n 5 18 trials) suggest a functionally\nexcitatory connection. h, Thermogenetic activation of neurons in R47D07\ntriggers rolling (exposing R47D07-GAL4.UAS-dTrpA1 animals to 32 uC).\nControl, 1.UAS-dTrpA1. j, Calcium transients in A00c evoked by Basin\nactivation using local ATP injection (R72F11-LexA.lexop-P2X2; R71A10-\nGAL4.UAS-GCaMP6, n 5 15 trials) suggest a functionally excitatory\nconnection.\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "adult",
+          "goro",
+          "other",
+          "of",
+          "only",
+          "a05q",
+          "postsynaptic"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 20,
+      "full_text": "b\ncontrol\nBasin-1\nBasin-4\nGoro\nA00c\n100\n80\n60\n40\n20\n0\n rolling (%)\n**\n**\nBasin-1\nBasin-4\nGoro\ncontrol\n3\n2\n1\nnorm. stride speed\nA00c\n**\n**\n**\na\n2\nnorm. stride speed\n0\n1\n100\n0\nControl\n% crawling / rolling\n0\n1\n2\n100\n0\nBasin-1\n% crawling / rolling\nnorm. stride speed\nc\n0\n1\n2\n100\n0\nBasin-4\n% crawling / rolling\nnorm. stride speed\n100\n0\n0\n1\n2\nGoro\n% crawling / rolling\nnorm. stride speed\ntime (s)\n100\n0\n% crawling / rolling\n-15\n0\n15\n30\n0\n1\n2\nA00c\nnorm. stride speed\nExtended Data Figure 7 | Distinct neurons differentially control distinct\naspects of the escape sequence. a, Graphs show the time course of rolling\n(green) and crawling (red and blue) behaviours before, during and after a 15 sec\n(indicated by the grey box) optogenetic (617 nm red light) activation period.\nThe percentage of larvae that are rolling (green line) or crawling (red line) at\neach time point is shown.The normalized speedof crawlingstrides (normalized\nby speed prior to optogenetic stimulation) is also shown for those animals that\nare crawling at the time (blue line). Means (dark line) and s.e.m. (shaded areas)\nare shown. Data are from 1.UAS-CsChrimson, basin1-GAL4.UAS-\nCsChrimson, basin4-GAL4.UAS-CsChrimson, Goro-GAL4(R69F06).UAS-\nCsChrimson, or A00c-GAL4(R71A10). UAS-CsChrimson animals, from top to\nbottom. b, Percentage of larvae that rolled at least once during the entire 15 sec\nactivation window. Error bars are 95% confidence intervals. **P , 0.0001.\nOptogenetic activation of Basin-4 and Goro neurons evokes rolling, consistent\nwith the results of thermogentic activation experiments shown in Figs 2a, g and\n4e. Note that the instantaneous percentage of rolling shown in a is always lower\nthan the percentage shown in b because not all larvae roll at exactly the same\ntime. c, Comparison of the normalized speed of crawling strides in response to\noptogenetic activation. Boxes show medians (red) with 25th and 75th quantiles\nof the data. Whisker is 1.5interquartile range (IQR) for the length of the\nwhiskers. Red plus is outlier. **P , 0.0001. We observe that in control larvae,\nred light alone evoked a mild reduction in crawling speed, whereas Basin-1\nactivation evoked a mild, but significant, increase in stride speed and did not\nevoke rolling. Basin-4 activation evoked the entire escape sequence (roll\nfollowed by fast crawl). Note first an increase in instantaneous percentage of\nrolling larvae (peak in green line in a), followed by an increase in the\ninstantaneous percentage of crawling larvae, and an increase in stride speed\nrelative to the period prior to stimulation (peak in blue line in a). Goro neuron\nactivation only evoked rolling and not crawling (note the percentage of\ncrawling larvae is almost 0 during the optogenetic activation period).\nFurthermorethere was noincrease in relativestridespeedfollowing stimulation\noffset. Activation of the three A00c neurons with R71A10 was not sufficient to\nevoke rolling, but it was sufficient to evoke a mild, but significant, increase in\nstride speed. Thus, distinct neurons downstream of Basins appear to\ndifferentially control distinct aspects of the \u2018roll-fast crawl\u2019 escape sequence.\nRESEARCH ARTICLE\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 5,
+        "larval_relevance": 10,
+        "connectome_relevance": 0,
+        "neuron_types_mentioned": [
+          "distinct",
+          "a00c",
+          "goro"
+        ],
+        "key_concepts": [
+          "escape",
+          "speed",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 21,
+      "full_text": "c\nObjective:\nEMech\nENoci\nsensitivity to\ncombined input\nOutput\n100\nMechano-ch only\ntarget:\n0\nzero\noutput\n100\nNoci only\ntarget:\n0\nweak\noutput (30%)\na\nh\nwB\nwM\n\u03b8m\n\u03b8b\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n10\n15\n20\n25\n \n \n30\n40\n50\n60\n70\n80\n30\n40\n50\n60\n70\n80\n20\n10\n\u03b8m\n\u03b8b\nMax S\n(norm.)\n0\n0.2\n0.4\n0.6\n0.8\n1\n+\n+\ngP\ngM\nOutput\ngB\nMultilevel Convergence\n(MC)\nEarly Convergence\n(EC)\n+\ngM\nOutput\ngB\n1-wB\nb\nENoci\nENoci\nEMech\nEMech\nwB\nwM\n1-wM\nwM\n1-wM\nf\ne\nx\nS =\n \n \n \n \nmore output \n0\n1\ncircuit output\nmultimodal\ntemplate\nwB\nMC\nsolution\nEC\nsolution\nConstraint-allowed\nregion\n0\n0.2\n0.4\n0.6\n0\n0.2\n0.4\n0.6\nwM\nwM\nwB\n \n \n0\n0.2\n0.4\n0.6\n0\n0.2\n0.4\n0.6\n0\n20\n40\n60\n80\n100\nDeviation from target outputs\ng\nd\n (MC - EC) / EC\nMC\nHigher\nEC\nHigher\nEMech\nENoci\n\u22121\n0\n1\n25\n50\n75\n25\n50\n75\nMC solution\nEMech\nwM = 0.26\nwB = 0.31\n25\n50\n75\n25\n50\n75\nENoci\ni\nEC solution\nEMech\n0\n100\nOutput\nwM = 0.44\nwB = 0\n25\n50\n75\n25\n50\n75\nENoci\nk\nj\nh\nExtended Data Figure 8 | Multilevel convergence can enhance sensitivity to\nweak multimodal stimuli. A benefit of the multilevel architecture could be to\namplify the effect of mechanosensory cues on nociceptive cues, increasing the\nsensitivity to relatively weak bimodal cues. To explore this idea further, we used\na simple model to ask whether a two-level network with two levels of\nconvergence (multilevel convergence; MC) can be more sensitive to relatively\nweak bimodal events than a network with only early convergence (EC).\na, Schematic for a simple model of early and multilevel convergence networks\n(see Methods for details). We considered an early convergence and a multilevel\nconvergence two-layer feed-forward circuit with two inputs, corresponding to\nMD IV (ENoci) and chordotonal (EMech), and one output corresponding to\nrolling occurrence. We modelled steady-state firing rates, where the output of\neach model neuron is a sigmoidal logistic function (with a lower threshold and\nupper saturation) of a weighted sum of its inputs. One pathway remains only\nchordotonal, while the other mixes modalities only early, or at both levels,\ndepending on weights (wM and wB). b\u2013d, Solutions for wM and wB are found\nusing a constrained optimization procedure that maximizes sensitivity to weak\nbimodal inputs (b, c) within two experimentally observed unimodal target\noutputs (d): (1) that mechanosensory stimulus alone never evokes rolling; and\n(2) that the strongest MD IV stimulus alone evokes only 30% output (Fig. 1e, f\nand see Methods for details). e, Example deviation h from target outputs (see\nMethods) for multiple values of wM and wB for one set of thresholds (hp 5 40;\nhM 5 50; hB 5 75). f, Values of wM and wB that maximize sensitivity S (dots)\nwhile also satisfying h , 3 (grey area). g, Early and multilevel solutions (if they\nexist) for other thresholds. Solutions exist if one or both hM or hB is high\n(keeping hp 5 40). Note that although the optimal sensitivity multilevel\nconvergence solution could have wM 5 0 and thus effectively be an early\nconvergence solution, this does not occur; multilevel convergence solutions are\nalways more sensitive when they exist. Multilevel convergence solutions with\nwB 5 0 are not shown since they do not exhibit multilevel convergence.\nh, Sensitivity of the optimal multilevel convergence solution as a function of the\nsame thresholds as in Extended Data Fig. 8g, normalized by the most sensitive\nmultilevel convergence solution found. Multilevel convergence solutions are\nmore sensitive to relatively weak multimodal stimuli than early convergence\nsolutions. Across all thresholds tested, the most sensitive circuits occur for\nhM5 50 and hB 5 75 (Extended Data Fig. 8k). For such parameters, no early\nconvergence solutions satisfy the unimodal constraints, hence multilevel\nconvergence solutions are overall the most sensitive. i, j, Example early\nconvergence and multilevel convergence solutions forwB andwB that satisfy the\ncondition in d for one set of neuronal firing thresholds (hp 5 40; hM 5 50;\nhB 5 75). k, Subtracting the output of early convergence from the multilevel\nconvergence circuit. The multilevel convergence circuit triggers more rolling\nthan the early convergence circuit in response to relatively weak bimodal cues\nand strong unimodal MD IV cues, but less rolling than the early convergence\ncircuit to strong unimodal chordotonal cues (top left corner). The multilevel\nconvergence circuit thus offers a more complex response function with greater\nsensitivity and selectivity for multimodal and strong unimodal MD IV cues, but\nnot chordotonal cues, and could enable enhanced selection of rolling to more\nthreatening events and reduced selection of rolling to less threatening events.\nARTICLE RESEARCH\nG2015 Macmillan Publishers Limited. All rights reserved\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "of",
+          "model"
+        ],
+        "key_concepts": [
+          "feed-forward",
+          "convergence",
+          "response"
+        ]
+      }
+    }
+  ]
+}

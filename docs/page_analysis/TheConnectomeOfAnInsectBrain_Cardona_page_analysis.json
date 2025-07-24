@@ -1,0 +1,1571 @@
+{
+  "pdf_name": "TheConnectomeOfAnInsectBrain_Cardona.pdf",
+  "total_pages": 44,
+  "processed_date": "2025-07-24T18:05:48.004202",
+  "pages": [
+    {
+      "page_number": 1,
+      "full_text": "The connectome of an insect brain\nMichael Winding1,2,3,*, Benjamin D. Pedigo4, Christopher L. Barnes5,2, Heather G. \nPatsolic6,7, Youngser Park8, Tom Kazimiers3,9, Akira Fushiki3,10, Ingrid V. Andrade11, \nAvinash Khandelwal3, Javier Valdes-Aleman1,3, Feng Li3, Nadine Randel1,2, Elizabeth \nBarsotti2,5, Ana Correia5,2, Richard D. Fetter3,12, Volker Hartenstein11, Carey E. Priebe6,8, \nJoshua T. Vogelstein4,8,*, Albert Cardona2,5,3,*, Marta Zlatic2,1,3,*\n1University of Cambridge, Department of Zoology, Cambridge, UK\n2MRC Laboratory of Molecular Biology, Neurobiology Division, Cambridge, UK\n3Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA\n4Johns Hopkins University, Department of Biomedical Engineering, Baltimore, MD, USA\n5University of Cambridge, Department of Physiology, Development, and Neuroscience, \nCambridge, UK\n6Johns Hopkins University, Department of Applied Mathematics and Statistics, Baltimore, MD, \nUSA\n7Accenture, Arlington, VA, USA\n8Johns Hopkins University, Center for Imaging Science, Baltimore, MD, USA\n9kazmos GmbH, Dresden, Germany\n10Zuckerman Mind Brain Behavior Institute, Columbia University, New York, NY, USA\n11University of California Los Angeles, Department of Molecular, Cell and Developmental Biology, \nLos Angeles, CA, USA\n12Stanford University, Stanford, CA, USA\nAbstract\nBrains contain networks of interconnected neurons and so knowing the network architecture \nis essential for understanding brain function. We therefore mapped the synaptic-resolution \nconnectome of an entire insect brain (Drosophila larva) with rich behavior, including learning, \nvalue computation, and action selection, comprising 3016 neurons and 548,000 synapses. \nexclusive licensee American Association for the Advancement of Science. No claim to original US government works. https://\nwww.sciencemag.org/about/science-licenses-journal-article-reuseThis work is licensed under a CC BY 4.0 International license.\n*Corresponding author. mjw226@cam.ac.uk (M.W.); jovo@jhu.edu (J.T.V.); mzlatic@mrc-lmb.cam.ac.uk (M.Z.); acardona@mrc-\nlmb.cam.ac.uk (A.C.). \nAuthor contributions Conceptualization: M.W., B.D.P., C.E.P., J.T.V., M.Z., and A.C. Neuron Reconstruction: M.W., A.F., I.V.A., \nA.K., J.V.A., F.L., N. R., E.B., and A.C. Methodology: M.W., B.D.P., C.L.B., H.G.P., Y.P., T.K., R.F., V.H., C.E.P., J.T.V., and A.C. \nAnalysis: M.W., B.D.P., C.L.B. Supervision: M.W., C.E.P., J.T.V., M.Z., and A.C. Writing: M.W., B.D.P., M.Z., and A.C. Writing - \nReview and editing: M.W., B.D.P., R.F., V.H., C.E.P., J.T.V., M.Z., and A.C.\nCompeting interests: The authors declare that they have no competing interests.\nEurope PMC Funders Group\nAuthor Manuscript\nScience. Author manuscript; available in PMC 2023 May 16.\nPublished in final edited form as:\nScience. 2023 March 10; 379(6636): eadd9330. doi:10.1126/science.add9330.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_1_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 1]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 4,
+        "larval_relevance": 5,
+        "connectome_relevance": 7,
+        "neuron_types_mentioned": [
+          "interconnected",
+          "3016"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 2,
+      "full_text": "We characterized neuron types, hubs, feedforward and feedback pathways, as well as \ncross-hemisphere and brain-nerve cord interactions. We found pervasive multisensory and \ninterhemispheric integration, highly recurrent architecture, abundant feedback from descending \nneurons, and multiple novel circuit motifs. The brain's most recurrent circuits comprised the \ninput and output neurons of the learning center. Some structural features, including multilayer \nshortcuts and nested recurrent loops, resembled state-of-the-art deep learning architectures. The \nidentified brain architecture provides a basis for future experimental and theoretical studies of \nneural circuits.\nIntroduction\nOne of the brain's defining characteristics is its synaptic wiring diagram, or connectome. A \nsynapse-resolution connectome is therefore an essential prerequisite for understanding the \nmechanisms of brain function (1, 2). To date, complete synaptic-resolution connec-tomes \nhave only been mapped for three organisms with up to several hundred brain neurons \n(3\u20135). Reconstructing and proof-reading circuits from larger brains has been extremely \nchallenging. Synapse-resolution circuitry of larger brains has therefore been approached \nonly considering select subregions (6\u20138). However, pervasive interconnectivity has been \nobserved between brain regions (9, 10). Large-scale recording of functional activity in \ninvertebrates (11) and vertebrates (12) demonstrates that neural computations occur across \nspatially dispersed brain regions, highlighting the need for brain-wide circuit studies.\nWe therefore sought to generate a comprehensive synapse-resolution connectivity map of \na relatively complex brain of a small insect that has a rich behavioral repertoire and is \nexperimentally tractable. We settled on the 1st instar larva of Drosophila melanogaster, \nwhich has a compact brain with several thousand neurons that can be imaged at the \nnanometer scale with electron microscopy (EM) and its circuits reconstructed within a \nreasonable time frame. Its brain structures are homologous to those of adult Drosophila \nand larger insects of other species (13\u201315). The 1st instar larva already has as rich a \nrepertoire of adaptive behaviors as the 3rd instar (16\u201318), including short- and long-term \nmemory (13, 19, 20), value computation, and action selection (19, 21\u201323). Furthermore, \nthe circuit architecture is stable throughout larval stages (24). Thus, although neurons grow \nin size to accompany the growth of the body, they maintain the fraction of synapses they \nreceive from specific partners. Finally, an exceptional genetic toolkit and transparent body \nmake the Drosophila larva an excellent model for manipulating and recording activity in \nspecific neurons in freely behaving animals and relating structural motifs to their function \n(19, 21\u201323, 25\u201327). We mapped all neurons of a Drosophila larva brain and annotated \ntheir synapses using computer-assisted reconstruction with CATMAID (see Methods) in a \nnanometer-resolution EM volume of the central nervous system (CNS) (23).\nResults\nReconstruction of the Drosophila larva brain in a full-CNS electron microscopy volume\nWe previously generated a synaptic-resolution EM volume of the CNS of a 1st instar \nDrosophila larva (23, 28). This volume contains all CNS neurons, as well as sensory \nWinding et al.\nPage 2\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_2_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 2]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "although",
+          "output",
+          "characterized",
+          "brain",
+          "thousand",
+          "all",
+          "descending",
+          "specific",
+          "cns"
+        ],
+        "key_concepts": [
+          "feedback",
+          "recurrent"
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "full_text": "neuron axons and motor neuron dendrites, enabling reconstruction of all neural pathways \nfrom sensory input to motor output. Previous studies have used this EM volume to \nreconstruct most sensory inputs to the brain (455 neurons), their downstream partners, and \nthe higher-order learning center (total 1054 brain neurons). We reconstructed the remaining \n1507 neurons in the brain. The resulting dataset contains 480 input neurons and 2536 \ndifferentiated brain neurons (3016 neurons total), and ~548,000 synaptic sites (Fig. 1, A and \nB, and fig. S1, A to D). Most neurons (>99%) were reconstructed to completion, and the \nmajority of annotated synaptic sites in the brain (75%) were linked with a neuron (Fig. 1B). \nThe remaining 25% were mostly composed of small dendritic fragments, reconstruction of \nwhich is labor-intensive. Moreover, prior studies have shown that neurons make multiple \nconnections with the same partner on different dendritic branches (24, 28), so orphaned \nsynapses may affect synaptic weights of known connections but are unlikely to add entirely \nnew strong connections or change conclusions about strongly connected pathways.\nMost neurons in Drosophila are mirrored across hemispheres, such that each neuron has \na hemilateral homolog in the opposite hemisphere (28). We identified all homologous \nhemilateral partners using automated graph matching (29\u201331) followed by manual review. \nThese pairings were robust across a variety of independent morphological and connectivity \nmetrics (fig. S1, E and F). Our data suggest that 93% of brain neurons have hemilateral \nhomologous partners in the opposite hemisphere (Fig. 1C). Kenyon cells (KC) (176 neurons) \nin the learning and memory center comprise most unpaired neurons (13).\nThese homologous partners were used to identify potential reconstruction errors and \nto target proofreading to such neurons (fig. S1D). To assess the effectiveness of this \ntargeted proofreading, we randomly selected ten brain interneurons and fully proofread \nthem according to previously described methods (23, 28). Most (74%) neuron\u2192neuron \nconnections, or edges, remained unchanged. Edges that did change after proofreading \nmostly displayed a modest increase in synaptic strength, suggesting errors of omission, \nwhich were previously described as the most common type of error (28, 32) (fig. S1, G \nand H). In the following sections, we investigate neuron and connection types, the flow of \ninformation from inputs to outputs, multisensory integration, cross-hemisphere interactions, \nfeedback from outputs to inputs, and the level of recurrence in the brain and brain-nerve \ncord interactions.\nIdentification of all brain input neurons, interneurons, and output neurons\nTo facilitate the analysis of the connectome, we identified a set of broad neuron classes \nbased on prior information. Brain neurons were divided into three general categories: input \nneurons, output neurons, and interneurons (Fig. 1, D and E). Brain input neurons (Fig. 1F) \ncomprise two broad classes: (i) sensory neurons (SNs) with axons in the brain (33\u201335), and \n(ii) ascending neurons (ANs; fig. S2) that transmit somatosensory signals from the ventral \nnerve cord (VNC) (23, 36\u201338). Brain output neurons comprise three broad classes: those \nwith axons terminating in the ring gland (RGNs), descending to the SEZ (DNsSEZ), or \ndescending into the VNC (DNsVNC) (Fig. 1H). The full set of RGNs have been previously \ndescribed (35, 36, 39), whereas DNsSEZ and DNsVNC were reconstructed and identified here \nbased on axon projections (fig. S3).\nWinding et al.\nPage 3\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_3_fig_1.png",
+          "caption": "sensory neurons (SNs) with axons in the brain (33\u201335), and (ii) ascending neurons (ANs; fig. S2) that transmit somatosensory signals from the ventral",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "motor",
+          "and",
+          "output",
+          "455",
+          "that",
+          "input",
+          "3016",
+          "brain",
+          "ascending",
+          "sensory",
+          "1507",
+          "broad",
+          "176",
+          "a",
+          "investigate",
+          "each",
+          "unpaired",
+          "most",
+          "such"
+        ],
+        "key_concepts": [
+          "feedback"
+        ]
+      }
+    },
+    {
+      "page_number": 4,
+      "full_text": "Brain interneurons comprised all neurons with cell bodies and axons and dendrites in the \nbrain. We subdivided interneurons into classes based on previously known functional role or \ndirect connectivity with neurons of known functional role (Fig. 1G and fig. S4). We started \nwith sensory input neurons and identified their projection neurons (PNs) in the primary \nsensory neuropils and the neurons postsynaptic of these PNs in the brain center for encoding \ninnate valences (the lateral horn, LH). We used the previously characterized neurons of \nthe learning center [the mushroom body (MB)], including: the KCs that sparsely represent \nstimulus identities; MB output neurons (MBONs) that represent learned valences of stimuli; \nMB modulatory input neurons (MBINs, mostly dopaminergic, DANs) that provide teaching \nsignals for learning; and their input neurons (MB feedforward neurons, MB-FFN) (19); \nMB feedback neurons (MB-FBNs that connect MBONs and MBINs) (19); and convergence \nneurons (CN) that integrate learned and innate valences from the MB and LH (21). We also \nidentified all presynaptic partners of the three output neuron types.\nIdentification of all axons and dendrites in the brain\nTo better understand neuron morphology, we identified all axons and dendrites. In \nDrosophila, axons and dendrites contain most of a neuron's presynaptic and postsynaptic \nsites, respectively, and are separated by a linker domain devoid of synapses. We used \nan established strategy to identify the synapse-devoid linker domains (see Methods) (28). \nAxonic and dendritic compartments were defined as distal or proximal to these linker \ndomains, respectively. These data were manually proofread, and an axon-dendrite split \npoint was placed for each neuron. We determined that 95.5% of the brain (2421 neurons) \nare polarized with an identifiable axon and dendrite, 0.5% (13 neurons) are unpolarized \nwith no definable axon, and 4.0% (102 neurons) are immature (Fig. 2A). These immature \nneurons were not the developmentally arrested, small undifferentiated (SU) neurons that \nlater differentiate into adult neurons (40) and their nuclei were not heterochromatin-rich like \nthose of SU neurons, despite their general lack of arborization or synaptic sites. It is likely \nthat these immature neurons started to differentiate but were still in the process of neurite \noutgrowth and polarization when the sample was collected. This population includes 78 \nimmature KCs (13) but also 24 non-KC immature neurons, revealing limited neurogenesis of \nlarval neurons outside the memory and learning center.\nAll polarized neurons segregated pre- and post-synaptic sites within axons and dendrites, \nrespectively (Fig. 2B). However, we also found that axons often contained postsynaptic sites \nand dendrites contained presynaptic sites. Thus, neurons can synapse directly onto axons \nand dendrites can directly synapse onto other neurons.\nFour connection types: axo-dendritic, axo-axonic, dendro-axonic and dendro-dendritic\nWhereas axo-dendritic connections are well established in the literature, other nonca-nonical \ninteractions such as axo-axonic connectivity (13, 41\u201344) and dendritic output (13, 45\u201347) \nhave been observed but are not as well studied, and their prevalence was unknown. We \ntherefore identified all axodendritic (a-d), axo-axonic (a-a), dendro-dendritic (d-d), and \ndendro-axonic (d-a) connections in the brain. Most synapses were a-d (66.6%) or a-a \n(25.8%); however, there were still many d-d (5.8%) and d-a synaptic sites (1.8%, Fig. 2C).\nWinding et al.\nPage 4\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_4_fig_1.png",
+          "caption": "and fig. S4). We started",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 3,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "characterized",
+          "subdivided",
+          "projection",
+          "all",
+          "102",
+          "polarized",
+          "feedforward",
+          "2421",
+          "the",
+          "output",
+          "other",
+          "su",
+          "immature",
+          "larval",
+          "with",
+          "feedback",
+          "input",
+          "brain",
+          "a",
+          "adult",
+          "13",
+          "each",
+          "convergence",
+          "understand"
+        ],
+        "key_concepts": [
+          "feedback",
+          "convergence"
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "full_text": "Most (71.8%) of brain neurons received some level of reproducible axonic modulation (fig. \nS5). Notably, 95 neurons (3.8%) received especially large amounts of axonic input relative \nto output (fig. S5, A and B), including subsets of KCs, DANs, and predescending neurons \n(pre-DNsVNC). Neurons that make dendritic output onto other neurons were much rarer \n(16.5%), but some made an especially large amount of dendritic output relative to input, \nincluding subsets of KCs and predescending neurons (fig. S5, C and D).\nThe connectome can be thought of as four graphs (Fig. 2D), where all four graphs share \nthe same set of nodes (i.e., neurons), and the four edge types (a-d, a-a, d-d, and d-a) \neach comprise a separate graph. We quantified the number of neurons (nodes), the density, \nand maximum node degree for each graph (Fig. 2E). The axo-dendritic graph had the \nhighest density (i.e., the most connections) and highest number of neurons participating \nin connectivity, whereas the axo-axonic graph had the highest maximum degree (i.e., the \nmaximum number of synaptic partners observed in an individual neuron).\nWe next wondered whether neurons were connected by one or multiple edge types. Most \nneuron partners (95%) were connected in only one way (a-d, a-a, d-d, or d-a). However, \nwe also observed many edges with multiple connection types (fig. S6D), which occurred \nmore often than expected by a null model. The most common examples were a-d combined \nwith a-a, however many combinations were observed, including rare combinations of three-\nor four-edge types between the same neurons. Four-edge connections were mostly found \nin local neurons (LNs, i.e., neurons involved in local processing in a specific neuropil) \nand predescending neurons, whereas three-edge connections were more dispersed amongst \nmultiple cell types, but with a focus in LNs and predescending neurons (fig. S6E).\nNumerically strong connections are reproducible across brain hemispheres\nWe investigated the distribution of edge strengths for each connection type (fig. S6, A and \nB). Most edges were weak (1 or 2 synapses) for all connection types (a-d: 60%, a-a: 75%, \nd-d: 79%, d-a: 91%; 66% across all types). However, strong edges (\u22655 synapse) contained \nthe majority (a-d: 61%; across all types: 55%; fig. S6B), whereas weak edges (1 or 2 \nsynapses) contained the minority (a-d: 22%; across all types: 28%) of synaptic sites.\nWe next investigated edge symmetry across the two brain hemispheres. Edge strength \ncorrelated with interhemispheric symmetry (fig. S6C): weak edges were mostly \nasymmetrical whereas strong edges were highly conserved between hemispheres. With edge \nstrengths of at least 5 and 10 synapses, most edges (>80 and >95%, respectively) were \nsymmetrical across all edge types. Similarly, weak, variable connections were observed in C. \nelegans (48). Given that many weak connections are not reproducible between hemispheres, \nwe cannot discern whether the observed sto-chasticity is due to reconstruction error or \ndevelopmental noise (28). We therefore focus much of our analysis on strong reproducible \nconnections (see Methods). However, weak connections could have notable roles, such \nas maintaining a certain membrane potential (49), adding noise (50) or contributing to \nidiosyncratic variability in behavior.\nWinding et al.\nPage 5\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_5_fig_1.png",
+          "caption": "Most (71.8%) of brain neurons received some level of reproducible axonic modulation (fig. S5). Notably, 95 neurons (3.8%) received especially large amounts of axonic input relative to output (fig. S5, A and B), including subsets of KCs, DANs, and predescending neurons",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 8,
+        "neuron_types_mentioned": [
+          "whether",
+          "predescending",
+          "other",
+          "of",
+          "brain",
+          "same",
+          "local",
+          "95",
+          "most",
+          "individual"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 6,
+      "full_text": "Distinct connection types differentially contribute to feedforward and feedback pathways\nWe studied the contribution of different edge types to either feedforward or feedback \nsignals throughout the brain. We applied the signal flow algorithm (see Methods) to the \ngraph with all edge types combined to sort neurons according to the flow from sensory \nto descending neurons. We used this input-to-output sorting to categorize connections in \nthe brain: we defined connections as feedforward if they projected from neurons closer to \nsensory periphery to neurons closer to descending neurons, and vice versa for feedback \nedges. The a-d graph displayed the most feedforward synapses; a-a and d-d graphs displayed \na mixture of feedforward and feedback, with a bias toward feedforward synapses; whereas \nthe d-a graph displayed the most feedback synapses (Fig. 2F and fig. S6, F and G).\nWe next compared neuron sortings when performed on each of the four graphs \nindependently (Fig. 2G and fig. S7). The sorting of the a-d graph best matched the summed \ngraph (graph with all edge types combined) and sorted the network from sensory periphery \nto brain output neurons. The a-a and a-d graphs displayed a similar flow from sensory to \noutput, despite the details of the sorting being different (Spearman's correlation coefficient \n= 0.44 between the signal flow sorting of the a-a and a-d graphs). Notably, the d-a graph \nsorting tended to be the inverse of the a-d graph's (Spearman's correlation coefficient = \n\u20130.61), i.e., starting at brain output neurons and ending at the sensory periphery. Most d-a \nedges (63%) were the inverse of a-d edges (i.e., there was a high edge reciprocity; Fig. 2H), \nwhich explains the inverse relationship between these graphs.\nA-a and to a lesser extent d-d connections displayed high edge reciprocity, meaning many \nneurons displayed reciprocal a-a connections and d-d connections, respectively (Fig. 2H). \nNote that because all connections are directional, such reciprocal loops were not guaranteed \nto occur.\nHierarchical clustering estimates 93 connectivity-based brain neuron types\nNext, we subdivided brain neurons into types based on their synaptic connectivity. We used \nthe graph structure of all four connection types to spectrally embed all brain neurons in a \nshared space and clustered them using this representation (see Methods). This resulted in \nnested sets of clusters that can be examined at a desired granularity, from large groups of \nneurons to 93 fine-grained cell types (Fig. 3A and fig. S8, A to D). In contrast with results \nfrom community detection algorithms, our clusters are not necessarily composed of groups \nof neurons which communicate more densely within a cluster (see Methods). Instead, our \nclustering grouped neurons with similar connectivity to other neurons even if little direct \nintracluster connectivity was present\u2014for example, olfactory PNs from the antennal lobe \nwhich function as parallel input channels and whose activity is regulated as a group (33). \nThus, our approach is better suited to finding neuron types, rather than densely connected \nprocessing modules. Our connectivity-based clusters were internally consistent for attributes \nbesides connectivity. The morphology of neurons within clusters was similar, with the mean \nwithin-cluster NBLAST score (0.80 \u00b1 0.15 SD) much higher than expected by chance (0.5), \neven though clustering was based solely on connectivity and no morphological data were \nused (Fig. 3B and fig. S8, A and B). Furthermore, neurons with similar known functions \nWinding et al.\nPage 6\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_6_fig_1.png",
+          "caption": "and fig. S6, F and G).",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "output",
+          "other",
+          "compared",
+          "of",
+          "finding",
+          "brain",
+          "grouped",
+          "descending",
+          "to",
+          "from",
+          "sort",
+          "many"
+        ],
+        "key_concepts": [
+          "feedback",
+          "hierarchical",
+          "parallel",
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 7,
+      "full_text": "were usually found in the same or in related clusters (e.g., clusters of olfactory PNs, KCs, \nMBINs/MBONs, MB-FBNs, and others; Fig. 3A and fig. S8, D to G).\nThe connectivity within and between all clusters is displayed in Fig. 3C. Many (but \nnot all) clusters displayed strong intracluster connectivity and shared output to similar \npostsynaptic clusters. A coarser granularity can also be selected (Fig. 3D) and used to \nexplore connectivity between larger groups of related neuron types.\nMost brain hubs are pre- or postsynaptic to the learning center\nHubs play key roles in brain computations and behavior (51). We therefore identified \nbrain hubs for all connection types. To focus on the strongest hubs, reproducible across \nhemispheres, we filtered the connectome to include only strong connections observed in \nboth hemispheres (using a \u22651% input threshold; see Methods). Brain hubs were defined \nas having \u226520 pre- or postsynaptic partners, respectively, i.e., an in- or out-degree of \u226520 \n[this threshold is based on the a-d network mean plus 1.5 standard deviations (SD)]. We \ndistinguished between in-hubs (over the in-degree threshold), out-hubs (over the out-degree \nthreshold), and in-out hubs (over both thresholds). Using these criteria, we identified 506 \na-d, 100 a-a, 10 d-d, and 8 d-a hubs (Fig. 3E and fig. S9). a-d out-hubs were often observed \nin clusters closer to the sensory periphery, notably PNs, whereas a-d in-hubs were more \noften closer to output clusters, including pre-output and output neurons. Most (73%, 19 \nof 26 pairs) of a-d in-out hubs were postsynaptic to the learning center output neurons \n(MBONs) and/or presynaptic to its modulatory neurons that drive learning (MBONs, CNs, \nMB-FBNs, MB-FFNs, and one pre-DNVNC pair postsynaptic to MBONs; Fig. 3F). Several \nin-out hubs (23%, 12 pairs) were convergence neurons (CNs), receiving input from both the \nMB and LH, which encode learned and innate values, respectively (19, 21). One such in-out \nhub is the CN-MBON-m1, shown to functionally integrate learned and innate values and \nbidirectionally control approach and avoidance (21).\nIdentification of all brain local neurons\nBrain neurons are often divided into local neurons (LNs), involved in local processing within \na specific brain neuropil or layer, and PNs, which carry information to other brain regions. \nTo systematically identify all brain LNs, we developed two connectivity-based definitions \n(fig. S10, A and B). Type 1 LNs provide most of their output to neurons in their sensory \nlayer (defined by the number of hops from SNs of a particular modality), and/or to the \nsensory layer directly upstream of them (fig. S10A). Type 2 LNs received most of their input \nand sent most of their output to any sensory layer, to which it did not belong (fig. S10B). \nIn this way, we identified all previously published LNs (13, 33, 34) and many new putative \nLNs (fig. S10, C and D). We then defined all 2nd order PNs by exclusion, i.e., all neurons \nthat were not local but were directly downstream of SNs (fig. S10E). Non-LN neurons that \nare higher order (i.e., not directly downstream of SNs) are usually termed output neurons \nfrom a specific neuropile (13, 52, 53) rather than PNs, but we refrain from labeling them \nin a specific way and leave them undefined as non-LNs. Although our LN definitions were \nconnectivity-based, they provided results that matched morphological expectations. Namely, \nthe Euclidean distance between the axon and dendrite of local neurons was small, whereas \nfor PNs the axon-dendrite distance was large (fig. S10F). Notably, LNs engaged in more \nWinding et al.\nPage 7\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_7_fig_1.png",
+          "caption": "and fig. S8, D to G).",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 7,
+        "neuron_types_mentioned": [
+          "ln",
+          "output",
+          "modulatory",
+          "related",
+          "brain",
+          "local",
+          "all",
+          "to",
+          "convergence"
+        ],
+        "key_concepts": [
+          "convergence",
+          "avoidance",
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 8,
+      "full_text": "noncanonical connectivity than PNs, including a-a, d-d, and d-a connections (fig. S10G), \nperhaps allowing LNs to regulate multiple aspects of activity in both the axon and dendrite.\nMost of the LNs (98 neurons) that met the above definition were either 2nd order neurons \ndirectly downstream of SNs (i.e., one hop from SNs) or 3rd order neurons (two hops \ndownstream of SNs; fig. S10C). A very small number of 4th-order LNs were also identified \n(6 neurons; fig. S10, C and D). Two of the three pairs were pre-DNVNC neurons and one was \ndownstream of neurons that integrate learned and innate valence, suggesting some level of \nlocal processing in the pre-DNVNC and post-MB flayers. Overall, progressively fewer LNs \nwere found further from the sensory periphery.\nIdentification of all brain sensory pathways\nWe systematically characterized brainwide pathways from distinct types of SNs to all \nother brain neurons. For the remainder of the paper, we will focus our analysis on a-d \nconnections because they are the most abundant and best understood in terms of functional \neffects. We generated all possible a-d pathways from brain input neurons to all other \nbrain neurons and ending at output neurons in fewer than 6 hops (Fig. 3G). We classified \ninput neurons based on their known sensory modalities. Olfactory (33), gustatory (35), \nthermosensory (54), visual (34), gut (35), and respiratory state SNs (55) project directly to \nthe brain. Somatosensory ANs from the nerve cord received direct or indirect input from \nmechanosensory (22, 23), nociceptive (23, 56), and proprioceptive SNs (28) (fig. S2 and \ntable S1) and their axons projected to the brain.\nWe identified all 2nd-, 3rd-, 4th-, and 5th-order brain neurons downstream of each input \nmodality (Fig. 4, A to C). For the purpose of this analysis, we defined the order of a neuron \naccording to its lowest order input from any input neuron type. However, neurons can \nreceive multipath input from the same input neuron type, through distinct paths of different \nlengths (e.g., they can be both 2nd-and 3rd-order). Many brain neurons (545; 21%) were \n2nd order, but most (1410; 56%) were 3rd order (received input from a SN in two hops). A \nconsiderable number were 4th order (377; 15%), but only 16 neurons (<1%) were 5th order \n(Fig. 4C). Note that 188 brain neurons (7%) were either immature or received only input \nfrom neurons in the SEZ of unknown modality and were therefore not categorized. Of the \nneurons analyzed, no brain neuron was more than 4 hops removed from at least one input \nneuron and most were only 2 or 3 hops removed.\nMost 2nd-order neurons received direct input from a single SN type (Fig. 4B), with some \nexceptions, including olfactory local neurons that also received input from gustatory and \nthermowarm SNs (33, 54). 3rd-order neurons were more often shared across modalities and \nby the 4th order, most neurons were shared across modalities (Fig. 4B). However, even \nneurons that are exclusively 2nd or 3rd order for one modality can receive input from other \nmodalities through longer paths.\nMost sensory modalities exhibited a large expansion of neuron numbers in the 3rd order, \ncompared with 2nd-order layers (Fig. 4A and table S2), indicating prominent divergence, \ni.e., they broadcast their signals to many different downstream partners. Generally, the \nnumber of neurons downstream of 2nd-order PNs (divergence) was higher than the number \nWinding et al.\nPage 8\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_8_fig_1.png",
+          "caption": "and table S1) and their axons projected to the brain.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "output",
+          "of",
+          "input",
+          "16",
+          "brain",
+          "order",
+          "local",
+          "dnvnc",
+          "98",
+          "from",
+          "most",
+          "the",
+          "even",
+          "a",
+          "6"
+        ],
+        "key_concepts": [
+          "divergence"
+        ]
+      }
+    },
+    {
+      "page_number": 9,
+      "full_text": "of PNs upstream of the 3rd-order neurons (convergence). Convergence was also prominent, \nwith most 3rd-order neurons receiving input from multiple 2nd-order PNs.\nSensory information can reach output neurons within one to three hops\nWe investigated the cell type identities of neurons at different processing layers, i.e., at \ndifferent hops from SNs or ANs (2nd-, 3rd-, 4th-and 5th-order neurons) within each sensory \ncircuit (Fig. 4C). Sensory information reached all cell classes within a couple hops. A \nnotable percentage of brain output neurons were 2nd order, i.e., postsynaptic (one hop) of \nSNs or ANs (DNsVNC: 13%, DNsSEZ: 53%, RGNs: 46%), or 3rd order, i.e., two hops from \nSNs or ANs (DNsVNC: 52%, DNsSEZ: 38%, RGNs: 29%). The remaining 34% of DNsVNC, \n5% of DNsSEZ, and 21% of RGNs were 4th order (three hops from SNs/ANs, Fig. 4C). \nThus, most output neurons receive sensory information within a maximum of three hops. \nHowever, although these direct (one-hop), two-hop, or three-hop connections represent the \nshortest paths to output neurons, most output neurons also received longer multihop input \nfrom SNs.\nThe highest order neurons in the brain (5th order) were not output neurons, but contained 14 \npre-output neurons, presynaptic to DNsVNC. These neurons received input from and output \nto other pre-DNsVNC (the most numerous group of 4th-order neurons) and shared some \nupstream and downstream partners, suggesting complex, multilayered connectivity between \npre-DNsVNC (fig. S11). This suggests that, even though DNVNC neurons can receive sensory \ninput in very few hops, they also receive the most processed information in the brain through \nlonger paths. We observed multiple parallel pathways from each sensory modality to DNs \n(fig. S12, A and B). However, we also found extensive connectivity between neurons within \nthese parallel pathways, suggesting they likely form a distributed processing network (fig. \nS12C). Most pathways and most individual neurons within paths were not restricted to a \nparticular sensory modality and were instead shared by multiple modalities (fig. S12, D and \nE).\nDifferent sensory modalities targeted different types of output neurons (Fig. 4C). For \nexample, gustatory and gut sensory signals targeted more DNsSEZ than DNsVNC, whereas \nother modalities targeted more DNsVNC than DNsSEZ. Generally, sensory pathways to \nDNsSEZ were shorter compared with pathways to DNsVNC. Most DNsSEZ were 2nd order \n(receiving direct inputs from SNs) whereas most DNsVNC were 3rd order.\nOutput neurons receive input from the same modality through multiple paths of varying \nlengths\nSensory information is processed both serially and in parallel (57) but the architecture \nof sensory circuits is not fully understood. While characterizing the shortest paths from \nSNs to output neurons, we observed that output neurons also receive sensory information \nthrough longer paths. The additional hops in longer paths likely result in further processing \nof the stimulus, which may be important to extract more abstract features (58, 59) or to \nlayer more complex computations on top of existing ones (60). To provide a basis for a \ncomprehensive understanding of sensory processing circuits, we therefore systematically \nanalyzed all pathways and not just the shortest ones.\nWinding et al.\nPage 9\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_9_fig_1.png",
+          "caption": "circuit (Fig. 4C). Sensory information reached all cell classes within a couple hops. A notable percentage of brain output neurons were 2nd order, i.e., postsynaptic (one hop) of SNs or ANs (DNsVNC: 13%, DNsSEZ: 53%, RGNs: 46%), or 3rd order, i.e., two hops from",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "output",
+          "between",
+          "of",
+          "these",
+          "order",
+          "dnvnc",
+          "individual"
+        ],
+        "key_concepts": [
+          "convergence",
+          "parallel"
+        ]
+      }
+    },
+    {
+      "page_number": 10,
+      "full_text": "We developed a computational tool, the signal cascade, that propagates polysynaptic signals \nthrough the brain based on the assumption that the likelihood of signal propagation between \ntwo connected neurons depends on the number of synapses between them (Fig. 4D; see \nMethods). Synapse counts can be used to accurately predict synaptic surface area and \nare therefore a good proxy for synaptic strength (61). This tool therefore captures all \npolysynaptic pathways with reasonably strong connections along their length. The algorithm \nmakes no assumption about the sign of connections and assumes that both excitatory and \ninhibitory connections can influence the activity of downstream neurons relative to baseline \nactivity. In support of this assumption, patch-clamp recordings show that larval neurons \nhave baseline activity that can be bidirectionally modified (19, 22) and direct optogenetic \ninhibition; further, activation of neurons relative to their own baseline can promote opposite \nactions (21).\nSignals can be started and terminated at predefined neurons to explore all pathways that link \nthem. We use brain output neurons as end points unless otherwise mentioned. In cascades \nstarted at SNs, the signal generally reached DNsVNC in 3 to 6 hops and rarely more than \n8 hops (Fig. 4E), which we therefore considered the maximum depth of the brain. 5-hop \npathways were shown to be functional in the larva (specifically, MD class IV neurons to \nMB DANs) (19), but no studies have yet functionally tested 6-, 7-, or 8-hop pathways. We \ntherefore stop the cascades at either 8 or 5 hops, using 8 hops to not miss long paths and \n5 hops to determine which aspects of architecture are apparent with a pathway length for \nwhich functional connectivity has been confirmed.\nUsing 8-hop cascades, we identified all pathways between SNs or ANs and output neurons \n(Fig. 4E). Individual sensory modalities had different median pathway depths to output \nneurons (fig. S13A). Overall, olfaction and gustation displayed the shortest pathways to \noutput neurons, whereas the ascending somatosensory modalities displayed the longest.\nOutput neurons received sensory inputs from the same modality through multiple paths \nof different lengths. For example, some paths from the same sensory modality reached \nDNsVNC in 2 hops, whereas others displayed as many as 6 hops (fig. S13A). DNsVNC, on \naverage, received input from pathways of three different lengths from individual sensory \nmodalities (Fig. 4F and fig. S13B).\nMost brain neurons are multimodal\nWe next investigated the multimodal character of the brain as a whole, while taking into \naccount the longer pathways. We started 8-hop signal cascades from each sensory modality \nand reported the combinations of sensory input each neuron received (fig. S13, C and D). \nVery few neurons (12 or 14% with 8- or 5-hop cascades, respectively) received signals from \nonly one modality, purported labeled line neurons, whereas most neurons were multimodal \n(Fig. 4G), including brain output neurons (fig. S13, E and F). Most labeled line neurons \nwere close to the sensory periphery (Fig. 4H). Nevertheless, many modalities converged \nalready at the earliest stages of sensory processing, with only 36 or 38% (with 8- and \n5-hop cascades) of 2nd-order PNs/PNssomato being unimodal (fig. S13C). Consistently, we \nobserved multimodal mixing between different sensory circuits at the 2nd, 3rd, 4th, and 5th \norders (fig. S13D).\nWinding et al.\nPage 10\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_10_fig_1.png",
+          "caption": "and fig. S13B).",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 3,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "connected",
+          "larval",
+          "output",
+          "of",
+          "each",
+          "few",
+          "brain",
+          "downstream",
+          "iv",
+          "most",
+          "predefined",
+          "line"
+        ],
+        "key_concepts": [
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 11,
+      "full_text": "We also analyzed sensory convergence on MB DANs. DANs have been implicated in \nlearning, motivation, and action-selection across the animal kingdom (62) and understanding \nthe type of sensory information they receive is essential for understanding their function. \nDANs receive input from sensory systems that sense rewards and punishments (19, 63), but \nthe extent to which they receive input from other modalities was unclear. We found that \nDANs received input from all sensory modalities, including from those that normally sense \nconditioned stimuli in learning tasks (e.g., olfactory) and from proprioceptive neurons (with \n5- or 8-hop cascades; Fig. 4I). By contrast, other MB modulatory neurons (13) were not \nas integrative: only 33% (with 5- or 8-hop cascades) of octopaminergic neurons (OANs) \nreceived input from all modalities.\nIdentification of all ipsilateral, bilateral, and contralateral neurons\nThe presence of two hemispheres is a fundamental property of the brain, but the way in \nwhich information from both hemispheres is integrated and used in neural computation is \nnot well understood. To investigate the structural basis of interhemispheric interactions, we \nidentified all neurons that engaged in interhemispheric communication through contralateral \nprojections (axonal or dendritic, Fig. 5, A and B). Most (98%) of neurons displayed \nipsilateral dendrites (fig. S14). A small population of neurons (1%) had bilateral dendrites \nwith either ipsilateral, bilateral, or contralateral axons. These neurons were only observed \nin the learning center (MBONs) and brain output network (pre-DNsVNC, DNsVNC, DNsSEZ) \n(fig. S15). Although most neurons had ipsilateral (61%) a substantial number had bilateral \n(24%) or contralateral (15%) axons (Fig. 5C). Notably, 88% of a-d in-out hubs had either \ncontra- or bilateral axons, even though these neurons account for only 39% of brain neurons.\nSome neurons with bilateral axons target distinct partners in the two hemispheres\nNeurons with bilateral axons project to both hemispheres, but do they communicate \nwith homologous postsynaptic partners in both hemispheres? We calculated the cosine \nsimilarity between postsynaptic partners of individual bilaterally projecting neurons in the \ntwo hemispheres (Fig. 5D, left). Most bilateral neurons generally connected to homologous \npartners in both hemispheres, i.e., had high partner similarity scores, but there were some \nneurons that had low scores. We binned these neurons into three categories based on their \npartner similarity scores and analyzed their partners further (Fig. 5D, right; fig. S16).\nWe found 7 pairs of bilateral neurons with completely different postsynaptic partners on \nthe ipsi- and contralateral hemispheres and 13 pairs with mostly non-overlapping ipsi- \nand contralateral partners (fig. S16). All of these neurons had unilateral dendrites. Most \nasymmetric bilateral neurons synapsed onto pre-DNs or DNs in one hemisphere but not the \nother, or onto different DNs or pre-DNs in the two hemispheres. These neurons could be \ninvolved in controlling asymmetric motor patterns that require activation of different subsets \nof muscles on the left and right sides of the body. Indeed, some DNs that receive input from \nasymmetric bilateral neurons (fig. S16, C and D) have presynaptic sites in thoracic and early \nabdominal segments, perhaps indicating a role in turning (64).\nWinding et al.\nPage 11\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_11_fig_1.png",
+          "caption": "5- or 8-hop cascades; Fig. 4I). By contrast, other MB modulatory neurons (13) were not as integrative: only 33% (with 5- or 8-hop cascades) of octopaminergic neurons (OANs) received input from all modalities.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "proprioceptive",
+          "contralateral",
+          "modulatory",
+          "octopaminergic",
+          "of",
+          "projecting",
+          "these",
+          "bilateral",
+          "brain",
+          "all",
+          "hemispheres",
+          "some",
+          "most"
+        ],
+        "key_concepts": [
+          "convergence",
+          "turn"
+        ]
+      }
+    },
+    {
+      "page_number": 12,
+      "full_text": "Reciprocal contralateral loops\nTo better understand information flow between brain hemispheres, we asked how ipsilateral, \nbilateral, and contralateral neurons communicate with each other and calculated their \nconnection probability (Fig. 5E). Ipsilateral neurons synapsed approximately equally onto \nipsilateral, bilateral, and contralateral neurons in the ipsilateral hemisphere. Bilateral \nneurons had a slight preference for bilateral and contralateral neurons. Contralateral neurons \ndisplayed a notable preference for other contralateral neurons, both in terms of input and \noutput. Individual contralateral neurons synapsed onto 3.4 other contralateral neurons on \naverage (34% of their downstream partners), whereas ipsilateral neurons synapsed onto 1.5 \ncontralateral neurons on average (15% of their downstream partners).\nBecause each contralateral neuron has a homolog in the opposite hemisphere, we wondered \nwhether homologous left-right contralateral neuron pairs tended to directly synapse onto \neach other. We found that the connection probability onto a homologous contralateral \npartner was much higher than onto a nonhomologous neuron (Fig. 5F). We identified 24 \nreciprocally connected homologous pairs (10% of contralateral neurons; fig. S17). Most \nwere either pre-DNsVNC, DNsVNC, postsynaptic of the learning center outputs (MBONs), \nand/or provided feedback onto the MB DANs (figs. S17D and S18). Many homologous pair \nloops interacted amongst themselves, forming double or super loops (fig. S18B). Double \nand super loops occurred between neuron pairs with similar morphology and/or connectivity. \nOne super loop involved four neuron pairs downstream of the in-out hub, MBON-m1, which \nintegrates input from other MBONs and from the LH (21) and computes predicted values \nof stimuli. This super loop projected onto pre-DNsVNC and indirectly sent feedback onto \nMB DANs through MB-FBNs (fig. S18C). The other super loop involved five neurons \nthat projected onto DNsVNC. Thus, the reciprocal pair loops, double loops, and super \nloops appear to be prevalent in brain areas that potentially play a role in action-selection \n(downstream of MBONs and upstream of DNsVNC) and learning (upstream of MB DANs).\nInterhemispheric integration occurs across most of the brain\nOur finding that 39% of brain neurons have contra- or bilateral axons suggests that the \ntwo hemispheres are heavily interconnected and that their information could be integrated \nat many sites. To systematically investigate where interhemispheric convergence occurs, we \ngenerated signal cascades from either left-or right-side SNs and observed the resulting signal \npropagation through both hemispheres (fig. S19, A to C). Signals crossed to the opposite \nhemisphere within 2 hops and were robustly found in both hemispheres by 3 hops (fig. \nS19A). We assessed simultaneous overlap between left- and right-side sensory signals to \nfind interhemispheric integration sites. The cell types of all integrative ipsilateral, bilateral, \nand contralateral types were identified (fig. S19B). We quantified the lateralization of each \nneuron by the ratio of left and right signals they received through signal cascades. Most \nneurons (81 or 79%, using 8- or 5-hop cascades) integrated signals from both left and right \nSNs (fig. S19C). Most lateralized neurons were PNs, KCs, and DNsSEZ (Fig. 5G). Thus, \nafter integration of contralateral- and ipsilateral information on one side of the brain, the \nintegrated information is often passed back to the other hemisphere (fig. S19, D to I).\nWinding et al.\nPage 12\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_12_fig_1.png",
+          "caption": "connection probability (Fig. 5E). Ipsilateral neurons synapsed approximately equally onto ipsilateral, bilateral, and contralateral neurons in the ipsilateral hemisphere. Bilateral neurons had a slight preference for bilateral and contralateral neurons. Contralateral neurons",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "between",
+          "each",
+          "contralateral",
+          "bilateral",
+          "four",
+          "brain",
+          "lateralized",
+          "five",
+          "most",
+          "nonhomologous",
+          "ipsilateral"
+        ],
+        "key_concepts": [
+          "feedback",
+          "convergence"
+        ]
+      }
+    },
+    {
+      "page_number": 13,
+      "full_text": "Analysis of brainwide pathways reveals a nested recurrent architecture\nThe dominant synaptic network of the brain comprised a-d connections (Fig. 2C), many \nof which provide feedforward signal from sensory to output systems (Fig. 2F). However, \nrecurrence is an important feature of brain circuits (19, 65) and can improve computational \npower in artificial neural nets (66). We therefore characterized the reverse signal in the a-d \nnetwork, from output neurons back toward the sensory periphery. We generated independent \nsignal cascades starting at each level-7 brain cluster (Figs. 6A and 3A). Because these \nclusters were sorted from brain inputs to outputs, we could track the extent to which signals \npropagated up or down this brain structure to other clusters. We kept these cascades short \n(ending after 2 hops) to initially limit our analysis to the shorter paths of reverse signal \nand identify its lower bound. A cascade signal that traveled up the brain cluster structure \ntoward the sensory periphery was considered backward, whereas a signal that traveled down \nthe cluster structure toward the output neurons was considered forward. Robust forward and \nbackward signal originated from nearly all brain clusters (Fig. 6B). Deeper brain clusters \n(closer to brain outputs) received mostly forward signals, whereas shallower clusters (closer \nto sensory periphery) received a mixture of forward and backward signals. Most brain \nclusters provided forward and backward signals to multiple other clusters simultaneously; \nthis was observed even for single neurons within each cluster (Fig. 6C).\nWe wondered to what extent individual neurons provide feedback to their own upstream \npartners, thereby forming recurrent loops. We therefore used multihop signal cascades from \nindividual neurons to identify their direct and indirect downstream partners throughout \nthe brain (up to 5 hops). We then determined which of these downstream partners sent \nrecurrent signals back to the source neuron. We found that 41% of brain neurons were \nrecurrent, i.e., sent signals back to at least one of their upstream partners (Fig. 6D). \nFurthermore, downstream neurons often sent recurrent signals to upstream neurons using \npaths of multiple different lengths (Fig. 6E). On average, recurrent communication between \na single downstream neuron and its upstream partner used polysynaptic paths of multiple \ndifferent lengths (on average 1.9 \u00b1 0.9 SD).\nInput and output neurons of the learning center are among the most recurrent in the brain\nWe next analyzed which brain cell classes were the most recurrent (Fig. 6F). We define \nrecurrence for individual neurons as the fraction of their polysynaptic downstream partners \n(using cascades of up to 5 hops) that sent signal back to that source neuron (also using 5-hop \ncascades) with a-d connections. Therefore, neurons with high and low recurrence scores are \nengaged in many and few recurrent loops, respectively.\nThe fraction of recurrent partners varied widely between distinct neuron classes (Fig. 6F). \nPNs and the intrinsic neurons of the learning center (KCs) had virtually no recurrent partners \n(on average, 1.2% and 0.1%, respectively). Other neurons associated with the learning \ncenter were amongst the most recurrent in the brain: DANs (57%), the modulatory neurons \nthat drive learning; MB-FBNs (51%), presynaptic to DANs and implicated in computing \npredicted value and regulating learning (19); MBONs (45%), the outputs of the learning \ncenter and presynaptic to MB-FBNs; and CNs (42%), presynaptic to both MBONs and \nLHNs, which integrate learned and innate signals (21) (Fig. 6F). Together, these four sets of \nWinding et al.\nPage 13\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_13_fig_1.png",
+          "caption": "The dominant synaptic network of the brain comprised a-d connections (Fig. 2C), many of which provide feedforward signal from sensory to output systems (Fig. 2F). However, recurrence is an important feature of brain circuits (19, 65) and can improve computational",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "output",
+          "distinct",
+          "other",
+          "single",
+          "modulatory",
+          "brain",
+          "intrinsic",
+          "downstream",
+          "upstream",
+          "source",
+          "individual"
+        ],
+        "key_concepts": [
+          "feedback",
+          "recurrent"
+        ]
+      }
+    },
+    {
+      "page_number": 14,
+      "full_text": "neurons implicated in learning (13, 19) and in memory-based action-selection (21) form a \nset of interconnected recurrent loops (Fig. 6, F and G).\nDescending neurons provide efference copy to learning center dopaminergic neurons\nMany deep brain clusters far from the sensory periphery (Fig. 6B), including many DNs, \nprovided backward signals to many brain neurons. The axons of some DNsVNC (37%) \nand most DNsSEZ (66%) synapsed onto other brain neurons before descending to the \nVNC and SEZ, thus providing putative efference copy signals (i.e., copies of motor \ncommands). Single DNs broadcasted signals to neurons that were directly or indirectly \nupstream of themselves (feedback signals) or onto parallel pathways, namely neurons \nupstream of other output neurons (parallel efference copy signals; Fig. 6H). DNs synapsed \nonto many different brain neurons (Fig. 6H), including 130 postsynaptic partners and 588 \npartners 2 hops downstream of DNsVNC and 320 postsynaptic partners and 1284 partners \n2 hops downstream of DNsSEZ. Of those DNs that synapsed onto brain neurons, we found \nthat individual DNsVNC synapsed on average onto 6 postsynaptic neurons and indirectly \n(through 2 hops) onto 43 neurons. Individual DNsSEZ synapsed on average onto 8 neurons \ndirectly and onto 79 neurons in 2 hops.\nWe investigated the cell type identities of brain neurons receiving DNSEZ and DNVNC \ninput (Fig. 6H). The most prominent DNSEZ targets were PNs [including direct connections \nto an olfactory uniglomerular PN (uPN 67b), 5 pairs of multi-glomerular PNs, 24 pairs \nof gustatory PNs] and pre-DNVNC neurons. The most prominent DNsVNC targets were \npre-DNVNC neurons and MB-related neurons thought to play a role in memory-based action \nselection (CNs) (21) and in driving learning: MBINs (mostly dopaminergic, DANs) and \nFBNs that integrate MBON input and feed it back onto the MBINs (19) (Fig. 6H). DNsVNC \nalso synapsed onto a few PNs (2 nociceptive and 2 gut/mechanosensory PN pairs) and 4 \npairs of MB-FFNs (which carry sensory signals to DANs and OANs) (Fig. 6H).\nSignal cascades revealed that all DANs and most of their upstream MB-FBNs (90%) receive \nfeedback signals from DNsVNC (fig. S20, A to D), forming larger recurrent loops. DANs \neven received direct or 2-hop input from DNsVNC. DNsVNC also sent robust feedback to \nMB-FBNs, that are presynaptic to MBINs/DANs (fig. S20C).\nBrain-nerve cord projectome provides a basis for studying how the brain controls actions\nOur EM volume contains the complete CNS (brain, SEZ, and nerve cord), allowing us to \nassess communication between the brain and the rest of the CNS. Because most motor \nneurons (MNs) are located in the VNC, understanding brain-nerve cord communication is \nessential to understanding how behavior is generated. We reconstructed axons of brain DNs \nthat send feedforward signals outside of the brain. We divided the CNS into 13 regions \nbased on stereotyped landmarks, including all VNC segments, and determined how many \nDN presynaptic sites were located in each CNS region (Fig. 7A-i, fig. S21). This resulted \nin a brain-VNC projectome directly linked to the connectome. Each VNC segment contains \nMNs, which innervate muscles in stereotyped positions throughout the body (Fig. 7A-ii). \nPrevious studies have identified body segments involved in specific behaviors (Fig. 7A-iii), \nWinding et al.\nPage 14\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_14_fig_1.png",
+          "caption": "set of interconnected recurrent loops (Fig. 6, F and G). Descending neurons provide efference copy to learning center dopaminergic neurons Many deep brain clusters far from the sensory periphery (Fig. 6B), including many DNs,",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 6,
+        "neuron_types_mentioned": [
+          "8",
+          "output",
+          "namely",
+          "motor",
+          "brain",
+          "related",
+          "79",
+          "dnvnc",
+          "descending",
+          "to",
+          "43",
+          "most",
+          "postsynaptic",
+          "dopaminergic"
+        ],
+        "key_concepts": [
+          "feedback",
+          "recurrent",
+          "parallel"
+        ]
+      }
+    },
+    {
+      "page_number": 15,
+      "full_text": "such as forward and backward locomotion (11, 64), turning (64), hunching (22, 67), speed \nmodulation (68), and head movement (69).\nUsing these linked projectome-connectome data, we generated an overview plot that \ndisplays the following for each DNVNC: (i) its upstream partners; (ii) the location of its \noutputs throughout the CNS, and (iii) all its downstream partners in the brain (Fig. 7B-i \nto iii). We annotated the projectome plot with candidate behaviors that each DNVNC might \nproduce (Fig. 7B-ii). We found a strong correlation (Cramer's V Correlation Coefficient = \n0.58) between the cluster identity (based on brain connectivity) and nerve cord projection \nregion for the descending neurons (Fig. 7B-iv), indicating that neurons that project to \ndistinct nerve cord regions and likely mediate distinct behaviors also receive distinct patterns \nof brain input (fig. S22, B and C).\nMultiple feedforward pathways of different kinds and different lengths converged onto \nDNsVNC (Fig. 7C). There were many short paths through PNs directly onto DNsVNC, longer \npaths through the LH, and even longer ones through the MB. Specifically, 19 and 65% of \nDNsVNC were directly or 2 hops downstream of PNs, respectively. 11 and 66% were directly \nor 2 hops downstream of both PNs and LHNs, respectively. A few DNsVNC were directly \nor 2 hops downstream of innate pathways (14%) or downstream of only learning pathways \n(3%). However, most DNsVNC (80%) were directly or 2 hops downstream of both neurons \nthat encode innate (PNs and LHNs) and learned valences (MBONs, CNs, MB-FBNs).\nDescending neurons target a small fraction of premotor circuit interneurons in the nerve \ncord\nThe brain projectome reveals which segments DNsVNC project to, but not the way in which \nthe brain communicates with the VNC circuitry. We analyzed how the brain communicates \nwith the most completely reconstructed VNC segment (A1), in which all motor (70, 71) and \nmany sensory circuits (22, 23, 38, 56, 72, 73) have been reconstructed. We identified A1 \nascending neurons to the brain (fig. S2) and therefore have all links from the brain to the A1 \n(through DNsVNC) and from A1 to the brain (through ANsA1; Fig. 7D).\nFirst, we characterized the motor and sensory layering in A1 to determine where DNsVNC \ninput went onto this structure (Fig. 7, D to F). We quantified the number of hops upstream \nof MNs (for motor layering, Fig. 7E) or downstream of SNs (for sensory layering) each \nA1 interneuron (Fig. 7F). Of the A1 interneurons, 232 of 342 (68%) had direct or indirect \nconnections to MNs, whereas 110 (32%) did not. Of those that did, most (198 neurons, \n85%) were either directly or 2 hops upstream of MNs, indicating that A1 motor circuits are \nrelatively shallow (Fig. 7E). Premotor and prepremotor neurons were the most prominent \nDNVNC targets (Fig. 7E). Out of the 42 DNsVNC inputting to A1 (DNsVNC-A1), 28 (66.7%) \nsynapsed onto premotor or prepremotor neurons (fig. S23, A to C). Whereas 2 DNsVNC-A1 \n(1 pair, 4.8%) synapsed onto an MN, 12 DNsVNC-A1 (28.5%) synapsed onto sensory circuit \nneurons (directly or indirectly downstream of A1 SNs, fig. S23, A to C).\nIndividual DNsVNC synapsed onto relatively few A1 interneurons, with 1.9 (\u00b1 1.4 SD) \nneurons downstream of each DNVNC and only 48 of 342 A1 neurons (14%) downstream \nof all DNsVNC. Similarly, only a small fraction of premotor (12%) and their upstream \nWinding et al.\nPage 15\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_15_fig_1.png",
+          "caption": "its upstream partners; (ii) the location of its outputs throughout the CNS, and (iii) all its downstream partners in the brain (Fig. 7B-i",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 8,
+        "neuron_types_mentioned": [
+          "that",
+          "a1",
+          "ascending",
+          "circuit",
+          "198",
+          "descending",
+          "both",
+          "prepremotor"
+        ],
+        "key_concepts": [
+          "locomotion",
+          "turn",
+          "speed"
+        ]
+      }
+    },
+    {
+      "page_number": 16,
+      "full_text": "prepremotor neurons (17%) were direct targets of DNsVNC (Fig. 7E). Many (71%) of \nthese pre- and pre-premotor DNVNC targets also received direct or indirect A1 sensory \ninput, sometimes from multiple modalities. We also asked whether DNVNC targeted A1 hub \nneurons (with \u226510 up-or downstream partners based on A1 network mean + 1.5 SD). Indeed, \nDNVNC targeted two hubs, namely neurons A03o (in-hub) and A18b (out-hub).\nSome descending neurons modulate sensory processing in the nerve cord\nThe depth of sensory circuits was varied from 3 hops (proprioceptive) to 7 or 8 hops \n(nociceptive and chordotonals) from SNs within A1 (Fig. 7F). DNsVNC mostly targeted \n3rd or 4th-order SNs (2 or 3 hops downstream of SNs), many of which were also \npre- or prepremotor neurons (31 and 39%, respectively). A notable exception were the \nproprioceptive circuits. DNsVNC synapsed onto several 2nd-order proprioceptive neurons \n(Fig. 7F), half of which were also pre- or prepremotor neurons.\nWe categorized DNsVNC into three types based on their direct targets (fig. S23, A to C). \nGroup 1 (20 neurons, 47.6%) targeted both premotor and 2nd-order SNs. Group 2 (10 DNs, \n23.8%) targeted 8 A1 motor circuit neurons (4 pairs) that were not part of sensory circuits \nand had axonal outputs mostly restricted to T3-A1 (fig. S23D). Group 3 (12 DNs, 28.6%) \ntargeted 12 2nd- or 3rd-order A1 SNs (6 pairs) that were not part of A1 motor circuits, \nincluding ANs (2 pairs) and long-range A1 neurons that output collectively to all thoracic \nsegments and most abdominal segments (fig. S23E). These results suggest that DNVNC \nmodulation of post-sensory cells is propagated across the CNS, including back to the brain \nthrough ANs, within A1 itself, and across nearly all VNC segments (T1 to T3, A2 to A7).\nDirect descending-ascending connectivity reveals novel brain-nerve cord zigzag motifs\nTo better understand reciprocal brain-nerve cord communication, we analyzed neurons \nupstream and downstream of A1 ANs. We observed many instances of direct DNVNC\u2192AN \nand AN\u2192DNVNC and AN\u2192DNSEZ connectivity (but no AN\u2192RGN; Fig. 7G and fig. \nS24A). Specifically, 12 DNsVNC-A1 (30%) synapsed onto 4 ANs in A1 (11%), whereas \n24 ANs in A1 (57%) synapsed onto 22 DNsVNC (12%) and 12 DNsSEZ (7%) in the brain. \nTo test whether AN-DN and DN-AN connections were a general feature present in other \nsegments, we assayed connectivity between DNsVNC and all currently reconstructed ANs \nfrom all VNC segments. Individual DNsVNC received 3.6% (\u00b1 5.2% SD) of their input from \nANs, with some receiving >20% of their input from ANs (to a maximum of 37%). It should \nbe noted that this is an underestimate because most ANs from segments other than A1 have \nnot yet been reconstructed. Conversely, individual ANs across the VNC received 3.1% (\u00b1 \n6.1% SD) input from DNsVNC, with some receiving >20% of their input from descending \nneurons (to a maximum of 32%).\nReciprocal loops between DNsVNC and ANs were never observed. Instead, we found zigzag \nmotifs, DNVNC\u2192AN\u2192DNVNC, with different DNsVNC on each side (Fig. 7, H and I). \nSimilar motifs were observed involving DNsSEZ (fig. S24, B and C). To obtain further \ninsight into zigzag motifs, we analyzed the sensory information carried by the A1 ANs \nand the behavioral roles of DNs that participate in these motifs. One pair of ANs was \npostsynaptic to proprioceptive SNs, whereas the other was highly multimodal and 2 hops \nWinding et al.\nPage 16\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_16_fig_1.png",
+          "caption": "and fig.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 5,
+        "neuron_types_mentioned": [
+          "20",
+          "proprioceptive",
+          "namely",
+          "a1",
+          "circuit",
+          "hub",
+          "descending",
+          "analyzed",
+          "prepremotor"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 17,
+      "full_text": "downstream of most SNs (fig. S23, see asterisks). We know the behavioral roles of a small \nfraction of DNsVNC (because the driver lines for most have not yet been generated) but we \nfound one motif with known roles for both DNs (Fig. 7J). This motif contained PDM-DN \n(DN1\nVNC) and the MDNs (DN2\nVNC), which promote stop (74) and backup (15), respectively. \nStop-backup is a common behavioral sequence (75), raising the possibility that ANs in \nzigzag motifs could facilitate transitions between actions in a sequence, based on both brain \ninputs and proprioceptive feedback or somatosensory context.\nDiscussion\nWe present a synaptic-resolution connectivity map of an entire Drosophila larva brain and \na detailed analysis of the associated brain circuit architecture. Each neuron was split into \ntwo compartments, axon and dendrite, resulting in a rich multiplexed network with four \nconnection types, facilitating analysis. To characterize long-range brainwide anatomical \npathways, we developed an algorithm that utilizes synapse numbers between neurons to \ntrack signal propagation across polysynaptic pathways.\nConnectivity-based clustering reveals 93 distinct types of brain neurons\nNeuron types have been classified based on their functional role (19, 21, 76), morphology \n(32, 77), gene expression (78), or combinations of features (79, 80). Although these \nfeatures are likely correlated, it is still unclear which is ideal for defining neuron types \nand how neuron types based on different features correspond to each other. We performed \nan unbiased hierarchical clustering of all neurons using synaptic connectivity alone and \nidentified 93 types. The morphology of neurons within clusters was notably similar. \nFurthermore, neurons that had similar known functions were usually found in the same \nor related clusters. Thus, clustering neurons based on synaptic connectivity resulted in \nclusters that were internally consistent for other features, when those features were known. \nHowever, many clusters contained uncharacterized neurons with unknown gene expression \nand function.\nNoncanonical connection types are pronounced in learning and action-selection circuits\nAlthough most connections in the brain were a-d (66.4%), we found a significant number of \na-a (26.4%), d-d (5.4%), and d-a (1.8%) connections. Most neurons that received prominent \naxonic input were in the learning center: DANs that provide the teaching signals for learning \nand KCs that encode stimuli. Modulatory a-a DAN-to-KC input drives heterosynaptic \nplasticity of the KC-to-MBON synapse (81). DANs also receive excitatory a-a input \nfrom KCs, which provides positive feedback that facilitates memory formation (41). KCs \nalso receive a-a input from other KCs. In the adult Drosophila, a-a connections between \notherwise excitatory (cholinergic) KCs were found to be inhibitory due to expression of \ninhibitory mAChR-B in axon terminals (82). Lateral inhibition between KCs could improve \nstimulus discrimination and reduce memory generalization (13). A subset of pre-DNsVNC \nand a few somatosensory PNs, LHNs, and MBONs, and FBNs also had a high axonic input/\noutput ratio. If a-a connections in these neurons are inhibitory they could enhance contrast \nbetween representations of distinct stimuli and actions (57).\nWinding et al.\nPage 17\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_17_fig_1.png",
+          "caption": "downstream of most SNs (fig. S23, see asterisks). We know the behavioral roles of a small fraction of DNsVNC (because the driver lines for most have not yet been generated) but we found one motif with known roles for both DNs (Fig. 7J). This motif contained PDM-DN",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "uncharacterized",
+          "between",
+          "each",
+          "how",
+          "of",
+          "these",
+          "defining",
+          "brain",
+          "all",
+          "s",
+          "clustering",
+          "most"
+        ],
+        "key_concepts": [
+          "feedback",
+          "lateral inhibition",
+          "hierarchical"
+        ]
+      }
+    },
+    {
+      "page_number": 18,
+      "full_text": "We also observed edges with multiple connection types between neurons, including up to all \nfour types simultaneously. The most common combination, axo-dendritic with axoaxonic, \nmay grant the presynaptic neuron post- and presynaptic control of the downstream neuron, \nas has been observed in triad motifs in mammals (83).\nPathways from sensory to output neurons form a multilayered distributed network\nWe observed multiple parallel pathways of varying depths downstream of each modality, \nalbeit with extensive interconnectivity between different pathways. This architecture \nsuggests that distinct features may not be processed independently but rather that each \nfeature may potentially influence the computation of many other features in a distributed \nnetwork. Such architecture has the potential to generate a diversity of neural responses with \nmixed selectivity for specific combinations of features thereby expanding the dimensionality \nof neural representations and increasing output flexibility (84).\nWe found that the shortest paths from sensory neurons to output neurons are surprisingly \nshallow. All output neurons receive input from sensory neurons within a maximum of 3 \nhops. However, most output neurons also received input from the same modality through \nmultiple longer pathways. Such an architecture, with connections that skip layers, is \ncharacteristic of prominent machine learning networks (85, 86), including deep residual \nlearning and U-Net architectures. Although predictive accuracy improves with depth, \nfeatures can become too abstract at deep layers leading to performance degradation (87). \nShortcuts between layers can solve this problem by combining lower-level features as an \nadditional teaching signal (85, 88). Shallower networks with shortcuts can therefore exceed \nthe performance of deeper networks lacking shortcuts (85). The layer skipping we observed \nmay therefore increase the brain's computational capacity, overcoming physiological \nconstraints on the number of neurons that limit network depth.\nRecurrent architecture of the brain with multiple nested loops\nRecurrence has been observed in many brain circuits and implicated in a range of \ncomputations (65, 89\u201392). However, the architecture of long-range recurrent pathways and \nthe nature of the feedback that each neuron receives is still poorly understood. We used \nsignal cascades to systematically identify all connected pairs of brain neurons (with up to 5 \nhops) that had a reciprocal connection (of up to 5 hops). We found that 41% of brain neurons \nreceived long-range recurrent input (up to 5 hops) from at least one of their downstream \npartners with recurrent pathways of varying lengths forming multiple nested loops.\nRecurrent nested structure can compensate for a lack of network depth in artificial neural \nnetworks (66) and supports arbitrary, taskdependent computation depth (93).\nLearning center dopaminergic neurons are amongst the most recurrent in the brain\nDANs were amongst the most recurrent neurons in the brain. Dopaminergic neurons, \nreferred to as DANs in insects, are central for learning, motivation, and action across \nthe animal kingdom (62) and are implicated in a range of human mental disorders (94). \nThe highly recurrent connectivity of DANs might deliver high-dimensional feedback (95), \nWinding et al.\nPage 18\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_18_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 18]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "output",
+          "between",
+          "each",
+          "of",
+          "recurrent",
+          "presynaptic",
+          "brain",
+          "downstream",
+          "sensory",
+          "from",
+          "dopaminergic"
+        ],
+        "key_concepts": [
+          "feedback",
+          "recurrent",
+          "parallel",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 19,
+      "full_text": "enabling them to encode a range of features and flexibly engage in parallel computations. \nRecurrent excitatory loops could also play roles in working memory (19, 96\u201398).\nPrevious studies have reported that DANs receive extensive feedback from neurons that \nintegrate learned and innate values (19). We find that DANs also receive long-range \nfeedback (up to 5 hops) from descending neurons, which likely encode motor commands. \nFurthermore, we found that DANs receive polysynaptic feedforward inputs from all sensory \nmodalities. DAN activity correlates with movement in both vertebrates and flies (99), which \ncould be explained by the observed input from DNsVNC or from proprioceptive neurons.\nMost brain hubs are directly downstream or upstream of the learning center\nHub neurons have been shown to play essential roles in behavior (51, 100). We found \nthat most (73%) of the larval brain's in-out hubs were postsynaptic to the learning center \noutput neurons (MBONs) and/or presynaptic to the learning center modulatory neurons \n(mostly DANs). Many were also postsynaptic to the LH that mediates innate behaviors, thus \nintegrating learned and innate values (21). One of these hubs, MBON-m1, has been shown \nto compute overall predicted value by comparing input from neurons encoding positive \nand negative values (21). MBON-m1 bidirectionally promotes approach or avoidance when \nits activity is increased or decreased, respectively. Several additional hubs identified here \nhave similar patterns of input to MBON-m1, suggesting that they may play similar roles in \ncomputing predicted values. These hubs provide direct feedback to the MB DANs and could \ntherefore play roles in regulating learning.\nCross-hemisphere interactions\nWe identified all contralaterally projecting neurons and their connections, providing a basis \nfor understanding how information from both hemispheres is used by the brain. Notably, \nneurons with contralateral axons were disproportionately represented amongst in-out hubs, \nsuggesting that they have important roles in behavior. Contralateral neurons tended to \nsynapse onto each other. Thus, after integration of contra- and ipsilateral information in \none hemisphere, the integrated information is often passed back to the other hemisphere. \nMultiple consecutive hemisphere crossings could potentially enable better discrimination \nbetween ipsilateral, contralateral, or bilateral events and better coordination between the \ntwo hemispheres. We also discovered multiple reciprocal pair loops between contralateral \nleft-right homologs. If inhibitory, pair loops could mediate interhemispheric comparisons, \nand if excitatory, they could be involved in signal perpetuation or short-term memory (96, \n97). Consistent with this idea, many pair loops occurred between neurons presynaptic to the \nMB DANs.\nBrain and nerve cord interactions\nOur study sheds light on brain-nerve cord interactions. DNs targeted only a small fraction \nof premotor elements that could play important roles in switching between locomotor \nstates. A subset of DNs targeted low-order post-sensory interneurons likely modulating \nsensory processing. DNs and ANs also synapsed onto each other, often forming zigzag \nmotifs (DN1\u2192AN\u2192DN2). A recent study has demonstrated that an AN can activate \nthe downstream DN and drive the same action as the DN (101). Thus, ANs may \nWinding et al.\nPage 19\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_19_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 19]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "output",
+          "proprioceptive",
+          "modulatory",
+          "projecting",
+          "contralateral",
+          "between",
+          "hub",
+          "descending",
+          "sensory",
+          "from"
+        ],
+        "key_concepts": [
+          "feedback",
+          "recurrent",
+          "parallel",
+          "avoidance",
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 20,
+      "full_text": "facilitate DN activation and transitions between actions based on proprioceptive feedback \nor somatosensory context. Somatosensory neurons have been shown to activate descending \nneurons in vertebrates (102, 103), raising the possibility that ascending-descending \nconnectivity may be a general feature of brain-nerve cord interactions.\nMaterials and Methods\nElectron Microscopy Data and Reconstruction\nThe EM volume of the central nervous system (CNS) of the 6-hour-old Drosophila \nmelanogaster 1st instar larva used in this study has been previously reported (23, 28). \nBriefly, the genotype of this female larva was Canton S G1 [iso] \u00d7 w1118 [iso] 5905. The \nresulting EM volume contains 4841 z-slices with an x,y,z resolution of 3.8 \u00d7 3.8 \u00d7 50 nm. \nThis dataset includes the complete CNS, including all neurons, synapses, and accessory \nstructures. Note that only the axons and dendrites of sensory neurons and motor neurons, \nrespectively, are present in the volume. However, the morphology and location of these \nneurons was sufficient to match them to the respective neurons in whole animal datasets \nand thereby identify the identities and modalities of sensory axons (33\u201335, 104) or the \ncorresponding muscle targets of motor neurons (71).\nWe identified the boundaries of the brain hemispheres and all brain neurons using \nstereotyped landmarks (105). Neurons and synapses were manually reconstructed by \nmultiple users using the Collaborative Annotation Tool for Massive Amounts of Imaging \nData, CATMAID (28). Many previous publications have contributed to the reconstruction \nof neurons in this CNS (13, 22, 23, 33\u201335, 71, 73, 104), so the completeness of brain \nneurons was first assessed using proofreading status and publication status. A complete \ncensus of the brain was conducted by examining each lineage entry point (105) to identify \nall brain cell bodies. Each cell body was then used as a seed point for iterative reconstruction \nby multiple users until all arbor end-points were identified. The reconstruction process \ngenerally followed previous descriptions (23, 28), however a targeted proofreading process \nwas used by comparing left-right homologous neuron pairs. Quantification of the results of \nthis methodology suggests it produced neuron reconstructions that are robust across multiple \nmetrics (fig. S1, E and F), although some errors of omission were observed.\nAxon and Dendrite Identification\nWe identified all axons and dendrites using a previously developed algorithm, synapse \nflow centrality (SFC) (28). In Drosophila, axons contain most presynaptic sites, whereas \ndendrites contain most postsynaptic sites, except for mushroom body Kenyon cells. SFC \nfinds the shortest physical paths along the neuronal arbor between each pair of presynaptic \nand postsynaptic sites in the neuron. The section of arbor that contains the highest number \nof these presynaptic-to-postsynaptic paths corresponds to a synapse-devoid region located \nbetween the axon and dendrite that we name the linker domain and which generally \ncorresponds to the axon initial segment. We used SFC to identify these linker domains in \nall brain neurons and assigned the axon-dendrite split point to the most proximal part of the \nlinker domain. All split points were generated automatically and then manually proofread. \nWinding et al.\nPage 20\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_20_fig_1.png",
+          "caption": "metrics (fig. S1, E and F), although some errors of omission were observed. Axon and Dendrite Identification We identified all axons and dendrites using a previously developed algorithm, synapse",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 3,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "produced",
+          "of",
+          "motor",
+          "homologous",
+          "these",
+          "brain",
+          "somatosensory",
+          "all",
+          "and",
+          "descending",
+          "sensory",
+          "the",
+          "respective"
+        ],
+        "key_concepts": [
+          "feedback"
+        ]
+      }
+    },
+    {
+      "page_number": 21,
+      "full_text": "The compartment with the highest postsynaptic to presynaptic site ratio (the dendrite) was \nalways located closer to the soma.\nThreshold to focus on strong, reproducible (symmetrical) connections\nSome of the weak (1- or 2-synapse) connections could be erroneous, transient, or not \nfunctional. Given that many are not reproducible between the left and right hemispheres, \nwe cannot discern whether the observed sto-chasticity is due to errors in reconstruction \nor developmental noise in establishing new synapses or retracting them (28). We therefore \nfocus much of our analysis on the strong reproducible (symmetrical) connections.\nStrong reproducible (symmetrical) connections are defined as those that are observed \nbetween homologous pre- and postsynaptic partners in both brain hemispheres (e.g., if \na connection is observed between left-side pre- and postsynaptic neurons, a connection \nmust also be observed between the matching right-side pre- and postsynaptic neurons). \nAdditionally, these connections must account for on average \u22651% input onto the dendrite in \naxo-dendritic connections. Note that a connection in one brain hemisphere can be <1%, as \nlong as the connection on the opposite side is strong enough to compensate and both are \nobserved. For example, a 0.5% connection and a 2% connection result in a mean connection \nstrength of 1.25%, which passes the 1% threshold. Any analysis indicating use of a \u22651% \ninput threshold uses this left-right thresholding approach.\nHowever, it should be noted that weak connections could have notable functional roles, \nsuch as helping maintain a certain desirable membrane potential (49) or adding noise \nfor computation (50). They could also contribute to idiosyncratic differences in behavior \nbetween individuals.\nClustering\nWe developed a modified spectral clustering procedure to cluster brain neurons based on \nconnectivity. To achieve clustering in which homologous left and right neuron pairs are \nlikely to be in the same cluster (as opposed to having clusters comprised of left-only or \nright-only neurons), we developed a technique to perform a spectral embedding which \ncollapses left and right symmetry into a single embedding space. First, the network was \nsplit into four subgraphs: connections from neurons on the left side to neurons on the left \nside (LL), from right to right (RR), from left to right (LR), and from right to left (RL). \nEach subgraph had its edge weights transformed using a procedure called pass-to-ranks, a \nregularization scheme which replaces each edge weight with its normalized rank among \nall edges and is helpful for spectral embedding in the context of outliers or skewed \nedge weight distributions (106\u2013108). We then embed each subgraph into a d-dimensional \nEuclidean space (d = 24) using the adjacency spectral embedding (ASE) as implemented \nin Graspologic (107, 108). Because of an orthogonal nonidentifiability associated with the \nlatent position estimates from ASE (107), we used a joint optimal transport/orthogonal \nProcrustes procedure (109) to align the latent positions of the LL and RR subgraphs, and \nseparately the LR and RL subgraphs. This procedure yields a representation for each node in \nterms of its ipsilateral (LL or RR) inputs and outputs, as well as its contralateral (LR or RL) \ninputs and outputs. To achieve a single representation for each node which is amenable to \nWinding et al.\nPage 21\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_21_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 21]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "right",
+          "brain",
+          "only",
+          "to",
+          "from",
+          "postsynaptic"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 22,
+      "full_text": "clustering, we concatenated each of these representations per node, and performed another \nsingular value decomposition to further project each node into a lower-dimensional space \n(d = 10). Finally, to ensure that homologous neuron pairs are clustered the same way, we \naverage the embeddings for a left and right node (note that most of these points were already \nclose in this embedded space due to the procedure described above).\nWith this representation for each neuron, we clustered using a hierarchical approach \nto Gaussian mixture models (GMM) inspired by past work on hierarchical stochastic \nblock models (110, 111). GMM on an ASE embedding was recently shown to be a \nconsistent way of estimating the membership assignments for a statistical network model \ncalled the stochastic block model, motivating this approach (107, 112). We use a Python \nimplementation of GMM with model selection (113, 114). In the hierarchical paradigm, all \nneurons currently under consideration are clustered using a 1-component and 2-component \nGMM. The fit of both models is evaluated using the Bayesian information criterion (BIC) \nmetric (115), which is commonly used to select the number of clusters in a GMM (116). If \nthe 2-component model is preferred by the BIC score and the number of neurons is not too \nsmall (32 neurons is chosen as the cutoff), then the set of neurons under consideration is \nsplit according to this clustering. This procedure recursed until the depth of the \u201ccluster tree\u201d \nreached eight, yielding a multiresolution clustering of brain connectivity.\nFinding homologous neuron pairs through graph matching\nWe employed a family of techniques based on the Fast Approximate Quadratic (FAQ) graph \nmatching algorithm (30, 31) to predict bilateral neuron pairs on the basis of connectivity. \nThese algorithms seek to find a 1-to-1 alignment of one network's adjacency matrix with \nrespect to another which minimizes the norm of their difference. In this case, the two \nadjacency matrices were the induced subgraphs (all connections among a specified subset \nof nodes) of the left and right hemispheres (i.e., the ipsilateral connections) of the brain. \nWe used 406 groundtruth neuron pairs from previous publications (13, 21, 33) as seeds, \nspecifying a fixed, partial alignment between the two networks. The seeded graph matching \nalgorithm was randomly initialized 50 times (while preserving the known matching from the \nground truth pairs). Predicted pairs from each initialization of the algorithm were recorded. \nWe then ranked potential pairs according to how often they were matched to each other, \nmanually reviewing each potential pair for correctness. This process was iterated multiple \ntimes, with newly identified pairs added to the population of seed pairs, until all reasonable \npairings were exhausted.\nQuantifying similarity of connectivity for neuron pairs\nTo quantify the similarity in connectivity of neuron pairs (fig. S1E), we evaluated how likely \nour pairs were to be matched by an automated, unsupervised algorithm which aimed to find \nthe best alignment of the nodes of the left and right hemisphere networks. We performed \nmultiple graph matchings of the paired left and right hemisphere networks, and measured \nhow strongly each neuron on the left hemisphere was matched to each possible neuron \non the right hemisphere. To do so, we ran the previously developed FAQ graph-matching \nalgorithm (31), using K = 20 initializations and a maximum of 30 iterations for each \ninitialization (see original publication for algorithm details). Note that the annotated pairs \nWinding et al.\nPage 22\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_22_fig_1.png",
+          "caption": "To quantify the similarity in connectivity of neuron pairs (fig. S1E), we evaluated how likely our pairs were to be matched by an automated, unsupervised algorithm which aimed to find the best alignment of the nodes of the left and right hemisphere networks. We performed",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "each",
+          "of",
+          "groundtruth",
+          "32",
+          "homologous",
+          "bilateral",
+          "all",
+          "possible",
+          "for"
+        ],
+        "key_concepts": [
+          "hierarchical"
+        ]
+      }
+    },
+    {
+      "page_number": 23,
+      "full_text": "were not used as seeds for this analysis and the initializations were random; thus, these \nannotations did not bias the graph matching toward our pairs.\nEach run k of the FAQ algorithm yielded a doubly stochastic matrix, (all rows and columns \nsum to one) Dk. The element Dij\nk can be thought of as indicating the strength of the match \n(for that run, k) from the left hemisphere neuron i to the right hemisphere neuron j. Letting \nsk be the FAQ objective function value at the end of optimization for run k, and\nS =\n\u2211\nk = 1\nK\nsk\nbe the sum of these objective function values, we took the weighted average of solutions:\nD = 1\nS\n\u2211\nk = 1\nskDk\nto find a final doubly stochastic matrix for ranking, D.\nThen, we assessed how well bilateral pairs were matched by this assignment matrix D. We \nranked the elements of each row i of D (settling ties using the average) and then found the \nrank of that neuron's assigned pair. For instance, if a left neuron's true pair on the right \nhemisphere was the neuron it was matched to most strongly, then its neighbor rank was 1; \nif it was matched to its true pair less strongly than only one other right hemisphere neuron, \nthen its neighbor rank was 2, and so on. This provided a metric to evaluate our assigned \nneuron pairs, where high ranks for a neuron's pair in the other hemisphere indicated that the \nassignment agreed with an unsupervised matching of the two networks.\nNetwork ordering from inputs to outputs\nTo order the network from sensory neurons to output neurons (fig. S6, F and G), we \napplied the \u201csignal flow\u201d algorithm (117, 118). Intuitively, this algorithm seeks to find \na one-dimensional number (the \u201cscore\u201d) associated with each neuron, where high values \nindicate a neuron is close to the \u201ctop\u201d (inputs) of the network, and low values indicate a \nneuron is close to the \u201cbottom\u201d (outputs) of the network. To establish this ordering, this \nalgorithm finds the scores which minimize the sum of edge weights which connect neurons \nwith very different scores or which connect a low score neuron to a high score neuron \n(feedback). Unless otherwise stated, we used the network made up of all edge types when \ncomputing the signal flow score for each neuron. When sorting neuron groups, we sorted \nbased on the mean signal flow score within each group. In some analyses (Fig. 2G and \nfig. S7) we computed signal flow for each edge type network independently. For pairwise \ncomparisons of these network orderings, we computed the rank correlation (Spearman's \u03c1) \nbetween the signal flow rankings for each network.\nAnalyzing edges with multiple connection types Edge reciprocity\nReciprocity is a commonly used metric in network science which quantifies the probability \nthat two nodes in a directed network are connected through mutual edges in each direction \nWinding et al.\nPage 23\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_23_fig_1.png",
+          "caption": "and fig. S7) we computed signal flow for each edge type network independently. For pairwise",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 7,
+        "neuron_types_mentioned": [
+          "connect",
+          "that",
+          "assigned",
+          "output",
+          "each",
+          "sorting",
+          "hemisphere",
+          "left",
+          "sensory",
+          "from",
+          "the",
+          "a",
+          "score"
+        ],
+        "key_concepts": [
+          "feedback",
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 24,
+      "full_text": "(119). Specifically, it is defined as the number of reciprocal edges divided by the total \nnumber of edges, where a reciprocal edge means that both Aij and Aji are present in \nthe adjacency matrix A. Here, we generalize this notion to multigraphs. With Asource \nrepresenting the unweighted, loopless adjacency matrix for the source network, and Atarget \ndefined likewise for the target network, we define the edge reciprocity r (Asource, Atarget) as r \nas r(Asource , Atarget ) =\n1\n\u2211i, j\nn Asource \u2211\ni, j\nn\nAij\nsourceAji\ntarget\nIn other words, averaged over the entire network, this is the conditional probability \nof observing a reciprocal edge (Aij\ntarget)  conditioned on observing the forward edge \n(Aij\nsource)P(Aji\ntarget = 1 \u2223Aij\nsource = 1).\nProbabilities of overlapping connection types\nTo examine the likelihood of edges with various multiple connection type combinations, we \ncounted the number of (i, j) pairs with each possible combination of edge type occurrences \nin the measured networks (e.g., an axo-dendritic edge with no other type present, axo-\ndendritic and axo-axonic but no other edge types) (fig. S6D). To calibrate expectations for \nthese counts, we used a simple null model of multiplex edge overlaps. This model assumed \nthat each of the four edge type graphs was generated independently, and modeled each \nnetwork as a random (Erdos-Renyi) network. To compute the parameters of this model, we \nfirst simply calculate the global connection probability pk for each network A(k) as\npk = 1\nn2 \u2211\ni, j\nn\nAij\n(k)\nWhere n is the number of nodes, and A(k) is the unweighted, directed adjacency matrix for \nnetwork type k (k = 1,2,3,4 corresponding with AD, AA, DA, DD, respectively). Under the \nassumptions above, the expected number of (i, j) pairs which have only axo-dendritic (AD) \nedges (denote this m([1, 0, 0, 0])) is m([1, 0, 0, 0]) = n2 p1 (1 \u2212 p2)(1 \u2212 p3)(1 \u2212 p4)\nMore generally, we denote x to be a 4-dimensional binary vector, which indicates the \npresence (1) or absence (0) of the AD, AA, DA, DD edge types, respectively. Then, we can \nwrite the expected number of edges under edge type pattern x as:\nm(x) = n2 \u220f\ni = 1\n4\npi\nxi(1 \u2212pi)1 \u2212xi\nUnder this definition, we calculated the expected number of edges for each combination of \nthe four edge types and used this to compare with the observed counts.\nStudying potential information propagation through signal cascades\nWe applied a technique for modeling information propagation through a network based \non the independent cascade model, which has been used to study epidemic and social \ninformation transmission (120). Briefly, the algorithm (which we call the signal cascade) \nWinding et al.\nPage 24\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_24_fig_1.png",
+          "caption": "as pk = 1 n2 \u2211 i, j n Aij (k) Where n is the number of nodes, and A(k) is the unweighted, directed adjacency matrix for network type k (k = 1,2,3,4 corresponding with AD, AA, DA, DD, respectively). Under the",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 1,
+        "larval_relevance": 0,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 25,
+      "full_text": "starts with a set of active neurons which propagate their active state to other neurons based \non the number of synapses from active to inactive neurons. Synapse counts can be used to \naccurately predict synaptic surface area and are therefore a good proxy for synaptic strength \n(61). Note that when investigating downstream partners of neuromodulatory neurons, such \nas dopaminergic neurons, we focus on their chemical synapses, which maintain a typical T-\nbar structure at the presynapse (13). At each time step, a new set of neurons becomes active, \nand previously active neurons enter a deactivated state for the remainder of the experiment. \nWe modified the original independent cascade model to include a set of \u201cstop\u201d neurons from \nwhich the cascade does not proceed further. This tool allows one to determine how much \nsignal from a given set of starting neurons could reach other sets of neurons in the brain, and \nafter how many timesteps (hops). Our approach differs from some previous models of signal \npropagation across a connectome in that we only allow activation from neurons which were \nactive at the last timestep, rather than from neurons which were activated at any previous \ntimestep (121, 122), allowing us to assess the temporal ordering of the potential flow of \ninformation through the brain.\nTo elaborate on the details of the model, the algorithm starts with a set of user-defined \nnodes which are initially in an active state at time t = 0, and all other nodes in an inactive \nstate, meaning they are susceptible to activation. We denote the set of active, inactive, and \ndeactivated nodes at timepoint t as St\nA, St\nI, St\nD, and Sf, respectively. Our modified cascades \nalgorithm also includes a set of nodes SE which are \u201cend\u201d nodes from which the cascade \nno longer continues\u2014these nodes can become active, but then do not propagate their signal \nat the next timepoint. To determine which nodes bcome active at the next timepoint t + 1, \neach synapse is assigned an equal probability p of transmission, with p = 0.05. For each \noutgoing synapse (i \u2192 j) from each active node that is not a stop node (i \u2208(St\nA \u2212SE)) to \neach previously unactivated node (j \u2208St\nI), we conduct an independent Bernoulli trial with \nprobability p to determine whether that synapse activates node j at the next timepoint. Nodes \nthat had at least one successful activation of an upstream presynapse are included in the set \nSt + 1\nA . Every node that was active at time t is moved to the set St + 1\nD , the deactivated nodes \nwhich cannot be activated again during the current cascade. This process was repeated for \nT timesteps, where T could vary depending on the particular question of interest. These \ncascades were run 1000 times for the same set of start and end nodes (St = 0\nA , SE). To \nunderstand how signals could propagate through the brain based on this model, we tracked \nthe probability that a node was active at a given time over these 1000 independently run \ncascades. Neurons were considered to receive cascade signals when visited in most cascade \niterations. In Fig. 4F, only pathways contributing substantial cascade signal per hop were \nconsidered (>0.1 multihop signal). When analyzing groups of neurons, signal cascade data \nwere aggregated by averaging these activation probabilities across neurons in a group.\nStatistical analysis\nMann Whitney U tests were used in fig. S19, F to I, and fig. S10G. This nonparametric \ntest was used to avoid assumptions about sample distributions, especially when non-normal \ndistributions were observed, preventing use of a student's t test.\nWinding et al.\nPage 25\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_25_fig_1.png",
+          "caption": "This nonparametric test was used to avoid assumptions about sample distributions, especially when non-normal distributions were observed, preventing use of a student's t test.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "across",
+          "other",
+          "of",
+          "starting",
+          "from",
+          "inactive",
+          "neuromodulatory",
+          "active",
+          "dopaminergic"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 26,
+      "full_text": "Morphological similarity calculation within neuron groups\nTo quantify the similarity between neuron morphologies within clusters (Fig. 3B and fig. \nS8, A and B), we applied the NBLAST algorithm (123) as implemented in navis (124), \ncomputing NBLAST scores between all pairs of neurons in the same hemisphere. To make \nNBLAST scores symmetric (same score between neurons (i, j) as between (j, i) we set \nthe NBLAST scores for (i, j) and (j, i) to be the geometric mean of their original scores. \nWe then apply a normalization scheme to each pairwise NBLAST similarity matrix, in \nwhich scores are converted to their pairwise ranks in the similarity matrix (108). With these \nnormalized NBLAST scores, we defined a simple score of morphological similarity within \neach cluster. First, we computed the mean of all pairwise similarity scores between neurons \nin a hemisphere of a specific cluster. Then, we took the mean of those average scores \nbetween left and right hemispheres to compute the final score for a given cluster.\nCode\nAnalyses relied on NumPy (125), SciPy (126), Pandas (127), NetworkX (128), navis (124), \nand pythoncatmaid (https://pypi.org/project/python-catmaid/). Plotting was performed using \nmatplotlib (129), Seaborn (130), and Blender (https://www.blender.org/). UpSet plots were \nused to visualize complex intersections (131).\nSupplementary Material\nRefer to Web version on PubMed Central for supplementary material.\nAcknowledgements\nThe authors thank HHMI Janelia Research Campus for funding and support, the Janelia Fly EM Project Team for \nimaging the EM volume, and the Janelia Visiting Scientist Program for outstanding support over the years. We \nthank E. C. Croteau-Chonka for providing the base image for the larva illustrations. The neuronal and synaptic \nreconstruction presented in this paper was made possible through the collaborative efforts of 86 individuals. We \nwould like to acknowledge the work of all those who contributed to the reconstruction of the larval brain, either \ndirectly for this paper or through past publications: A. Fushiki, I.A., M.W., A.K., J.V.A., F.L., P. Schlegel, A.C., I. \nLarderet, K. Eichler, V.H., A. Miroschnikow, T. Saumweber, J. Lovick, M. Berck, C. Schneider-Mizell, N. Riebli, \nL. Maier, A. S. Bates, L. Herren, I. Brueckmann, B. Afonso, A. S. Thum, L. Claus, H. Lacin, A. MacLachlan, \nS. H\u00fcckesfeld, A. Schoofs, S. Sprecher, A. A. Zarin, H. Chen, E.B., A.C., J. Tran, C. Q. Doe, N.R., S. Takagi, \nL. Masuda-Nakagawa, C. Barnes, M. Zwart, N. Imambocus, E. Hasegawa, C. Wreden, A. Stoychev, X. Tang, A. \nSamuel, A. Burgos, J. Jonaitis, K. Turner, A. Hiramoto, T. Ohyama, S. Wilson, S. Qian, J. Truman, H. Kohsaka, J. \nMeng, B. Kemp, Q. Zhao, E. Heckscher, W. Osman, D. Bock, J. Macleod, A. Champion, T. Jovanic, R. Arruda, E. \nImura, B. Mark, M. Klein, L. Lungu, M. Corrales, C. Julliot de La Morandi\u00e8re, T. Guillorit, M. Louis, S. Gerhard, \nA. Patel, L. Guo, Y. He, K. Karkali, J. Picao Osorio, M. Lehman, T.K., T. To, A. Nose, E. O'Garro-Priddie, A. \nFerreira Castro, B. El Galfi.\nFunding\nThis work was supported by the following: Howard Hughes Medical Institute Janelia Research Campus (to M.Z., \nA.C., M.W., A.F., N.R., and I.V.A.); Howard Hughes Medical Institute Visiting Scientist Program (to A.V.); \nWellcome Trust grant 205038/Z/16/Z (to A.C.); Wellcome Trust grant 205050/Z/16/Z (to M.Z. and M.W.); ERC \ngrant ERC-2018-COG: 819650 (to M.Z.); MRC LMB Core Funding (to A.C. and M.Z.); NSF GRFP grant \nDGE1746891 (to B.D.P.); NSF CAREER Award 1942963 (to J.T.V.); NIH BRAIN Initiative RF1MH123233 (to \nJ.T.V. and C.E.P.); DARPA D3M contract FA8750-17-2-0112 (to H.G.P., Y.P., and C.E.P.); Air Force Research \nLaboratory contract FA8750-18-2-0035 (to H.G.P., Y.P., and C.E.P.); DARPA contract FA8750-20-2-1001 (to \nH.G.P., Y.P., and C.E.P.); NIH Grant 2 R01 NS054814 (to I.V.A. and V.H.); and NSF NeuroNex grant 2014862 \n(to J.T.V.). The US Government is authorized to reproduce and distribute reprints for Governmental purposes \nnotwithstanding any copyright notation thereon. The views and conclusions contained herein are those of the \nWinding et al.\nPage 26\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_26_fig_1.png",
+          "caption": "and fig.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 7,
+        "larval_relevance": 3,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "between",
+          "nsf",
+          "of",
+          "within",
+          "the"
+        ],
+        "key_concepts": [
+          "turn"
+        ]
+      }
+    },
+    {
+      "page_number": 27,
+      "full_text": "authors and should not be interpreted as necessarily representing the official policies or endorsements, either \nexpressed or implied, of the Air Force Research Laboratory and DARPA or the U.S. Government.\nData and materials availability\nAll data are available in the manuscript or the supplementary materials. Raw EM data \nand neuron reconstructions are publicly available through the CATMAID interface at https://\ncatmaid.virtualflybrain.org/ (L1 Larval CNS). All code is deposited at Zenodo (132\u2013134).\nReferences and Notes\n1. Denk W, Briggman KL, Helmstaedter M. Structural neurobiology: Missing link to a mechanistic \nunderstanding of neural computation. Nat Rev Neurosci. 2012; 13: 351\u2013358. DOI: 10.1038/nrn3169 \n[PubMed: 22353782] \n2. Bargmann CI, Marder E. From the connectome to brain function. Nat Methods. 2013; 10: 483\u2013490. \nDOI: 10.1038/nmeth.2451 [PubMed: 23866325] \n3. White JG, Southgate E, Thomson JN, Brenner S. The structure of the nervous system of \nthe nematode Caenorhabditis elegans. Philos Trans R Soc B. 1986; 314: 1\u2013340. DOI: 10.1098/\nrstb.1986.0056 [PubMed: 22462104] \n4. Ryan K, Lu Z, Meinertzhagen IA. The CNS connectome of a tadpole larva of Ciona intestinalis \n(L.) highlights sidedness in the brain of a chordate sibling. eLife. 2016; 5: 353\u2013356. DOI: 10.7554/\neLife.16962 [PubMed: 27921996] \n5. Veraszt\u00f3 C, et al. bioRxiv. 2020; 2020.08.21.260984 doi: 10.1101/2020.08.21.260984 \n6. Kornfeld J, Denk W. Progress and remaining challenges in high-throughput volume electron \nmicroscopy. Curr Opin Neurobiol. 2018; 50: 261\u2013267. DOI: 10.1016/j.conb.2018.04.030 [PubMed: \n29758457] \n7. Wanner AA, Friedrich RW. Whitening of odor representations by the wiring diagram of the \nolfactory bulb. Nat Neurosci. 2020; 23: 433\u2013442. DOI: 10.1038/s41593-019-0576-z [PubMed: \n31959937] \n8. Bock DD, et al. Network anatomy and in vivo physiology of visual cortical neurons. Nature. 2011; \n471: 177\u2013182. DOI: 10.1038/nature09802 [PubMed: 21390124] \n9. Huang L, et al. BRICseq Bridges Brain-wide Interregional Connectivity to Neural Activity \nand Gene Expression in Single Animals. Cell. 2020; 183: 2040. doi: 10.1016/j.cell.2020.12.009 \n[PubMed: 33357401] \n10. Van Essen DC, Anderson CH, Felleman DJ. Information processing in the primate visual system: \nAn integrated systems perspective. Science. 1992; 255: 419\u2013423. DOI: 10.1126/science.1734518 \n[PubMed: 1734518] \n11. Lemon, Wc; , et al. Whole-central nervous system functional imaging in larval Drosophila. Nat \nCommun. 2015; 6 doi: 10.1126/science.1734518 [PubMed: 1734518] \n12. Ahrens MB, Orger MB, Robson DN, Li JM, Keller PJ. Whole-brain functional imaging at \ncellular resolution using light-sheet microscopy. Nat Methods. 2013; 10: 413\u2013420. DOI: 10.1038/\nnmeth.2434 [PubMed: 23524393] \n13. Eichler K, et al. The complete connectome of a learning and memory centre in an insect brain. \nNature. 2017; 548: 175\u2013182. DOI: 10.1038/nmeth.2434 [PubMed: 28796202] \n14. Truman JW, Price J, Miyares RL, Lee T. bioRxiv. 2022; 2022.06.09.495452 doi: \n10.1101/2022.06.09.495452 \n15. Carreira-Rosario A, et al. MDN brain descending neurons coordinately activate backward and \ninhibit forward locomotion. Elife. 2018; 7 doi: 10.1038/nature23455 [PubMed: 28796202] \n16. Almeida-Carvalho MJ, et al. The Ol1mpiad: Concordance of behavioural faculties of stage 1 and \nstage 3 Drosophila larvae. J Exp Biol. 2017; 220: 2452\u20132475. DOI: 10.1242/jeb.156646 [PubMed: \n28679796] \nWinding et al.\nPage 27\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_27_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 27]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 4,
+        "larval_relevance": 8,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "and",
+          "descending",
+          "cortical"
+        ],
+        "key_concepts": [
+          "locomotion"
+        ]
+      }
+    },
+    {
+      "page_number": 28,
+      "full_text": "17. Pauls D, Selcho M, Gendre N, Stocker RF, Thum AS. Drosophila larvae establish appetitive \nolfactory memories via mushroom body neurons of embryonic origin. J Neurosci. 2010; 30: \n10655\u201310666. DOI: 10.1523/JNEUROSCI.1281-10.2010 [PubMed: 20702697] \n18. Gerber B, Stocker RF. The Drosophila larva as a model for studying chemosensation and \nchemosensory learning: A review. Chem Senses. 2007; 32: 65\u201389. DOI: 10.1093/chemse/bjl030 \n[PubMed: 17071942] \n19. Eschbach C, et al. Recurrent architecture for adaptive regulation of learning in the insect brain. Nat \nNeurosci. 2020; 23: 544\u2013555. DOI: 10.1038/s41593-020-0607-9 [PubMed: 32203499] \n20. Lesar A, Tahir J, Wolk J, Gershow M. Switch-like and persistent memory formation in individual \nDrosophila larvae. eLife. 2021; 10 e70317 doi: 10.7554/eLife.70317 [PubMed: 34636720] \n21. Eschbach C, et al. Circuits for integrating learned and innate valences in the insect brain. eLife. \n2021; 10 e62567 doi: 10.7554/eLife.62567 [PubMed: 34755599] \n22. Jovanic T, et al. Competitive Disinhibition Mediates Behavioral Choice and Sequences in \nDrosophila. Cell. 2016; 167: 858\u2013870. e19 doi: 10.1016/j.cell.2016.09.009 [PubMed: 27720450] \n23. Ohyama T, et al. A multilevel multimodal circuit enhances action selection in Drosophila. Nature. \n2015; 520: 633\u2013639. DOI: 10.1038/nature14297 [PubMed: 25896325] \n24. Gerhard S, Andrade I, Fetter RD, Cardona A, Schneider-Mizell CM. Conserved neural circuit \nstructure across Drosophila larval development revealed by comparative connectomics. eLife. \n2017; 6 e29089 doi: 10.7554/eLife.29089 [PubMed: 29058674] \n25. Li H-H, et al. A GAL4 driver resource for developmental and behavioral studies on the larval \nCNS of Drosophila. Cell Rep. 2014; 8: 897\u2013908. DOI: 10.1016/j.celrep.2014.06.065 [PubMed: \n25088417] \n26. Karagyozov D, Mihovilovic Skanata M, Lesar A, Gershow M. Recording Neural Activity in \nUnrestrained Animals with Three-Dimensional Tracking Two-Photon Microscopy. Cell Rep. 2018; \n25: 1371\u20131383. e10 doi: 10.1016/j.celrep.2018.10.013 [PubMed: 30380425] \n27. Valdes-Aleman J, et al. Comparative Connectomics Reveals How Partner Identity, Location, and \nActivity Specify Synaptic Connectivity in Drosophila. Neuron. 2021; 109: 105\u2013122. e7 doi: \n10.1016/j.neuron.2020.10.004 [PubMed: 33120017] \n28. Schneider-Mizell CM, et al. Quantitative neuroanatomy for connectomics in Drosophila. eLife. \n2016; 5 e12059 doi: 10.7554/eLife.12059 [PubMed: 26990779] \n29. Patsolic HG, Park Y, Lyzinski V, Priebe CE. Vertex nomination via seeded graph matching. Stat \nAnal Data Min. 13: 2020; 229\u2013244. DOI: 10.1002/sam.11454 \n30. Fishkind DE, et al. Seeded graph matching. Pattern Recognit. 87: 2019; 203\u2013215. DOI: 10.1016/\nj.patcog.2018.09.014 \n31. Vogelstein JT, et al. Fast approximate quadratic programming for graph matching. PLOS ONE. \n2015; 10 e0121002 doi: 10.1371/journal.pone.0121002 [PubMed: 25886624] \n32. Scheffer LK, et al. A connectome and analysis of the adult Drosophila central brain. eLife. 2020; 9 \ne57443 doi: 10.7554/eLife.57443 [PubMed: 32880371] \n33. Berck ME, et al. The wiring diagram of a glomerular olfactory system. eLife. 2016; 5 e14859 doi: \n10.7554/eLife.14859 [PubMed: 27177418] \n34. Larde I, et al. Organization of the drosophila larval visual circuit. eLife. 2017; 6 doi: 10.7554/\neLife.14859 [PubMed: 27177418] \n35. Miroschnikow A, et al. Convergence of monosynaptic and polysynaptic sensory paths onto \ncommon motor outputs in a Drosophila feeding connectome. eLife. 2018; 7 e40247 doi: 10.7554/\neLife.40247 [PubMed: 30526854] \n36. Schlegel P, et al. Synaptic transmission parallels neuromodulation in a central food-intake circuit. \neLife. 2016; 5 e16799 doi: 10.7554/eLife.16799 [PubMed: 27845623] \n37. Fushiki A, et al. A circuit mechanism for the propagation of waves of muscle contraction in \nDrosophila. eLife. 2016; 5 e13253 doi: 10.7554/eLife.13253 [PubMed: 26880545] \n38. Burgos A, et al. Nociceptive interneurons control modular motor pathways to promote escape \nbehavior in Drosophila. eLife. 2018; 7 e26016 doi: 10.7554/eLife.26016 [PubMed: 29528286] \nWinding et al.\nPage 28\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_28_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 28]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "nociceptive",
+          "body"
+        ],
+        "key_concepts": [
+          "convergence",
+          "recurrent",
+          "parallel",
+          "two-photon",
+          "feeding",
+          "escape"
+        ]
+      }
+    },
+    {
+      "page_number": 29,
+      "full_text": "39. Melcher C, Pankratz MJ. Candidate gustatory interneurons modulating feeding behavior in \nthe Drosophila brain. PLOS Biol. 2005; 3 e305 doi: 10.1371/journal.pbio.0030305 [PubMed: \n16122349] \n40. Andrade IV, et al. Developmentally Arrested Precursors of Pontine Neurons Establish an \nEmbryonic Blueprint of the Drosophila Central Complex. Curr Biol. 2019; 29: 412\u2013425. e3 doi: \n10.1016/j.cub.2018.12.012 [PubMed: 30661802] \n41. Cervantes-Sandoval I, Phan A, Chakraborty M, Davis RL. Reciprocal synapses between mushroom \nbody and dopamine neurons form a positive feedback loop required for learning. eLife. 2017; 6 \ne23789 doi: 10.7554/eLife.23789 [PubMed: 28489528] \n42. Bates AS, et al. Complete Connectomic Reconstruction of Olfactory Projection Neurons in the Fly \nBrain. Curr Biol. 2020; 30: 3183\u20133199. e6 doi: 10.1016/j.cub.2020.06.042 [PubMed: 32619485] \n43. Schneider-Mizell CM, et al. eLife. 2021; 10 e73783 doi: 10.1016/j.cub.2020.06.042 [PubMed: \n34851292] \n44. Cover KK, Mathur BN. Axo-axonic synapses: Diversity in neural circuit function. J Comp Neurol. \n2021; 529: 2391\u20132401. DOI: 10.1002/cne.25087 [PubMed: 33314077] \n45. Gobell S. Dendroaxonic synapses in the substantia gelatinosa glomeruli of the spinal trigeminal \nnucleus of the cat J Comp. Neurol. 1976; 167: 165\u2013176. DOI: 10.1002/cne.901670204 [PubMed: \n932238] \n46. Jahr CE, Nicoll RA. Dendrodendritic inhibition: Demonstration with intracellular recording. \nScience. 1980; 207: 1473\u20131475. DOI: 10.1126/science.7361098 [PubMed: 7361098] \n47. Morgan JL, Lichtman JW. An Individual Interneuron Participates in Many Kinds of Inhibition and \nInnervates Much of the Mouse Visual Thalamus. Neuron. 2020; 106: 468\u2013481. e2 doi: 10.1016/\nj.neuron.2020.02.001 [PubMed: 32142646] \n48. Witvliet D, et al. Connectomes across development reveal principles of brain maturation. Nature. \n2021; 596: 257\u2013261. DOI: 10.1038/s41586-021-03778-8 [PubMed: 34349261] \n49. Wilson RI. Neural and behavioral mechanisms of olfactory perception. Curr Opin Neurobiol. 2008; \n18: 408\u2013412. DOI: 10.1016/j.conb.2008.08.015 [PubMed: 18809492] \n50. Silver RA. Neuronal arithmetic. Nat Rev Neurosci. 2010; 11: 474\u2013489. DOI: 10.1038/nrn2864 \n[PubMed: 20531421] \n51. Towlson EK, V\u00e9rtes PE, Ahnert SE, Schafer WR, Bullmore ET. The rich club of \nthe C. elegans neuronal connectome. J Neurosci. 2013; 33: 6380\u20136387. DOI: 10.1523/\nJNEUROSCI.3784-12.2013 [PubMed: 23575836] \n52. Aso Y, et al. Mushroom body output neurons encode valence and guide memory-based action \nselection in Drosophila. eLife. 2014; 3 e04580 doi: 10.7554/eLife.04580 [PubMed: 25535794] \n53. Hulse BK, et al. A connectome of the Drosophila central complex reveals network motifs \nsuitable for flexible navigation and context-dependent action selection. eLife. 2021; 10 e66039 \ndoi: 10.7554/eLife.66039 [PubMed: 34696823] \n54. Hernandez-Nunez L, et al. Synchronous and opponent thermosensors use flexible cross-inhibition \nto orchestrate thermal homeostasis. Sci Adv. 2021; 7 eabg6707 doi: 10.1126/sciadv.abg6707 \n[PubMed: 34452914] \n55. Qian CS, Kaplow M, Lee JK, Grueber WB. Diversity of Internal Sensory Neuron Axon Projection \nPatterns Is Controlled by the POU-Domain Protein Pdm3 in Drosophila Larvae. J Neurosci. 2018; \n38: 2081\u20132093. DOI: 10.1523/JNEUROSCI.2125-17.2018 [PubMed: 29367405] \n56. Imambocus BN, et al. A neuropeptidergic circuit gates selective escape behavior of Drosophila \nlarvae. Curr Biol. 2022; 32: 149\u2013163. e8 doi: 10.1016/j.cub.2021.10.069 [PubMed: 34798050] \n57. Kandel, ER, Schwartz, JH, Jessell, TM, Siegelbaum, SA, Hudspeth, AJ. Principles of Neural \nScience. Fifth Edition. McGraw Hill Professional; 2013. \n58. Riesenhuber M, Poggio T. Are cortical models really bound by the \u201cbinding problem\u201d. Neuron. \n1999; 24: 87\u201393. DOI: 10.1016/S0896-6273(00)80824-7 [PubMed: 10677029] \n59. Kaas JH, Hackett TA. \u2018What\u2019 and \u2018where\u2019 processing in auditory cortex. Nat Neurosci. 1999; 2: \n1045\u20131047. DOI: 10.1038/15967 [PubMed: 10570476] \n60. Pujala A, Koyama M. Chronology-based architecture of descending circuits that underlie the \ndevelopment of locomotor repertoire after birth. eLife. 2019; 8 e42135 doi: 10.7554/eLife.42135 \n[PubMed: 30801247] \nWinding et al.\nPage 29\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_29_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 29]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 5,
+        "connectome_relevance": 10,
+        "neuron_types_mentioned": [
+          "dopamine",
+          "output",
+          "internal",
+          "projection",
+          "elegans",
+          "sensory",
+          "pontine",
+          "gustatory",
+          "individual"
+        ],
+        "key_concepts": [
+          "feedback",
+          "feeding",
+          "escape"
+        ]
+      }
+    },
+    {
+      "page_number": 30,
+      "full_text": "61. Barnes CL, Bonn\u00e9ry D, Cardona A. Synaptic counts approximate synaptic contact area in \nDrosophila. PLOS ONE. 2022; 17 e0266064 doi: 10.1371/journal.pone.0266064 [PubMed: \n35377898] \n62. Barron AB, Sovik E, Cornish JL. The roles of dopamine and related compounds in reward-seeking \nbehavior across animal phyla. Front Behav Neurosci. 2010; 4: 163. doi: 10.3389/fnbeh.2010.00163 \n[PubMed: 21048897] \n63. Cognigni P, Felsenberg J, Waddell S. Do the right thing: Neural network mechanisms of memory \nformation, expression and update in Drosophila. Curr Opin Neurobiol. 2018; 49: 51\u201358. DOI: \n10.1016/j.conb.2017.12.002 [PubMed: 29258011] \n64. Pulver SR, et al. Imaging fictive locomotor patterns in larval Drosophila. J Neurophysiol. 2015; \n114: 2564\u20132577. DOI: 10.1152/jn.00731.2015 [PubMed: 26311188] \n65. Kar K, Kubilius J, Schmidt K, Issa EB, DiCarlo JJ. Evidence that recurrent circuits are critical \nto the ventral stream's execution of core object recognition behavior. Nat Neurosci. 2019; 22: \n974\u2013983. DOI: 10.1038/s41593-019-0392-5 [PubMed: 31036945] \n66. Liao Q, Poggio T. Bridging the Gaps Between Residual Learning, Recurrent Neural Networks and \nVisual Cortex. arXiv:1604.03640. 2016. \n67. Ohyama T, et al. PLOS ONE. 2013; 8 e71706 doi: 10.1371/journal.pone.0071706 [PubMed: \n23977118] \n68. Kohsaka H, Takasu E, Morimoto T, Nose A. A group of segmental premotor interneurons regulates \nthe speed of axial locomotion in Drosophila larvae. Curr Biol. 2014; 24: 2632\u20132642. DOI: \n10.1016/j.cub.2014.09.026 [PubMed: 25438948] \n69. Lahiri S, et al. Two alternating motor programs drive navigation in Drosophila larva. PLOS ONE. \n2011; 6 e23180 doi: 10.1371/journal.pone.0023180 [PubMed: 21858019] \n70. Zwart MF, et al. Selective Inhibition Mediates the Sequential Recruitment of Motor Pools. Neuron. \n2016; 91: 615\u2013628. DOI: 10.1016/j.neuron.2016.06.031 [PubMed: 27427461] \n71. Zarin AA, Mark B, Cardona A, Litwin-Kumar A, Doe CQ. A multilayer circuit architecture for \nthe generation of distinct locomotor behaviors in Drosophila. eLife. 2019; 8 e51781 doi: 10.7554/\neLife.51781 [PubMed: 31868582] \n72. Eschbach C, Zlatic M. Useful road maps: Studying Drosophila larva's central nervous \nsystem with the help ofconnectomics. Curr Opin Neurobiol. 2020; 65: 129\u2013137. DOI: 10.1016/\nj.conb.2020.09.008 [PubMed: 33242722] \n73. Heckscher ES, et al. Even-Skipped(+) Interneurons Are Core Components of a Sensorimotor \nCircuit that Maintains Left-Right Symmetric Muscle Contraction Amplitude. Neuron. 2015; 88: \n314\u2013329. DOI: 10.1016/j.neuron.2015.09.009 [PubMed: 26439528] \n74. Tastekin I, et al. Sensorimotor pathway controlling stopping behavior during chemotaxis in \nthe Drosophila melanogaster larva. eLife. 2018; 7 e38740 doi: 10.7554/eLife.38740 [PubMed: \n30465650] \n75. Masson J-B, et al. Identifying neural substrates of competitive interactions and sequence transitions \nduring mechanosensory responses in Drosophila. PLOS Genet. 2020; 16 e1008589 doi: 10.1371/\njournal.pgen.1008589 [PubMed: 32059010] \n76. Vogelstein JT, et al. Discovery of brainwide neural-behavioral maps via multiscale unsupervised \nstructure learning. Science. 2014; 344: 386\u2013392. DOI: 10.1126/science.1250298 [PubMed: \n24674869] \n77. Jenett A, et al. A GAL4-driver line resource for Drosophila neurobiology. Cell Rep. 2012; 2: \n991\u20131001. DOI: 10.1016/j.celrep.2012.09.011 [PubMed: 23063364] \n78. Corrales M, et al. A single-cell transcriptomic atlas of complete insect nervous systems across \nmultiple life stages. Neural Dev. 2022; 17: 8. doi: 10.1186/s13064-022-00164-6 [PubMed: \n36002881] \n79. Bates AS, Janssens J, Jefferis GSXE, Aerts S. Neuronal cell types in the fly: Single-cell \nanatomy meets single-cell genomics. Curr Opin Neurobiol. 2019; 56: 125\u2013134. DOI: 10.1016/\nj.conb.2018.12.012 [PubMed: 30703584] \n80. MICrONS Consortium. et al. bioRxiv. 2021; 2021.07.28.454025 doi: 10.1101/2021.07.28.454025 \nWinding et al.\nPage 30\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_30_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 30]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 7,
+        "connectome_relevance": 6,
+        "neuron_types_mentioned": [
+          "premotor"
+        ],
+        "key_concepts": [
+          "recurrent",
+          "locomotion",
+          "speed",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 31,
+      "full_text": "81. Hige T, Aso Y, Modi MN, Rubin GM, Turner GC. Heterosynaptic Plasticity Underlies \nAversive Olfactory Learning in Drosophila. Neuron. 2015; 88: 985\u2013998. DOI: 10.1016/\nj.neuron.2015.11.003 [PubMed: 26637800] \n82. Manoim JE, Davidson AM, Weiss S, Hige T, Parnas M. Lateral axonal modulation is required for \nstimulus-specific olfactory conditioning in Drosophila. Curr Biol. 2022; 32: 4438\u20134450. e5 doi: \n10.1016/j.cub.2022.09.007 [PubMed: 36130601] \n83. Soiza-Reilly M, Anderson WB, Vaughan CW, Commons KG. Presynaptic gating of excitation in \nthe dorsal raphe nucleus by GABA. Proc Natl Acad Sci USA. 2013; 110: 15800\u201315805. DOI: \n10.1073/pnas.1304505110 [PubMed: 24019494] \n84. Fusi S, Miller EK, Rigotti M. Why neurons mix: High dimensionality for higher cognition. Curr \nOpin Neurobiol. 2016; 37: 66\u201374. DOI: 10.1016/j.conb.2016.01.010 [PubMed: 26851755] \n85. He, K; , et al. 2016 IEEE Conference on Computer Vision and Pattern Recognition; 2016. 770\u2013\n778. \n86. Ronneberger O, Fischer P, Brox T. U-Net: Convolutional Networks for Biomedical Image \nSegmentation. arXiv:1505.04597. 2015; doi: 10.1007/978-3-319-24574-4_28 \n87. Simonyan K, Zisserman A. Very Deep Convolutional Networks for Large-Scale Image \nRecognition. arXiv:1409.1556. 2014. \n88. Srivastava RK, Greff K, Schmidhuber J. Highway Networks. arXiv:1505.00387. 2015. \n89. Gilbert CD, Li W. Top-down influences on visual processing. Nat Rev Neurosci. 2013; 14: 350\u2013\n363. DOI: 10.1038/nrn3476 [PubMed: 23595013] \n90. Spoerer CJ, Kietzmann TC, Mehrer J, Charest I, Kriegeskorte N. Recurrent neural networks \ncan explain flexible trading of speed and accuracy in biological vision. PLOS Comput Biol. 16 \ne1008215 2020; doi: 10.1371/journal.pcbi.1008215 [PubMed: 33006992] \n91. Bahl A, Engert F. Neural circuits for evidence accumulation and decision making in \nlarval zebrafish. Nat Neurosci. 2020; 23: 94\u2013102. DOI: 10.1038/s41593-019-0534-9 [PubMed: \n31792464] \n92. Singer W. Recurrent dynamics in the cerebral cortex: Integration of sensory evidence with stored \nknowledge. Proc Natl Acad Sci USA. 2021; 118 e2101043118 doi: 10.1073/pnas.2101043118 \n[PubMed: 34362837] \n93. van Bergen RS, Kriegeskorte N. Going in circles is the way forward: The role of recurrence \nin visual inference. Curr Opin Neurobiol. 2020; 65: 176\u2013193. DOI: 10.1016/j.conb.2020.11.009 \n[PubMed: 33279795] \n94. Beaulieu J-M, Gainetdinov RR. The physiology, signaling, and pharmacology of dopamine \nreceptors. Pharmacol Rev. 2011; 63: 182\u2013217. DOI: 10.1124/pr.110.002642 [PubMed: 21303898] \n95. Raman DV, O'Leary T. Frozen algorithms: How the brain's wiring facilitates learning. Curr Opin \nNeurobiol. 2021; 67: 207\u2013214. DOI: 10.1016/j.conb.2020.12.017 [PubMed: 33508698] \n96. Druckmann S, Chklovskii DB. Neuronal circuits underlying persistent representations despite \ntime varying activity. Curr Biol. 2012; 22: 2095\u20132103. DOI: 10.1016/j.cub.2012.08.058 [PubMed: \n23084992] \n97. Daie K, Svoboda K, Druckmann S. Targeted photostimulation uncovers circuit motifs supporting \nshort-term memory. Nat Neurosci. 2021; 24: 259\u2013265. DOI: 10.1038/s41593-020-00776-3 \n[PubMed: 33495637] \n98. Lyutova R, et al. Reward signaling in a recurrent circuit of dopaminergic neurons and peptidergic \nKenyon cells. Nat Commun. 2019; 10: 3097. doi: 10.1038/s41467-019-11092-1 [PubMed: \n31308381] \n99. Zolin A, et al. Context-dependent representations of movement in Drosophila dopaminergic \nreinforcement pathways. Nat Neurosci. 2021; 24: 1555\u20131566. DOI: 10.1038/s41593-021-00929-y \n[PubMed: 34697455] \n100. van den Heuvel MP, Sporns O. Rich-club organization of the human connectome. J Neurosci. \n2011; 31: 15775\u201315786. DOI: 10.1523/JNEUROSCI.3539-11.2011 [PubMed: 22049421] \n101. Omamiuda-Ishikawa N, Sakai M, Emoto K. A pair of ascending neurons in the subesophageal \nzone mediates aversive sensory inputs-evoked backward locomotion in Drosophila larvae. PLOS \nGenet. 2020; 16 e1009120 doi: 10.1371/journal.pgen.1009120 [PubMed: 33137117] \nWinding et al.\nPage 31\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_31_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 31]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 3,
+        "connectome_relevance": 6,
+        "neuron_types_mentioned": [
+          "ascending",
+          "dopaminergic",
+          "why"
+        ],
+        "key_concepts": [
+          "recurrent",
+          "locomotion",
+          "turn",
+          "speed"
+        ]
+      }
+    },
+    {
+      "page_number": 32,
+      "full_text": "102. Drew T, Cabana T, Rossignol S. Responses of medullary reticulospinal neurones to stimulation \nof cutaneous limb nerves during locomotion in intact cats. Exp Brain Res. 1996; 111: 153\u2013168. \nDOI: 10.1007/BF00227294 [PubMed: 8891647] \n103. Chang YT, Lin JW, Faber DS. Spinal inputs to the ventral dendrite of the teleost Mauthner cell. \nBrain Res. 1987; 417: 205\u2013213. DOI: 10.1016/0006-8993(87)90444-6 [PubMed: 3651811] \n104. H\u00fcckesfeld S, et al. Unveiling the sensory and interneuronal pathways of the neuroendocrine \nconnectome in Drosophila. eLife. 2021; 65745 doi: 10.7554/eLife.65745 [PubMed: 34085637] \n105. Hartenstein V, et al. Lineage-associated tracts defining the anatomy of the Drosophila first \ninstar larval brain. Dev Biol. 2015; 406: 14\u201339. DOI: 10.1016/j.ydbio.2015.06.021 [PubMed: \n26141956] \n106. Chung J, et al. Statistical Connectomics. Annu Rev Stat Appl. 2021; 8: 463\u2013492. DOI: 10.1146/\nannurev-statistics-042720-023234 \n107. Athreya A, et al. Statistical inference on random dot product graphs: A survey. J Mach Learn Res. \n2017; 18: 8393\u20138484. \n108. Chung J, et al. JMLR. 2019; 20: 1\u20137. \n109. Agterberg J, Tang M, Priebe C. Nonparametric Two-Sample Hypothesis Testing for Random \nGraphs with Negative and Repeated Eigenvalues. arXiv:2012.09828. 2020. \n110. Lyzinski V, Tang M, Athreya A, Park Y, Priebe CE. Community Detection and Classification in \nHierarchical Stochastic Blockmodels. IEEE Trans Netw Sci Eng. 2017; 4: 13\u201326. DOI: 10.1109/\nTNSE.2016.2634322 \n111. Li T, et al. Hierarchical Community Detection by Recursive Partitioning. J Am Stat Assoc. 2022; \n117: 951\u2013968. DOI: 10.1080/01621459.2020.1833888 \n112. Sussman DL, Tang M, Fishkind DE, Priebe CE. A Consistent Adjacency Spectral Embedding \nfor Stochastic Blockmodel Graphs. J Am Stat Assoc. 2012; 107: 1119\u20131128. DOI: \n10.1080/01621459.2012.699795 \n113. Athey TL, Liu T, Pedigo BD, Vogelstein JT. AutoGMM: Automatic and Hierarchical Gaussian \nMixture Modeling in Python. arXiv:1909.02688. 2019. \n114. Pedregosa F, et al. Scikit-learn: Machine learning in Python. JMLR. 2011; 12: 2825\u20132830. DOI: \n10.1080/01621459.2020.1833888 \n115. Schwarz G. Estimating the Dimension of a Model. Ann Stat. 1978; 6: 461\u2013464. DOI: \n10.1214/aos/1176344136 \n116. Fraley, C; Raftery, AE. MCLUST: Software for model-based cluster and discriminant analysis. \nDepartment of Statistics, University of Washington: Technical Report. 1998. http://132.180.15.2/\nmath/statlib/S/mclust/old/mclust.pdf\n117. Carmel L, Harel D, Koren Y. Combining hierarchy and energy for drawing directed graphs. \nIEEE Trans Vis Comput Graph. 2004; 10: 46\u201357. DOI: 10.1109/TVCG.2004.1260757 [PubMed: \n15382697] \n118. Varshney LR, Chen BL, Paniagua E, Hall DH, Chklovskii DB. Structural properties of the \nCaenorhabditis elegans neuronal network. PLOS Comput Biol. 2011; 7 e1001066 doi: 10.1371/\njournal.pcbi.1001066 [PubMed: 21304930] \n119. Newman, MEJ. Networks. Oxford Univ Press; 2018. \n120. Goldenberg J, Libai B, Muller E. Talk of the Network: A Complex Systems Look at \nthe Underlying Process of Word-of-Mouth. Mark Lett. 2001; 12: 211\u2013223. DOI: 10.1023/\nA:1011122126881 \n121. Misic B, et al. Cooperative and Competitive Spreading Dynamics on the Human Connectome. \nNeuron. 2015; 86: 1518\u20131529. DOI: 10.1016/j.neuron.2015.05.035 [PubMed: 26087168] \n122. Schlegel P, et al. Information flow, cell types and stereotypy in a full olfactory connectome. eLife. \n2021; 66018 doi: 10.7554/eLife.66018 [PubMed: 34032214] \n123. Costa M, Manton JD, Ostrovsky AD, Prohaska S, Jefferis GSXE. NBLAST: Rapid, Sensitive \nComparison of Neuronal Structure and Construction of Neuron Family Databases. Neuron. 2016; \n91: 293\u2013311. DOI: 10.1016/j.neuron.2016.06.012 [PubMed: 27373836] \n124. Schlegel P, Barnes C, Jagannathan S, Pedigo B. schlegelp/navis: Version 0.6.0, Zenodo. 2021. \nhttps://zenodo.org/record/4751181/export/hx \nWinding et al.\nPage 32\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_32_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 32]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 3,
+        "connectome_relevance": 6,
+        "neuron_types_mentioned": [
+          "and",
+          "elegans",
+          "reticulospinal",
+          "of"
+        ],
+        "key_concepts": [
+          "hierarchical",
+          "locomotion",
+          "response"
+        ]
+      }
+    },
+    {
+      "page_number": 33,
+      "full_text": "125. Harris CR, et al. Array programming with NumPy. Nature. 2020; 585: 357\u2013362. DOI: 10.1038/\ns41586-020-2649-2 [PubMed: 32939066] \n126. Virtanen P, et al. SciPy 1.0: Fundamental algorithms for scientific computing in Python. Nat \nMethods. 2020; 17: 261\u2013272. DOI: 10.1038/s41592-019-0686-2 [PubMed: 32015543] \n127. McKinney, W. Proceedings of the 9th Python in Science Conference; 2010. 51\u201356. SciPy\n128. Hagberg A, Swart P, Chult DS. Exploring network structure, dynamics, and function using \nNetworkX. 2008. USDOEhttps://www.osti.gov/biblio/960616\n129. Hunter JD. Matplotlib: A 2D Graphics Environment. IEEE. 2007; 9: 90\u201395. DOI: 10.21105/\njoss.03021 \n130. Waskom M. seaborn: Statistical data visualization. J Open Source Softw. 2021; 6: 3021. doi: \n10.21105/joss.03021 \n131. Lex A, Gehlenborg N, Strobelt H, Vuillemot R, Pfister H. UpSet: Visualization of Intersecting \nSets. IEEE Trans Vis Comput Graph. 2014; 20: 1983\u20131992. DOI: 10.1109/TVCG.2014.2346248 \n[PubMed: 26356912] \n132. Winding M. mwinding/connectome_tools: Archived Repo for Publication, Version v1.0. Zenodo. \n2022; doi: 10.5281/zenodo.7473710 \n133. Winding M. mwinding/connectome_analysis: Archived Repo for Publication, Version v1.0. \nZenodo. 2022; doi: 10.5281/zenodo.7473718 \n134. Pedigo B. neurodata/maggot_models: pre-resubmission-v1, Version pre-resubmission-v1. \nZenodo. 2022; doi: 10.5281/zenodo.7474133 \nWinding et al.\nPage 33\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_33_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 33]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 0,
+        "larval_relevance": 0,
+        "connectome_relevance": 3,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 34,
+      "full_text": "Fig. 1. Comprehensive reconstruction of a Drosophila larva brain.\n(A) Morphology of differentiated brain neurons in the CNS of a Drosophila larva. (B) \nMost (>99%) of neurons were reconstructed to completion, defined by reconstruction of \nall terminal branches (see Methods) and no data quality issues preventing identification of \naxons and dendrites. Pre- and postsynaptic sites were considered complete when connected \nto a brain neuron or ascending arbors from neurons outside the brain. (C) Left and right \nhomologous neuron pairs were identified using an automated graph matching with manual \nproofreading. There was no clear partner for 14 neurons based on this workflow (unpaired), \nalong with 176 unpaired KCs in the learning and memory center. (D and E) Schematic \noverview of brain structure. Brain inputs include SNs, which directly synapse onto brain \nneurons, and ANs from VNC segment A1, which receive direct or polysynaptic input from \nA1 sensories (see fig. S2). Brain interneurons transmit these input signals to output neurons: \nDNs to the subesophageal zone (SEZ) (DNSEZ), DNs to the VNC (DNVNC), and ring gland \nneurons (RGN). (F to H) Cell classes in the brain. Some interneurons belong to multiple \nclasses, but are displayed as mutually exclusive for plotting expedience (see fig. S4). Note \nthat some previously reconstructed interneurons (40 total) and output neurons (6 total) are \nincluded in the barplots but are not brain neurons per se and not included in counts. There \nwere 20 brain output neurons with known cell classes that were therefore also included in \n(G).\nWinding et al.\nPage 34\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_34_fig_1.png",
+          "caption": "Comprehensive reconstruction of a Drosophila larva brain. (A) Morphology of differentiated brain neurons in the CNS of a Drosophila larva. (B)",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_34_fig_2.png",
+          "caption": "Morphology of differentiated brain neurons in the CNS of a Drosophila larva.",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            1265
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "gland",
+          "output",
+          "reconstructed",
+          "of",
+          "homologous",
+          "brain",
+          "14",
+          "some",
+          "from"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 35,
+      "full_text": "Fig. 2. Identification of all brain axons and dendrites revealed four connection types.\n(A) Axons and dendrites were identified in all brain neurons, >95% of which contained fully \ndifferentiated axons and dendrites. The remainder were unpolarized neurons and immature \nneurons. (B) Axons contained mostly presynaptic sites (orange), whereas dendrites \ncontained mostly postsynaptic sites (blue), but pre- and postsynaptic sites were observed \nin both compartments. (C) Synaptic connections between brain neurons were categorized \nas axo-dendritic (a-d), axo-axonic (a-a), dendro-dendritic (d-d), or dendro-axonic (d-a). \n(D) Adjacency matrices displaying all connection types between brain neurons (raw data \nin data S1 and S2). Each quadrant represents a different connectivity type between each \npresynaptic neuron (row) and postsynaptic neuron (column) in the brain. (E) Graph metrics \nfor subgraphs comprising each connection type: number of nodes participating in each \nconnection type, graph density (number of connections observed divided by all possible \nconnections), and max degree (maximum number of connections from a single neuron). (F) \nFraction of feedforward and feedback synapses per connection type, defined based on the \noverall neuron sorting from sensory to output (fig. S6, F and G). (G) Comparison of the \ndirection of information flow for the indicated connection types. Individual neurons in each \ngraph type were sorted using the signal flow algorithm (see Methods) and the correlation \nbetween these node sortings was quantified. a-d sorting best matched the summed graph \nWinding et al.\nPage 35\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_35_fig_1.png",
+          "caption": "Axons and dendrites were identified in all brain neurons, >95% of which contained fully differentiated axons and dendrites. The remainder were unpolarized neurons and immature",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_35_fig_2.png",
+          "caption": "Identification of all brain axons and dendrites revealed four connection types. (A) Axons and dendrites were identified in all brain neurons, >95% of which contained fully",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            1524
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "single",
+          "presynaptic",
+          "immature",
+          "brain",
+          "postsynaptic",
+          "overall",
+          "unpolarized",
+          "individual"
+        ],
+        "key_concepts": [
+          "feedback",
+          "direction"
+        ]
+      }
+    },
+    {
+      "page_number": 36,
+      "full_text": "sorting (all edge types together). The d-a sorting was negatively correlated with a-d (\u20130.59). \n(H) Edge reciprocity between different edge types, i.e., fraction of forward edges that were \ncoincident with different backward edge types.\nWinding et al.\nPage 36\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_36_fig_1.png",
+          "caption": "Edge reciprocity between different edge types, i.e., fraction of forward edges that were",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 0,
+        "larval_relevance": 0,
+        "connectome_relevance": 0,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 37,
+      "full_text": "Fig. 3. Hierarchical clustering and analysis of brain structure.\n(A) Hierarchical clustering of neurons using a joint left-right hemisphere spectral embedding \nbased on connectivity. Clusters were colored based on cell classes (Fig. 1G and fig. S4), \nbut this information was not used for clustering. Clusters were sorted using signal flow. \n(B) Example clusters with intracluster morphological similarity score using NBLAST (see \nMethods). (C) Adjacency matrix of the brain sorted by hierarchical cluster structure. (D) \nNetwork diagram of level 4 clusters displays coarse brain structure. Colored pie charts \ndisplay cell types within clusters. (E) Fraction of a-d hub neurons in level 4 clusters. Cell \ntypes of each cluster are depicted on the x-axis and annotated to match clusters in (D). Hubs \nWinding et al.\nPage 37\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_37_fig_1.png",
+          "caption": "Hierarchical clustering of neurons using a joint left-right hemisphere spectral embedding based on connectivity. Clusters were colored based on cell classes (Fig. 1G and fig. S4),",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_37_fig_2.png",
+          "caption": "Hierarchical clustering of neurons using a joint left-right hemisphere spectral embedding based on connectivity. Clusters were colored based on cell classes (Fig. 1G and fig. S4),",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            2039
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 3,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "hub",
+          "of"
+        ],
+        "key_concepts": [
+          "hierarchical"
+        ]
+      }
+    },
+    {
+      "page_number": 38,
+      "full_text": "were defined as having \u226520 in- or out-degree (\u226520 presynaptic or postsynaptic partners, \nrespectively; based on the mean degree plus 1.5 standard deviations). (F) Cell classes of \nin-out hubs (a-d). Most neurons were downstream or upstream of the memory and learning \ncenter (gray semicircle, MB-related). Note that CN + MB-FBN indicates neurons that were \nboth CNs and MB-FBNs. One pair of pre-DNVNC neurons received direct MBON input. (G) \nPathways from SNs to output neurons with 6 or fewer hops, using a pairwise \u22651% input \nthreshold of the a-d graph. Plot displays a random selection of 100,000 paths from a total set \nof 3.6 million paths.\nWinding et al.\nPage 38\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_38_fig_1.png",
+          "caption": "Cell classes of in-out hubs (a-d). Most neurons were downstream or upstream of the memory and learning",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 7,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "dnvnc",
+          "indicates",
+          "output",
+          "most"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 39,
+      "full_text": "Fig. 4. Multimodal sensory integration across the brain.\n(A) Morphology of neurons in sensory circuits, identified using multihop a-d connectivity \nfrom SNs or ANs. (B) Neuron similarity across sensory circuits using the Dice \nCoefficient. Most 2nd-order neurons were distinct, whereas 3rd- and 4th-order neurons \nwere progressively more similar between modalities. (C) Cell classes in each sensory \ncircuit. Note that neurons can be shared across sensory modalities within 2nd- or 3rd-order \nlayers. (D) Schematic of a multihop signal cascade, which probabilistically propagates \nsignal polysynaptically from a user-defined source and endpoint based on synaptic weights \nbetween neurons. (E) Signal cascades from sensory modalities to brain output neurons, \nDNsVNC. The number of hops between these input and output neurons was quantified. (F) \nThe number of pathways with different lengths was quantified from individual sensory \nmodalities to individual DNsVNC. Most sensory signals propagating to DNsVNC used \nmultiple paths of differing lengths (short, medium, long). (G) Individual neurons were \nclassified as unimodal or multimodal, based on signal cascades from individual sensory \nmodalities. Most brain neurons integrated from multiple sensory types (multimodal), \nwhereas a few integrated from a single modality (unimodal). (H) The distance from sensory \ninput in unimodal or multimodal cells from (G) was quantified. (I) Signal cascades (up to \n5 hops) from SNs or ANs of different modalities to the input neurons of the learning and \nmemory center, including dopaminergic neurons (DANs), octopaminergic neurons (OANs), \nWinding et al.\nPage 39\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_39_fig_1.png",
+          "caption": "Morphology of neurons in sensory circuits, identified using multihop a-d connectivity from SNs or ANs.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_39_fig_2.png",
+          "caption": "Morphology of neurons in sensory circuits, identified using multihop a-d connectivity from SNs or ANs.",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            1443
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "that",
+          "between",
+          "output",
+          "dopaminergic",
+          "of",
+          "octopaminergic",
+          "input",
+          "brain",
+          "order",
+          "individual"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 40,
+      "full_text": "and neurons of unknown neurotransmitters (MBINs). All DANs, 33% of OANs, and 60% of \nother MBINs received signals from all sensory modalities.\nWinding et al.\nPage 40\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_40_fig_1.png",
+          "caption": "[Caption not found for figure 1 on page 40]",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 1,
+        "larval_relevance": 0,
+        "connectome_relevance": 0,
+        "neuron_types_mentioned": [
+          "and"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 41,
+      "full_text": "Fig. 5. Characterization of interhemispheric communication by bilateral and contralateral \nneurons.\n(A) Connectivity between left and right hemispheres, sorted within each hemisphere by \nthe cluster structure. (B) Fraction of contralateral a-d presynaptic sites per neuron. (C) \nMorphology of ipsilateral, bilateral, and contralateral axon neurons with a-d synaptic \ndistribution (right-side neurons depicted to make contralateral arbors visible). (D) Most \nbilateral axon neurons synapsed onto homologous neurons in both hemispheres, as indicated \nby the high cosine similarity of their a-d connectivity to ipsilateral and contralateral \ndownstream partners (left). Three bins of cosine similarity values and the cell type \nmemberships of the downstream partners are displayed (right). (E) Connection probability \nbetween left and right cell types using a-d edges. The highest connection probabilities were \nobserved between contralateral neurons in opposite brain hemispheres. (F) Reciprocal loops \nwere observed between homologous left- and right-hemisphere neurons. (G) Sensory signal \nlateralization per cell class. Blue, neurons that received signals from both hemispheres; \norange, neurons that received signals from only one hemisphere. Notably, 46% of DNsSEZ \nwere lateralized (using either 8-hop or 5-hop cascades).\nWinding et al.\nPage 41\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_41_fig_1.png",
+          "caption": "Connectivity between left and right hemispheres, sorted within each hemisphere by the cluster structure.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_41_fig_2.png",
+          "caption": "Connectivity between left and right hemispheres, sorted within each hemisphere by the cluster structure.",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            996
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 9,
+        "neuron_types_mentioned": [
+          "contralateral",
+          "homologous",
+          "hemisphere",
+          "per",
+          "axon",
+          "side"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 42,
+      "full_text": "Fig. 6. Comprehensive recurrent pathways through the brain.\n(A) Schematic of signal cascades starting from each cluster. (B) Signal cascades originating \nat each level-7 cluster (along the diagonal) travel in both forward (above the diagonal) \nand backward (below the diagonal). Signal cascades were based on a-d connectivity and \ncontained 2 hops maximum to restrict analysis to the lower bound of backward signals. \n(C) Number of clusters or single cells that received cascade forward or backward signals \nfrom clusters or single cells within clusters, respectively. (D) Recurrence in brain neurons. \nPolysynaptic downstream partners of each brain neuron were identified with a-d cascades \n(up to 5 hops). Recurrent partners sent multihop signal back to the source neuron, forming \na recurrent loop (left), and 41% of brain neurons engaged in at least one such recurrent \nloop (right). (E) Quantification of recurrent pathways of different length between individual \nneurons. (F) Recurrence was quantified for each cell class. (Right) a schematic of the \nmost recurrent cell types in the brain and their relation to conditioned stimulus (CS) and \nunconditioned stimulus (US) during associative learning. The MBIN category was split into \nOANs and DAN/MBIN, as they displayed different distributions of recurrence. Note that KC \nrecurrence is so low that the violin plot is not visible. (G) Recurrent partners of individual \nMBINs are reported (i.e., all downstream partners, using 5-hop cascades, that send recurrent \nsignals back), including those of dopaminergic neurons (DANs), octopaminergic neurons \n(OANs), and MBINs expressing unknown neurotransmitters. (H) Recurrent or parallel \nefference copy signals from DNsVNC or DNsSEZ using 1- or 2-hop a-d connectivity.\nWinding et al.\nPage 42\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_42_fig_1.png",
+          "caption": "Schematic of signal cascades starting from each cluster.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_42_fig_2.png",
+          "caption": "Schematic of signal cascades starting from each cluster.",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            1071
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "octopaminergic",
+          "brain",
+          "individual",
+          "source",
+          "dopaminergic"
+        ],
+        "key_concepts": [
+          "recurrent",
+          "parallel"
+        ]
+      }
+    },
+    {
+      "page_number": 43,
+      "full_text": "Fig. 7. Investigation of brain-nerve cord interactions revealed direct connectivity between \nascending and descending neurons.\n(A) Schematic of the Drosophila larva CNS (i) and how this topology corresponds to \ndifferent body segments (ii), involved in a diverse set of behaviors (iii). (B) Each row \nrepresents an individual DNVNC pair with its associated upstream and downstream a-d \nconnectivity in the brain and its projections to the rest of the CNS. Upstream and \ndownstream partner plots (i, iii) depict the fraction of cell types 1 and 2 hops from each \nDNVNC (color legend, bottom). **, indicates one DNVNC pair had no strong 2nd-order \npartners in the brain. The projectome plot (ii) reports the number of DNVNC presynaptic \nsites in each CNS region. Candidate behaviors are suggested based on known behaviors \nWinding et al.\nPage 43\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_43_fig_1.png",
+          "caption": "Schematic of the Drosophila larva CNS (i) and how this topology corresponds to different body segments (ii), involved in a diverse set of behaviors (iii).",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        },
+        {
+          "figure_file": "page_43_fig_2.png",
+          "caption": "Schematic of the Drosophila larva CNS (i) and how this topology corresponds to different body segments (ii), involved in a diverse set of behaviors (iii).",
+          "image_index": 2,
+          "dimensions": [
+            2096,
+            2040
+          ]
+        }
+      ],
+      "figure_count": 2,
+      "analysis": {
+        "circuit_relevance": 4,
+        "larval_relevance": 1,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "descending"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 44,
+      "full_text": "described in (A, iii). DNsVNC were grouped either by candidate behavior or level 7 \nclusters (iv). These independent groupings were highly correlated (Cramer's V Correlation \nCoefficient = 0.58). (C) Schematic of common recurrent and efference copy a-d pathways \nobserved in the brain with a focus on DNVNC connectivity. (D) Avenues of interaction \nbetween the brain and VNC, DNsVNC, and ANs, focused on the A1 segment. (E) Premotor \nneuron layers in A1. Layers are identified based on a pairwise 1% a-d input threshold (left). \nNumber of interneurons and ANs in each layer are reported (right). DNVNC targets refer to \nA1 neurons postsynaptic to a DNVNC. (F) Sensory layers in A1. Number of interneurons \n(green) and ANs (blue) are reported for each sensory layer and location of DNVNC targets \n(red). (G) Connection probability (a-d) between DNsVNC and A1 cell types, and between \nANsA1 and brain output neurons. (H) A-d motifs involving DNsVNC and ANs in A1. The \nsimplest version of each motif is depicted above, but motifs involving 3, 4, and 5 nodes \nwere also assayed, which contained additional A1 interneurons or preoutput neurons in the \nbrain. (I) All zigzag motifs observed. Each bar represents the number of neurons in each \ntype and lines represent paths originating and ending at individual cells in each category. \n(J) A zigzag motif with previously characterized DNsVNC on either side. This motif starts \nat PDM-DN, whose acute stimulation elicits a stopping behavior, and ends at MDN, whose \nacute stimulation causes animals to back up. Stop-backup is a common behavioral sequence \nobserved in the Drosophila larva.\nWinding et al.\nPage 44\nScience. Author manuscript; available in PMC 2023 May 16.\n Europe PMC Funders Author Manuscripts\n Europe PMC Funders Author Manuscripts\n",
+      "figures": [
+        {
+          "figure_file": "page_44_fig_1.png",
+          "caption": "Schematic of common recurrent and efference copy a-d pathways observed in the brain with a focus on DNVNC connectivity.",
+          "image_index": 1,
+          "dimensions": [
+            16,
+            16
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 1,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "output",
+          "of",
+          "a1",
+          "premotor",
+          "preoutput"
+        ],
+        "key_concepts": [
+          "recurrent"
+        ]
+      }
+    }
+  ]
+}

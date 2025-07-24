@@ -1,0 +1,1865 @@
+{
+  "pdf_name": "OrganizationDrosophilaLarvalVisualCircuitCardona-figures-v2.pdf",
+  "total_pages": 19,
+  "processed_date": "2025-07-24T18:05:44.328151",
+  "pages": [
+    {
+      "page_number": 1,
+      "full_text": "Figures and figure supplements\nOrganization of the Drosophila larval visual circuit\nIvan Larderet et al\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n1 of 19\nRESEARCH ARTICLE\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 1,
+        "larval_relevance": 2,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 2,
+      "full_text": "pOLP\nPVL09\nPdf-LaN\n5th/nc-LaN\nlOLP\nSP2-1\nsVUM2\nVPLN\nTiny VLN\nD\nV\nL\nR\nD\nV\nL\nR\nmidline\nLON\nLON\nB\nSEZ\nTHORAX\nneuropil\nLON\nBRAIN\nBolwig nerve\nBolwig \norgan\ncps\nRh5-PR\nRh6-PR\nVPN\nVLN\naminergic\nthird order\nD\nV\nA\nP\nD\nV\nL\nR\nD\nV\nL\nR\nC\nD\nglu-lOLP\ncha-lOLP\nLON\nLON\nD\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nI\nJ\nPdf-LaNs\n5th-LaN\nnc-LaN 1\nLIP\nSLP\nLIP\nSLP\nK\nnc-LaN 2\nLIP\nG\nH\npOLP\nPVL09\nVLP\nVLP\nLIP\nVPLN\nSLP\nLIP\nE\nLON\nLON\nLON\nLON\nLON\nLON\nLON\nF\nA\nFigure 1. Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil\n(LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).\nFigure 1 continued on next page\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n2 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_2_fig_1.png",
+          "caption": "Overview of the larval optic neuropil. (A) Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 1,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_2.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 2,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_3.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 3,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_4.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 4,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_5.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 5,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_6.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 6,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_7.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 7,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_8.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 8,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_9.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 9,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_10.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 10,
+          "dimensions": [
+            315,
+            110
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_11.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 11,
+          "dimensions": [
+            106,
+            220
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_12.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 12,
+          "dimensions": [
+            106,
+            440
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_13.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 13,
+          "dimensions": [
+            420,
+            110
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_14.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 14,
+          "dimensions": [
+            335,
+            405
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_15.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 15,
+          "dimensions": [
+            106,
+            219
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_16.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 16,
+          "dimensions": [
+            106,
+            437
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_17.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 17,
+          "dimensions": [
+            211,
+            109
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_18.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 18,
+          "dimensions": [
+            211,
+            545
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_19.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 19,
+          "dimensions": [
+            450,
+            226
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_20.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 20,
+          "dimensions": [
+            450,
+            338
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_21.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 21,
+          "dimensions": [
+            5,
+            627
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_22.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 22,
+          "dimensions": [
+            642,
+            361
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_23.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 23,
+          "dimensions": [
+            257,
+            722
+          ]
+        },
+        {
+          "figure_file": "page_2_fig_24.png",
+          "caption": "Schematic of the larval visual system with EM-reconstructed skeletons of all larval optic neuropil (LON) neurons. The Rh5-PRs (dark blue) and Rh6-PRs (dark green) cell bodies form the Bolwig organ sitting in the cephalopharyngeal skeleton (cps).",
+          "image_index": 24,
+          "dimensions": [
+            642,
+            361
+          ]
+        }
+      ],
+      "figure_count": 24,
+      "analysis": {
+        "circuit_relevance": 1,
+        "larval_relevance": 9,
+        "connectome_relevance": 3,
+        "neuron_types_mentioned": [],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 3,
+      "full_text": "Figure 1 continued\nThey extend their axons to the brain via the Bolwig nerve. In the brain, neurons cell bodies are in the outer layer (gray) and project neurits into the\nneuropil. We can distinguish four main classes of neurons: visual projection interneurons (VPN, blue), visual local interneurons (VLN, green), third-order\ninterneurons (gray) and aminergic modulatory neurons (brown). Octopaminergic/tyraminergic modulatory neurons cell bodies sit in the subesophageal\nzone (SEZ). (B) 3D reconstruction of all LON-associated neurons from the ssTEM dataset in both hemispheres (except Bolwig nerves): VLN in green:\nlocal optic lobe pioneer neurons (lOLPs); VPN in shades of blue: the projection OLP (pOLP), a novel neuron which is located in the posterior ventral\nlateral cortex (PVL09), the Pdf-lateral neurons (Pdf-LaNs), the 5th-LaN and the non-clock-LaNs (nc-LaNs); third-order neurons: VPLN in light brown and\nTiny VLN in gray; aminergic modulatory neurons: serotonergic neuron (SP2-1, orange) and SEZ-ventral-unpaired-medial-2 octopaminergic/tyraminergic\nneurons (sVUM2, brown). Posterior view. (C\u2013K) 3D reconstructions from ssTEM dataset, posterior view, dendrites in blue, axons in green, presynaptic\nsites in red, postsynaptic sites in cyan, other LON neurons in gray. VLP: ventral lateral protocerebrum. SLP: superior lateral protocerebrum. LIP: lateral\ninferior protocerebrum. Both lOLPs (cha-lOLP (C) and glu-lOLP (D)) have dense arborizations within the LON. (E) The pOLP cell body is situated with\nthe lOLP and projects to the VLP. (F) PVL09 cell body is situated postero-ventro-laterally to the LON and has an axon with a characteristic loop shape,\nextending first towards the ventro-medial protocerebrum, then towards the LIP before curving down back to the VLP, where it forms most of its\nsynaptic output. (G) The four Pdf-LaNs project to the SLP. (H) The 5th-LaN projects both to the SLP and the LIP region, whereas nc-LaN 1 and 2 (I and\nJ) mainly project to the LIP. (K) The third-order neuron VPLN cell body is situated anteriorly to the LON and it has an axon coming back in the LON in\ntop of its projections within both SLP and LIP regions.\nDOI: https://doi.org/10.7554/eLife.28387.002\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n3 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 5,
+        "neuron_types_mentioned": [
+          "modulatory",
+          "of",
+          "pioneer",
+          "associated",
+          "novel",
+          "projection",
+          "lateral",
+          "tyraminergic",
+          "order",
+          "local",
+          "serotonergic",
+          "lon"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 4,
+      "full_text": "D\nV\nA\nP\nA\nB\nR72A10 ChAT\nAi\nAii\nAiii\nAiv\nGFP DVGluT\nChAT\nSS01724 DVGluT\nGFP DVGluT\nBi\nBii\nLON\nLON\nD\npOLP  glu-lOLP  cha-lOLP\nC\nR72A10 DVGluT ChAT\nLON\nLON\nDVGluT\nH\nR19C05 PER ChAT\nLON\nH\u2019\u2019\nChAT\nG\nG\u2019\nG\u2019\u2019\nSS01777 DVGluT\nLON\nSS01777 DVGluT\nE\nF\nSS01745 ChAT\nR20C08 ChAT\nLON\nSS00671 ChAT\nChAT\nH\u2019\nPER\nF\u2019\u2019\nF\u2019\nE\u2019\nE\u2019\u2019\nChAT\nLON\nSS01745 ChAT\nI\nPdf-LaN 2 left\npostsynaptic \npartner\ndense core\nvesicle\nT-bar synapse\nclear vesicle\nFigure 1\u2014figure supplement 1. Neurotransmitter expression in the LON. (A-C), (E-H) Confocal z-projections, dorsal view. (A) R72A10 > UAS-myr::GFP\n(green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at\nleast another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced\nprojections, and which is glutamatergic (DVGluT in red) (Bi), (Bii) close-up of the cell body (box)). (C) R72A10 > UAS-myr::GFP (green) close up on the\nthree OLPs cell bodies where we can observe the strongly cholinergic cell (ChAT, red) sending its axon towards the LON via a different path (arrow)\nthan the glutamatergic cell (DVGluT, blue) and the third cell (arrowhead). (D) 3D reconstruction of the three OLPs in the left hemisphere of the ssTEM\nFigure 1\u2014figure supplement 1 continued on next page\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n4 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_4_fig_1.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 1,
+          "dimensions": [
+            773,
+            773
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_2.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 2,
+          "dimensions": [
+            339,
+            339
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_3.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 3,
+          "dimensions": [
+            339,
+            339
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_4.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 4,
+          "dimensions": [
+            473,
+            473
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_5.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 5,
+          "dimensions": [
+            230,
+            230
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_6.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 6,
+          "dimensions": [
+            230,
+            230
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_7.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 7,
+          "dimensions": [
+            140,
+            140
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_8.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 8,
+          "dimensions": [
+            140,
+            140
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_9.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 9,
+          "dimensions": [
+            473,
+            473
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_10.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 10,
+          "dimensions": [
+            560,
+            560
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_11.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 11,
+          "dimensions": [
+            473,
+            473
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_12.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 12,
+          "dimensions": [
+            199,
+            199
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_13.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 13,
+          "dimensions": [
+            199,
+            199
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_14.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 14,
+          "dimensions": [
+            473,
+            473
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_15.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 15,
+          "dimensions": [
+            472,
+            472
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_16.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 16,
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_17.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 17,
+          "dimensions": [
+            108,
+            108
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_18.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 18,
+          "dimensions": [
+            118,
+            118
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_19.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 19,
+          "dimensions": [
+            118,
+            118
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_20.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 20,
+          "dimensions": [
+            118,
+            118
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_21.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 21,
+          "dimensions": [
+            118,
+            118
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_22.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 22,
+          "dimensions": [
+            475,
+            475
+          ]
+        },
+        {
+          "figure_file": "page_4_fig_23.png",
+          "caption": "R72A10 > UAS-myr::GFP (green) showing the three OLPs (neuropil marker: ChAT, red) and close-up on the cells bodies (box) showing that one OLP is glutamatergic (Aiii) and at least another one is clearly cholinergic (Aiv). B: SS01724 >UAS-myr::GFP (green) showing a lOLP with dense arborization within the LON, reduced",
+          "image_index": 23,
+          "dimensions": [
+            473,
+            473
+          ]
+        }
+      ],
+      "figure_count": 23,
+      "analysis": {
+        "circuit_relevance": 3,
+        "larval_relevance": 0,
+        "connectome_relevance": 5,
+        "neuron_types_mentioned": [],
+        "key_concepts": [
+          "confocal"
+        ]
+      }
+    },
+    {
+      "page_number": 5,
+      "full_text": "Figure 1\u2014figure supplement 1 continued\ndataset where we could observe two cells sending their axons together to the LON (arrowhead), whereas the third one takes a separate path (arrow).\nComparing (C) and (D) and based on their anatomy, the three OLPs can be distinguished in the ssTEM dataset (D): the projection OLP (pOLP, blue)\nand the glutamatergic lOLP (glu-lOLP, green) axons fasciculate together (arrowhead) but not with the cholinergic lOLP (cha-lOLP, light green, arrow). (E)\nSS01745 >UAS-myr::GFP (green) showing the pOLP anatomy with weak arborization within the LON and deep projection into the neuropil. (E\u2019, E\u2019\u2019)\nClose up on pOLP cell body showing a weak but clear cholinergic cell (arrowhead, ChAT in red/white). (F) R20C08 > UAS-myr::GFP (green) showing a\nsingle looping neuron with a strong overlap in the LON and having its cell body situated postero-ventro-laterally, corresponding to PVL09 (neuropil\nmarker ChAT in red). (F\u2019), (F\u2019\u2019) Close up on a PVL09 cell body (SS0671 >UAS-H2B-RFP, RFP in blue) that is cholinergic (ChAT, red, arrowhead). Single\nsection. (G) SS01777 >UAS-myr::GFP (green) showing a stochastic single clone of the third-order neuron VPLN that appears glutamatergic (arrowhead,\nDVGluT in red/white, (G\u2019), (G\u2019\u2019) close up). (H) R19C05 > UAS-myr::GFP (green) showing three cells among which only one is PER-positive (5th-LaN, white\narrow) and two are PER-negatives (nc-LaNs, magenta arrow) (H\u2019), PER in blue/white). All three cells are cholinergic (H\u2019\u2019), ChAT in red/white). Four\nadditional cells weakly covered by the Gal4 line and expressing PER correspond to the Pdf-LaNs (H\u2019), arrowheads). Scale bars: A, B, E, F, G, H: 10 mm.\nC: 5 mm. (I) Electron microscopy view of a bouton rich in dense-core vesicles and clear vesicles in the Pdf-LaN numbered 2 of the left hemisphere.\nDOI: https://doi.org/10.7554/eLife.28387.003\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n5 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 4,
+        "larval_relevance": 0,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "looping",
+          "order"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 6,
+      "full_text": "D\nV\nL\nR\n16\n8\n2\n2\n2\n1\n1\n1\n1\n1\n1\n1\n11\n10\n5\n2\n2\n2\n1\n1\n1\n1\n1\n1\nTotals\n36\n39\nB\nC\nTiny VLN left\nLON\nA\n*\n*\n9\n6\n3\n2\n2\n2\n2\n1\n1\n1\n1\n1\n1\n1\n1\n4\n3\n3\n2\n2\n1\n1\nTotals\n34\n16\nFigure 1\u2014figure supplement 2. Connections and anatomy of the small third-order neuron Tiny VLN. (A) The main inputs of the Tiny VLN in both\nhemispheres come from the lOLPs in particular the glu-lOLP (and extra-glu-lOLP in the right hemisphere). (B) Tiny VLNs have few outputs, especially in\nthe right hemisphere, but it seems that their main targets are back to the glu-lOLPs. (C) 3D reconstruction of the left Tiny VLN with a medial-situated\ncell body, sparse connections in the LON and neurites entering different primary tracts (BLAd tract: black star; central optic tract: magenta star).\nPosterior view, dendrites in blue, axon in green, presynaptic sites in red, postsynaptic sites in cyan, other LON neurons in gray.\nDOI: https://doi.org/10.7554/eLife.28387.004\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n6 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_6_fig_1.png",
+          "caption": "The main inputs of the Tiny VLN in both hemispheres come from the lOLPs in particular the glu-lOLP (and extra-glu-lOLP in the right hemisphere).",
+          "image_index": 1,
+          "dimensions": [
+            709,
+            709
+          ]
+        }
+      ],
+      "figure_count": 1,
+      "analysis": {
+        "circuit_relevance": 6,
+        "larval_relevance": 0,
+        "connectome_relevance": 6,
+        "neuron_types_mentioned": [
+          "lon",
+          "order"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 7,
+      "full_text": "Posterior view\nLateral view\nDorsal view\nPdf-LaNs\n VPLN\nPVL09\nnc-LaN 1\npOLP\nLH\ncalyx\nLH\ncalyx\n5th-LaN\nnc-LaN 2\ncalyx\nped\nV\nM\nM\nped\nmPN \nseahorse\nA\nB\nC\nD\nE\nF\nG\nA\u2019\nB\u2019\nC\u2019\nD\u2019\nE\u2019\nF\u2019\nG\u2019\nA\u2019\u2019\nB\u2019\u2019\nC\u2019\u2019\nD\u2019\u2019\nE\u2019\u2019\nF\u2019\u2019\nG\u2019\u2019\nD\nV\nA\nP\nD\nV\nL\nR\nR\nL\nA\nP\nAL\nAL\nLON\nLON\nLON\nLH\nAL\nFigure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from\ndifferent views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal\nFigure 1\u2014figure supplement 3 continued on next page\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n7 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_7_fig_1.png",
+          "caption": "3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from",
+          "image_index": 1,
+          "dimensions": [
+            32,
+            75
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_2.png",
+          "caption": "3 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 7 of 19",
+          "image_index": 2,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_3.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 3,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_4.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 4,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_5.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 5,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_6.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 6,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_7.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 7,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_8.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 8,
+          "dimensions": [
+            445,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_9.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 9,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_10.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 10,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_11.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 11,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_12.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 12,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_13.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 13,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_14.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 14,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_15.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 15,
+          "dimensions": [
+            398,
+            325
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_16.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 16,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_17.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 17,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_18.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 18,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_19.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 19,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_20.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 20,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_21.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 21,
+          "dimensions": [
+            356,
+            326
+          ]
+        },
+        {
+          "figure_file": "page_7_fig_22.png",
+          "caption": "Figure 1\u2014figure supplement 3. : 3D reconstructions of each VPN relative to the lateral horn and to the mushroom body. 3D reconstructions from different views (posterior, lateral, dorsal) relative to the lateral horn (LH) shown by displaying olfactory projection interneurons (in red, AL: antennal Figure 1\u2014figure supplement 3 continued on next page",
+          "image_index": 22,
+          "dimensions": [
+            356,
+            326
+          ]
+        }
+      ],
+      "figure_count": 22,
+      "analysis": {
+        "circuit_relevance": 1,
+        "larval_relevance": 0,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "projection"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 8,
+      "full_text": "Figure 1\u2014figure supplement 3 continued\nlobe), and to the mushroom body (MB, blue mesh, V: vertical lobe, M: medial lobe, ped: peduncle). VPN of interest in black, other LON neurons in\ngray. (A\u2013A\u2019\u2019) The Pdf-LaNs project above the LH. The 5th-LaN (B\u2013B\u2019\u2019), the nc-LaN 1 (C\u2013C\u2019\u2019), the nc-LaN 2 (D\u2013D\u2019\u2019) and the third-order neuron VPLN (E\u2013\nE\u2019\u2019) project to the LH and MB calyx. (F\u2013F\u2019\u2019) PVL09 projects to the LH and, after a long looping branch below the MB, project to the same region as\npOLP. (G\u2013G\u2019\u2019) pOLP projects like the multiglomerular olfactory projection neurons (mPN) Seahorse in the lower LH (two Pdf-LaNs were remove for\nthese panels to unmask the lower LH). Also see Figure 1\u2014video 2 for 3D animation movies.\nDOI: https://doi.org/10.7554/eLife.28387.005\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n8 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 3,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "projection",
+          "order",
+          "lon"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 9,
+      "full_text": "Visual Projection \nInterneurons\nRh5\ncholinergic\nAminergic\nNeurons\nVisual Local \nInterneurons\nRh6\ncentral brain\nPhotoreceptor Neurons\nother\nglutamatergic\nThird Order \nInterneurons\nLONd\nLONi\nLONp\nLONd\nLONi\nLONp\nVPN\nlOLP\nRh5-PR\nRh6-PR\nSLP\nLIP\nVLP\nD\nV\nL\nR\nA\nB\nRh5-PR\nRh6-PR\nlOLP\nLONd\nLONi\nLONp\nC\nVPN\nLON\nB\nC\nLIP\nVLP\nSLP\nA\nD\nE\nF\nLONd\nLONi\nLONp\nPVL09\npOLP\n76\n57\n20\n2\n3\n25\n57\n35\n16\n24\n44\n3\n4\n4\n2\n1\n1\n12\n13\n4\n1\n2\n4\n18\n35\n28\n24\n24\n26\n18\n2\n8\n20\n22\n6\n11\n15\n9\n8\n16\n2\n7\n1\n8\n2\n6\n11\n8\n4\n1\n5\n1\n3\nPVL09\n22\npOLP\n12\n5\n7\n100\n99\n70\n89\n90\n92\n90\n90\n74\n\u0189\u017d\u0190\u019a\u0190\u01c7\u0176\u0102\u0189\u019f\u0110\nVPN\n\u0189\u018c\u011e\u0190\u01c7\u0176\u0102\u0189\u019f\u0110\nVLN\nVLN\nVPN\nVPLN\nVPLN\nFigure 2. The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,\nposterior view. (A) Rh6-PRs presynaptic terminals (dark green) define a distal LON layer (LONd) while Rh5-PRs presynaptic connections (dark blue)\ndefine an intermediate LON layer (LONi). A third layer of the LON, more proximal (LONp) is devoid of PR terminals. Other LON neurons in gray. (B) All\nLON layers, including the LONp, contain presynaptic sites from the lOLPs (skeletons in green, synapses in yellow). VPNs, Tiny VLN and Bolwig nerve in\ngray. (C) VPNs (blue) make synaptic connections in three main regions outside the LON. VPNs projections define three domains: dorsal domain (A,\nviolet) defined by projections in the superior lateral protocerebrum (SLP), lateral domain (B, orange) in the lateral inferior protocerebrum (LIP), ventral\ndomain (C, red) in the ventral lateral protocerebrum (VLP). VLNs and Bolwig nerve in gray. (D) Schematic of the LON three layers: LONd innervated by\nRh6-PRs (dark green), LONi innervated by Rh5-PRs (dark blue) and LONp innervated by lOLPs (green); and of the three domains outside the LON were\ndifferent VPNs subtypes project to (violet, orange and red empty circles). lOLPs also make presynaptic connections in the LONd and LONi (thick line).\n(E) Connectivity table of the left LON with the percentage of postsynaptic sites of a neuron in a column from a neuron in a row. Neurons of same type\nare grouped, in brackets number of neurons in the group. Same colors as in Figure 1B. Only connections with at least two synapses found in both\nhemispheres were used. (F) Simplified diagram of the larval visual system. PRs inputs are cholinergic and define two pathways. Rh5-PRs target VPNs\n(blue area, LONi) while Rh6-PRs target the two main larval VLNs (green area, LONd). Between these two VLNs, one is cholinergic while the other one is\nglutamatergic and they both inputs onto VPNs. These VLNs also integrate aminergic modulatory inputs (brown area) that potentially bring information\nfrom the central brain. In the LONp, the two third-order neurons receive from the lOLPs. The third-order neuron VPLN, which is glutamatergic,\nadditionally receives from the serotonergic neuron, connects onto the VPNs and also projects towards the central brain (gray area) like other VPNs.\nBlack arrows: cholinergic connections. Red arrows: glutamatergic connections. Brown arrows: connections with other neurotransmitters.\nDOI: https://doi.org/10.7554/eLife.28387.008\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n9 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_9_fig_1.png",
+          "caption": "Rh6-PRs presynaptic terminals (dark green) define a distal LON layer (LONd) while Rh5-PRs presynaptic connections (dark blue) define an intermediate LON layer (LONi). A third layer of the LON, more proximal (LONp) is devoid of PR terminals. Other LON neurons in gray.",
+          "image_index": 1,
+          "dimensions": [
+            366,
+            366
+          ]
+        },
+        {
+          "figure_file": "page_9_fig_2.png",
+          "caption": "The structural organization of the larval optic neuropil. (A-D) 3D representations of the presynaptic sites of LON neurons in the left lobe,",
+          "image_index": 2,
+          "dimensions": [
+            366,
+            366
+          ]
+        },
+        {
+          "figure_file": "page_9_fig_3.png",
+          "caption": "Rh6-PRs presynaptic terminals (dark green) define a distal LON layer (LONd) while Rh5-PRs presynaptic connections (dark blue) define an intermediate LON layer (LONi). A third layer of the LON, more proximal (LONp) is devoid of PR terminals. Other LON neurons in gray.",
+          "image_index": 3,
+          "dimensions": [
+            744,
+            708
+          ]
+        }
+      ],
+      "figure_count": 3,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 8,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "aminergic",
+          "of",
+          "projection",
+          "order",
+          "local",
+          "serotonergic",
+          "photoreceptor",
+          "a",
+          "lon"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 10,
+      "full_text": "B\nC\nD\nE\nA\nFigure 3. Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,\narrow thickness weighted by the square root of the number of synapses, arrow thickness scale shows minimum and median. Black arrows: cholinergic\nconnections. Red arrows: glutamatergic connections. Brown arrows: connections with other neurotransmitters. VPNs in shades of blue for Rh5-PRs\ntargets plus the VPLN in light brown. (A) Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are\nreciprocally connected. They also share the same type of targets: VPNs (blue) including PVL09, all LaNs and the VPLN, that are direct targets of Rh5-PRs\n(dark blue) (except the VPLN) and are outputs of the LON towards the central brain. (B) The four Pdf-LaNs are the only VPNs that receive from both\nRh6-PRs and Rh5-PRs. The VPLN is a third-order neuron that does not receive any inputs from PRs. All other VPNs receive visual inputs uniquely from\nRh5-PRs. All inputs from PRs onto VPNs are situated on the target dendrites. (C) VPNs, except pOLP, are targets of the two lOLPs and these\nconnections are situated on the VPNs dendrites. Additionally, PVL09 receives inputs from both the VPLN and nc-LaN one while the Pdf-LaNs receive\nonly from the nc-LaN 1, and the 5th-LaN receive only from the VPLN. PVL09 and pOLP are reciprocally connected on their axons. All VPNs transfer light\ninformation to neurons deeper in the brain. The VPLN and pOLP additionally receive on their axons some inputs from other neuronal circuits. (D) Circuit\nmotif of the VPLN receiving from both lOLPs. E: Circuit motif of the nc-LaN one that is under regulations from cha-lOLP, glu-lOLP and the VPLN.\nMoreover, nc-LaN one connects back to the VPLN. Similar motifs can be described for other VPNs (Figure 3\u2014figure supplement 1).\nDOI: https://doi.org/10.7554/eLife.28387.011\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n10 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_10_fig_1.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 1,
+          "dimensions": [
+            396,
+            124
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_2.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 2,
+          "dimensions": [
+            396,
+            248
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_3.png",
+          "caption": "Connectivity and circuit motifs of the larval visual system. Left hemisphere, hexagons represent group of cells, circles represent single cell,",
+          "image_index": 3,
+          "dimensions": [
+            396,
+            248
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_4.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 4,
+          "dimensions": [
+            132,
+            872
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_5.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 5,
+          "dimensions": [
+            396,
+            248
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_6.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 6,
+          "dimensions": [
+            791,
+            124
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_7.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 7,
+          "dimensions": [
+            133,
+            374
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_8.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 8,
+          "dimensions": [
+            396,
+            248
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_9.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 9,
+          "dimensions": [
+            396,
+            248
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_10.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 10,
+          "dimensions": [
+            392,
+            511
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_11.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 11,
+          "dimensions": [
+            392,
+            510
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_12.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 12,
+          "dimensions": [
+            791,
+            127
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_13.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 13,
+          "dimensions": [
+            396,
+            255
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_14.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 14,
+          "dimensions": [
+            396,
+            254
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_15.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 15,
+          "dimensions": [
+            133,
+            637
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_16.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 16,
+          "dimensions": [
+            396,
+            255
+          ]
+        },
+        {
+          "figure_file": "page_10_fig_17.png",
+          "caption": "Wiring diagram of both lOLPs (light green circles). The two lOLPs receives from Rh6-PRs (dark green) and are",
+          "image_index": 17,
+          "dimensions": [
+            396,
+            254
+          ]
+        }
+      ],
+      "figure_count": 17,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 3,
+        "neuron_types_mentioned": [
+          "to",
+          "other",
+          "order"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 11,
+      "full_text": "A\nB\nC\nD\nFigure 3\u2014figure supplement 1. Network motifs of the nc-LaN 2, the 5th-LaN, PVL09 and the Pdf-LaNs. Black arrows: cholinergic connections. Red\narrows: glutamatergic connections. The nc-LaN 2 (A) and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron\nVPLN. (C) PVL09 activity is shaped by the similar motifs as the nc-LaN 1 and the 5th-LaN with connections from both the lOLPs and the VPLN, and is\nadditionally controlled by a second level of coherent feedforward loops (FFL) from the two nc-LaNs. (D) Unlike other VPNs, the Pdf-LaNs receive direct\ninputs from Rh6-PRs. The Pdf-LaNs are downstream of two interlocked coherent FFLs from the Rh6-PRs via cha-lOLP and nc-LaN 1. Left hemisphere,\nhexagons represent group of cells, circles represent single cell, arrow thickness weighted by the square root of the number of synapses, arrow thickness\nscale shows minimum and median.\nDOI: https://doi.org/10.7554/eLife.28387.012\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n11 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_11_fig_1.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 1,
+          "dimensions": [
+            710,
+            427
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_2.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 2,
+          "dimensions": [
+            710,
+            428
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_3.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 3,
+          "dimensions": [
+            710,
+            427
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_4.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 4,
+          "dimensions": [
+            710,
+            428
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_5.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 5,
+          "dimensions": [
+            710,
+            427
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_6.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 6,
+          "dimensions": [
+            710,
+            428
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_7.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 7,
+          "dimensions": [
+            710,
+            427
+          ]
+        },
+        {
+          "figure_file": "page_11_fig_8.png",
+          "caption": "and the 5th-LaN (B) are controlled in similar fashion by the two lOLPs and the third-order neuron VPLN.",
+          "image_index": 8,
+          "dimensions": [
+            710,
+            428
+          ]
+        }
+      ],
+      "figure_count": 8,
+      "analysis": {
+        "circuit_relevance": 2,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "order"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 12,
+      "full_text": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled\ncolor represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/\ntyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly\ncontact the two lOLPs while Rh5-PRs (dark blue) contact VPNs. Only the Pdf-LaNs receive inputs from both PRs and therefore could be placed at the\nlimit between both Rh6-PRs and Rh5-PRs pathways (green and blue areas, also corresponding to LONdistal (LONd) and LONintermediate (LONi)\nlayers). All PRs neurons are cholinergic (Yasuyama et al., 1995; Keene et al., 2011). sVUM2 neurons (brown) are octopaminergic/tyraminergic. SP2-1\n(orange) is serotonergic. One lOLP (light green) is cholinergic while the other one is glutamatergic. VPNs (shades of blue): pOLP and PVL09 are\ncholinergic; Pdf-LaNs express the Pdf neuropeptide and may co-express glycine (Frenkel et al., 2017); both nc-LaNs and the 5th-LaN are cholinergic.\nThe third-order neuron VPLN (light brown) is glutamatergic and receives its inputs in the LONproximal layer (LONp, stronger gray area). For simplicity,\nthe 5th-LaN and the two nc-LaNs are grouped together. Both lOLPs form a reciprocally connected pair that modulates almost all other VPNs. The\nVPLN also modulates the 5th/nc-LaNs group as well as PVL09. nc-LaN1 additionally connects onto the Pdf-LaNs, and both nc-LaNs connect onto the\nVPLN. pOLP is the only VPN that is not modulated by other visual interneurons, except for its strong reciprocal connections with PVL09 at their axonal\nlevel. The three aminergic neurons (brown area) target mainly the two lOLPs and SP2-1 further connect onto the VPLN. Black arrows represent\nconnections within LON neurons while gray arrows represent connections beyond. Additional external inputs onto some VPNs are not represented\nhere. Arrow thickness weighted by the square root of the number of synapses, arrow thickness scale shows minimum and maximum.\nDOI: https://doi.org/10.7554/eLife.28387.013\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n12 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_12_fig_1.png",
+          "caption": "2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled",
+          "image_index": 1,
+          "dimensions": [
+            592,
+            565
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_2.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 2,
+          "dimensions": [
+            592,
+            565
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_3.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 3,
+          "dimensions": [
+            592,
+            565
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_4.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 4,
+          "dimensions": [
+            592,
+            566
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_5.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 5,
+          "dimensions": [
+            592,
+            566
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_6.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 6,
+          "dimensions": [
+            592,
+            566
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_7.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 7,
+          "dimensions": [
+            592,
+            565
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_8.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 8,
+          "dimensions": [
+            592,
+            565
+          ]
+        },
+        {
+          "figure_file": "page_12_fig_9.png",
+          "caption": "Figure 3\u2014figure supplement 2. Model of the complete larval visual neural network. Cell circle outline color defines the neuron identity. Cell filled color represents the neurotransmitter/neuropeptide expression: yellow for cholinergic cells, red for glutamatergic cells, brown for octopaminergic/ tyraminergic cells, light orange for serotonergic cell, pink for Pdf neuropeptide. Each PRs subtypes have specific targets. Rh6-PRs (dark green) mainly",
+          "image_index": 9,
+          "dimensions": [
+            592,
+            565
+          ]
+        }
+      ],
+      "figure_count": 9,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "aminergic",
+          "svum2",
+          "visual",
+          "order",
+          "the",
+          "prs",
+          "lon"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 13,
+      "full_text": "D\nV\nL\nR\nD\nV\nL\nR\nD\nV\nL\nR\nD\nA\nB\nC\nsVUM2md\nsVUM2mx\nSP2-1 left\nSLP\nSLP\nLON\nLON\nE\nLON\nLON\nLON\nLON\nFigure 4. Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,\nposterior view, dendrites in blue, axons in green, presynaptic sites in red, postsynaptic sites in cyan, other LON\nneurons in gray, dashed line represent brain midline. (A) The SP2-1 neuron from the left hemisphere innervates the\nipsilateral SLP and the contralateral LON. sVUM2md (B) and sVUM2mx (C) neurons are located along the midline\nin the SEZ with their neurit splitting and innervating both hemispheres in a symmetric fashion. Their bilaterally\nsymmetrical branches receive synaptic input in the SEZ and extend their axon towards the protocerebrum prior to\nturning laterally and entering the LON. Branches within the protocerebrum and LON contain presynaptic and\npostsynaptic sites. (D) Connectivity graph showing the SP2-1 neuron (orange) of the right hemisphere connecting\nwith the lOLPs (light green) and the VPLN (light brown) of the left hemisphere. Connections between the lOLPs\nand the VPLN are also displayed, as well as lOLPs inputs from Rh6-PRs (dark green). (E) Connectivity graph of\nsVUM2mx and sVUM2md (brown) showing that their only partners are the lOLPs (light green) but in both\nhemispheres. (D\u2013E) Hexagons represent group of cells, circles represent single cell, arrow thickness weighted by\nthe square root of the number of synapses, arrow thickness scales shows minimum and median.\nDOI: https://doi.org/10.7554/eLife.28387.014\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n13 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_13_fig_1.png",
+          "caption": "The SP2-1 neuron from the left hemisphere innervates the ipsilateral SLP and the contralateral LON. sVUM2md",
+          "image_index": 1,
+          "dimensions": [
+            379,
+            663
+          ]
+        },
+        {
+          "figure_file": "page_13_fig_2.png",
+          "caption": "The SP2-1 neuron from the left hemisphere innervates the ipsilateral SLP and the contralateral LON. sVUM2md",
+          "image_index": 2,
+          "dimensions": [
+            137,
+            595
+          ]
+        },
+        {
+          "figure_file": "page_13_fig_3.png",
+          "caption": "The SP2-1 neuron from the left hemisphere innervates the ipsilateral SLP and the contralateral LON. sVUM2md",
+          "image_index": 3,
+          "dimensions": [
+            543,
+            593
+          ]
+        },
+        {
+          "figure_file": "page_13_fig_4.png",
+          "caption": "Aminergic modulatory inputs of the larval visual system. (A-C) 3D reconstructions from ssTEM dataset,",
+          "image_index": 4,
+          "dimensions": [
+            1368,
+            614
+          ]
+        },
+        {
+          "figure_file": "page_13_fig_5.png",
+          "caption": "The SP2-1 neuron from the left hemisphere innervates the ipsilateral SLP and the contralateral LON. sVUM2md",
+          "image_index": 5,
+          "dimensions": [
+            551,
+            472
+          ]
+        },
+        {
+          "figure_file": "page_13_fig_6.png",
+          "caption": "The SP2-1 neuron from the left hemisphere innervates the ipsilateral SLP and the contralateral LON. sVUM2md",
+          "image_index": 6,
+          "dimensions": [
+            551,
+            473
+          ]
+        }
+      ],
+      "figure_count": 6,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 2,
+        "connectome_relevance": 8,
+        "neuron_types_mentioned": [
+          "1",
+          "lon"
+        ],
+        "key_concepts": [
+          "turn"
+        ]
+      }
+    },
+    {
+      "page_number": 14,
+      "full_text": "A\nA\u2019\nB\nC\nSS02149 sVUM2md\nSS02149 sVUM2mx\nSP1\nSP1\nLP1\nLP1\nSP2\nSP2\nSS01740 5HT\n5HT\nSLP\nFigure 4\u2014figure supplement 1. Confocal microscopy of the three aminergic neurons of the LON. (A) Confocal z-\nprojection of SS01740 > UAS-myr::GFP (green) showing a stochastic single clone of SP2-1 neuron (yellow arrow)\ninnervating the contralateral LON (arrowhead, serotonin (5-HT) in red). (A\u2019) anti-5-HT channel shows the three 5-HT\nclusters from the lower and superior protocerebrum (LP and SP) and innervation in the LON (arrowhead). (B\u2013C)\nConfocal z-projection of SS02149 > UAS-myr::GFP (white) showing stochastic single clone expression of sVUM2md\n(B) and sVUM2mx (C) innervating both LON (arrowheads). Scale bars: 20 mm.\nDOI: https://doi.org/10.7554/eLife.28387.015\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n14 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_14_fig_1.png",
+          "caption": "Confocal z- projection of SS01740 > UAS-myr::GFP (green) showing a stochastic single clone of SP2-1 neuron (yellow arrow) innervating the contralateral LON (arrowhead, serotonin (5-HT) in red). (A\u2019) anti-5-HT channel shows the three 5-HT",
+          "image_index": 1,
+          "dimensions": [
+            472,
+            472
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_2.png",
+          "caption": "Confocal z- projection of SS01740 > UAS-myr::GFP (green) showing a stochastic single clone of SP2-1 neuron (yellow arrow) innervating the contralateral LON (arrowhead, serotonin (5-HT) in red). (A\u2019) anti-5-HT channel shows the three 5-HT",
+          "image_index": 2,
+          "dimensions": [
+            472,
+            472
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_3.png",
+          "caption": "Confocal z- projection of SS01740 > UAS-myr::GFP (green) showing a stochastic single clone of SP2-1 neuron (yellow arrow) innervating the contralateral LON (arrowhead, serotonin (5-HT) in red). (A\u2019) anti-5-HT channel shows the three 5-HT",
+          "image_index": 3,
+          "dimensions": [
+            473,
+            473
+          ]
+        },
+        {
+          "figure_file": "page_14_fig_4.png",
+          "caption": "Confocal z- projection of SS01740 > UAS-myr::GFP (green) showing a stochastic single clone of SP2-1 neuron (yellow arrow) innervating the contralateral LON (arrowhead, serotonin (5-HT) in red). (A\u2019) anti-5-HT channel shows the three 5-HT",
+          "image_index": 4,
+          "dimensions": [
+            472,
+            472
+          ]
+        }
+      ],
+      "figure_count": 4,
+      "analysis": {
+        "circuit_relevance": 3,
+        "larval_relevance": 0,
+        "connectome_relevance": 1,
+        "neuron_types_mentioned": [
+          "aminergic",
+          "1"
+        ],
+        "key_concepts": [
+          "confocal"
+        ]
+      }
+    },
+    {
+      "page_number": 15,
+      "full_text": "Rh5-PR (4L+6R)\nRh6-PR (9L+10R)\nTiny VLN\n(L+R)\n5th-LaN \n(L+R)\nnc-LaN 1 \n(L+R)\npOLP R\ncha-lOLP (L+R)\nnc-LaN 2 \n(L+R)\nVPLN\n(L+R)\nextra-glu-lOLP (R)\nglu-lOLP (L+R)\nPVL09 (L+R)\nPdf-LaN \n(4L+4R)\npOLP L\n-0.4\n-0.3\n-0.2\n-0.1\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\nGraph\u0003\u0189\u0102\u018c\u019f\u019f\u017d\u0176\n-1.2\n-1.0\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\nSignal \u0147\u017d\u01c1\nA\nB\nPVL09\npOLP\n69\n52\n42\n8\n2\n1\n13\n29\n53\n46\n19\n25\n57\n3\n3\n3\n1\n2\n10\n12\n4\n1\n8\n20\n17\n25\n26\n17\n19\n26\n14\n1\n9\n15\n29\n18\n4\n4\n11\n18\n1\n3\n7\n16\n4\n5\n6\n4\n4\n2\n2\n4\n10\n11\n2\n4\n1\n4\n3\n3\n3\n14\n8\n6\n2\n5\n1\n1\nPVL09\n23\npOLP\n4\n1\n3\n100\n99\n100\n66\n96\n93\n88\n87\n85\n80\n\u0189\u017d\u0190\u019a\u0190\u01c7\u0176\u0102\u0189\u019f\u0110\n\u0189\u018c\u011e\u0190\u01c7\u0176\u0102\u0189\u019f\u0110\nVPN\nVLN\nVLN\nVPN\nVPLN\nVPLN\nFigure 5. Larval optic neuropil architecture is maintained despite a variable number of neurons. Color code as in\nFigure 1B. (A) We compared the structure of the left (L) and right (R) LON circuits with spectral graph analysis. For\nthe left and right connectivity matrices, we plotted the components of the first nonzero eigenvector of the graph\nLaplacian associated with each neuron (x axis) as a function of the signal flow metric (y axis), measures that reflect\nthe topological role of neurons in the circuit (Varshney et al., 2011). We excluded the neuromodulatory neurons\nSP2-1, which are weakly connected, and the sVUM2md and sVUM2mx, which project bilaterally. Visual information\nflows from PRs at the top towards VPNs at the bottom. In this representation, bilaterally homologous neurons\nshare a similar position revealing that both sides have similar network topology (Schneider-Mizell et al., 2016).\nFigure 5 continued on next page\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n15 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 8,
+        "larval_relevance": 2,
+        "connectome_relevance": 0,
+        "neuron_types_mentioned": [
+          "neuromodulatory",
+          "homologous",
+          "each",
+          "of"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 16,
+      "full_text": "Figure 5 continued\nNote how the extra-glu-lOLP of the right hemisphere (bold) positioned closely with the other lOLPs. (B)\nConnectivity table of the right LON with the percentage of postsynaptic sites of a neuron in a column from a\nneuron in a row. Only connections with at least two synapses found in both hemispheres were used (except for the\nextra-glu-lOLP).\nDOI: https://doi.org/10.7554/eLife.28387.016\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n16 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 5,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "a"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 17,
+      "full_text": "LON\nA\nA\u2019\nA\u2019\u2019\nOK371 DVGluT\nOK371\nDVGluT\nB\nC\nFraction of synapses onto:\nFraction of postsynaptic sites from:\ny\np\ny\np\nFigure 5\u2014figure supplement 1. Stability of the connections of LON neurons despite the variability in neuron number. (A) Confocal z-projection of\nOK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON\nFigure 5\u2014figure supplement 1 continued on next page\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n17 of 19\nResearch article\nNeuroscience\n",
+      "figures": [
+        {
+          "figure_file": "page_17_fig_1.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 1,
+          "dimensions": [
+            656,
+            2
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_2.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 2,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_3.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 3,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_4.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 4,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_5.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 5,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_6.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 6,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_7.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 7,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_8.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 8,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_9.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 9,
+          "dimensions": [
+            134,
+            389
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_10.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 10,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_11.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 11,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_12.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 12,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_13.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 13,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_14.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 14,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_15.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 15,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_16.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 16,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_17.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 17,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_18.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 18,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_19.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 19,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_20.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 20,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_21.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 21,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_22.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 22,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_23.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 23,
+          "dimensions": [
+            134,
+            649
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_24.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 24,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_25.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 25,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_26.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 26,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_27.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 27,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_28.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 28,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_29.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 29,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_30.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 30,
+          "dimensions": [
+            267,
+            259
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_31.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 31,
+          "dimensions": [
+            489,
+            1
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_32.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 32,
+          "dimensions": [
+            256,
+            133
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_33.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 33,
+          "dimensions": [
+            894,
+            133
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_34.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 34,
+          "dimensions": [
+            256,
+            399
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_35.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 35,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_36.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 36,
+          "dimensions": [
+            384,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_37.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 37,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_38.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 38,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_39.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 39,
+          "dimensions": [
+            384,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_40.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 40,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_41.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 41,
+          "dimensions": [
+            256,
+            399
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_42.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 42,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_43.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 43,
+          "dimensions": [
+            384,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_44.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 44,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_45.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 45,
+          "dimensions": [
+            256,
+            399
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_46.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 46,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_47.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 47,
+          "dimensions": [
+            384,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_48.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 48,
+          "dimensions": [
+            383,
+            266
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_49.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 49,
+          "dimensions": [
+            539,
+            539
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_50.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 50,
+          "dimensions": [
+            270,
+            270
+          ]
+        },
+        {
+          "figure_file": "page_17_fig_51.png",
+          "caption": "Confocal z-projection of OK371-Gal4 > UAS-myr::GFP (green) stained with anti-DVGluT (red) with insets onto two cells bodies in the OLP region and projecting into the LON Figure 5\u2014figure supplement 1 continued on next page Larderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387 17 of 19",
+          "image_index": 51,
+          "dimensions": [
+            270,
+            270
+          ]
+        }
+      ],
+      "figure_count": 51,
+      "analysis": {
+        "circuit_relevance": 4,
+        "larval_relevance": 0,
+        "connectome_relevance": 2,
+        "neuron_types_mentioned": [
+          "lon",
+          "in"
+        ],
+        "key_concepts": [
+          "confocal"
+        ]
+      }
+    },
+    {
+      "page_number": 18,
+      "full_text": "Figure 5\u2014figure supplement 1 continued\nand which are both DVGluT positive (arrow heads, close up (A\u2019), (A\u2019\u2019)). Dorsal view, scale bar: 10 mm. (B) Percentage of synapses onto all visual\ninterneurons of both hemispheres (two bars per neuron except for the extra-lOLP of the right hemisphere). lOLPs main inputs are from the Rh6-PRs.\nThe VPLN does not receives from either PRs but its main inputs come from the lOLPs. All other VPNs receive from Rh5-PRs and only the Pdf-LaNs\nreceives from both PRs-subtypes. Except for pOLP, the lOLPs connections represent an important fraction of each neuron inputs. The VPLN inputs are\nmost significant on the two nc-LaNs and the 5th-LaN. (C) Percentage of synapses from all PRs, aminergic modulatory neurons and visual interneurons\nwith significant roles in local processing (lOLPs, VPLN and nc-LaNs). Additional PRs from the right hemisphere have clear connectivity profiles of either\nRh5 or Rh6 subtypes. Strong involvement of the aminergic modulatory neurons in other neural circuits is visible.\nDOI: https://doi.org/10.7554/eLife.28387.017\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n18 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 0,
+        "connectome_relevance": 5,
+        "neuron_types_mentioned": [
+          "per",
+          "each",
+          "modulatory",
+          "visual"
+        ],
+        "key_concepts": []
+      }
+    },
+    {
+      "page_number": 19,
+      "full_text": "Inner\nPlexiform\nLayer\nOuter\nPlexiform\nLayer\nVertebrate\ncha-lOLP\nON?\nglu-lOLP\nOFF?\nRh6\nVPN\nRh5\nLONi\nLONd\nDrosophila  larva\nTm1/2\nDm/Mi\nL1\nON\nL2\nOFF\nR7-8\nR1-6\nMedulla\nLamina\nDrosophila adult\nRods\nBPC\nHC\nAC\nMi1/Tm3\nCones\nBPC\nRGC\nLONp\nON\nOFF\npOLP\nRGC\nBPC\nA\nB\nC\nTm\nVPLN\nFigure 6. Comparison of the structural organization and putative functions of the Drosophila larval visual circuit with the Drosophila adult compound\neye and the vertebrate visual circuit. (A) Larval visual circuit as described in this paper. Two main groups of VPNs receive input from Rh5-PRs (purple):\none corresponds to the pOLP that only receives inputs from Rh5-PRs, whereas the second group (VPN) also receives inputs from cha and glu -lOLPs\n(red and blue) that are targets of Rh6-PRs (orange). The third-order neuron VPLN does not receive from either larval PRs but is downstream of the two\nlOLPs and connect onto the VPN group in top of its projection beyond the LON. We propose that cha and glu -lOLPs control light intensity increment\nand decrement (ON/OFF) detection respectively and transfer these information to the VPLN and the VPN group. Moreover, the VPLN may potentially\nkeep the ON/OFF responses brief. (B) Model of a single unit of the fly compound eye where R1-6 PRs (orange) are well known to be involved in\ncontrast and motion detection, whereas R7-8 PRs (purple) are involved in color sensing (Sanes and Zipursky, 2010; Clark and Demb, 2016, for\nreviews). In the lamina, R1-6 PRs make connections to the glutamatergic L1 neuron controlling the ON pathway (red) and to the cholinergic L2 neuron\ncontrolling the OFF pathway (blue). In the deeper medulla, L1 and L2 reach their targets (Mi1, Tm1/2), whereas R7-8 PRs connect to medullar neurons\n(Dm/Mi). (C) Model of the vertebrate visual circuit (Sanes and Zipursky, 2010; Clark and Demb, 2016), for reviews). Cones (purple), which are also the\ncolor sensors of the retina, connect to bipolar retinal cells (BPC) which constitute the ON or OFF pathways depending on the glutamate receptor they\nexpress (ON BPC and pathway in red, OFF BPC and pathway in blue). Rods (orange) also connect to BPC and control vision in dim light conditions.\nLONd, LONi and LONp: distal, intermediate and proximal larval optic neuropil. Mi: medulla intrinsic neurons; Tm: transmedulla neurons; Dm: dorsal\nmedulla neurons. RGC: retina ganglion cells; HC: horizontal cells; AC: amacrine cells.\nDOI: https://doi.org/10.7554/eLife.28387.018\nLarderet et al. eLife 2017;6:e28387. DOI: https://doi.org/10.7554/eLife.28387\n19 of 19\nResearch article\nNeuroscience\n",
+      "figures": [],
+      "figure_count": 0,
+      "analysis": {
+        "circuit_relevance": 10,
+        "larval_relevance": 10,
+        "connectome_relevance": 4,
+        "neuron_types_mentioned": [
+          "l2",
+          "transmedulla",
+          "l1",
+          "order",
+          "medullar",
+          "intrinsic",
+          "medulla"
+        ],
+        "key_concepts": [
+          "response"
+        ]
+      }
+    }
+  ]
+}
